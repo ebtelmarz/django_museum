@@ -1,0 +1,84 @@
+
+Positions 
+14:06:25,14:06:30,EntranceReubenHecht
+14:07:04,14:10:45,SymbolsJewishMenorah
+14:10:45,14:12:27,PersianCult
+14:12:27,14:13:47,SymbolsJewishMenorah
+14:13:47,14:15:19,PersianCult
+14:15:19,14:15:24,JerusalemPhoto
+14:15:24,14:17:45,PersianCult
+14:17:45,14:19:49,MaterialCultures
+14:19:49,14:20:24,CraftsAndArts
+14:20:24,14:21:25,ReligionAndCult
+14:21:25,14:22:36,CraftsAndArts
+14:22:36,14:23:48,ImportedPottery
+14:23:48,14:24:03,CraftsAndArts
+14:24:03,14:25:04,ImportedPottery
+14:25:04,14:25:13,CraftsAndArts
+14:25:13,14:25:56,ImportedPottery
+14:25:56,14:26:02,CraftsAndArts
+14:26:02,14:26:45,ImportedPottery
+14:26:45,14:28:18,CraftsAndArts
+14:28:18,14:28:24,BuildingMethodsAndFacilities
+14:28:24,14:29:41,EverydayPottery
+14:29:41,14:29:58,BuildingMethodsAndFacilities
+14:29:58,14:30:03,MaritimeCommerce
+14:30:03,14:30:48,BuildingMethodsAndFacilities
+14:30:48,14:30:57,CraftsAndArts
+14:30:57,14:31:01,BuildingMethodsAndFacilities
+14:31:01,14:32:47,MaritimeCommerce
+14:32:47,14:32:55,ShipEntrance
+14:32:55,14:33:02,ShipFront
+14:33:02,14:33:36,ShipEntrance
+14:33:39,14:33:54,MosaicfromSynagogue
+14:33:54,14:34:32,MaterialCultures
+14:34:33,14:34:35,SymbolsJewishMenorah
+14:34:35,14:34:39,PersianCult
+14:34:39,14:34:53,SymbolsJewishMenorah
+
+presentations 
+14:06:25,14:06:30,EntranceReubenHecht,129,User
+14:07:42,14:08:28,SymbolsJewishMenorah,130,System,5
+14:08:34,14:09:17,SymbolsJewishMenorah,131,System,5
+14:09:20,14:09:25,SymbolsJewishMenorah,132,User,5
+14:09:26,14:10:11,SymbolsJewishMenorah,132,System,5
+14:10:55,14:12:22,PersianCult,310,System,4
+14:12:27,14:13:47,SymbolsJewishMenorah,311,System,5
+14:15:32,14:17:12,PersianCult,314,System,4
+14:18:11,14:18:54,MaterialCultures,165,System,5
+14:20:30,14:21:24,ReligionAndCult,1,System,4
+14:21:31,14:22:27,CraftsAndArts,45,System,5
+14:22:36,14:23:48,ImportedPottery,116,System,5
+14:24:03,14:25:04,ImportedPottery,39,System,4
+14:25:13,14:25:56,ImportedPottery,43,System,4
+14:26:02,14:26:45,ImportedPottery,40,System,4
+14:26:55,14:28:02,CraftsAndArts,38,System,4
+14:28:24,14:29:41,EverydayPottery,13,System,4
+14:30:12,14:30:25,BuildingMethodsAndFacilities,15,User
+
+events 
+14:06:22,chosenExhibit,40
+14:06:22,return from screen
+14:07:11,chosenExhibit,41
+14:07:11,return from screen
+14:10:51,chosenExhibit,92
+14:10:51,return from screen
+14:15:23,chosenExhibit,44
+14:15:29,return from screen
+14:15:29,chosenExhibit,93
+14:17:48,chosenExhibit,91
+14:17:48,return from screen
+14:20:28,chosenExhibit,14
+14:21:28,chosenExhibit,34
+14:21:28,return from screen
+14:24:00,chosenExhibit,32
+14:24:00,return from screen
+14:26:52,chosenExhibit,31
+14:26:52,return from screen
+14:28:21,chosenExhibit,18
+14:28:21,return from screen
+14:30:01,chosenExhibit,28
+14:30:09,chosenExhibit,20
+14:30:09,return from screen
+14:31:03,chosenExhibit,28
+14:31:03,return from screen

@@ -1,0 +1,56 @@
+
+Positions 
+14:06:11,14:09:20,PersianCult
+14:09:20,14:10:33,SymbolsJewishMenorah
+14:10:33,14:11:24,PersianCult
+14:11:24,14:11:40,MaterialCultures
+14:11:40,14:12:44,JerusalemPhoto
+14:12:44,14:14:04,MaterialCultures
+14:14:04,14:14:21,Phoenicians
+14:14:21,14:15:44,MaritimeCommerce
+14:15:44,14:17:16,Phoenicians
+14:17:16,14:19:55,PhoenicianWriting1
+14:19:55,14:21:04,BurialTradition2
+14:21:04,14:23:41,PhoenicianWriting1
+14:23:41,14:24:42,BurialTradition2
+14:24:42,14:24:47,PhoenicianWriting1
+14:24:47,14:25:38,BurialTradition2
+14:25:38,14:26:20,PhoenicianWriting1
+14:26:20,14:26:24,GlassOvenVessels
+14:26:24,14:26:36,Phoenicians
+14:26:36,14:26:54,BronzeTools
+14:26:54,14:27:07,ShipEntrance
+14:27:07,14:27:20,ShipFront
+14:27:20,14:28:25,ShipEntrance
+14:28:25,14:28:33,MosaicfromSynagogue
+14:28:33,14:29:14,MaterialCultures
+14:29:14,14:29:17,JerusalemPhoto
+14:29:17,14:29:24,PersianCult
+14:29:24,14:29:32,SymbolsJewishMenorah
+
+presentations 
+14:06:19,14:07:48,PersianCult,310,System,5
+14:07:53,14:09:13,PersianCult,311,System,5
+14:09:20,14:10:33,SymbolsJewishMenorah,312,System,5
+14:11:40,14:12:44,JerusalemPhoto,165,System,5
+14:14:21,14:15:44,MaritimeCommerce,163,System,5
+14:17:29,14:18:21,PhoenicianWriting1,18,System,5
+14:18:34,14:19:50,PhoenicianWriting1,24,System,5
+14:19:55,14:21:04,BurialTradition2,94,System,5
+14:21:28,14:22:20,PhoenicianWriting1,27,System,3
+14:23:41,14:24:42,BurialTradition2,29,System,5
+14:24:47,14:25:38,BurialTradition2,98,System,5
+
+events 
+14:06:16,chosenExhibit,92
+14:06:16,return from screen
+14:11:03,return from screen
+14:11:30,chosenExhibit,91
+14:14:19,chosenExhibit,89
+14:17:22,chosenExhibit,21
+14:17:22,return from screen
+14:18:26,chosenExhibit,23
+14:18:26,return from screen
+14:21:17,return from screen
+14:21:17,chosenExhibit,24
+14:23:28,chosenExhibit,25

@@ -1,0 +1,140 @@
+{%extends "museum/base.html"%}
+{%load static%}
+
+{% block content %}
+<div class="row" style="margin-top:10px;margin-bottom:10px;">
+
+    <div class="col-md-10" style="align:">
+        <div class="content-section">
+            <div id="timeline">
+                <ul style="min-height:50px;" id="dates">
+                    <!--<li><a href="#1900">1900</a></li>-->
+                    {%for loc in locations%}
+                    <li><a href="{{loc.position}}">{{loc.start}}</a></li>
+                    {%endfor%}
+                </ul>
+                <ul id="issues">
+                    <!--<li id="1900">
+                        <img src="#" width="256" height="256"/>
+                        <h1>1900</h1>
+                        <p>par</p>
+                    </li>-->
+                    {%for loc in locations%}
+                    <li id="{{loc.position}}">
+                        <h1>{{loc.position}}</h1>
+                        <p>Visitor number: {{loc.visitor}}<br>
+                            Group number: {{loc.group}}<br>
+                            Time of arrival: {{loc.start}}<br>
+                            Leaving time: {{loc.end}}<br>
+                            Permanence duration: {{loc.duration}}<br>
+                            {{loc.x}}
+                        </p>
+                    </li>
+                    {%endfor%}
+                </ul>
+                <div id="grad_left"></div>
+                <div id="grad_right"></div>
+                <a href="#" id="next"><i class='fas fa-angle-double-left' style='font-size:90px; color:blue'></i></a>
+                <a href="#" id="prev"></a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-2" style="padding-top:50px; padding-bottom:50px;border: 1px solid #dddddd;">
+        <p style="color:white;margin-top:100px;margin-left:10px;">If you want to see a summary of the visit please
+            <a style="margin-left:-15px;" class="nav-item nav-link" href="#summary">go here</a></p>
+            <!--otherwise you can
+        <div class="form-group">
+            <button style="margin-left:10px;" class="btn btn-outline-info" type="submit" onclick="location.href({% url 'museum-home' %})">SHOW
+                STATISTICS
+            </button>
+        </div>-->
+    </div>
+</div>
+<div id="mappaDiv" class="row" style="margin-top:10px;">
+    <div id="mappa" class="col-md-12"
+         style="background-image:url('{% static 'museum/image.png' %}');background-size: cover;background-repeat: no-repeat;min-height:860px; margin-top:50px;">
+        {%for point in locations%}
+        <i id="{{point.name}}" class='fas fa-map-marker-alt'
+           style="position:absolute;margin-top:{{point.y}}px;margin-left:{{point.x}}px;font-size:36px;color:red; list-style:none;"></i>
+        <!--<p style="color:black;position:absolute;margin-top:{{point.y}}px;margin-left:{{point.x}}px;padding-left:30px;padding-top:15px;">
+            {{point.name}}</p>-->
+        {%endfor%}
+    </div>
+</div>
+<div class="row" id="summary">
+    <div class="col-md-12" style="min-height:200px;margin-top: 50px;">
+        <div class="content-section" id="home">
+            <h1 style="margin-left:10px;margin-bottom: 1.5rem!important;border-bottom:1px solid #dee2e6!important;">
+                SUMMARY OF THE VISIT</h1>
+            <p style="margin-left:50px; margin-top:50px;">
+                sintesi bla bla..
+            </p>
+        </div>
+    </div>
+
+</div>
+{% endblock content %}
+
+
+<!--
+        <article class="media content-section">
+          <div class="media-body">
+            <div class="article-metadata">
+              <a class="mr-2" href="#">{{ post.author }}</a>
+              <small class="text-muted">{{ post.date_posted }}</small>
+            </div>
+            <h2><a class="article-title" href="#">{{ post.title }}</a></h2>
+            <p class="article-content">{{ post.content }}</p>
+          </div>
+        </article>
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
