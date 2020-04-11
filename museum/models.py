@@ -34,6 +34,7 @@ class Group(models.Model):
 class Visitor(models.Model):
     number = models.IntegerField(null=False)
     group = models.ForeignKey(Group, on_delete=models.DO_NOTHING)
+    date = models.CharField(max_length=50)
     startTime = models.CharField(max_length=30)
     endTime = models.CharField(max_length=30)
     blind = models.CharField(max_length=50)
