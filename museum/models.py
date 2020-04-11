@@ -58,8 +58,8 @@ class Location(models.Model):
     #position_x =models.IntegerField()           # inutile??
     #position_y =models.IntegerField()           # inutile??
 
-    def __str__(self):
-        return self.name
+    #def __str__(self):
+    #    return self.name
 
 
 

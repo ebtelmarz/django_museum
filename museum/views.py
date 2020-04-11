@@ -52,6 +52,9 @@ def about(request):
 
 
 def statistics(request):
+
+    # qua è ancora tutto da TODO-are
+
     return render(request, 'museum/statistics.html')
 
 
@@ -66,14 +69,10 @@ def home(request):
     context = {
         'data': [],
         'locations': [],
-        'mappa': Location.objects.all(),
+        'mappa': [],
         'gruppo': Group.objects.all(),
         'summary': []
     }
-
-    #mappa = Location.objects.all()
-    #x = 0
-    #y = 0
 
 # mancano ancora i dati per la mappa, fare il match sul nome della posizione e prendere le coordinate dal db
 # spostare il processing del file in una funzione a parte ??
@@ -132,9 +131,16 @@ def home(request):
             positions = list(filter(lambda a: a != 'Positions ', positions))
 
             ####################### SUMMARY DATA ##############################
-            n_presentations = 0
-            for rec in presentations:
-                n_presentations += 1
+            num_events = 0                          # ma sti eventi che so?? le azioni registrate dal dispositivo
+            for line in events:
+                if line.split(',')[1] == 'chosenExhibit':
+                    num_events += 1
+
+            clean = []
+            for pp in presentations:
+                clean.append(pp.split(',')[2])
+
+            n_presentations = len(set(clean))
 
             visitor = file.name.split('.')[0].split('_')[1]
             group = file.name.split('.')[0].split('_')[2]
@@ -154,10 +160,13 @@ def home(request):
             if sec[0] == '0':
                 sec = sec[1]
 
-            if int(ore) > 1 or int(ore) == 0:
+            if int(ore) > 1:
                 pre = ore + ' hours, '
             else:
-                pre = ore + ' hour, '
+                if int(ore) == 0:
+                    pre = ''
+                else:
+                    pre = ore + ' hour, '
 
             if min == '0':
                 durata = sec + ' seconds'
@@ -174,7 +183,7 @@ def home(request):
 
             context.get('summary').append(
                 {'start': global_start, 'end': global_end, 'num_pres': n_presentations,
-                 'duration': total, 'visitor': visitor, 'group': group})
+                 'duration': total, 'visitor': visitor, 'group': group, 'num_events': num_events})
 
             ####################### TIMELINE DATA #############################
             duration = None
@@ -205,9 +214,16 @@ def home(request):
                     {'start': str(start).split()[1], 'end': str(end).split()[1], 'position': location,
                      'duration': duration, 'visitor': visitor, 'group': group})
 
-                ############################ MAP DATA #########################
-                # TODO
+            ############################ MAP DATA ##############################
+            locations = Location.objects.all()
+            for val2 in positions:
+                for elem2 in locations:
+                    #print((elem2.x, val2[2]))
 
+                    if val2.split(',')[2] == elem2.name:
+                        x = elem2.x
+                        y = elem2.y
+                        context.get('mappa').append({'name': elem2.name, 'x': x, 'y': y})
 
             return render(request, 'museum/map.html', context)
 
