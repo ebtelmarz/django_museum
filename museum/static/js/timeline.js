@@ -1,6 +1,6 @@
             function pallini(){
                 var active = document.querySelectorAll("i.fas.fa-map-marker-alt.selected");
-                var disactive = document.querySelectorAll("i.fas.fa-map-marker-alt")[0];
+                var disactive = document.querySelectorAll("i.fas.fa-map-marker-alt");
                 //var pallino = document.querySelectorAll(".point");
                 var next = document.getElementById("next");
                 var prev = document.getElementById("prev");
@@ -8,8 +8,8 @@
                 console.log(active);
 
                 function show(){
-                    //var currentli = disactive[0];
-                    disactive.classList.add('selected');
+                    var currentli = disactive[0];
+                    currentli.classList.add('selected');
                 }
                 next.onclick = show();
 

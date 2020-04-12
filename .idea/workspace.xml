@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="1cae85b3-e9a5-4a0e-b817-7f9e0ba93254" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/museum/static/js/timeline.js" beforeDir="false" afterPath="$PROJECT_DIR$/museum/static/js/timeline.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/museum/templates/museum/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/museum/templates/museum/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/museum/templates/museum/statistics.html" beforeDir="false" afterPath="$PROJECT_DIR$/museum/templates/museum/statistics.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/museum/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/museum/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tutorial/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial/settings.py" afterDir="false" />
     </list>
@@ -32,7 +35,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/write_db.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../write_db.py" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
   </component>

@@ -1,6 +1,12 @@
 {% extends "museum/base.html" %}
 {% block content %}
-    <div class="col-md-10" style="margin:50px;">
-        <h1>STATISTICHE VARIE</h1>
+<div class="col-md-10" style="margin:50px;">
+    <h1>STATISTICHE VARIE</h1><br>
+    <div class="container">
+        <p>che minchia bisogna fa vede qua???</p>
+        {%for elem in summary%}
+        <p>prova prova {{elem.start}}</p>
+        {%endfor%}
     </div>
+</div>
 {% endblock content %}
