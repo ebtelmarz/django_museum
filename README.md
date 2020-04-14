@@ -1,3 +1,4 @@
+
 # Museum project
 This project is requested for *Advanced Topics in Computer Science course* in **Roma Tre University**.
 This web app enables to see how people moved inside a museum during their visit.
@@ -13,11 +14,14 @@ This web app enables to see how people moved inside a museum during their visit.
 4. Wait for Virtual Machine to configure (this may take a few minutes).
 5. If everything is ok, you can see a message that says *museum node configuration complete* when process terminates.
 
-## And if i want to do anything else?
-Typing following commands inside **environment** directory:
-- You can interact with virtual machine using `vagrant ssh`
-- You can shut down virtual machine by typing `vagrant halt` 
-- You can remove this virtual machine by typing `vagrant destroy` 
+### How to run the server?
+1. `vagrant ssh`.
+2. `sh django_museum/start-museum-app.sh`.
+
+If everything is ok, now you whould see Django server logs in follow mode.
+
+### I started the server, how can i interact with it?
+Open your browser, and type localhost:8080
 
 ## And if i want to do anything else?
 This project runs Vagrant to build and provision a VirtualBox virtual machine.
