@@ -1,0 +1,77 @@
+# 
+# Vagrantfile for a single 'museum' node configured with:
+# Django framework
+# MySQl
+# 
+
+VAGRANTFILE_API_VERSION = "2"
+
+ROOT_FOLDER='../'
+ATCS_HOME="/home/atcs/"
+
+MUSEUM_PROJECT_PATH=ROOT_FOLDER
+VM_PATH_TO_MUSEUM_PROJECT=ATCS_HOME + "django_museum/"
+
+SCRIPTS_PATH=ROOT_FOLDER + 'scripts/'
+VM_SCRIPTS_PATH=ATCS_HOME + "scripts/"
+
+DOWNLOADS_PATH=ROOT_FOLDER + 'downloads/'
+#VM_DOWNLOADS_PATH=ATCS_HOME + "downloads/"
+
+VM_IP_ADDRESS="10.11.1.111"
+
+Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
+
+    # Ubuntu 18.04 LTS 64 bit VirtualBox (Bento)
+    config.vm.box = "bento/ubuntu-18.04"
+	
+    # Museum Django progect folder
+    config.vm.synced_folder MUSEUM_PROJECT_PATH, VM_PATH_TO_MUSEUM_PROJECT, :mount_options => ["dmode=777", "fmode=777"]
+	
+	# Scripts folder
+    config.vm.synced_folder SCRIPTS_PATH, VM_SCRIPTS_PATH, :mount_options => ["dmode=777", "fmode=777"]
+	
+    #
+    # 'museum' node configuration
+    #
+    config.vm.define "museum" do |node|
+        node.vm.hostname = "museum"
+        node.vm.network "private_network", ip: VM_IP_ADDRESS, virtualbox__intnet: true
+		
+		### VM RESOURCES CONFIGURATION
+		
+        node.vm.provider "virtualbox" do |v| 
+			v.memory = 2048
+			v.cpus = 2
+        end
+		
+		### PORT FORWARDING
+		
+		# Port forwarding for SSH
+        node.vm.network "forwarded_port", guest: 22, host: 2222, id: 'ssh', auto_correct: true 
+        node.ssh.forward_agent = true
+		
+        # Port forwarding for HTTP
+        node.vm.network "forwarded_port", guest: 8080, host: 8080, id: 'http', auto_correct: true
+		
+		# Port forwarding for MySQL
+		config.vm.network "forwarded_port", guest: 3306, host: 3306, id: 'mysql', auto_correct: true
+		
+		### PROVISIONING
+		
+        # Provisioning with bash
+		node.vm.provision :shell, inline: "echo '=============== Provisioning started ==============='"
+        node.vm.provision :shell, :inline => 'apt-get update'
+        node.vm.provision :shell, path: SCRIPTS_PATH + "setup-django.sh"
+		node.vm.provision :shell, path: SCRIPTS_PATH + "setup-project-dependencies.sh"
+		node.vm.provision :shell, path: SCRIPTS_PATH + "setup-mysql.sh"
+		node.vm.provision :shell, path: SCRIPTS_PATH + "database-migration.sh"
+		
+		# symbolic link to django_museum inside default's user folder
+        node.vm.provision :shell, :inline => 'ln -s ' + VM_PATH_TO_MUSEUM_PROJECT + ' django_museum'
+		
+        node.vm.provision :shell, inline: "echo  'museum node configuration complete'"
+
+    end
+
+end

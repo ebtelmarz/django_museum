@@ -80,9 +80,9 @@ WSGI_APPLICATION = 'tutorial.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'atcs',
-        'USER': 'root',
-        'PASSWORD': '',
+        'NAME': 'museum',
+        'USER': 'atcs_museum',
+        'PASSWORD': 'museum',
         'HOST': '127.0.0.1',
         'PORT': '3306',
     }
