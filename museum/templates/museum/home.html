@@ -1,25 +1,80 @@
 {%extends "museum/base.html"%}
 {%load static%}
-{% load crispy_forms_tags%}
+{%load crispy_forms_tags%}
 
 {% block content %}
 <div class="container">
     <div class="row" style="margin-top:50px;">
         <div class="col-md-12">
-            <div class="content-section" id="home">
+            <div class="content-section" id="homee" style="border: 1px solid #dddddd;">
                 <form method="POST" enctype="multipart/form-data">
                     {%csrf_token%}
                     <fieldset class="form-group">
-                        <legend class="border-bottom mb-4" style="font-size:30px;">Upload</legend>
-                        <input type="file" name="document"><br><br>
-                        <button class="btn btn-outline-info" type="submit" name="map">UPLOAD</button>
-                        <button class="btn btn-outline-info" name="stat" type="submit" style="margin-left:150px;">VIEW
-                            STATISTICS
-                        </button>
+                        <legend class="border-bottom mb-4" style="font-size:30px;">Upload Log file</legend>
+                        <div class="form-row">
+                            <div class="col-md-6 mb-3">
+                                <input type="file" class="custom-file-input" id="customFile" name="document">
+                                <label class="custom-file-label" for="customFile">Choose file</label>
+                            </div>
+                            <div class="col-md-3 mb-3">
+                                <button class="btn btn-outline-info" type="submit" name="upload">UPLOAD</button>
+                            </div>
+                        </div>
                     </fieldset>
-                    <div class="form-group">
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $('#customFile').on('change',function(){
+        //get the file name
+        var fileName = $(this).val();
+        var name = String(fileName).split("\\")[2];
+        //replace the "Choose a file" label
+        $(this).next('.custom-file-label').html(name);
+    })
 
-                    </div>
+</script>
+<div class="container">
+    <div class="row" style="margin-top:50px;">
+        <div class="col-md-12">
+            <div class="content-section" id="home">
+                <form method="POST">
+                    {%csrf_token%}
+                    <fieldset class="form-group">
+                        <legend class="border-bottom mb-4" style="font-size:30px;">Choose a Visitor
+                        </legend>
+
+                        <div class="form-row">
+                            <div class="col-md-6 mb-3">
+                                <select class="custom-select mr-sm-2" name="drop">
+                                    <option name="sel" selected>Choose...</option>
+                                    {% for vis in visitors%}
+                                    <option value="{{vis.number}}">{{vis.number}}</option>
+                                    {%endfor%}
+                                </select>
+                                <div class="invalid-feedback">Example invalid custom select feedback</div>
+                            </div>
+                            <div class="col-md-3 mb-3">
+                                <button type="submit" class="btn btn-outline-info" name="refresh">Refresh
+                                </button>
+                            </div>
+                        </div>
+                        <div class="form-row" style="margin-top:1.3rem">
+                            <div class="col-md-3 mb-3">
+                                <button type="submit" class="btn btn-outline-info" name="map">GO TO MAP
+                                </button>
+                            </div>
+                            <div class="col-md-3 mb-3">
+                                <button type="submit" class="btn btn-outline-info" name="stat">SHOW
+                                    STATISTICS
+                                </button>
+                            </div>
+                            <br>
+                        </div>
+
+                    </fieldset>
                 </form>
             </div>
         </div>

@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1cae85b3-e9a5-4a0e-b817-7f9e0ba93254" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/museum/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/museum/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/museum/form.py" beforeDir="false" afterPath="$PROJECT_DIR$/museum/form.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/museum/migrations/0001_initial.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/museum/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/museum/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/museum/static/museum/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/museum/static/museum/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/museum/templates/museum/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/museum/templates/museum/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/museum/templates/museum/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/museum/templates/museum/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/museum/templates/museum/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/museum/templates/museum/map.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/museum/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/museum/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tutorial/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +40,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/big_data/es_4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../write_db.py" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
   </component>
@@ -71,10 +80,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="744" y="424" width="488" height="264" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/67.27.1853.1053@67.27.1853.1053" timestamp="1586201957771" />
-    <state x="313" y="311" width="424" height="490" key="FileChooserDialogImpl" timestamp="1586859554589">
+    <state x="313" y="311" width="424" height="490" key="FileChooserDialogImpl" timestamp="1587237651619">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="313" y="311" width="424" height="490" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1586859554589" />
+    <state x="313" y="311" width="424" height="490" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1587237651619" />
     <state x="67" y="188" width="1022" height="736" key="SettingsEditor" timestamp="1586597380173">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>

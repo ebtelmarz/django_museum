@@ -71,7 +71,16 @@ h1, h2, h3, h4, h5, h6 {
   color: white;
 }
 
-
+#homee {
+  background: #333333;
+  padding-left: 40px;
+  padding-right:40px;
+  padding-top:30px;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  padding-bottom:20px;
+  color: white;
+}
 
 .col-md-12{
     background-color: #333333;

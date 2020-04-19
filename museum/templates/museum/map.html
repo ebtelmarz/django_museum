@@ -9,7 +9,7 @@
             <div id="timeline">
                 <ul style="min-height:50px;" id="dates">
                     <!--<li><a href="#1900">1900</a></li>-->
-                    {%for loc in locations%}
+                    {%for loc in timeline%}
                     <li><a href="{{loc.position}}">{{loc.start}}</a></li>
                     {%endfor%}
                 </ul>
@@ -19,7 +19,7 @@
                         <h1>1900</h1>
                         <p>par</p>
                     </li>-->
-                    {%for loc in locations%}
+                    {%for loc in timeline%}
                     <li id="{{loc.position}}">
                         <h1>{{loc.position}}</h1>
                         <p>
@@ -28,7 +28,6 @@
                             Time of arrival: {{loc.start}}<br>
                             Leaving time: {{loc.end}}<br>
                             Permanence duration: {{loc.duration}}<br>
-                            {{loc.x}}
                         </p>
                     </li>
                     {%endfor%}
@@ -65,13 +64,25 @@
                 Visitor: {{data.visitor}} <br>
                 Group: {{data.group}} <br>
                 Visit started at {{data.start}} and ended at {{data.end}} with a total duration of {{data.duration}}<br>
+                They probably{{data.liked}}the visit because they<br></p>
+            <ul style="margin-left:80px;">
+                <li>{{data.str_pres}}</li>
+                <li>{{data.str_avg}}</li>
+                <li>{{data.str_interr}}</li>
+            </ul>
+            <p style="margin-left:50px; margin-top:50px;">
                 Number of presentations visited: {{data.num_pres}}<br>
-                Number of events registered: {{data.num_events}}
-            </p>
+                Number of locations visited: {{data.num_locs}}<br>
+                Locations visited with the presentations watched:<br></p>
+            <ul style="margin-left:80px;">
+                {% for pre in data.presentations %}
+                <li>{{pre}}</li>
+                {% endfor %}
+            </ul>
+
             {% endfor %}
         </div>
     </div>
-
 </div>
 {% endblock content %}
 

@@ -1,23 +1,19 @@
-import csv
-from typing import re
-
+from os import listdir
 from django.shortcuts import render
 from django.http import HttpResponse
-from .models import Location
-from .models import Group
+from .models import PointOfInterest
 from .models import Visitor
-from django.contrib.auth.models import User
+from .models import Event
+from .models import Position
+from .models import Presentation
 from django.core.files.storage import FileSystemStorage
-from django.http import HttpResponseRedirect
-from django import forms
 import os
-from datetime import datetime
-from django.http import HttpResponseNotAllowed
-from django.forms import FileInput as fi
+import csv
+import json
+import subprocess
+from datetime import datetime, timedelta
 from django.contrib import messages
 
-from django.shortcuts import get_object_or_404
-from django.template import loader, Context
 
 # Create your views here.
 # le views devono sempre ritornare una HttpResponde oppure exception!!
@@ -29,105 +25,210 @@ from django.template import loader, Context
 
 ## VISITOR DI TEST 209_153
 
-visitor = {
-    'number': 209,
-    'group_id': 153,
-    'startTime': '11:55',
-    'endTime': '12:34',
-    'date': '21/8/2011',
-    'blind': '20E',
-    'headPhones': 1,
-    'notes': '',
-    'defect': ''
-}
+def prepareVisitor(path_visitors, presentations, interruptions, positions, group, visitor_id):
+    visitor_data = []
+    with open(path_visitors) as vis:
+        reader = csv.reader(vis, delimiter=',')
+        prima = next(reader)
+        for line in reader:
+            if line[0] == visitor_id:
+                data = line[3]
+                global_start = line[4] + ':00'
+                global_end = line[5] + ':00'
+            else:
+                data = ''
+                global_start = positions[0].split(',')[0]
+                global_end = positions[len(positions) - 1].split(',')[1]
 
-group = {
-    'number': 153,
-    'size': 3,
-    'date': '21/8/2011'
-}
+            visitor_data.append(
+                (visitor_id, group, data, global_start, global_end, len(presentations), interruptions))
+
+    return set(visitor_data)
 
 
-def fileProcess(fileName):
-    intero = open(fileName)
+def updatePOIS():
+    map_json = json.load(open('media/map.json', 'r'))
 
-    context = {
-        'summary': [],
-        'locations': [],
-        'mappa': []
-    }
+    for line in map_json:
+        route = line["Route"]
+        for elem in route:
+            pins = elem["PointsInRoute"]
+            for val in pins:
+                pin = val["PointInRoute"]
+                for a in pin:
+                    name = a["Point"]["_name"]
+                    x = a["Point"]["_x"]
+                    y = a["Point"]["_y"]
+                    room = a["Point"]["_room"]
+                    backName = a["Point"]["_backName"]
 
-    positions = []
-    presentations = []
-    events = []
+                    xx = int(int(x) * 1.15)
+                    yy = int(int(y) * 1.1)
 
-    stringone = ''
-    for riga in intero:
-        stringone = stringone + str(riga)
+                    poi_obj = PointOfInterest(name=name, x=xx, y=yy, room=room, backName=backName)
+                    poi_obj.save()
 
-    #################### EVENTS ######################################
-    eventi = stringone.split('events ')[1]
-    elem = eventi.split('\n')
 
-    for val in elem:
-        events.append(val)
+def saveData(visitor_data, presentations, events, positions):
+
+    vis_obj = None
+    interrupt = 0
+
+    for vis in visitor_data:
+        interrupt = vis[6]
+        vis_obj = Visitor(number=vis[0], group=vis[1], date=vis[2], startTime=vis[3], endTime=vis[4], presentations=vis[5], interruptions=vis[6])
+        vis_obj.save()
+
+    for event in events:
+        eve_obj = Event(when=event.split(',')[0], name=event.split(',')[1], visitor_id=vis_obj)
+        eve_obj.save()
+
+    for pres in presentations:
+        pres_obj = Presentation(startTime=pres.split(',')[0], endTime=pres.split(',')[1], name=pres.split(',')[2], visitor_id=vis_obj)
+        pres_obj.save()
+
+    if len(PointOfInterest.objects.all()) == 0:
+        updatePOIS()
+
+    for pos in positions:
+        pos_obj = Position(start=pos.split(',')[0], end=pos.split(',')[1], visitor_id=vis_obj, poi_id=PointOfInterest.objects.get(name=pos.split(',')[2]))
+        pos_obj.save()
+
+
+def prepareData():
+    path_logs = 'media/logs'
+    path_visitors = 'media/visitors.csv'
+    files = os.listdir(path_logs)
+
     try:
-        events = list(filter(lambda a: a != '', events))
+        files = list(filter(lambda a: a != 'out.log', files))
     except:
-        print('not found')
+        print('out.log not found')
 
-    #################### PRESENTATIONS ################################
-    presentazioni = stringone.split('presentations ')[1].split('events ')[0]
-    pres = presentazioni.split('\n')
+    for fileName in files:
+        try:
+            visitor_id = fileName.split('.')[0].split('_')[1]
 
-    for val in pres:
-        presentations.append(val)
+            if not Visitor.objects.filter(number=visitor_id).exists():
+                group = fileName.split('.')[0].split('_')[2]
+                intero = open(os.path.join(path_logs, fileName))
 
-    try:
-        presentations = list(filter(lambda a: a != '', presentations))
-    except:
-        print('not found')
+                positions = []
+                presentations = []
+                events = []
 
-    #################### POSITIONS ####################################
-    posizioni = stringone.split('presentations ')[0]
-    pos = posizioni.split('\n')
+                stringone = ''
+                for riga in intero:
+                    stringone = stringone + str(riga)
+                #################### EVENTS ######################################
+                eventi = stringone.split('events ')[1]
+                elem = eventi.split('\n')
 
-    for val in pos:
-        positions.append(val)
+                for val in elem:
+                    events.append(val)
+                try:
+                    events = list(filter(lambda a: a != '', events))
+                except:
+                    print('not found')
+                #################### PRESENTATIONS ################################
+                presentazioni = stringone.split('presentations ')[1].split('events ')[0]
+                pres = presentazioni.split('\n')
 
-    try:
-        positions = list(filter(lambda a: a != '', positions))
-        positions = list(filter(lambda a: a != 'Positions ', positions))
-    except:
-        print('not found')
+                for val in pres:
+                    presentations.append(val)
+                try:
+                    presentations = list(filter(lambda a: a != '', presentations))
+                except:
+                    print('not found')
+                interr = 0
+                interruptions = 0
+                interrupt = 0
+                for b in presentations:
+                    if b.split(',')[4] == 'User':
+                        interr += 1
+                if len(presentations) != 0:
+                    interrupt = interr / int(len(presentations))
+                    if interrupt > 0.5:
+                        interruptions = 1
+                else:
+                    interruptions = 0
+                #################### POSITIONS ####################################
+                posizioni = stringone.split('presentations ')[0]
+                pos = posizioni.split('\n')
 
-    ####################### SUMMARY DATA ##############################
-    num_events = 0  # ma sti eventi che so?? le azioni registrate dal dispositivo?
-    for line in events:
-        if line.split(',')[1] == 'chosenExhibit':
-            num_events += 1
+                for val in pos:
+                    positions.append(val)
 
-    clean = []
-    for pp in presentations:
-        clean.append(pp.split(',')[2])
+                try:
+                    positions = list(filter(lambda a: a != '', positions))
+                    positions = list(filter(lambda a: a != 'Positions ', positions))
+                except:
+                    print('not found')
 
-    n_presentations = len(set(clean))
+                visitor_data = prepareVisitor(path_visitors, presentations, interruptions, positions, group, visitor_id)
+                saveData(visitor_data, presentations, events, positions)
+        except ValueError:
+            continue
 
-    visitor = fileName.split('.')[0].split('_')[1]
-    group = fileName.split('.')[0].split('_')[2]
-    # aggiungere data della visita e dimensione del gruppo ?
 
+def locationsData(number):
+    timeline_data = []
+    positions = Position.objects.filter(visitor_id_id=number)
+
+    for pos in positions:
+        location = pos.poi_id.name
+        start = datetime.strptime(str(pos.start), '%H:%M:%S')
+        end = datetime.strptime(str(pos.end), '%H:%M:%S')
+        duration_delta = end - start
+        min1 = str(duration_delta).split(':')[1]
+        sec1 = str(duration_delta).split(':')[2]
+
+        if min1[0] == '0':
+            min1 = min1[1]
+        if sec1[0] == '0':
+            sec1 = sec1[1]
+
+        if min1 == '0':
+            duration = sec1 + ' seconds'
+        else:
+            if min1 == '1':
+                duration = min1 + ' minute and ' + sec1 + ' seconds'
+            else:
+                duration = min1 + ' minutes and ' + sec1 + ' seconds'
+
+        timeline_data.append(
+            {'start': str(start).split()[1], 'end': str(end).split()[1], 'position': location,
+             'duration': duration})
+
+    return timeline_data
+
+
+def summaryData(number):
+    summary_data = []
+
+    positions = Position.objects.filter(visitor_id_id=number)
+    events = Event.objects.filter(visitor_id_id=number)
+    group = Visitor.objects.get(number=number).group
+    pres_count = len(Presentation.objects.filter(visitor_id=number))
+    presses = Presentation.objects.filter(visitor_id=number)
+
+    lista_pres = []
+    for elem in presses:
+        lista_pres.append(elem.name)
+
+    lista_pres = set(lista_pres)
+    num_locs = len(lista_pres)
     total = None
-    global_start = positions[0].split(',')[0]
-    global_end = positions[len(positions) - 1].split(',')[1]
+    global_start = str(positions[0].start)
+    global_end = str(positions[len(positions) - 1].end)
 
     durata_delta = str(datetime.strptime(global_end, '%H:%M:%S') - datetime.strptime(global_start, '%H:%M:%S'))
     durata = None
     ore = str(durata_delta).split(':')[0]
     min = str(durata_delta).split(':')[1]
     sec = str(durata_delta).split(':')[2]
-    pre = ''
-    ## supponiamo che una visita non duri piu di 9 ore xd
+    #pre = ''
+
     if min[0] == '0':
         min = min[1]
     if sec[0] == '0':
@@ -154,51 +255,66 @@ def fileProcess(fileName):
     else:
         total = durata
 
-    context.get('summary').append(
-        {'start': global_start, 'end': global_end, 'num_pres': n_presentations,
-         'duration': total, 'visitor': visitor, 'group': group, 'num_events': num_events})
+    somma = int(ore)*60 + int(min) + int(sec)/60
 
-    ####################### TIMELINE DATA #############################
-    duration = None
+    tot = datetime.strptime('00:00:00', '%H:%M:%S')
+    for id in Visitor.objects.all():
+        visitor_stay = Position.objects.filter(visitor_id=id)
+        diff = datetime.strptime(str(visitor_stay[len(visitor_stay) - 1].end), '%H:%M:%S') - datetime.strptime(str(visitor_stay[0].start), '%H:%M:%S')
+        tot = tot + diff
 
-    for record in positions:
-        split = record.split(',')
-        location = split[2]
-        start = datetime.strptime(split[0], '%H:%M:%S')
-        end = datetime.strptime(split[1], '%H:%M:%S')
-        duration_delta = end - start
-        min1 = str(duration_delta).split(':')[1]
-        sec1 = str(duration_delta).split(':')[2]
+    tot = datetime.strptime(str(tot.time()), '%H:%M:%S')
+    tott = tot.hour*60 + tot.minute + tot.second/60
+    avg_stay = tott/len(Visitor.objects.all())
 
-        if min1[0] == '0':
-            min1 = min1[1]
-        if sec1[0] == '0':
-            sec1 = sec1[1]
+    more_than_avg = 0
+    str_avg = 'did not stay more than the average'
+    if somma > avg_stay:
+        more_than_avg = 1
+        str_avg = 'stayed more than the average'
 
-        if min1 == '0':
-            duration = sec1 + ' seconds'
-        else:
-            if min1 == '1':
-                duration = min1 + ' minute and ' + sec1 + ' seconds'
-            else:
-                duration = min1 + ' minutes and ' + sec1 + ' seconds'
+    interrupt = Visitor.objects.get(number=number).interruptions
 
-        context.get('locations').append(
-            {'start': str(start).split()[1], 'end': str(end).split()[1], 'position': location,
-             'duration': duration, 'visitor': visitor, 'group': group})
+    str_interr = 'did not interrupt a lot of presentations'
+    if interrupt > 0:
+        str_interr = 'interrupted more than half of the presentations'
+    tot_count = 0
 
-    ############################ MAP DATA ##############################
-    locations = Location.objects.all()
-    for val2 in positions:
-        for elem2 in locations:
-            # print((elem2.x, val2[2]))
+    for person in Visitor.objects.all():
+        conta = len(Presentation.objects.filter(visitor_id=person.number))
+        tot_count += conta
+    avg_present = tot_count/len(Visitor.objects.all())
 
-            if val2.split(',')[2] == elem2.name:
-                x = elem2.x
-                y = elem2.y
+    more_than_avg_p = 0
+    str_pres = 'didn\'t watch more presentations than the average'
+    if pres_count > avg_present:
+        more_than_avg_p = 1
+        str_pres = 'watched more presentations than the average'
 
-                context.get('mappa').append({'name': elem2.name, 'x': x, 'y': y})
-    return context
+    liked = ' did not enjoy '
+    if more_than_avg + more_than_avg_p - interrupt >= 1:
+        liked = ' enjoyed '
+
+    summary_data.append(
+        {'start': global_start, 'end': global_end, 'num_pres': pres_count, 'num_locs': num_locs,
+         'duration': total, 'visitor': number, 'group': group, 'presentations': lista_pres, 'liked': liked,
+         'str_pres': str_pres, 'str_avg': str_avg, 'str_interr': str_interr})
+
+    return summary_data
+
+
+def mapData(number):
+    map_data = []
+    positions = Position.objects.filter(visitor_id=number)
+
+    for pos in positions:
+        name = pos.poi_id.name
+        x = PointOfInterest.objects.get(name=name).x
+        y = PointOfInterest.objects.get(name=name).y
+
+        map_data.append({'name': name, 'x': x, 'y': y})
+
+    return map_data
 
 
 def about(request):
@@ -211,59 +327,58 @@ def statistics(request):
 
 def map(request):
     context = {
-        'pos': Location.objects.all()
+        'pos': PointOfInterest.objects.all()
     }
     return render(request, 'museum/map.html', context)
 
+
 def home(request):
     context = {
-        'data': [],
-        'locations': [],
-        'mappa': [],
-        'gruppo': Group.objects.all(),
-        'visitor': Visitor.objects.all(),
         'summary': []
     }
 
     if request.method == 'POST':
-        key = 'document'
-        if key not in request.FILES:
-            messages.warning(request, f'Please upload a log file')
-        else:
-            file = request.FILES['document']
-            fs = FileSystemStorage()
-            name = fs.save(file.name, file)
+        if 'upload' in request.POST:
+            if 'document' not in request.FILES:
+                messages.warning(request, f'Please upload a log file')
+            else:
+                file = request.FILES['document']
+                if str(file.name).split('.')[1] != 'csv':
+                    messages.warning(request, f'Please upload a valid csv file')
+                else:
+                    if file.name not in os.listdir('media/logs'):
+                        fs = FileSystemStorage()
+                        name = fs.save(file.name, file)
+                        context['url'] = fs.url(name)
+                        messages.info(request, f'File uploaded correctly')
+                    else:
+                        messages.info(request, f'File already exists')
 
-            context['url'] = fs.url(name)
-            context['locations'] = fileProcess(os.path.join('media/', file.name))['locations']
-            context['mappa'] = fileProcess(os.path.join('media/', file.name))['mappa']
-            context['summary'] = fileProcess(os.path.join('media/', file.name))['summary']
+        if 'refresh' in request.POST:
+            prepareData()
+            messages.info(request, f'Done!')
+            return render(request, 'museum/home.html', {'visitors': Visitor.objects.all()})
 
-            if 'map' in request.POST:
-                return render(request, 'museum/map.html', context)
-            elif 'stat' in request.POST:
+        if 'map' in request.POST:
+            if request.POST['drop'] == 'Choose...':
+                messages.warning(request, f'Please choose a visitor')
+            else:
+                data = {
+                    'mappa': mapData(request.POST['drop']),
+                    'timeline': locationsData(request.POST['drop']),
+                    'summary': summaryData(request.POST['drop'])
+                }
+                map = locationsData(request.POST['drop'])
+                return render(request, 'museum/map.html', data)
+
+        elif 'stat' in request.POST:
+            if request.POST['drop'] == 'Choose...':
+                messages.warning(request, f'Please choose a visitor')
+            else:
                 return render(request, 'museum/statistics.html', context)
 
-    return render(request, 'museum/home.html', context)
+    return render(request, 'museum/home.html', {'visitors': Visitor.objects.all()})
 
 
 # return redirect('museum-home')
-
-"""
-
-dati da ritornare:
-    start e
-    end per ogni posizione
-    position
-    duration per posizione
-    
-    dati summary:
-    visitor
-    group
-    num presentazioni viste 
-    start globale
-    end globale --> durata totale 
-    data della visita
-    group size
-"""
 

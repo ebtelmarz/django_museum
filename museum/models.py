@@ -14,52 +14,51 @@ class Post(models.Model):           # ciascun campo è una colonna della tabella
     def __str__(self):
         return self.title
 """
-"""         non serve modellare il log??
-class Log(models.Model):
-    title = models.CharField(max_length=100)
-    content_positions = models.TextField()
-    content_presentations = models.TextField()
-    content_events = models.TextField()
-"""
-
-class Group(models.Model):
-    number = models.IntegerField(primary_key=True, null=False)
-    size = models.IntegerField()
-    date = models.CharField(max_length=50)
-
-    def __str__(self):
-        return self.number
 
 
 class Visitor(models.Model):
-    number = models.IntegerField(null=False)
-    group = models.ForeignKey(Group, on_delete=models.DO_NOTHING)
-    date = models.CharField(max_length=50)
-    startTime = models.CharField(max_length=30)
-    endTime = models.CharField(max_length=30)
-    blind = models.CharField(max_length=50)
-    headPhones = models.BooleanField()
-    notes = models.TextField()
-    defect = models.TextField()
+    number = models.IntegerField(null=False, primary_key=True)
+    group = models.IntegerField(null=False)
+    date = models.CharField(max_length=50)              # PROBLEM: la data è disponibile solo per pochi log, ovvero quelli che stanno nell' xml
+    startTime = models.TimeField(auto_now=False)
+    endTime = models.TimeField(auto_now=False)
+    presentations = models.IntegerField()
+    interruptions = models.IntegerField()
 
     def __str__(self):
-        return self.number
+        return str(self.number)
+
+class Event(models.Model):
+    visitor_id = models.ForeignKey(Visitor, on_delete=models.CASCADE)
+    when = models.TimeField(auto_now=False)
+    name = models.CharField(max_length=300)
 
 
-class Location(models.Model):
-    name = models.CharField(max_length=100, null=False)
+class Presentation(models.Model):
+    visitor_id = models.ForeignKey(Visitor, on_delete=models.CASCADE)
+    startTime = models.TimeField(auto_now=False)
+    endTime = models.TimeField(auto_now=False)
+    name = models.CharField(max_length=200)
+    #interrupt = models.IntegerField()
+
+    # TODO remove interrupt
+
+
+class PointOfInterest(models.Model):
+    name = models.CharField(max_length=100, primary_key=True)
     x = models.IntegerField(null=False)
     y = models.IntegerField(null=False)
-    tipo = models.CharField(max_length=100, null=True)
     room = models.IntegerField(null=True)
-    width = models.IntegerField(null=True)
-    height= models.IntegerField(null=True)
     backName = models.CharField(max_length=100, null=True)
-    #position_x =models.IntegerField()           # inutile??
-    #position_y =models.IntegerField()           # inutile??
 
-    #def __str__(self):
-    #    return self.name
+    # def __str__(self):
+    # return self.name
 
+
+class Position(models.Model):
+    start = models.TimeField()
+    end = models.TimeField()
+    visitor_id = models.ForeignKey(Visitor, on_delete=models.CASCADE)
+    poi_id = models.ForeignKey(PointOfInterest, on_delete=models.DO_NOTHING)    #on delete??
 
 
