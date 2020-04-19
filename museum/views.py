@@ -106,10 +106,10 @@ def prepareData():
         print('out.log not found')
 
     for fileName in files:
-        try:
-            visitor_id = fileName.split('.')[0].split('_')[1]
+        visitor_id = fileName.split('.')[0].split('_')[1]
 
-            if not Visitor.objects.filter(number=visitor_id).exists():
+        if not Visitor.objects.filter(number=visitor_id).exists():
+            try:
                 group = fileName.split('.')[0].split('_')[2]
                 intero = open(os.path.join(path_logs, fileName))
 
@@ -167,8 +167,8 @@ def prepareData():
 
                 visitor_data = prepareVisitor(path_visitors, presentations, interruptions, positions, group, visitor_id)
                 saveData(visitor_data, presentations, events, positions)
-        except ValueError:
-            continue
+            except:
+                continue
 
 
 def locationsData(number):

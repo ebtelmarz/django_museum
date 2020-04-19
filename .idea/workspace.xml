@@ -3,14 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1cae85b3-e9a5-4a0e-b817-7f9e0ba93254" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/museum/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/museum/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/museum/form.py" beforeDir="false" afterPath="$PROJECT_DIR$/museum/form.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/museum/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/museum/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/museum/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/museum/static/museum/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/museum/static/museum/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/museum/templates/museum/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/museum/templates/museum/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/museum/templates/museum/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/museum/templates/museum/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/museum/templates/museum/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/museum/templates/museum/map.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/museum/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/museum/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tutorial/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial/settings.py" afterDir="false" />
     </list>
