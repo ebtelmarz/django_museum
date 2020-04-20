@@ -100,10 +100,10 @@ def prepareData():
     path_visitors = 'media/visitors.csv'
     files = os.listdir(path_logs)
 
-    try:
-        files = list(filter(lambda a: a != 'out.log', files))
-    except:
-        print('out.log not found')
+    #try:
+    #    files = list(filter(lambda a: a != 'out.log', files))
+    #except:
+    #    print('out.log not found')
 
     for fileName in files:
         visitor_id = fileName.split('.')[0].split('_')[1]
