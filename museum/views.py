@@ -35,13 +35,15 @@ def prepareVisitor(path_visitors, presentations, interruptions, positions, group
                 data = line[3]
                 global_start = line[4] + ':00'
                 global_end = line[5] + ':00'
+                visitor_data.append((visitor_id, group, data, global_start, global_end, len(presentations), interruptions))
+                break
             else:
                 data = ''
                 global_start = positions[0].split(',')[0]
                 global_end = positions[len(positions) - 1].split(',')[1]
+                continue
 
-            visitor_data.append(
-                (visitor_id, group, data, global_start, global_end, len(presentations), interruptions))
+        visitor_data.append((visitor_id, group, data, global_start, global_end, len(presentations), interruptions))
 
     return set(visitor_data)
 
