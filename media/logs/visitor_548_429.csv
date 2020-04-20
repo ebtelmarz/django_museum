@@ -1,0 +1,70 @@
+
+Positions 
+13:46:07,13:46:32,EntranceReubenHecht
+13:46:33,13:46:35,SymbolsJewishMenorah
+13:46:35,13:47:15,EntranceReubenHecht
+13:47:58,13:48:01,SymbolsJewishMenorah
+13:48:01,13:48:03,EntranceReubenHecht
+13:48:03,13:48:21,SymbolsJewishMenorah
+13:49:13,13:51:09,EntranceReubenHecht
+13:51:16,13:51:18,SymbolsJewishMenorah
+13:51:18,13:51:26,EntranceReubenHecht
+13:51:26,13:54:27,SymbolsJewishMenorah
+13:54:34,13:59:59,PersianCult
+14:00:13,14:00:43,JerusalemPhoto
+14:02:13,14:02:20,PhoenicianWriting1
+14:02:32,14:08:24,CraftsAndArts
+14:09:38,14:19:39,CraftsAndArts
+14:20:24,14:20:30,PhoenicianWriting1
+14:21:19,14:21:24,Phoenicians
+14:53:29,14:53:33,Coins
+14:54:12,14:54:21,Phoenicians
+14:54:21,14:55:53,MosaicfromSynagogue
+
+presentations 
+13:46:55,13:47:15,EntranceReubenHecht,128,User,3,3
+13:50:00,13:51:09,EntranceReubenHecht,129,System,5,3
+13:51:34,13:52:31,SymbolsJewishMenorah,130,User,3,3
+13:52:40,13:53:28,SymbolsJewishMenorah,131,System,5,3
+13:53:35,13:54:27,SymbolsJewishMenorah,132,System,5,3
+13:54:54,13:56:13,PersianCult,310,System,5,3
+13:56:23,13:57:41,PersianCult,311,System,5,3
+13:57:44,13:58:54,PersianCult,312,System,5,3
+13:58:57,13:59:59,PersianCult,313,System,5,3
+14:02:45,14:03:35,CraftsAndArts,45,System,5,3
+14:03:42,14:04:58,CraftsAndArts,115,System,5,3
+14:05:01,14:06:17,CraftsAndArts,116,System,5,3
+14:06:23,14:07:01,CraftsAndArts,117,System,5,3
+14:07:09,14:08:24,CraftsAndArts,115,System,5,3
+14:09:38,14:10:31,CraftsAndArts,46,System,5,3
+14:10:34,14:11:05,CraftsAndArts,48,System,5,3
+14:11:28,14:11:59,CraftsAndArts,48,System,5,3
+14:12:05,14:12:36,CraftsAndArts,50,System,5,3
+14:13:08,14:14:16,CraftsAndArts,44,System,5,3
+14:14:26,14:15:51,CraftsAndArts,111,System,5,3
+14:15:56,14:17:04,CraftsAndArts,112,System,5,3
+14:17:09,14:18:28,CraftsAndArts,113,System,5,3
+14:18:33,14:19:39,CraftsAndArts,114,System,5,3
+14:54:42,14:55:53,MosaicfromSynagogue,164,System,5,3
+14:55:57,14:57:02,MosaicfromSynagogue,148,System,5,3
+14:57:06,14:58:09,MosaicfromSynagogue,149,System,5,3
+14:58:13,14:59:15,MosaicfromSynagogue,150,System,5,3
+14:59:19,15:00:22,MosaicfromSynagogue,252,System,5,3
+15:00:28,15:01:29,MosaicfromSynagogue,253,System,5,3
+
+events 
+13:46:07,return from screen
+13:46:49,chosenExhibit,39
+13:46:49,return from screen
+13:48:34,chosenExhibit,41
+13:48:34,return from screen
+13:49:56,chosenExhibit,40
+13:51:29,chosenExhibit,41
+13:54:51,chosenExhibit,92
+14:02:42,return from screen
+14:02:42,chosenExhibit,34
+14:09:35,return from screen
+14:09:35,chosenExhibit,35
+14:12:59,chosenExhibit,33
+14:13:00,return from screen
+14:54:33,chosenExhibit,67

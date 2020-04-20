@@ -1,0 +1,70 @@
+
+Positions 
+14:11:44,14:12:44,PersianCult
+14:15:17,14:16:36,PersianCult
+14:17:26,14:17:47,MaterialCultures
+14:19:10,14:21:10,JewishCoffins
+14:22:40,14:22:44,MenorahJewishEpigraphy
+14:23:44,14:25:04,RomanDivinitiesStatuettes
+14:25:57,14:26:57,EntranceReubenHecht
+14:26:57,14:27:02,AnimalModels
+14:28:31,14:28:37,ClayAmphorae
+14:28:48,14:30:22,IvoryWomanPhoenician
+14:30:44,14:30:51,CanaaniteStelae
+14:31:09,14:31:17,DuckBoxIvories
+14:33:17,14:34:17,DuckBoxIvories
+14:40:26,14:40:35,BronzeTools
+14:42:36,14:42:42,Phoenicians
+14:43:40,14:43:47,EverydayPottery
+14:45:03,14:45:09,PhoenicianWriting1
+14:45:32,14:45:35,EverydayPottery
+14:45:41,14:45:44,ReligionAndCult
+14:45:44,14:45:50,EverydayPottery
+14:45:52,14:45:57,GlassOvenVessels
+14:45:59,14:46:04,EverydayPottery
+14:46:07,14:46:14,WoodenTools
+14:47:12,14:47:16,ShipEntrance
+14:47:16,14:47:19,ShipFront
+14:47:45,14:47:52,Pottery
+14:48:45,14:48:51,MaritimeArcheology
+14:48:55,14:49:06,CarpenterTools
+14:49:39,14:49:47,Pottery
+14:50:08,14:50:20,ShipFront
+14:50:21,14:50:23,ShipEntrance
+14:50:51,14:50:57,MosaicfromSynagogue
+14:50:58,14:51:02,Phoenicians
+14:52:04,14:52:11,UpperFloorEntrance
+14:52:54,14:53:03,GreeceEgypt
+14:54:04,14:54:07,Gems
+14:54:28,14:54:33,Weights
+14:55:08,14:55:13,Coins
+14:56:50,14:56:55,SevenSpecies
+15:01:56,15:02:01,UpperFloorEntrance
+15:02:20,15:02:29,MaterialCultures
+15:02:31,15:02:34,PersianCult
+15:02:40,15:02:44,SymbolsJewishMenorah
+
+presentations 
+14:12:10,14:12:44,PersianCult,315,User,1,-5
+14:15:17,14:16:36,PersianCult,310,System,3,-5
+14:19:21,14:19:36,JewishCoffins,170,User,2,-5
+14:20:05,14:21:10,JewishCoffins,170,System,2,-5
+14:29:17,14:30:22,IvoryWomanPhoenician,155,System,5,-3
+14:33:17,14:34:17,DuckBoxIvories,151,System,3,-3
+
+events 
+14:11:52,chosenExhibit,93
+14:11:52,return from screen
+14:14:55,chosenExhibit,92
+14:14:55,return from screen
+14:18:43,chosenExhibit,91
+14:19:14,chosenExhibit,62
+14:19:14,return from screen
+14:22:51,chosenExhibit,59
+14:22:51,return from screen
+14:23:10,chosenExhibit,58
+14:23:10,return from screen
+14:29:02,chosenExhibit,51
+14:29:02,return from screen
+14:33:10,chosenExhibit,49
+14:33:10,return from screen

@@ -1,0 +1,35 @@
+
+Positions 
+12:39:34,12:40:28,EntranceReubenHecht
+12:40:53,12:42:06,SymbolsJewishMenorah
+12:42:48,12:42:54,PersianCult
+12:48:44,12:48:54,SymbolsJewishMenorah
+12:49:07,12:49:52,PersianCult
+12:54:57,12:56:57,EntranceReubenHecht
+12:56:57,12:57:03,ShipEntrance
+12:57:45,12:57:50,BronzeTools
+13:00:33,13:00:38,DuckBoxIvories
+13:01:53,13:01:57,EntranceGallileeRebellion
+13:10:31,13:10:33,BronzeTools
+13:11:39,13:11:45,DuckBoxIvories
+13:12:15,13:12:20,ChalcolitePeriod
+13:13:03,13:13:05,SymbolsJewishMenorah
+13:13:05,13:13:12,EntranceReubenHecht
+
+presentations 
+12:40:02,12:40:14,EntranceReubenHecht,128,User,5,2
+
+events 
+12:39:55,chosenExhibit,39
+12:39:56,return from screen
+12:41:13,return from screen
+12:41:13,chosenExhibit,41
+12:41:19,open map
+12:41:30,open map
+12:41:37,return from screen
+12:43:04,chosenExhibit,92
+12:48:56,chosenExhibit,41
+12:48:56,return from screen
+12:49:12,chosenExhibit,93
+12:58:31,chosenExhibit,71
+13:13:05,return from screen

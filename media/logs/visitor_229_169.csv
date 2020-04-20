@@ -1,0 +1,114 @@
+
+Positions 
+13:54:11,13:55:29,PersianCult
+13:56:03,13:56:25,JerusalemPhoto
+13:56:25,13:57:26,MaterialCultures
+13:57:26,13:57:46,JerusalemPhoto
+13:57:47,13:58:48,MaterialCultures
+13:58:48,14:00:01,ReligionAndCult
+14:00:01,14:00:06,MaterialCultures
+14:00:06,14:00:13,GlassOvenVessels
+14:00:13,14:00:15,ReligionAndCult
+14:00:15,14:00:48,EverydayPottery
+14:00:48,14:01:48,ImportedPottery
+14:01:48,14:01:57,EverydayPottery
+14:01:57,14:02:04,MaritimeCommerce
+14:02:04,14:02:06,BuildingMethodsAndFacilities
+14:02:06,14:03:26,MaritimeCommerce
+14:03:26,14:03:34,BuildingMethodsAndFacilities
+14:03:34,14:03:41,PhoenicianWriting1
+14:03:41,14:05:05,BurialTradition2
+14:05:05,14:06:40,PhoenicianWriting1
+14:06:40,14:07:42,BurialTradition2
+14:07:42,14:07:46,EverydayPottery
+14:07:46,14:08:07,ReligionAndCult
+14:08:07,14:09:04,CraftsAndArts
+14:09:04,14:09:44,ReligionAndCult
+14:09:44,14:09:47,GlassOvenVessels
+14:09:47,14:09:59,EverydayPottery
+14:09:59,14:14:47,WoodenTools
+14:14:47,14:16:53,GlassOvenVessels
+14:16:53,14:23:20,MosaicfromSynagogue
+14:23:20,14:26:04,ChalcolitePeriod
+14:26:04,14:26:19,Phoenicians
+14:26:19,14:26:59,BronzeTools
+14:26:59,14:33:08,MosaicfromSynagogue
+14:33:08,14:34:30,EntranceReubenHecht
+14:34:30,14:35:41,StoneVesselsBowl
+14:35:41,14:35:45,BronzeTools
+14:35:45,14:38:54,StoneVesselsBowl
+14:38:54,14:53:54,BronzeTools
+14:53:54,14:54:55,Weights
+14:54:55,14:55:02,BronzeTools
+14:55:02,14:56:09,Weights
+14:56:09,14:56:18,BronzeTools
+14:56:18,14:57:26,Weights
+14:57:26,14:57:32,BronzeTools
+14:57:32,14:58:44,Weights
+14:58:44,15:01:06,BronzeTools
+15:01:06,15:01:10,ShipEntrance
+15:01:10,15:01:21,ShipFront
+15:01:21,15:01:39,ShipEntrance
+15:01:39,15:11:39,ShipFront
+15:11:39,15:11:47,StoneVesselsBowl
+15:11:47,15:12:05,BronzeTools
+15:12:05,15:13:03,MaterialCultures
+15:13:03,15:18:12,ChalcolitePeriod
+15:18:12,15:18:39,LeadCoffinMosaic
+15:18:39,15:19:37,JewishCoffins
+15:19:37,15:20:28,LeadCoffinMosaic
+15:20:28,15:21:08,RomanDivinitiesStatuettes
+15:21:08,15:22:03,LeadCoffinMosaic
+15:22:03,15:22:05,EntranceReubenHecht
+
+presentations 
+13:54:11,13:55:29,PersianCult,311,System,5
+13:56:25,13:57:26,MaterialCultures,137,System,5
+13:58:48,14:00:01,ReligionAndCult,165,System,5
+14:00:48,14:01:48,ImportedPottery,8,System,5
+14:02:15,14:03:20,MaritimeCommerce,33,System,5
+14:04:07,14:04:45,BurialTradition2,31,System,5
+14:05:05,14:06:40,PhoenicianWriting1,106,System,5
+14:08:07,14:09:04,CraftsAndArts,1,System,5
+14:10:46,14:11:40,WoodenTools,188,System,4
+14:11:48,14:12:08,WoodenTools,189,User
+14:17:52,14:19:05,MosaicfromSynagogue,164,System,5
+14:19:15,14:20:20,MosaicfromSynagogue,148,System,5
+14:20:25,14:21:29,MosaicfromSynagogue,149,System,5
+14:21:36,14:22:39,MosaicfromSynagogue,150,System,5
+14:53:54,14:54:55,Weights,261,System,5
+14:55:02,14:56:09,Weights,262,System,5
+14:56:18,14:57:26,Weights,263,System,5
+14:57:32,14:58:44,Weights,264,System,5
+15:01:51,15:02:59,ShipFront,53,System,5
+15:13:48,15:15:02,ChalcolitePeriod,144,System,5
+15:16:56,15:17:58,ChalcolitePeriod,237,System,5
+15:18:39,15:19:37,JewishCoffins,195,System,5
+
+events 
+13:56:11,chosenExhibit,44
+13:58:30,chosenExhibit,91
+14:00:29,chosenExhibit,17
+14:02:01,chosenExhibit,29
+14:02:13,chosenExhibit,29
+14:03:55,chosenExhibit,27
+14:07:49,chosenExhibit,14
+14:10:21,chosenExhibit,68
+14:10:21,return from screen
+14:17:43,chosenExhibit,67
+14:17:43,return from screen
+14:35:19,chosenExhibit,66
+14:38:54,return from screen
+14:53:05,return from screen
+14:53:50,chosenExhibit,77
+14:53:50,return from screen
+15:01:43,chosenExhibit,1
+15:01:43,return from screen
+15:12:31,chosenExhibit,91
+15:13:32,chosenExhibit,46
+15:13:32,return from screen
+15:16:55,chosenExhibit,47
+15:16:55,return from screen
+15:18:25,chosenExhibit,63
+15:21:59,return from screen
+15:22:06,return from screen

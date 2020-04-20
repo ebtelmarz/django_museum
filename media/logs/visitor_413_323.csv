@@ -1,0 +1,57 @@
+
+Positions 
+11:25:29,11:26:43,EntranceReubenHecht
+11:30:56,11:32:34,SymbolsJewishMenorah
+11:34:09,11:34:27,MaterialCultures
+11:38:19,11:38:34,EverydayPottery
+11:43:07,11:43:12,ShipFront
+11:45:32,11:45:38,ShipBack
+12:03:17,12:03:23,Pottery
+12:03:50,12:03:54,MaritimeArcheology
+12:03:54,12:05:31,Pottery
+
+presentations 
+11:30:56,11:31:32,SymbolsJewishMenorah,131,User,5,2
+11:31:46,11:32:34,SymbolsJewishMenorah,131,System,5,2
+12:04:32,12:05:31,Pottery,80,System,1,2
+12:05:41,12:06:19,Pottery,83,System,5,2
+
+events 
+11:25:29,return from screen
+11:26:40,chosenExhibit,40
+11:26:40,return from screen
+11:27:04,open map
+11:27:30,open map
+11:27:39,lookTour
+11:28:23,return from screen
+11:28:23,getDirections
+11:29:13,chosenExhibit,40
+11:30:46,chosenExhibit,41
+11:30:46,return from screen
+11:32:42,open map
+11:35:02,lookTour
+11:35:02,getDirections
+11:36:04,getDirections
+11:36:04,return from screen
+11:37:10,return from screen
+11:37:10,chosenExhibit,91
+11:38:32,chosenExhibit,17
+11:38:32,return from screen
+11:38:41,open map
+11:39:27,return from screen
+11:42:47,getDirections
+11:42:47,lookTour
+11:44:15,getDirections
+11:44:15,lookTour
+11:44:32,lookTour
+11:44:32,getDirections
+12:01:10,return from screen
+12:01:10,getDirections
+12:02:56,chosenExhibit,5
+12:02:56,return from screen
+12:03:11,chosenExhibit,7
+12:03:38,getDirections
+12:03:39,return from screen
+12:04:19,chosenExhibit,9
+12:04:19,return from screen
+12:06:51,chosenExhibit,8

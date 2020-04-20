@@ -1,0 +1,87 @@
+
+Positions 
+15:06:24,15:07:13,SymbolsJewishMenorah
+15:07:59,15:12:53,PersianCult
+15:13:03,15:13:14,JerusalemPhoto
+15:13:14,15:13:24,PersianCult
+15:13:24,15:13:31,JerusalemPhoto
+15:13:52,15:14:05,PersianCult
+15:14:16,15:16:25,JerusalemPhoto
+15:16:40,15:16:47,MaterialCultures
+15:17:40,15:17:45,ChalcolitePeriod
+15:18:04,15:18:11,MaterialCultures
+15:18:35,15:18:40,MuseumMotto
+15:18:41,15:19:55,ChalcolitePeriod
+15:21:04,15:21:06,JewishCoffins
+15:21:06,15:21:11,RomanDivinitiesStatuettes
+15:21:12,15:23:43,JewishCoffins
+15:23:59,15:24:03,MenorahJewishEpigraphy
+15:24:03,15:27:15,Anthropoids
+15:27:16,15:27:18,MaterialCultures
+15:27:42,15:27:49,Anthropoids
+15:29:40,15:29:43,PersianCult
+15:29:43,15:29:53,Anthropoids
+15:30:19,15:37:15,MenorahJewishEpigraphy
+15:37:39,15:37:42,JewishCoffins
+15:37:49,15:39:11,RomanDivinitiesStatuettes
+15:39:24,15:39:28,JewishCoffins
+15:39:38,15:42:21,LeadCoffinMosaic
+15:42:38,15:42:43,ChalcolitePeriod
+15:42:46,15:42:53,MuseumMotto
+15:43:06,15:43:09,EntranceGallileeRebellion
+15:45:31,15:45:40,ShipEntrance
+15:45:40,15:46:00,ShipFront
+15:46:03,15:46:06,ShipBack
+15:46:06,15:47:14,ShipFront
+15:47:15,15:52:34,ShipBack
+15:52:35,15:52:40,ShipFront
+15:53:15,15:53:21,ShipEntrance
+
+presentations 
+15:08:18,15:09:46,PersianCult,310,System,5,2
+15:10:05,15:11:26,PersianCult,311,System,5,2
+15:11:39,15:12:53,PersianCult,312,System,5,2
+15:14:29,15:15:30,JerusalemPhoto,137,System,5,2
+15:15:39,15:16:25,JerusalemPhoto,138,System,5,2
+15:18:56,15:19:55,ChalcolitePeriod,235,System,5,2
+15:21:24,15:22:44,JewishCoffins,169,System,5,2
+15:22:55,15:23:43,JewishCoffins,172,System,5,2
+15:24:16,15:25:08,Anthropoids,181,System,5,2
+15:25:13,15:26:13,Anthropoids,182,System,5,2
+15:26:22,15:27:15,Anthropoids,184,System,5,2
+15:33:12,15:34:27,MenorahJewishEpigraphy,230,System,5,2
+15:34:54,15:35:59,MenorahJewishEpigraphy,232,System,5,2
+15:36:08,15:37:15,MenorahJewishEpigraphy,233,System,5,2
+15:38:01,15:38:56,RomanDivinitiesStatuettes,208,System,5,2
+15:40:00,15:41:08,LeadCoffinMosaic,195,System,5,2
+15:41:14,15:42:21,LeadCoffinMosaic,196,System,5,2
+15:46:10,15:47:14,ShipFront,63,System,5,2
+15:47:26,15:48:11,ShipBack,73,System,5,2
+15:48:18,15:50:00,ShipBack,74,System,5,2
+15:50:10,15:51:18,ShipBack,75,System,5,2
+15:51:30,15:52:34,ShipBack,77,System,5,2
+
+events 
+15:06:45,chosenExhibit,41
+15:08:06,chosenExhibit,92
+15:14:26,chosenExhibit,44
+15:14:26,return from screen
+15:17:56,chosenExhibit,47
+15:18:49,chosenExhibit,47
+15:18:49,return from screen
+15:20:16,chosenExhibit,46
+15:21:20,chosenExhibit,62
+15:24:06,chosenExhibit,61
+15:33:06,chosenExhibit,59
+15:33:06,return from screen
+15:37:30,chosenExhibit,58
+15:37:30,return from screen
+15:37:54,chosenExhibit,56
+15:37:54,return from screen
+15:39:54,chosenExhibit,63
+15:39:54,return from screen
+15:45:38,chosenExhibit,88
+15:45:48,chosenExhibit,3
+15:46:08,chosenExhibit,3
+15:47:23,chosenExhibit,7
+15:53:15,return from screen

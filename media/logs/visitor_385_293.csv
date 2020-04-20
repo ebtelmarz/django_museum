@@ -1,0 +1,63 @@
+
+Positions 
+11:46:03,11:46:13,EntranceReubenHecht
+11:48:10,11:48:16,SymbolsJewishMenorah
+11:51:29,11:51:33,PersianCult
+11:51:33,11:51:45,JerusalemPhoto
+11:52:06,11:54:34,PersianCult
+11:58:35,11:58:43,JerusalemPhoto
+11:59:15,11:59:29,MaterialCultures
+12:01:01,12:01:13,JewishCoffins
+12:03:41,12:03:53,MaterialCultures
+12:06:57,12:08:33,RomanDivinitiesStatuettes
+12:18:54,12:21:32,OilLamps
+12:21:32,12:21:38,BuildingMethodsAndFacilities
+12:21:38,12:21:48,EverydayPottery
+12:22:49,12:23:03,PhoenicianWriting1
+12:25:17,12:25:25,EverydayPottery
+12:25:33,12:25:38,GlassOvenVessels
+12:31:55,12:32:04,ShipEntrance
+12:35:09,12:36:48,Pottery
+12:36:48,12:36:52,MaritimeArcheology
+12:36:52,12:37:03,Pottery
+12:37:03,12:37:18,MaritimeArcheology
+12:37:18,12:37:26,CarpenterTools
+12:37:26,12:37:47,Pottery
+12:37:59,12:38:21,ShipEntrance
+12:38:42,12:38:46,ShipFront
+12:38:56,12:39:09,ShipEntrance
+12:41:50,12:41:55,EntranceGallileeRebellion
+13:06:14,13:06:18,Jerusalem
+13:16:38,13:16:44,SymbolsJewishMenorah
+
+presentations 
+11:52:06,11:53:19,PersianCult,312,System,5,-3
+11:53:31,11:54:34,PersianCult,313,System,5,-3
+12:07:32,12:08:28,RomanDivinitiesStatuettes,208,System,3,-3
+
+events 
+11:46:28,return from screen
+11:46:28,chosenExhibit,40
+11:46:39,open map
+11:46:50,open map
+11:46:59,return from screen
+11:47:09,getDirections
+11:47:09,return from screen
+11:47:12,lookTour
+11:47:38,getDirections
+11:47:38,return from screen
+11:49:31,chosenExhibit,41
+11:49:31,return from screen
+11:51:18,lookTour
+11:51:24,return from screen
+11:51:57,chosenExhibit,92
+11:51:57,return from screen
+12:06:01,chosenExhibit,91
+12:06:01,return from screen
+12:06:32,chosenExhibit,91
+12:07:19,return from screen
+12:07:19,chosenExhibit,56
+12:18:54,lookTour
+12:22:56,getDirections
+12:22:57,lookTour
+12:23:32,return from screen

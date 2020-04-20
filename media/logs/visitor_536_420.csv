@@ -1,0 +1,143 @@
+
+Positions 
+14:10:18,14:10:21,SymbolsJewishMenorah
+14:10:21,14:10:23,EntranceReubenHecht
+14:10:23,14:11:39,SymbolsJewishMenorah
+14:11:55,14:12:04,EntranceReubenHecht
+14:12:52,14:13:45,EntranceReubenHecht
+14:13:56,14:14:54,SymbolsJewishMenorah
+14:15:26,14:16:36,JerusalemPhoto
+14:16:59,14:18:28,PersianCult
+14:18:36,14:18:46,JerusalemPhoto
+14:19:10,14:19:17,Phoenicians
+14:20:43,14:21:56,CraftsAndArts
+14:22:05,14:22:07,ImportedPottery
+14:22:38,14:23:31,CraftsAndArts
+14:23:32,14:23:34,PhoenicianWriting1
+14:26:19,14:26:47,PhoenicianWriting1
+14:29:37,14:31:53,MosaicfromSynagogue
+14:31:54,14:32:29,StoneVesselsBowl
+14:32:29,14:32:40,ShipEntrance
+14:32:40,14:37:09,ShipFront
+14:37:10,14:37:27,Pottery
+14:37:27,14:37:30,ShipBack
+14:37:34,14:37:55,ShipFront
+14:37:55,14:37:57,ShipEntrance
+14:38:11,14:38:31,ShipFront
+14:39:32,14:39:34,ShipEntrance
+14:39:34,14:39:37,ShipFront
+14:40:53,14:40:55,Pottery
+14:40:55,14:40:58,ShipFront
+14:40:58,14:41:04,ShipEntrance
+14:47:27,14:47:32,StoneVesselsBowl
+14:48:24,14:48:28,StoneVesselsBowl
+14:53:41,14:53:46,StoneVesselsBowl
+14:54:20,14:54:25,Jerusalem
+14:54:29,14:54:35,Coins
+14:55:31,14:56:53,Coins
+14:56:54,14:58:25,Gems
+14:58:47,14:58:51,Jerusalem
+15:00:16,15:01:42,GreeceEgypt
+15:04:30,15:04:34,ChalcolitePeriod
+15:04:34,15:04:39,LeadCoffinMosaic
+15:04:48,15:04:51,RomanDivinitiesStatuettes
+15:04:51,15:06:18,JewishCoffins
+15:06:37,15:06:47,RomanDivinitiesStatuettes
+15:06:47,15:06:56,JewishCoffins
+15:06:56,15:08:03,RomanDivinitiesStatuettes
+15:10:45,15:10:47,JewishCoffins
+15:11:20,15:11:22,MenorahJewishEpigraphy
+15:11:29,15:11:34,DecoratedDoors
+15:11:40,15:11:49,MenorahJewishEpigraphy
+15:11:53,15:11:56,JewishCoffins
+15:12:12,15:12:19,DecoratedDoors
+15:12:20,15:12:24,JerusalemPhoto
+15:12:24,15:12:31,PersianCult
+15:12:31,15:12:35,JerusalemPhoto
+15:12:55,15:13:04,PersianCult
+15:13:04,15:13:13,JerusalemPhoto
+15:13:13,15:13:29,PersianCult
+15:13:30,15:13:50,EntranceReubenHecht
+
+presentations 
+14:10:54,14:11:04,SymbolsJewishMenorah,132,User,5,2
+14:12:52,14:13:45,EntranceReubenHecht,128,System,5,2
+14:14:05,14:14:54,SymbolsJewishMenorah,131,System,5,2
+14:15:42,14:16:36,JerusalemPhoto,137,System,5,2
+14:17:18,14:18:28,PersianCult,312,System,5,2
+14:21:06,14:21:56,CraftsAndArts,45,System,5,2
+14:22:38,14:23:31,CraftsAndArts,112,User,5,2
+14:26:19,14:26:23,PhoenicianWriting1,18,User,5,2
+14:26:33,14:26:37,PhoenicianWriting1,20,User,5,2
+14:26:44,14:26:47,PhoenicianWriting1,94,User,5,2
+14:29:56,14:31:53,MosaicfromSynagogue,148,System,5,2
+14:32:13,14:32:29,StoneVesselsBowl,179,User,5,2
+14:33:09,14:34:16,ShipFront,53,System,5,2
+14:34:32,14:35:37,ShipFront,63,System,5,2
+14:36:00,14:37:09,ShipFront,60,System,5,2
+14:48:24,14:48:28,StoneVesselsBowl,180,User,5,2
+14:53:41,14:53:46,StoneVesselsBowl,179,User,5,2
+14:55:31,14:56:53,Coins,269,System,5,2
+14:57:01,14:58:25,Gems,294,System,5,2
+15:00:33,15:01:42,GreeceEgypt,305,User,5,2
+15:04:58,15:06:09,JewishCoffins,169,User,5,2
+15:06:12,15:06:18,JewishCoffins,170,User,1,2
+15:07:04,15:08:03,RomanDivinitiesStatuettes,208,System,5,2
+
+events 
+14:10:48,chosenExhibit,41
+14:10:48,return from screen
+14:12:43,chosenExhibit,40
+14:12:43,return from screen
+14:12:49,chosenExhibit,39
+14:13:59,chosenExhibit,41
+14:13:59,return from screen
+14:15:36,chosenExhibit,44
+14:17:08,chosenExhibit,92
+14:18:55,chosenExhibit,44
+14:18:55,return from screen
+14:19:37,chosenExhibit,89
+14:19:37,return from screen
+14:20:10,chosenExhibit,89
+14:20:10,return from screen
+14:20:55,chosenExhibit,34
+14:22:27,chosenExhibit,33
+14:26:16,chosenExhibit,21
+14:26:16,return from screen
+14:26:31,chosenExhibit,22
+14:26:31,return from screen
+14:26:42,chosenExhibit,23
+14:26:42,return from screen
+14:29:45,chosenExhibit,67
+14:32:07,chosenExhibit,66
+14:32:38,chosenExhibit,88
+14:32:56,chosenExhibit,1
+14:32:56,return from screen
+14:34:24,chosenExhibit,3
+14:34:24,return from screen
+14:35:47,chosenExhibit,2
+14:46:47,return from screen
+14:46:47,chosenExhibit,88
+14:48:20,chosenExhibit,66
+14:48:20,open map
+14:48:33,return from screen
+14:48:37,return from screen
+14:53:35,chosenExhibit,66
+14:53:35,return from screen
+14:53:40,chosenExhibit,66
+14:53:40,return from screen
+14:54:28,chosenExhibit,81
+14:54:53,chosenExhibit,78
+14:56:59,chosenExhibit,79
+14:56:59,return from screen
+15:00:28,chosenExhibit,83
+15:00:28,return from screen
+15:04:44,chosenExhibit,63
+15:04:49,chosenExhibit,56
+15:04:54,chosenExhibit,62
+15:04:54,return from screen
+15:07:00,chosenExhibit,56
+15:07:00,return from screen
+15:11:28,chosenExhibit,59
+15:12:18,chosenExhibit,60
+15:13:30,return from screen

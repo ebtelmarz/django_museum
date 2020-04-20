@@ -1,0 +1,48 @@
+
+Positions 
+13:46:03,13:46:13,SymbolsJewishMenorah
+13:46:56,13:49:20,PersianCult
+13:49:20,13:49:23,SymbolsJewishMenorah
+13:49:23,13:51:08,PersianCult
+13:51:08,13:52:18,JerusalemPhoto
+13:52:18,13:52:49,PersianCult
+13:52:49,13:53:05,SymbolsJewishMenorah
+13:53:05,13:53:13,PersianCult
+13:53:13,13:54:44,JerusalemPhoto
+13:54:44,13:57:06,MaterialCultures
+13:57:06,13:57:13,Phoenicians
+13:57:13,13:58:56,MaterialCultures
+13:58:56,13:59:55,BronzeTools
+13:59:55,14:01:28,MosaicfromSynagogue
+14:01:28,14:01:51,GlassOvenVessels
+14:01:51,14:43:03,MosaicfromSynagogue
+14:43:03,14:51:11,EntranceReubenHecht
+14:51:11,14:51:20,SymbolsJewishMenorah
+14:51:20,14:51:22,PersianCult
+14:51:22,14:53:47,SymbolsJewishMenorah
+
+presentations 
+13:46:03,13:46:13,SymbolsJewishMenorah,131,User,3
+13:49:30,13:50:59,PersianCult,315,System,5
+13:51:08,13:52:18,JerusalemPhoto,316,System,5
+14:00:11,14:01:16,MosaicfromSynagogue,149,System,5
+14:05:13,14:05:26,MosaicfromSynagogue,149,User,5
+14:19:24,14:19:39,MosaicfromSynagogue,149,User,5
+14:20:15,14:20:26,MosaicfromSynagogue,150,User,4
+
+events 
+13:49:10,chosenExhibit,93
+13:49:26,chosenExhibit,93
+13:49:26,return from screen
+14:00:04,chosenExhibit,67
+14:05:12,chosenExhibit,67
+14:05:12,return from screen
+14:19:00,return from screen
+14:19:00,chosenExhibit,67
+14:20:28,return from screen
+14:43:36,return from screen
+14:43:46,return from screen
+14:44:05,return from screen
+14:46:00,chosenExhibit,40
+14:46:00,return from screen
+14:50:12,return from screen

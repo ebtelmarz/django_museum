@@ -1,0 +1,52 @@
+
+Positions 
+12:39:05,12:40:20,SymbolsJewishMenorah
+12:44:36,12:44:44,PersianCult
+12:47:15,12:47:22,JerusalemPhoto
+12:48:10,12:48:13,PersianCult
+12:48:30,12:48:41,MaterialCultures
+12:50:27,12:50:29,CraftsAndArts
+12:51:12,12:51:52,CraftsAndArts
+12:51:53,12:52:06,BuildingMethodsAndFacilities
+12:52:06,12:52:08,PhoenicianWriting1
+12:52:08,12:52:12,EverydayPottery
+12:52:12,12:52:16,PhoenicianWriting1
+12:52:16,12:52:19,EverydayPottery
+12:52:32,12:52:35,PhoenicianWriting1
+12:52:52,12:53:01,EverydayPottery
+12:58:37,12:58:40,WoodenTools
+12:58:46,12:58:50,PhoenicianWriting1
+12:59:02,12:59:06,WoodenTools
+12:59:08,12:59:25,PhoenicianWriting1
+12:59:42,12:59:46,WoodenTools
+13:01:02,13:01:12,GlassOvenVessels
+13:15:51,13:15:56,ShipEntrance
+13:15:56,13:15:59,EntranceGallileeRebellion
+13:18:53,13:18:56,Pottery
+13:19:48,13:19:52,MaritimeArcheology
+13:20:46,13:21:14,Pottery
+13:21:19,13:21:22,ShipFront
+13:23:15,13:23:19,ShipEntrance
+13:25:47,13:27:32,DuckBoxIvories
+13:27:38,13:27:41,CanaaniteStelae
+13:28:31,13:29:24,CanaaniteStelae
+13:29:55,13:29:57,DuckBoxIvories
+13:31:02,13:31:04,IvoryWomanPhoenician
+13:34:05,13:34:08,LeadCoffinMosaic
+13:35:12,13:35:18,JewishCoffins
+
+presentations 
+12:51:12,12:51:52,CraftsAndArts,117,System,1,-5
+13:28:31,13:29:24,CanaaniteStelae,255,System,1,-5
+
+events 
+12:39:12,chosenExhibit,41
+12:39:12,lookTour
+12:40:09,return from screen
+12:40:23,return from screen
+12:50:37,chosenExhibit,34
+13:00:39,getDirections
+13:18:53,open map
+13:19:29,getDirections
+13:27:53,chosenExhibit,50
+13:35:12,return from screen

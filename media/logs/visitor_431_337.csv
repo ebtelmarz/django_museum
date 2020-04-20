@@ -1,0 +1,36 @@
+
+Positions 
+12:40:37,12:40:41,SymbolsJewishMenorah
+12:40:48,12:40:55,JerusalemPhoto
+12:43:13,12:46:32,EntranceReubenHecht
+12:46:32,12:46:53,CraftsAndArts
+12:47:15,12:48:29,ReligionAndCult
+12:49:10,12:50:09,PhoenicianWriting1
+12:50:16,12:50:22,ReligionAndCult
+12:52:01,12:52:13,ReligionAndCult
+
+presentations 
+12:47:33,12:48:29,ReligionAndCult,1,System,5,-3
+12:49:20,12:50:09,PhoenicianWriting1,18,System,3,-3
+12:52:01,12:52:13,ReligionAndCult,7,User,5,-3
+12:53:09,12:53:33,ReligionAndCult,7,User,5,-3
+
+events 
+12:40:11,getDirections
+12:40:11,return from screen
+12:40:48,return from screen
+12:41:37,return from screen
+12:41:44,return from screen
+12:43:01,return from screen
+12:43:13,open map
+12:43:46,open map
+12:44:54,open map
+12:44:55,lookTour
+12:45:15,getDirections
+12:47:23,chosenExhibit,14
+12:49:15,chosenExhibit,21
+12:51:52,chosenExhibit,16
+12:51:52,open map
+12:56:00,getDirections
+13:11:23,chosenExhibit,40
+13:11:36,getDirections

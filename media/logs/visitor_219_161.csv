@@ -1,0 +1,92 @@
+
+Positions 
+12:09:14,12:12:53,PersianCult
+12:12:53,12:13:48,JerusalemPhoto
+12:13:48,12:20:14,MaterialCultures
+12:20:14,12:20:36,Phoenicians
+12:20:36,12:20:53,EntranceReubenHecht
+12:20:53,12:21:32,ImportedPottery
+12:21:32,12:22:10,MaritimeCommerce
+12:22:10,12:22:19,ImportedPottery
+12:22:19,12:22:28,MaritimeCommerce
+12:22:28,12:22:48,BuildingMethodsAndFacilities
+12:22:48,12:22:52,PhoenicianWriting1
+12:22:52,12:23:03,BurialTradition2
+12:23:03,12:24:18,PhoenicianWriting1
+12:24:18,12:24:32,BurialTradition2
+12:24:32,12:25:03,PhoenicianWriting1
+12:25:03,12:25:06,BurialTradition2
+12:25:06,12:28:34,PhoenicianWriting1
+12:28:34,12:28:48,EverydayPottery
+12:28:48,12:28:50,ReligionAndCult
+12:28:50,12:28:54,EverydayPottery
+12:28:54,12:28:56,ReligionAndCult
+12:28:56,12:29:02,EverydayPottery
+12:29:02,12:29:42,ReligionAndCult
+12:29:42,12:29:50,GlassOvenVessels
+12:29:50,12:29:59,EverydayPottery
+12:29:59,12:30:10,WoodenTools
+12:30:10,12:30:12,PhoenicianWriting1
+12:30:12,12:32:06,WoodenTools
+12:32:06,12:32:21,ShipEntrance
+12:32:21,12:32:35,ShipFront
+12:32:35,12:36:03,ShipEntrance
+12:36:03,12:37:57,EntranceReubenHecht
+12:37:57,12:38:37,DuckBoxIvories
+12:38:37,12:39:49,CanaaniteStelae
+12:39:49,12:40:42,DuckBoxIvories
+12:40:42,12:41:34,AnimalModels
+12:41:34,12:44:00,DuckBoxIvories
+12:44:00,12:44:31,LeadCoffinMosaic
+12:44:31,12:45:20,JewishCoffins
+12:45:20,12:46:09,LeadCoffinMosaic
+12:46:09,12:46:15,MenorahJewishEpigraphy
+12:46:15,12:46:34,Anthropoids
+12:46:34,12:47:08,JewishCoffins
+12:47:08,12:47:52,LeadCoffinMosaic
+12:47:52,12:48:18,MaterialCultures
+12:48:18,12:52:51,UpperFloorEntrance
+12:52:51,12:53:24,Coins
+12:53:24,12:56:05,SevenSpecies
+12:56:05,12:56:25,Jerusalem
+12:56:25,12:57:02,UpperFloorEntrance
+12:57:02,12:57:17,MaterialCultures
+12:57:17,12:57:21,JerusalemPhoto
+12:57:21,12:57:34,PersianCult
+12:57:34,12:57:42,SymbolsJewishMenorah
+
+presentations 
+12:11:45,12:12:47,PersianCult,313,System,5
+12:21:32,12:22:10,MaritimeCommerce,42,System,3
+12:23:29,12:24:10,PhoenicianWriting1,21,System,3
+12:26:03,12:26:51,PhoenicianWriting1,18,System,3
+12:32:44,12:33:57,ShipEntrance,162,System,4
+12:38:37,12:39:49,CanaaniteStelae,240,System,2
+12:40:42,12:41:34,AnimalModels,146,System,3
+12:44:31,12:45:20,JewishCoffins,198,System,5
+12:53:43,12:54:41,SevenSpecies,287,System,5
+12:54:51,12:56:04,SevenSpecies,288,System,5
+
+events 
+12:11:23,chosenExhibit,92
+12:14:18,chosenExhibit,91
+12:20:15,return from screen
+12:20:36,open map
+12:20:44,return from screen
+12:21:12,chosenExhibit,32
+12:23:18,chosenExhibit,22
+12:25:57,chosenExhibit,21
+12:32:40,chosenExhibit,88
+12:32:40,return from screen
+12:35:46,return from screen
+12:36:04,open map
+12:36:12,return from screen
+12:38:08,chosenExhibit,49
+12:38:08,return from screen
+12:40:35,chosenExhibit,50
+12:44:13,chosenExhibit,63
+12:48:29,chosenExhibit,85
+12:48:29,return from screen
+12:48:47,chosenExhibit,85
+12:48:47,return from screen
+12:53:36,chosenExhibit,76

@@ -1,0 +1,30 @@
+
+Positions 
+13:20:50,13:20:52,EntranceReubenHecht
+13:20:52,13:21:47,SymbolsJewishMenorah
+13:21:47,13:21:56,EntranceReubenHecht
+13:21:56,13:22:08,SymbolsJewishMenorah
+13:22:43,13:22:50,PersianCult
+13:23:34,13:23:39,JerusalemPhoto
+13:23:39,13:25:07,MaterialCultures
+13:25:08,13:25:27,EntranceGallileeRebellion
+13:25:27,13:26:53,EntranceReubenHecht
+
+presentations 
+13:21:08,13:21:15,SymbolsJewishMenorah,130,System
+13:23:50,13:25:07,MaterialCultures,165,System,1,-3
+
+events 
+13:20:59,chosenExhibit,41
+13:21:56,open map
+13:22:02,return from screen
+13:22:08,open map
+13:22:38,getDirections
+13:23:02,chosenExhibit,93
+13:23:02,return from screen
+13:23:47,chosenExhibit,91
+13:25:08,return from screen
+13:25:27,open map
+13:25:46,open map
+13:25:57,open map
+14:03:01,return from screen

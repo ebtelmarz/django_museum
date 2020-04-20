@@ -1,0 +1,98 @@
+
+Positions 
+13:21:13,13:21:18,EntranceReubenHecht
+13:21:18,13:21:37,SymbolsJewishMenorah
+13:21:39,13:21:42,EntranceReubenHecht
+13:21:42,13:21:56,SymbolsJewishMenorah
+13:23:26,13:24:27,JerusalemPhoto
+13:24:28,13:24:33,MaterialCultures
+13:27:02,13:27:11,ShipEntrance
+13:27:19,13:27:49,ShipFront
+13:28:21,13:28:27,ShipEntrance
+13:29:05,13:29:12,ShipFront
+13:30:27,13:31:10,StairsToBathroom
+13:34:31,13:34:35,SevenSpecies
+13:34:44,13:34:51,Coins
+13:35:21,13:35:58,SevenSpecies
+13:37:02,13:37:07,Gems
+13:37:13,13:37:17,Weights
+13:37:17,13:37:33,Coins
+13:37:50,13:37:52,Elevator2
+13:38:16,13:38:20,Gems
+13:38:20,13:39:52,Weights
+13:40:14,13:40:27,Coins
+13:40:34,13:40:50,Weights
+13:40:55,13:43:10,Gems
+13:46:33,13:46:38,StairsToBathroom
+13:47:18,13:47:24,DuckBoxIvories
+13:47:24,13:47:29,CanaaniteStelae
+13:47:49,13:47:55,DuckBoxIvories
+13:47:55,13:49:24,CanaaniteStelae
+13:51:09,13:51:16,AnimalModels
+13:52:06,13:52:19,LeadCoffinMosaic
+13:53:37,13:53:41,ChalcolitePeriod
+13:54:11,13:54:16,LeadCoffinMosaic
+13:55:54,13:55:58,ChalcolitePeriod
+13:55:58,13:56:12,MaterialCultures
+13:56:45,13:56:52,Phoenicians
+13:56:59,13:57:02,CraftsAndArts
+13:57:02,13:57:08,EverydayPottery
+13:57:08,13:57:10,ImportedPottery
+13:57:10,13:57:14,EverydayPottery
+13:57:14,13:57:16,CraftsAndArts
+13:57:16,13:57:18,MaritimeCommerce
+13:57:18,13:57:20,ImportedPottery
+13:57:20,13:57:25,CraftsAndArts
+13:57:26,13:57:35,EverydayPottery
+13:57:35,13:57:38,ReligionAndCult
+13:57:38,13:57:45,EverydayPottery
+13:57:50,13:57:52,MaritimeCommerce
+13:57:52,13:59:38,EverydayPottery
+13:59:43,13:59:46,CraftsAndArts
+13:59:46,13:59:52,GlassOvenVessels
+13:59:56,14:00:07,Phoenicians
+14:02:49,14:03:45,EntranceReubenHecht
+
+presentations 
+13:23:34,13:24:27,JerusalemPhoto,138,System,3,3
+13:35:21,13:35:58,SevenSpecies,286,User,5,3
+13:38:48,13:39:52,Weights,263,System,3,3
+13:41:37,13:43:10,Gems,294,System,5,3
+13:48:24,13:49:24,CanaaniteStelae,147,System,5,3
+13:58:18,13:58:25,EverydayPottery,8,User,5,3
+13:58:40,13:58:50,EverydayPottery,8,User,5,3
+13:58:56,13:59:38,EverydayPottery,8,User,5,3
+
+events 
+13:21:32,chosenExhibit,41
+13:21:42,open map
+13:22:11,return from screen
+13:23:30,chosenExhibit,44
+13:25:11,getDirections
+13:25:11,open map
+13:25:20,return from screen
+13:25:36,open map
+13:27:02,return from screen
+13:31:02,open map
+13:31:24,lookTour
+13:31:56,return from screen
+13:32:13,getDirections
+13:32:13,getDirections
+13:34:59,chosenExhibit,76
+13:34:59,return from screen
+13:37:18,getDirections
+13:38:34,return from screen
+13:38:34,chosenExhibit,77
+13:40:20,getDirections
+13:41:32,chosenExhibit,79
+13:43:35,getDirections
+13:43:35,open map
+13:47:04,getDirections
+13:48:04,chosenExhibit,50
+13:49:34,getDirections
+13:49:34,open map
+13:51:31,getDirections
+13:58:03,chosenExhibit,35
+13:58:06,chosenExhibit,17
+14:00:02,chosenExhibit,89
+14:02:49,return from screen

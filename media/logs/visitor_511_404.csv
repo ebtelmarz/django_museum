@@ -1,0 +1,122 @@
+
+Positions 
+13:49:41,13:51:00,SymbolsJewishMenorah
+13:51:01,13:51:41,PersianCult
+13:51:41,13:51:48,JerusalemPhoto
+13:55:03,13:58:18,ChalcolitePeriod
+13:58:19,13:58:25,RomanDivinitiesStatuettes
+13:58:59,13:59:05,LeadCoffinMosaic
+13:59:50,14:00:46,LeadCoffinMosaic
+14:00:47,14:00:50,JewishCoffins
+14:00:50,14:00:55,RomanDivinitiesStatuettes
+14:00:59,14:01:01,JewishCoffins
+14:01:01,14:01:08,RomanDivinitiesStatuettes
+14:01:15,14:01:21,JewishCoffins
+14:01:21,14:01:25,RomanDivinitiesStatuettes
+14:01:25,14:04:09,JewishCoffins
+14:04:18,14:05:23,MenorahJewishEpigraphy
+14:05:46,14:06:42,Anthropoids
+14:06:58,14:07:09,JewishCoffins
+14:07:09,14:07:20,LeadCoffinMosaic
+14:07:31,14:07:38,ChalcolitePeriod
+14:07:43,14:09:27,Phoenicians
+14:11:16,14:11:19,EntranceReubenHecht
+14:11:19,14:11:46,MosaicfromSynagogue
+14:12:43,14:15:25,MosaicfromSynagogue
+14:16:26,14:17:37,MosaicfromSynagogue
+14:17:43,14:19:04,BronzeTools
+14:19:45,14:19:51,MosaicfromSynagogue
+14:21:45,14:21:51,ShipEntrance
+14:21:51,14:24:17,ShipFront
+14:24:28,14:24:38,ShipBack
+14:24:55,14:26:09,ShipFront
+14:26:10,14:30:45,ShipEntrance
+14:30:45,14:31:27,EntranceGallileeRebellion
+14:31:40,14:34:04,DuckBoxIvories
+14:34:04,14:34:20,EntranceGallileeRebellion
+14:34:20,14:35:53,ClayAmphorae
+14:37:30,14:38:39,RomanDivinitiesStatuettes
+14:38:52,14:38:55,JewishCoffins
+14:38:55,14:39:16,RomanDivinitiesStatuettes
+14:39:16,14:39:27,JewishCoffins
+14:39:27,14:39:34,LeadCoffinMosaic
+14:39:34,14:39:37,ChalcolitePeriod
+14:40:04,14:40:09,JerusalemPhoto
+14:40:09,14:40:12,PersianCult
+14:40:12,14:40:16,SymbolsJewishMenorah
+14:40:23,14:40:27,EntranceReubenHecht
+14:40:27,14:40:36,SymbolsJewishMenorah
+14:40:36,14:40:44,EntranceReubenHecht
+14:43:21,14:43:56,EntranceReubenHecht
+
+presentations 
+13:50:01,13:51:00,SymbolsJewishMenorah,130,User,5,5
+13:55:32,13:56:46,ChalcolitePeriod,144,System,5,5
+13:56:56,13:58:18,ChalcolitePeriod,145,System,3,5
+13:59:50,14:00:46,LeadCoffinMosaic,195,System,5,5
+14:01:44,14:03:03,JewishCoffins,169,System,4,5
+14:03:19,14:04:09,JewishCoffins,172,System,5,5
+14:04:27,14:05:23,MenorahJewishEpigraphy,205,System,5,5
+14:05:46,14:06:42,Anthropoids,182,System,4,5
+14:08:22,14:09:27,Phoenicians,163,User
+14:12:43,14:13:48,MosaicfromSynagogue,148,System,5,-3
+14:14:23,14:15:25,MosaicfromSynagogue,252,System,5,-3
+14:16:26,14:17:37,MosaicfromSynagogue,164,System,5,-3
+14:17:58,14:19:04,BronzeTools,190,System,5,-3
+14:22:03,14:23:10,ShipFront,53,System,5,-3
+14:23:20,14:24:17,ShipFront,52,System,5,-3
+14:24:55,14:26:09,ShipFront,125,System,5,-3
+14:31:55,14:32:54,DuckBoxIvories,151,System,5,-3
+14:33:04,14:34:04,DuckBoxIvories,152,System,5,-3
+14:34:47,14:35:53,ClayAmphorae,241,System,5,-3
+14:37:42,14:38:39,RomanDivinitiesStatuettes,208,System,5,-3
+14:43:21,14:43:56,EntranceReubenHecht,319,User,5,-3
+
+events 
+13:49:51,chosenExhibit,41
+13:51:23,chosenExhibit,93
+13:51:23,return from screen
+13:51:50,chosenExhibit,44
+13:51:50,return from screen
+13:52:04,chosenExhibit,44
+13:52:04,return from screen
+13:52:23,chosenExhibit,44
+13:52:23,return from screen
+13:52:39,chosenExhibit,44
+13:52:39,return from screen
+13:52:41,open map
+13:52:43,return from screen
+13:53:26,chosenExhibit,44
+13:53:26,return from screen
+13:53:45,open map
+13:53:54,return from screen
+13:54:44,chosenExhibit,44
+13:54:44,return from screen
+13:55:11,chosenExhibit,47
+13:55:11,return from screen
+13:55:30,chosenExhibit,46
+13:58:19,open map
+13:58:43,return from screen
+13:59:39,chosenExhibit,63
+14:01:36,chosenExhibit,62
+14:04:25,chosenExhibit,58
+14:05:43,chosenExhibit,61
+14:07:15,chosenExhibit,63
+14:07:15,return from screen
+14:07:47,chosenExhibit,89
+14:12:37,chosenExhibit,67
+14:12:37,return from screen
+14:16:20,chosenExhibit,67
+14:17:52,chosenExhibit,71
+14:20:38,chosenExhibit,67
+14:20:38,return from screen
+14:21:59,chosenExhibit,1
+14:24:53,chosenExhibit,3
+14:31:48,chosenExhibit,49
+14:34:41,chosenExhibit,52
+14:34:41,return from screen
+14:37:29,chosenExhibit,52
+14:37:34,chosenExhibit,56
+14:43:15,chosenExhibit,40
+14:43:15,return from screen
+14:44:01,return from screen

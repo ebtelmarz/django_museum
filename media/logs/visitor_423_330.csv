@@ -1,0 +1,75 @@
+
+Positions 
+12:21:00,12:21:16,PersianCult
+12:22:55,12:23:02,EntranceReubenHecht
+12:23:02,12:23:07,JerusalemPhoto
+12:23:07,12:23:23,PersianCult
+12:23:23,12:23:28,JerusalemPhoto
+12:24:26,12:24:36,MaterialCultures
+12:26:10,12:28:21,Phoenicians
+12:28:48,12:28:50,WoodenTools
+12:28:54,12:28:59,PhoenicianWriting1
+12:30:05,12:34:31,ShipFront
+12:35:31,12:35:55,ShipEntrance
+12:38:10,12:38:15,EntranceGallileeRebellion
+12:38:15,12:38:22,DuckBoxIvories
+12:39:11,12:39:18,CanaaniteStelae
+12:39:21,12:39:30,IvoryWomanPhoenician
+12:40:05,12:40:10,LeadCoffinMosaic
+12:40:59,12:41:04,MenorahJewishEpigraphy
+12:42:03,12:42:07,JewishCoffins
+12:43:20,12:43:26,Anthropoids
+12:43:33,12:43:35,JewishCoffins
+12:43:37,12:43:42,LeadCoffinMosaic
+12:43:42,12:43:54,ChalcolitePeriod
+12:45:49,12:45:53,Coins
+12:45:58,12:47:49,SevenSpecies
+12:48:49,12:48:53,OilLamps
+12:49:07,12:49:14,Cyprus
+12:49:15,12:49:20,Jerusalem
+12:50:20,12:50:23,MaterialCultures
+12:52:03,12:52:08,ChalcolitePeriod
+12:53:09,12:53:13,Anthropoids
+12:53:45,12:53:49,MaterialCultures
+12:54:20,12:54:24,Anthropoids
+12:54:44,12:54:48,JewishCoffins
+
+presentations 
+12:26:55,12:28:21,Phoenicians,163,System,5,2
+12:30:59,12:32:10,ShipFront,63,System,5,2
+12:32:18,12:33:35,ShipFront,125,System,5,2
+12:33:40,12:34:31,ShipFront,126,System,5,2
+12:46:37,12:47:31,SevenSpecies,287,System,5,2
+12:47:37,12:47:40,SevenSpecies,287,User,5,2
+12:47:45,12:47:49,SevenSpecies,287,User,5,2
+
+events 
+12:21:07,chosenExhibit,92
+12:26:47,chosenExhibit,89
+12:30:52,chosenExhibit,3
+12:30:52,return from screen
+12:35:31,open map
+12:36:32,getDirections
+12:36:32,open map
+12:36:37,open map
+12:36:59,open map
+12:36:59,lookTour
+12:39:49,getDirections
+12:41:03,open map
+12:41:48,getDirections
+12:42:06,open map
+12:42:30,lookTour
+12:42:37,open map
+12:43:56,return from screen
+12:44:17,open map
+12:44:47,lookTour
+12:45:08,getDirections
+12:45:08,return from screen
+12:46:34,return from screen
+12:46:34,chosenExhibit,76
+12:49:25,lookTour
+12:49:25,getDirections
+12:50:04,getDirections
+12:50:05,open map
+12:53:02,open map
+12:53:24,getDirections

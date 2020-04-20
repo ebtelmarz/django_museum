@@ -1,0 +1,57 @@
+
+Positions 
+11:03:57,11:04:40,SymbolsJewishMenorah
+11:05:58,11:07:05,PersianCult
+11:07:05,11:07:25,SymbolsJewishMenorah
+11:07:25,11:12:07,PersianCult
+11:12:07,11:12:15,JerusalemPhoto
+11:12:15,11:14:44,MaterialCultures
+11:14:44,11:15:44,EverydayPottery
+11:15:44,11:16:02,ReligionAndCult
+11:16:02,11:17:15,BuildingMethodsAndFacilities
+11:17:15,11:17:30,EverydayPottery
+11:17:30,11:17:47,ReligionAndCult
+11:17:47,11:17:52,EverydayPottery
+11:17:52,11:18:25,WoodenTools
+11:18:25,11:18:38,EverydayPottery
+11:18:38,11:19:10,CraftsAndArts
+11:19:10,11:21:39,GlassOvenVessels
+11:21:39,11:22:29,ShipEntrance
+11:22:29,11:22:40,ShipFront
+11:22:40,11:23:51,ShipEntrance
+11:23:51,11:26:48,BronzeTools
+11:26:48,11:31:20,DuckBoxIvories
+11:31:20,11:31:24,IvoryWomanPhoenician
+11:31:24,11:31:30,ClayAmphorae
+11:31:30,11:32:07,AnimalModels
+11:32:07,11:32:17,JewishCoffins
+11:32:17,11:34:06,Anthropoids
+11:34:06,11:34:50,MaterialCultures
+11:34:50,11:35:39,UpperFloorEntrance
+11:35:39,11:36:14,GreeceEgypt
+11:36:14,11:37:30,Cyprus
+11:37:30,11:59:40,Jerusalem
+
+presentations 
+11:03:57,11:04:40,SymbolsJewishMenorah,131,System,5
+11:07:54,11:09:07,PersianCult,312,System,4
+11:09:59,11:11:38,PersianCult,314,System,4
+11:16:15,11:17:02,BuildingMethodsAndFacilities,16,System,5
+11:27:15,11:28:10,DuckBoxIvories,151,System,5
+
+events 
+11:05:03,return from screen
+11:05:10,return from screen
+11:07:33,chosenExhibit,92
+11:07:34,return from screen
+11:09:48,chosenExhibit,93
+11:09:48,return from screen
+11:14:51,chosenExhibit,17
+11:14:51,return from screen
+11:14:57,chosenExhibit,17
+11:14:57,return from screen
+11:16:08,chosenExhibit,20
+11:27:10,return from screen
+11:27:10,chosenExhibit,49
+11:59:40,open map
+11:59:56,return from screen

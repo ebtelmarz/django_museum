@@ -1,0 +1,112 @@
+
+Positions 
+14:30:33,14:32:11,EntranceReubenHecht
+14:32:11,14:33:32,SymbolsJewishMenorah
+14:34:40,14:34:49,PersianCult
+14:35:15,14:35:53,JerusalemPhoto
+14:35:58,14:36:15,MaterialCultures
+14:39:12,14:39:21,BronzeTools
+14:39:55,14:40:01,EntranceReubenHecht
+14:40:01,14:40:13,BronzeTools
+14:41:06,14:42:12,BronzeTools
+14:42:16,14:44:01,MosaicfromSynagogue
+14:44:02,14:44:39,GlassOvenVessels
+14:45:17,14:47:11,WoodenTools
+14:49:59,14:50:47,WoodenTools
+14:50:55,14:52:32,ShipFront
+14:52:33,14:52:47,Pottery
+14:52:47,14:52:51,ShipFront
+14:53:30,14:54:44,ShipBack
+14:54:45,14:54:54,ShipFront
+14:55:00,14:55:03,ShipEntrance
+14:55:03,14:55:22,ShipFront
+14:55:22,14:55:24,ShipEntrance
+14:55:24,14:55:26,ShipFront
+14:55:26,14:55:37,ShipEntrance
+14:56:36,14:56:44,StairsToBathroom
+15:17:55,15:18:23,Coins
+15:18:23,15:18:33,SevenSpecies
+15:20:32,15:20:37,UpperFloorEntrance
+15:21:06,15:21:16,MaterialCultures
+15:21:16,15:21:23,Phoenicians
+15:21:28,15:23:49,CraftsAndArts
+15:23:50,15:23:56,EverydayPottery
+15:23:56,15:25:11,BuildingMethodsAndFacilities
+15:25:11,15:26:36,BurialTradition2
+15:26:41,15:26:44,GlassOvenVessels
+15:26:44,15:26:50,Phoenicians
+15:26:50,15:26:57,MaterialCultures
+15:26:57,15:26:59,MuseumMotto
+15:26:59,15:27:08,ChalcolitePeriod
+15:27:18,15:27:35,RomanDivinitiesStatuettes
+15:27:35,15:27:37,JewishCoffins
+15:27:37,15:27:44,MenorahJewishEpigraphy
+15:27:44,15:27:51,JewishCoffins
+15:27:51,15:28:15,MenorahJewishEpigraphy
+15:28:15,15:28:19,JerusalemPhoto
+15:28:29,15:28:33,Anthropoids
+15:28:33,15:28:38,JewishCoffins
+15:28:45,15:28:49,Anthropoids
+15:30:11,15:30:27,JewishCoffins
+15:30:43,15:31:03,LeadCoffinMosaic
+15:31:31,15:31:35,JewishCoffins
+15:31:57,15:32:04,LeadCoffinMosaic
+15:32:04,15:32:11,ChalcolitePeriod
+15:32:18,15:32:29,MaterialCultures
+15:32:29,15:32:42,PersianCult
+15:32:42,15:32:52,SymbolsJewishMenorah
+15:32:52,15:33:11,EntranceReubenHecht
+
+presentations 
+14:31:14,14:31:22,EntranceReubenHecht,129,User,3,3
+14:32:46,14:33:32,SymbolsJewishMenorah,130,System,3,3
+14:41:06,14:42:12,BronzeTools,191,System,3,3
+14:43:05,14:44:01,MosaicfromSynagogue,149,System,3,3
+14:45:58,14:47:11,WoodenTools,186,System,3,3
+14:53:48,14:54:44,ShipBack,67,System,5,3
+15:21:40,15:22:37,CraftsAndArts,45,System,5,3
+15:22:44,15:23:49,CraftsAndArts,115,System,5,3
+15:24:12,15:25:11,BuildingMethodsAndFacilities,14,System,5,3
+15:25:46,15:26:36,BurialTradition2,98,System,5,3
+
+events 
+14:31:09,return from screen
+14:31:09,chosenExhibit,40
+14:31:27,open map
+14:31:35,open map
+14:31:40,open map
+14:31:48,return from screen
+14:32:37,chosenExhibit,41
+14:32:37,lookTour
+14:34:17,getDirections
+14:36:36,chosenExhibit,91
+14:37:23,getDirections
+14:37:23,open map
+14:37:46,open map
+14:37:46,open map
+14:38:13,open map
+14:38:19,open map
+14:39:13,open map
+14:39:17,getDirections
+14:40:04,return from screen
+14:40:15,chosenExhibit,71
+14:42:49,chosenExhibit,67
+14:45:22,chosenExhibit,68
+14:45:22,lookTour
+14:47:45,return from screen
+14:48:08,return from screen
+14:48:13,lookTour
+14:51:06,lookTour
+14:51:06,getDirections
+14:52:16,getDirections
+14:53:37,chosenExhibit,5
+14:56:36,lookTour
+15:02:13,getDirections
+15:02:14,open map
+15:18:44,getDirections
+15:21:24,chosenExhibit,89
+15:21:36,chosenExhibit,34
+15:24:05,chosenExhibit,19
+15:25:31,chosenExhibit,25
+15:26:48,chosenExhibit,89
+15:32:52,return from screen

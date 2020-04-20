@@ -1,0 +1,76 @@
+
+Positions 
+12:42:18,12:43:07,SymbolsJewishMenorah
+12:47:30,12:47:33,PersianCult
+12:48:26,12:50:04,PersianCult
+12:50:21,12:51:55,JerusalemPhoto
+12:53:48,12:53:57,Phoenicians
+12:56:31,12:57:54,Phoenicians
+12:58:19,13:03:33,ImportedPottery
+13:06:47,13:12:03,MosaicfromSynagogue
+13:13:30,13:13:35,ShipEntrance
+13:13:39,13:13:46,ShipFront
+13:13:52,13:13:54,EntranceReubenHecht
+13:13:54,13:13:59,ShipFront
+13:13:59,13:15:21,ShipEntrance
+13:16:43,13:19:04,ShipFront
+13:19:04,13:19:14,Pottery
+13:19:14,13:19:17,ShipBack
+13:19:17,13:20:15,ShipFront
+13:20:16,13:21:44,ShipBack
+13:21:53,13:22:03,ShipFront
+13:22:10,13:22:16,ShipEntrance
+13:22:20,13:22:38,ShipFront
+13:22:48,13:22:55,ShipEntrance
+13:23:37,13:25:05,BronzeTools
+13:39:34,13:39:40,PersianCult
+
+presentations 
+12:48:26,12:50:04,PersianCult,314,System,3,3
+12:50:30,12:51:29,JerusalemPhoto,137,System,5,3
+12:51:48,12:51:55,JerusalemPhoto,137,User,5,3
+12:56:31,12:57:54,Phoenicians,163,System,5,3
+12:58:46,12:59:55,ImportedPottery,38,System,3,3
+13:00:19,13:01:22,ImportedPottery,39,System,3,3
+13:01:54,13:02:36,ImportedPottery,40,System,5,3
+13:02:45,13:03:33,ImportedPottery,43,System,3,3
+13:07:01,13:07:58,MosaicfromSynagogue,149,System,5,3
+13:08:12,13:09:16,MosaicfromSynagogue,252,System,5,3
+13:09:31,13:10:29,MosaicfromSynagogue,253,System,5,3
+13:10:35,13:12:03,MosaicfromSynagogue,412,User,1,3
+13:14:07,13:15:21,ShipEntrance,162,System,5,3
+13:16:51,13:17:58,ShipFront,52,System,5,3
+13:18:08,13:19:04,ShipFront,53,System,5,3
+13:19:30,13:20:15,ShipFront,126,System,5,3
+13:20:25,13:21:44,ShipBack,65,System,5,3
+13:23:58,13:25:05,BronzeTools,191,System,5,3
+
+events 
+12:43:46,chosenExhibit,41
+12:43:46,return from screen
+12:48:17,chosenExhibit,93
+12:48:18,return from screen
+12:50:28,chosenExhibit,44
+12:50:28,return from screen
+12:53:58,chosenExhibit,89
+12:53:58,return from screen
+12:54:42,chosenExhibit,89
+12:54:42,return from screen
+12:58:10,chosenExhibit,89
+12:58:31,return from screen
+12:58:31,chosenExhibit,31
+13:00:10,chosenExhibit,32
+13:00:10,return from screen
+13:06:52,chosenExhibit,67
+13:06:52,return from screen
+13:13:34,chosenExhibit,88
+13:13:40,return from screen
+13:14:03,chosenExhibit,88
+13:16:48,chosenExhibit,1
+13:19:21,chosenExhibit,3
+13:20:21,chosenExhibit,5
+13:23:57,chosenExhibit,71
+13:23:57,return from screen
+13:39:34,open map
+13:39:59,return from screen
+13:41:29,return from screen

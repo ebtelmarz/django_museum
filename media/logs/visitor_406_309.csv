@@ -1,0 +1,86 @@
+
+Positions 
+11:44:58,11:46:30,EntranceReubenHecht
+11:46:30,11:46:38,SymbolsJewishMenorah
+11:46:38,11:46:42,EntranceReubenHecht
+11:46:42,11:47:42,SymbolsJewishMenorah
+11:48:08,11:48:46,PersianCult
+11:48:46,11:48:49,JerusalemPhoto
+11:48:49,11:49:03,PersianCult
+11:49:20,11:49:49,JerusalemPhoto
+11:50:17,11:50:37,MaterialCultures
+11:50:37,11:50:46,Phoenicians
+11:51:46,11:51:52,CraftsAndArts
+11:51:54,11:51:58,BuildingMethodsAndFacilities
+11:51:58,11:52:54,ImportedPottery
+11:52:54,11:54:24,CraftsAndArts
+11:54:25,11:54:27,ReligionAndCult
+11:54:27,11:54:41,EverydayPottery
+11:54:41,11:54:48,MaritimeCommerce
+11:54:48,11:54:53,BuildingMethodsAndFacilities
+11:54:53,11:54:55,PhoenicianWriting1
+11:54:55,11:55:02,EverydayPottery
+11:55:02,11:55:06,PhoenicianWriting1
+11:55:06,11:55:12,BurialTradition2
+11:55:12,11:55:17,PhoenicianWriting1
+11:55:18,11:55:20,ReligionAndCult
+11:55:20,11:55:22,CraftsAndArts
+11:55:22,11:55:25,EverydayPottery
+11:55:27,11:55:29,GlassOvenVessels
+11:55:30,11:55:36,EverydayPottery
+11:55:36,11:55:47,WoodenTools
+11:55:47,11:55:50,PhoenicianWriting1
+11:55:55,11:56:00,WoodenTools
+11:57:44,11:58:00,ShipFront
+11:58:19,11:58:22,Pottery
+11:58:33,11:58:35,ShipFront
+11:58:35,11:58:40,Pottery
+11:58:47,11:58:49,ShipFront
+11:58:49,11:59:14,Pottery
+11:59:14,12:00:01,MaritimeArcheology
+12:00:01,12:00:07,CarpenterTools
+12:00:07,12:00:09,ShipBack
+12:00:09,12:01:44,CarpenterTools
+12:01:44,12:01:49,Pottery
+12:01:49,12:01:53,CarpenterTools
+12:01:53,12:01:56,Pottery
+12:01:58,12:02:04,ShipFront
+12:02:04,12:02:11,ShipEntrance
+12:03:14,12:03:20,EntranceGallileeRebellion
+12:03:20,12:03:26,DuckBoxIvories
+12:03:26,12:03:32,EntranceGallileeRebellion
+12:03:32,12:03:38,DuckBoxIvories
+12:03:38,12:03:41,CanaaniteStelae
+12:03:49,12:03:59,DuckBoxIvories
+12:04:18,12:04:33,CanaaniteStelae
+12:04:35,12:04:41,AnimalModels
+12:05:02,12:05:06,DuckBoxIvories
+12:05:11,12:05:15,AnimalModels
+12:05:29,12:05:40,JewishCoffins
+12:05:40,12:05:44,MenorahJewishEpigraphy
+12:05:47,12:05:54,SymbolsJewishMenorah
+
+presentations 
+11:47:04,11:47:42,SymbolsJewishMenorah,132,User,5,2
+11:52:09,11:52:49,ImportedPottery,43,System,5,2
+11:53:09,11:54:24,CraftsAndArts,115,System,5,2
+
+events 
+11:45:17,chosenExhibit,40
+11:45:18,return from screen
+11:45:25,lookTour
+11:45:51,getDirections
+11:45:51,return from screen
+11:45:54,open map
+11:45:57,open map
+11:46:12,return from screen
+11:46:35,chosenExhibit,41
+11:46:44,chosenExhibit,41
+11:47:00,chosenExhibit,41
+11:47:00,return from screen
+11:49:22,return from screen
+11:49:22,chosenExhibit,44
+11:52:02,chosenExhibit,32
+11:53:01,chosenExhibit,34
+11:57:53,chosenExhibit,1
+12:05:54,return from screen

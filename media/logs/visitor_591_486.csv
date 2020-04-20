@@ -1,0 +1,109 @@
+
+Positions 
+12:30:10,12:30:42,SymbolsJewishMenorah
+12:31:27,12:32:41,SymbolsJewishMenorah
+12:32:56,12:33:00,PersianCult
+12:33:00,12:33:04,SymbolsJewishMenorah
+12:33:04,12:33:14,PersianCult
+12:33:14,12:33:22,SymbolsJewishMenorah
+12:33:24,12:33:58,PersianCult
+12:33:58,12:34:04,SymbolsJewishMenorah
+12:35:08,12:35:12,PersianCult
+12:39:06,12:39:11,PersianCult
+12:40:35,12:40:38,EntranceReubenHecht
+12:40:47,12:40:51,SymbolsJewishMenorah
+12:40:51,12:43:37,PersianCult
+12:45:29,12:46:47,PersianCult
+12:46:57,12:47:02,JerusalemPhoto
+12:47:44,12:47:54,MaterialCultures
+12:51:27,12:51:59,Phoenicians
+12:53:24,12:54:04,CraftsAndArts
+12:55:53,12:58:12,CraftsAndArts
+12:58:31,12:59:58,MaritimeCommerce
+13:00:47,13:01:54,MaritimeCommerce
+13:02:11,13:02:21,BurialTradition2
+13:02:21,13:02:26,PhoenicianWriting1
+13:02:44,13:02:56,ReligionAndCult
+13:02:56,13:03:00,EverydayPottery
+13:03:10,13:03:44,CraftsAndArts
+13:03:52,13:03:56,ReligionAndCult
+13:04:37,13:04:42,EverydayPottery
+13:04:42,13:07:23,WoodenTools
+13:08:43,13:10:20,MosaicfromSynagogue
+13:11:47,13:11:51,StoneVesselsBowl
+13:12:01,13:12:04,ShipEntrance
+13:12:04,13:13:08,ShipFront
+13:13:21,13:13:23,ShipBack
+13:13:23,13:13:29,ShipFront
+13:13:29,13:13:32,Pottery
+13:13:32,13:13:37,ShipBack
+13:14:02,13:14:21,ShipFront
+13:14:34,13:14:38,ShipEntrance
+13:14:38,13:14:45,ShipFront
+13:14:45,13:14:56,ShipEntrance
+13:17:45,13:17:48,EntranceGallileeRebellion
+13:17:48,13:17:58,DuckBoxIvories
+13:17:58,13:18:01,EntranceGallileeRebellion
+13:18:01,13:19:25,DuckBoxIvories
+13:21:12,13:21:19,ChalcolitePeriod
+13:21:19,13:21:37,RomanDivinitiesStatuettes
+13:21:38,13:21:44,JewishCoffins
+13:21:44,13:21:47,LeadCoffinMosaic
+13:21:47,13:21:55,ChalcolitePeriod
+13:21:55,13:22:05,MaterialCultures
+13:22:05,13:22:09,PersianCult
+13:22:20,13:22:32,EntranceReubenHecht
+
+presentations 
+12:31:56,12:32:41,SymbolsJewishMenorah,130,System,4,-5
+12:39:06,12:39:11,PersianCult,310,User,5,-3
+12:41:30,12:41:42,PersianCult,310,User,5,-3
+12:41:49,12:41:56,PersianCult,312,User,3,-3
+12:42:09,12:43:37,PersianCult,310,System,5,-3
+12:45:29,12:46:47,PersianCult,316,System,5,-3
+12:55:53,12:56:28,CraftsAndArts,47,System,5,-3
+12:56:37,12:57:14,CraftsAndArts,48,System,5,-3
+12:57:22,12:58:12,CraftsAndArts,49,System,5,-3
+12:58:44,12:59:58,MaritimeCommerce,37,System,5,-3
+13:00:47,13:01:54,MaritimeCommerce,109,System,5,-3
+13:04:57,13:06:10,WoodenTools,186,System,5,-3
+13:06:21,13:07:23,WoodenTools,187,System,5,-3
+13:09:02,13:10:20,MosaicfromSynagogue,164,System,5,-3
+13:12:21,13:13:08,ShipFront,126,System,3,-3
+13:18:24,13:19:25,DuckBoxIvories,152,System,5,-3
+
+events 
+12:30:44,chosenExhibit,41
+12:31:48,chosenExhibit,41
+12:37:30,chosenExhibit,92
+12:37:31,return from screen
+12:41:01,chosenExhibit,92
+12:41:01,return from screen
+12:41:28,chosenExhibit,92
+12:41:28,return from screen
+12:41:36,return from screen
+12:45:19,chosenExhibit,93
+12:47:02,chosenExhibit,44
+12:47:02,return from screen
+12:47:54,chosenExhibit,91
+12:47:54,return from screen
+12:51:33,chosenExhibit,89
+12:51:33,return from screen
+12:53:46,chosenExhibit,35
+12:53:46,return from screen
+12:54:56,chosenExhibit,34
+12:54:56,return from screen
+12:55:45,chosenExhibit,35
+12:55:46,return from screen
+12:58:36,chosenExhibit,30
+12:58:36,return from screen
+13:00:41,chosenExhibit,28
+13:04:47,chosenExhibit,68
+13:04:47,return from screen
+13:08:51,chosenExhibit,67
+13:08:51,return from screen
+13:12:13,chosenExhibit,3
+13:12:13,return from screen
+13:18:14,chosenExhibit,49
+13:22:05,return from screen
+13:22:20,return from screen

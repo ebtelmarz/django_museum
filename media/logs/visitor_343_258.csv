@@ -1,0 +1,41 @@
+
+Positions 
+14:53:08,14:53:32,SymbolsJewishMenorah
+14:53:33,14:54:11,PersianCult
+15:01:13,15:01:59,EntranceReubenHecht
+15:01:59,15:03:12,UpperFloorEntrance
+15:03:12,15:07:37,SevenSpecies
+15:07:37,15:07:41,UpperFloorEntrance
+15:08:46,15:09:38,MaterialCultures
+15:10:17,15:12:27,ShipBack
+15:14:00,15:14:05,Pottery
+15:14:08,15:14:23,ShipBack
+15:17:12,15:17:46,ShipFront
+15:17:46,15:18:42,ShipEntrance
+
+presentations 
+14:53:45,14:54:11,PersianCult,314,User,5,5
+15:02:07,15:03:12,UpperFloorEntrance,304,System,5,2
+15:03:47,15:04:23,SevenSpecies,286,User,5,2
+15:04:39,15:05:52,SevenSpecies,288,System,5,2
+15:08:59,15:09:38,MaterialCultures,165,User,5,2
+15:10:31,15:11:32,ShipBack,68,System,5,2
+15:11:39,15:12:27,ShipBack,72,System,5,2
+15:17:18,15:17:46,ShipFront,58,User,5,2
+
+events 
+14:53:41,return from screen
+14:53:41,chosenExhibit,93
+14:54:17,return from screen
+15:02:04,chosenExhibit,85
+15:03:45,chosenExhibit,76
+15:03:45,return from screen
+15:05:56,open map
+15:06:38,return from screen
+15:08:54,chosenExhibit,91
+15:08:54,return from screen
+15:10:00,chosenExhibit,91
+15:10:00,return from screen
+15:10:25,chosenExhibit,6
+15:10:25,return from screen
+15:17:15,chosenExhibit,2

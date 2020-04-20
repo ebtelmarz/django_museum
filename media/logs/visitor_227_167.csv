@@ -1,0 +1,77 @@
+
+Positions 
+12:57:21,12:59:57,AnimalModels
+12:59:57,13:04:18,JewishCoffins
+13:04:18,13:05:52,MenorahJewishEpigraphy
+13:05:52,13:05:58,Anthropoids
+13:05:58,13:07:53,JewishCoffins
+13:07:53,13:09:38,Phoenicians
+13:09:38,13:11:01,EverydayPottery
+13:11:01,13:11:07,Phoenicians
+13:11:07,13:11:11,ReligionAndCult
+13:11:11,13:12:25,EverydayPottery
+13:12:25,13:14:34,CraftsAndArts
+13:14:34,13:14:55,ImportedPottery
+13:14:55,13:15:04,PhoenicianWriting1
+13:15:04,13:16:38,BuildingMethodsAndFacilities
+13:16:38,13:16:47,EverydayPottery
+13:16:47,13:18:23,ReligionAndCult
+13:18:23,13:19:28,BuildingMethodsAndFacilities
+13:19:28,13:19:47,EverydayPottery
+13:19:47,13:22:54,BuildingMethodsAndFacilities
+13:22:54,13:23:13,PhoenicianWriting1
+13:23:13,13:23:20,EverydayPottery
+13:23:20,13:23:26,ImportedPottery
+13:23:26,13:23:35,CraftsAndArts
+13:23:35,13:24:05,EverydayPottery
+13:24:05,13:26:23,GlassOvenVessels
+13:26:23,13:26:37,CarpenterTools
+13:26:37,13:27:37,Pottery
+13:27:37,13:27:42,ShipFront
+13:27:42,13:34:22,ShipEntrance
+13:34:22,13:34:42,CanaaniteStelae
+13:34:42,13:36:33,DuckBoxIvories
+13:36:33,13:38:20,IvoryWomanPhoenician
+13:38:20,13:38:34,AnimalModels
+13:38:34,13:39:55,MaterialCultures
+13:39:55,13:40:05,Jerusalem
+13:40:05,13:40:34,GreeceEgypt
+13:40:34,13:43:06,Cyprus
+13:43:06,13:52:25,Coins
+13:52:25,13:52:36,PersianCult
+
+presentations 
+13:00:42,13:02:10,JewishCoffins,173,System,5
+13:02:30,13:02:45,JewishCoffins,172,User,5
+13:02:46,13:03:34,JewishCoffins,172,System,5
+13:09:38,13:11:01,EverydayPottery,163,System,5
+13:13:02,13:13:59,CraftsAndArts,45,System,5
+13:15:13,13:16:19,BuildingMethodsAndFacilities,15,System,5
+13:16:28,13:16:34,BuildingMethodsAndFacilities,16,User,5
+13:18:29,13:19:17,BuildingMethodsAndFacilities,16,System,5
+13:19:54,13:20:53,BuildingMethodsAndFacilities,14,System,5
+13:21:07,13:22:26,BuildingMethodsAndFacilities,13,System,5
+13:28:19,13:29:32,ShipEntrance,162,System,5
+13:36:52,13:37:58,IvoryWomanPhoenician,155,System,5
+
+events 
+12:56:13,chosenExhibit,91
+12:56:13,open map
+12:57:04,open map
+12:59:59,chosenExhibit,62
+13:09:34,chosenExhibit,89
+13:12:38,return from screen
+13:12:38,chosenExhibit,34
+13:15:07,chosenExhibit,20
+13:18:27,chosenExhibit,20
+13:18:27,return from screen
+13:19:52,return from screen
+13:19:52,chosenExhibit,19
+13:21:02,chosenExhibit,18
+13:28:15,return from screen
+13:28:15,chosenExhibit,88
+13:36:36,return from screen
+13:36:36,chosenExhibit,51
+13:51:31,chosenExhibit,78
+13:51:31,return from screen
+13:52:36,return from screen

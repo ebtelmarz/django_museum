@@ -1,0 +1,81 @@
+
+Positions 
+12:30:06,12:30:24,SymbolsJewishMenorah
+12:30:41,12:30:43,PersianCult
+12:30:43,12:31:02,SymbolsJewishMenorah
+12:31:02,12:31:05,PersianCult
+12:31:05,12:31:40,SymbolsJewishMenorah
+12:31:40,12:32:02,PersianCult
+12:33:30,12:36:48,JerusalemPhoto
+12:36:49,12:39:11,MaterialCultures
+12:39:12,12:39:23,ChalcolitePeriod
+12:40:14,12:41:14,ChalcolitePeriod
+12:41:15,12:45:35,DuckBoxIvories
+12:45:47,12:45:58,EntranceGallileeRebellion
+12:46:15,12:46:25,ChalcolitePeriod
+12:46:53,12:47:11,DuckBoxIvories
+12:47:24,12:50:04,IvoryWomanPhoenician
+12:50:37,12:51:21,ClayAmphorae
+12:52:53,12:53:11,JewishCoffins
+12:53:11,12:54:22,RomanDivinitiesStatuettes
+12:56:20,12:56:47,EntranceReubenHecht
+12:56:47,12:56:51,MenorahJewishEpigraphy
+12:57:27,12:59:49,RomanDivinitiesStatuettes
+12:59:57,13:01:11,LeadCoffinMosaic
+13:01:45,13:01:50,EntranceGallileeRebellion
+13:01:50,13:02:53,DuckBoxIvories
+13:04:46,13:06:01,WoodenTools
+13:06:19,13:07:20,Phoenicians
+13:08:13,13:09:17,ShipFront
+13:09:17,13:09:23,ShipEntrance
+13:16:04,13:16:14,OilLamps
+13:16:14,13:16:21,GreeceEgypt
+13:16:21,13:16:32,Cyprus
+13:16:32,13:16:47,GreeceEgypt
+13:16:47,13:17:04,Cyprus
+13:19:36,13:21:36,MaterialCultures
+
+presentations 
+12:30:06,12:30:24,SymbolsJewishMenorah,131,User,5,5
+12:33:37,12:34:37,JerusalemPhoto,137,System,5,5
+12:34:41,12:35:26,JerusalemPhoto,138,System,5,5
+12:35:29,12:36:48,JerusalemPhoto,413,User,2,5
+12:37:00,12:38:06,MaterialCultures,165,System,5,5
+12:38:17,12:39:11,MaterialCultures,405,System,3,5
+12:40:14,12:41:14,ChalcolitePeriod,235,System,5,5
+12:41:38,12:42:32,DuckBoxIvories,151,System,5,5
+12:42:37,12:43:37,DuckBoxIvories,152,System,5,5
+12:43:44,12:44:32,DuckBoxIvories,153,System,5,5
+12:44:42,12:45:35,DuckBoxIvories,154,User,5,5
+12:47:46,12:48:52,IvoryWomanPhoenician,155,System,5,5
+12:49:02,12:50:04,IvoryWomanPhoenician,246,System,5,5
+12:57:34,12:58:30,RomanDivinitiesStatuettes,208,System,5,3
+12:58:48,12:59:49,RomanDivinitiesStatuettes,216,System,5,3
+13:00:03,13:01:11,LeadCoffinMosaic,195,System,5,3
+13:04:54,13:06:01,WoodenTools,186,User,5,3
+
+events 
+12:33:35,chosenExhibit,44
+12:36:57,chosenExhibit,91
+12:39:18,chosenExhibit,47
+12:39:18,return from screen
+12:40:12,chosenExhibit,47
+12:41:34,chosenExhibit,49
+12:41:34,return from screen
+12:47:44,chosenExhibit,51
+12:53:00,chosenExhibit,62
+12:57:31,chosenExhibit,56
+12:57:32,return from screen
+12:58:45,chosenExhibit,57
+13:00:00,return from screen
+13:00:00,chosenExhibit,63
+13:04:51,chosenExhibit,68
+13:04:51,return from screen
+13:06:29,chosenExhibit,89
+13:08:21,chosenExhibit,1
+13:08:21,return from screen
+13:09:02,chosenExhibit,3
+13:09:02,return from screen
+13:09:10,chosenExhibit,2
+13:09:10,return from screen
+13:19:36,return from screen

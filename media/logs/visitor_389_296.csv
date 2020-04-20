@@ -1,0 +1,63 @@
+
+Positions 
+13:05:06,13:05:52,SymbolsJewishMenorah
+13:06:54,13:08:21,PersianCult
+13:08:22,13:08:24,SymbolsJewishMenorah
+13:08:49,13:08:54,PersianCult
+13:09:08,13:10:09,JerusalemPhoto
+13:11:17,13:11:23,EntranceGallileeRebellion
+13:14:45,13:16:18,OilLamps
+13:16:45,13:16:50,GreeceEgypt
+13:16:50,13:16:54,Cyprus
+13:17:15,13:19:26,GreeceEgypt
+13:20:30,13:21:43,Gems
+13:23:50,13:24:45,Weights
+13:26:15,13:26:18,Coins
+13:28:19,13:34:35,EntranceReubenHecht
+13:34:48,13:39:20,SevenSpecies
+13:39:47,13:39:50,JerusalemPhoto
+13:39:50,13:39:52,PersianCult
+13:39:59,13:40:04,SymbolsJewishMenorah
+13:40:04,13:41:33,EntranceReubenHecht
+
+presentations 
+13:05:06,13:05:52,SymbolsJewishMenorah,130,System,5,5
+13:06:54,13:08:21,PersianCult,310,System,4,5
+13:09:08,13:10:09,JerusalemPhoto,137,System,5,5
+13:15:08,13:16:18,OilLamps,299,System,5,5
+13:17:15,13:18:40,GreeceEgypt,305,System,4,5
+13:19:05,13:19:26,GreeceEgypt,256,User,2,5
+13:20:41,13:21:26,Gems,293,System,5,5
+13:23:50,13:24:45,Weights,261,System,5,5
+13:34:48,13:35:48,SevenSpecies,286,System,5,3
+13:35:56,13:36:53,SevenSpecies,287,System,5,3
+13:36:58,13:38:12,SevenSpecies,288,System,5,3
+13:38:18,13:39:20,SevenSpecies,289,User,5,3
+
+events 
+13:05:04,chosenExhibit,41
+13:05:04,return from screen
+13:06:49,chosenExhibit,92
+13:09:03,chosenExhibit,44
+13:09:03,return from screen
+13:14:50,return from screen
+13:14:50,chosenExhibit,82
+13:16:35,chosenExhibit,82
+13:16:35,return from screen
+13:17:11,return from screen
+13:17:11,chosenExhibit,83
+13:18:53,chosenExhibit,84
+13:18:53,return from screen
+13:19:45,chosenExhibit,84
+13:19:45,return from screen
+13:20:34,chosenExhibit,79
+13:20:34,return from screen
+13:23:46,chosenExhibit,77
+13:23:46,open map
+13:31:59,chosenExhibit,39
+13:31:59,return from screen
+13:32:05,chosenExhibit,40
+13:32:05,return from screen
+13:34:40,return from screen
+13:34:40,chosenExhibit,76
+13:40:04,return from screen

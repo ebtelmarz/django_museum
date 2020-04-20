@@ -1,0 +1,86 @@
+
+Positions 
+13:52:55,13:53:12,PersianCult
+13:53:12,13:53:26,JerusalemPhoto
+13:53:26,13:53:29,PersianCult
+13:53:29,13:55:18,JerusalemPhoto
+13:55:18,13:55:58,SymbolsJewishMenorah
+13:55:58,13:58:54,PersianCult
+13:58:54,14:01:18,MaterialCultures
+14:01:18,14:15:44,Phoenicians
+14:15:44,14:16:15,MaterialCultures
+14:16:15,14:20:18,BronzeTools
+14:20:18,14:21:54,MosaicfromSynagogue
+14:21:54,14:22:58,StoneVesselsBowl
+14:22:58,14:28:54,MosaicfromSynagogue
+14:28:54,14:31:59,WoodenTools
+14:31:59,14:33:03,PhoenicianWriting1
+14:33:03,14:33:18,WoodenTools
+14:33:18,14:34:12,PhoenicianWriting1
+14:34:12,14:34:38,GlassOvenVessels
+14:34:38,14:35:02,ReligionAndCult
+14:35:02,14:35:14,EverydayPottery
+14:35:14,14:37:23,CraftsAndArts
+14:37:23,14:38:22,ReligionAndCult
+14:38:23,14:38:34,ImportedPottery
+14:38:34,14:38:49,CraftsAndArts
+14:38:49,14:40:11,ImportedPottery
+14:40:11,14:44:27,MaritimeCommerce
+14:44:27,14:45:08,BurialTradition2
+14:45:08,14:45:19,PhoenicianWriting1
+14:45:19,14:47:21,BurialTradition2
+14:47:21,14:47:41,PhoenicianWriting1
+14:47:41,14:48:50,BurialTradition2
+14:48:50,14:49:49,PhoenicianWriting1
+14:49:49,14:50:10,BurialTradition2
+14:50:10,14:50:28,PhoenicianWriting1
+14:50:28,14:51:47,BurialTradition2
+14:51:47,14:57:06,PhoenicianWriting1
+14:57:06,14:57:29,BuildingMethodsAndFacilities
+14:57:29,14:57:47,EverydayPottery
+14:57:47,14:57:53,PhoenicianWriting1
+14:57:53,14:58:02,EverydayPottery
+14:58:02,14:58:24,ReligionAndCult
+14:58:24,14:58:44,BuildingMethodsAndFacilities
+14:58:44,14:59:54,EverydayPottery
+14:59:54,15:02:23,BuildingMethodsAndFacilities
+15:02:23,15:02:27,ReligionAndCult
+15:02:27,15:02:34,EverydayPottery
+15:02:34,15:02:47,ReligionAndCult
+15:02:47,15:17:39,CraftsAndArts
+
+presentations 
+13:53:47,13:54:48,JerusalemPhoto,137,System,4
+14:03:26,14:04:49,Phoenicians,163,System,5
+14:20:36,14:21:41,MosaicfromSynagogue,148,System,5
+14:21:54,14:22:58,StoneVesselsBowl,252,System,5
+14:29:39,14:30:54,WoodenTools,186,System,4
+14:33:03,14:33:18,WoodenTools,20,User
+14:40:45,14:41:51,MaritimeCommerce,37,System,5
+14:42:08,14:43:11,MaritimeCommerce,33,System,5
+14:43:19,14:44:16,MaritimeCommerce,35,System,5
+14:47:51,14:48:42,BurialTradition2,25,System,5
+14:48:50,14:49:49,PhoenicianWriting1,27,System,5
+14:58:44,14:59:54,EverydayPottery,13,System,5
+
+events 
+13:53:38,chosenExhibit,44
+14:03:23,return from screen
+14:03:23,chosenExhibit,89
+14:20:21,chosenExhibit,67
+14:20:21,return from screen
+14:29:33,chosenExhibit,68
+14:29:34,return from screen
+14:32:36,chosenExhibit,22
+14:32:36,return from screen
+14:36:28,chosenExhibit,33
+14:40:42,chosenExhibit,30
+14:40:42,return from screen
+14:42:05,chosenExhibit,29
+14:42:05,return from screen
+14:46:34,return from screen
+14:46:59,chosenExhibit,25
+14:46:59,return from screen
+14:47:45,chosenExhibit,24
+14:58:40,return from screen
+14:58:40,chosenExhibit,18

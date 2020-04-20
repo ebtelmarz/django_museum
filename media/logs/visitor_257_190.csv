@@ -1,0 +1,28 @@
+
+Positions 
+11:30:49,11:32:42,SymbolsJewishMenorah
+11:34:04,11:34:12,JerusalemPhoto
+11:39:46,11:39:48,EntranceReubenHecht
+11:40:03,11:40:09,DuckBoxIvories
+11:40:12,11:40:21,CanaaniteStelae
+11:40:21,11:40:34,DuckBoxIvories
+11:40:34,11:42:11,CanaaniteStelae
+11:48:47,11:55:32,RomanDivinitiesStatuettes
+11:55:47,11:55:53,BronzeTools
+11:57:35,11:57:39,StoneVesselsBowl
+12:00:52,12:00:55,ShipEntrance
+12:01:28,12:01:40,ShipFront
+12:09:40,12:09:44,Pottery
+12:09:57,12:10:05,ShipFront
+
+presentations 
+11:30:49,11:31:34,SymbolsJewishMenorah,132,System,5,2
+11:31:59,11:32:42,SymbolsJewishMenorah,131,System,5,2
+11:41:00,11:42:11,CanaaniteStelae,254,System,5,5
+
+events 
+11:34:13,chosenExhibit,44
+11:39:20,return from screen
+11:40:50,chosenExhibit,50
+11:40:50,return from screen
+11:48:54,chosenExhibit,56

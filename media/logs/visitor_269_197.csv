@@ -1,0 +1,39 @@
+
+Positions 
+14:35:35,14:37:58,EntranceReubenHecht
+14:39:02,14:40:54,SymbolsJewishMenorah
+14:40:55,14:44:05,PersianCult
+14:44:05,14:44:14,JerusalemPhoto
+14:45:52,14:45:55,MaterialCultures
+14:47:38,14:47:50,Phoenicians
+14:47:50,14:48:05,EverydayPottery
+14:48:05,14:48:07,GlassOvenVessels
+14:48:15,14:49:14,Phoenicians
+14:52:52,14:54:14,Phoenicians
+14:56:06,14:59:19,Phoenicians
+15:04:44,15:05:09,Phoenicians
+15:06:14,15:07:36,Phoenicians
+15:14:15,15:15:47,Phoenicians
+15:50:17,15:50:30,EntranceReubenHecht
+
+presentations 
+14:36:09,14:36:33,EntranceReubenHecht,129,User,3,-3
+14:37:05,14:37:58,EntranceReubenHecht,129,System,3,-3
+14:40:10,14:40:54,SymbolsJewishMenorah,131,System,1,-3
+14:42:55,14:44:05,PersianCult,312,System,3,-3
+14:52:52,14:54:14,Phoenicians,163,System,3,-3
+14:56:06,14:57:29,Phoenicians,163,System,3,-3
+14:57:55,14:59:19,Phoenicians,163,System,3,-3
+15:04:44,15:05:09,Phoenicians,163,User,3,-3
+15:06:14,15:07:36,Phoenicians,163,System,3,-3
+15:14:15,15:15:47,Phoenicians,163,System,3,-3
+
+events 
+14:35:57,chosenExhibit,40
+14:35:57,return from screen
+14:39:19,chosenExhibit,41
+14:44:05,open map
+14:45:13,open map
+14:46:59,return from screen
+14:52:41,chosenExhibit,89
+15:50:17,return from screen

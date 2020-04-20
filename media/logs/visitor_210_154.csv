@@ -1,0 +1,85 @@
+
+Positions 
+13:50:03,13:51:10,MenorahJewishEpigraphy
+13:51:18,13:52:45,RomanDivinitiesStatuettes
+13:52:45,13:52:50,ClayAmphorae
+13:52:50,13:52:58,IvoryWomanPhoenician
+13:52:58,13:53:13,ClayAmphorae
+13:53:13,13:54:44,AnimalModels
+13:54:44,13:54:58,IvoryWomanPhoenician
+13:54:58,13:55:57,DuckBoxIvories
+13:55:57,13:56:11,IvoryWomanPhoenician
+13:56:11,13:56:21,CanaaniteStelae
+13:56:21,13:56:54,DuckBoxIvories
+13:56:54,13:57:20,CanaaniteStelae
+13:57:20,13:59:35,BronzeTools
+13:59:35,13:59:40,ShipEntrance
+13:59:40,14:01:00,ShipFront
+14:01:00,14:01:34,Pottery
+14:01:34,14:01:58,ShipFront
+14:01:58,14:02:30,ShipBack
+14:02:30,14:03:18,ShipFront
+14:03:18,14:05:26,ShipEntrance
+14:05:26,14:05:35,StoneVesselsBowl
+14:05:35,14:06:27,BronzeTools
+14:06:27,14:06:57,GlassOvenVessels
+14:06:57,14:07:03,WoodenTools
+14:07:03,14:08:03,EverydayPottery
+14:08:03,14:08:21,WoodenTools
+14:08:21,14:08:30,CraftsAndArts
+14:08:30,14:09:03,EverydayPottery
+14:09:03,14:09:16,BurialTradition2
+14:09:16,14:09:41,BuildingMethodsAndFacilities
+14:09:41,14:09:52,CraftsAndArts
+14:09:52,14:10:31,Phoenicians
+14:10:31,14:10:48,MaterialCultures
+14:10:48,14:16:01,UpperFloorEntrance
+14:16:01,14:23:34,Coins
+14:23:34,14:23:41,JerusalemPhoto
+14:23:41,14:23:48,PersianCult
+14:23:48,14:23:51,SymbolsJewishMenorah
+
+presentations 
+13:50:03,13:51:10,MenorahJewishEpigraphy,231,System,3
+13:53:48,13:54:02,AnimalModels,176,User
+13:54:58,13:55:57,DuckBoxIvories,244,System,3
+13:56:21,13:56:54,DuckBoxIvories,146,User
+13:57:32,13:58:26,BronzeTools,190,User
+14:00:03,14:00:52,ShipFront,126,System,3
+14:01:00,14:01:34,Pottery,125,User
+14:07:03,14:08:03,EverydayPottery,186,User
+14:10:56,14:12:01,UpperFloorEntrance,304,System,4
+14:16:09,14:17:37,Coins,268,User
+
+events 
+13:51:48,chosenExhibit,56
+13:51:48,return from screen
+13:52:54,chosenExhibit,51
+13:53:00,chosenExhibit,52
+13:53:00,return from screen
+13:53:41,chosenExhibit,54
+13:53:41,return from screen
+13:54:48,chosenExhibit,51
+13:54:48,return from screen
+13:56:18,chosenExhibit,50
+13:57:23,chosenExhibit,71
+13:57:23,return from screen
+13:59:30,chosenExhibit,71
+13:59:54,return from screen
+13:59:54,chosenExhibit,3
+14:02:27,chosenExhibit,7
+14:02:34,return from screen
+14:02:34,chosenExhibit,1
+14:03:22,return from screen
+14:03:22,chosenExhibit,88
+14:03:53,chosenExhibit,88
+14:03:53,return from screen
+14:07:00,chosenExhibit,68
+14:07:00,return from screen
+14:10:14,chosenExhibit,89
+14:10:53,chosenExhibit,85
+14:10:53,return from screen
+14:13:36,return from screen
+14:13:36,chosenExhibit,85
+14:16:04,chosenExhibit,78
+14:16:04,return from screen

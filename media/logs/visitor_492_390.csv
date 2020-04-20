@@ -1,0 +1,56 @@
+
+Positions 
+12:29:09,12:29:55,EntranceReubenHecht
+12:30:27,12:31:25,SymbolsJewishMenorah
+12:32:19,12:33:30,SymbolsJewishMenorah
+12:33:31,12:33:34,EntranceReubenHecht
+12:33:34,12:33:43,SymbolsJewishMenorah
+12:34:46,12:37:27,JerusalemPhoto
+12:38:13,12:39:48,ChalcolitePeriod
+12:40:48,12:41:55,ChalcolitePeriod
+12:43:39,12:43:41,MenorahJewishEpigraphy
+12:43:42,12:46:17,Anthropoids
+12:46:18,12:47:46,JewishCoffins
+12:48:59,12:49:28,RomanDivinitiesStatuettes
+12:50:41,12:52:10,ClayAmphorae
+12:53:03,12:53:11,DuckBoxIvories
+12:55:29,12:55:52,ShipFront
+12:56:14,12:57:23,WoodenTools
+12:57:23,13:00:14,PhoenicianWriting1
+
+presentations 
+12:29:46,12:29:55,EntranceReubenHecht,128,User,3,-5
+12:32:19,12:33:02,SymbolsJewishMenorah,130,System,4,-5
+12:33:14,12:33:30,SymbolsJewishMenorah,131,User,4,-5
+12:34:58,12:35:59,JerusalemPhoto,137,System,4,-5
+12:36:05,12:36:37,JerusalemPhoto,413,User,4,-5
+12:38:35,12:39:48,ChalcolitePeriod,144,System,4,-5
+12:40:48,12:41:55,ChalcolitePeriod,237,System,4,-5
+12:44:02,12:45:03,Anthropoids,182,System,4,-5
+12:45:25,12:46:17,Anthropoids,184,System,4,-5
+12:46:41,12:47:46,JewishCoffins,171,System,4,-5
+12:51:03,12:52:10,ClayAmphorae,166,System,4,-5
+12:56:21,12:57:23,WoodenTools,187,System,4,-5
+
+events 
+12:29:33,chosenExhibit,39
+12:29:33,return from screen
+12:31:04,chosenExhibit,41
+12:31:04,return from screen
+12:31:33,open map
+12:31:38,return from screen
+12:32:15,chosenExhibit,41
+12:34:54,chosenExhibit,44
+12:34:55,return from screen
+12:38:31,return from screen
+12:38:31,chosenExhibit,46
+12:40:34,chosenExhibit,47
+12:40:34,return from screen
+12:43:46,chosenExhibit,61
+12:46:29,chosenExhibit,62
+12:46:29,return from screen
+12:50:49,chosenExhibit,52
+12:50:49,return from screen
+12:55:37,chosenExhibit,2
+12:56:19,chosenExhibit,68
+12:57:23,return from screen

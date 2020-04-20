@@ -1,0 +1,113 @@
+
+Positions 
+13:22:04,13:22:26,EntranceReubenHecht
+13:23:07,13:23:20,EntranceReubenHecht
+13:23:55,13:24:08,SymbolsJewishMenorah
+13:24:08,13:24:13,EntranceReubenHecht
+13:24:13,13:25:02,SymbolsJewishMenorah
+13:26:32,13:26:44,EntranceReubenHecht
+13:26:44,13:28:17,SymbolsJewishMenorah
+13:28:17,13:28:27,EntranceReubenHecht
+13:29:16,13:30:01,SymbolsJewishMenorah
+13:30:02,13:30:18,PersianCult
+13:30:18,13:31:52,EntranceReubenHecht
+13:31:52,13:33:44,PersianCult
+13:33:44,13:34:46,JerusalemPhoto
+13:34:46,13:34:49,ChalcolitePeriod
+13:35:10,13:35:13,LeadCoffinMosaic
+13:35:53,13:36:12,SymbolsJewishMenorah
+13:37:31,13:37:35,JewishCoffins
+13:38:06,13:39:20,LeadCoffinMosaic
+13:39:20,13:39:22,JewishCoffins
+13:43:12,13:45:25,EntranceReubenHecht
+13:45:26,13:48:20,ChalcolitePeriod
+13:49:52,13:50:04,DuckBoxIvories
+13:51:01,13:51:55,DuckBoxIvories
+13:56:29,13:56:33,BronzeTools
+13:58:16,14:01:12,MosaicfromSynagogue
+14:01:26,14:02:25,ShipBack
+14:02:25,14:02:27,Pottery
+14:02:27,14:02:29,MaritimeArcheology
+14:03:20,14:04:36,CarpenterTools
+14:05:17,14:05:27,EntranceReubenHecht
+14:05:27,14:05:40,ShipFront
+14:06:08,14:06:11,ShipEntrance
+14:06:13,14:06:21,ShipFront
+14:06:28,14:06:32,ShipEntrance
+14:06:44,14:06:49,ShipFront
+14:07:34,14:13:33,ShipBack
+14:16:09,14:17:16,Pottery
+14:17:17,14:23:02,ShipFront
+14:23:24,14:23:32,ShipBack
+14:23:32,14:23:36,ShipFront
+14:23:40,14:23:43,ShipEntrance
+14:25:37,14:25:44,Phoenicians
+
+presentations 
+13:23:07,13:23:20,EntranceReubenHecht,128,User,3,-3
+13:24:42,13:24:55,SymbolsJewishMenorah,131,User,3,-3
+13:24:59,13:25:02,SymbolsJewishMenorah,131,User,3,-3
+13:26:51,13:27:27,SymbolsJewishMenorah,130,System,3,-3
+13:27:34,13:28:17,SymbolsJewishMenorah,132,System,3,-3
+13:29:16,13:30:01,SymbolsJewishMenorah,132,System,3,-3
+13:30:45,13:30:49,EntranceReubenHecht,319,User,3,-3
+13:30:52,13:31:34,EntranceReubenHecht,319,User,3,-3
+13:32:16,13:33:44,PersianCult,310,System,1,-3
+13:38:13,13:39:20,LeadCoffinMosaic,195,System,5,-3
+13:43:28,13:45:25,EntranceReubenHecht,319,System,3,-3
+13:45:53,13:46:54,ChalcolitePeriod,145,System,3,-3
+13:46:59,13:47:10,ChalcolitePeriod,144,System,3,-3
+13:47:15,13:48:20,ChalcolitePeriod,247,System,5,-3
+13:51:01,13:51:55,DuckBoxIvories,151,System,5,-3
+13:58:23,13:59:40,MosaicfromSynagogue,164,System,3,-3
+13:59:45,14:00:04,MosaicfromSynagogue,149,User,3,-3
+14:00:07,14:01:12,MosaicfromSynagogue,148,System,5,-3
+14:01:26,14:02:25,ShipBack,68,System,1,-3
+14:03:35,14:04:36,CarpenterTools,88,System,3,-3
+14:08:18,14:09:20,ShipBack,71,System,5,-3
+14:09:37,14:10:22,ShipBack,70,System,5,-3
+14:10:52,14:11:56,ShipBack,69,System,3,-3
+14:12:12,14:13:11,ShipBack,68,System,1,-3
+14:13:15,14:13:33,ShipBack,69,User,3,-3
+14:16:22,14:17:16,Pottery,80,System,5,-3
+14:17:52,14:18:56,ShipFront,63,System,5,-3
+14:19:01,14:20:02,ShipFront,125,System,5,-3
+14:20:38,14:21:23,ShipFront,126,System,5,-3
+14:22:02,14:23:02,ShipFront,125,System,5,-3
+
+events 
+13:20:52,return from screen
+13:21:22,return from screen
+13:22:49,chosenExhibit,39
+13:22:49,return from screen
+13:23:53,chosenExhibit,39
+13:24:38,return from screen
+13:24:38,chosenExhibit,41
+13:26:32,return from screen
+13:26:47,chosenExhibit,41
+13:28:23,chosenExhibit,39
+13:28:27,open map
+13:28:32,return from screen
+13:28:47,chosenExhibit,41
+13:30:02,return from screen
+13:30:08,return from screen
+13:30:42,chosenExhibit,39
+13:30:42,return from screen
+13:30:59,return from screen
+13:32:04,chosenExhibit,92
+13:35:01,chosenExhibit,47
+13:35:51,chosenExhibit,63
+13:38:10,chosenExhibit,63
+13:39:20,return from screen
+13:43:17,chosenExhibit,39
+13:45:31,chosenExhibit,46
+13:50:55,chosenExhibit,49
+13:58:21,chosenExhibit,67
+14:01:22,chosenExhibit,6
+14:03:27,chosenExhibit,11
+14:04:36,return from screen
+14:07:01,chosenExhibit,3
+14:08:00,chosenExhibit,6
+14:16:18,chosenExhibit,9
+14:17:35,chosenExhibit,3
+14:25:37,return from screen

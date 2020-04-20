@@ -1,0 +1,80 @@
+
+Positions 
+13:00:15,13:00:54,EntranceReubenHecht
+13:01:57,13:02:26,SymbolsJewishMenorah
+13:02:54,13:03:01,PersianCult
+13:03:24,13:03:27,SymbolsJewishMenorah
+13:03:28,13:03:36,JerusalemPhoto
+13:04:01,13:04:06,PersianCult
+13:05:41,13:05:47,JerusalemPhoto
+13:05:47,13:05:53,MaterialCultures
+13:12:30,13:12:39,EverydayPottery
+13:12:39,13:12:46,ReligionAndCult
+13:12:49,13:12:52,CraftsAndArts
+13:12:55,13:13:00,EverydayPottery
+13:13:07,13:13:11,ReligionAndCult
+13:13:11,13:13:23,EverydayPottery
+13:13:39,13:13:48,BurialTradition2
+13:14:55,13:15:03,BuildingMethodsAndFacilities
+13:15:05,13:15:09,BurialTradition2
+13:15:11,13:15:16,MaritimeCommerce
+13:15:25,13:15:39,CraftsAndArts
+13:15:39,13:15:44,ImportedPottery
+13:15:49,13:15:52,CraftsAndArts
+13:16:09,13:16:13,EverydayPottery
+13:16:13,13:16:29,WoodenTools
+13:18:19,13:20:14,GlassOvenVessels
+13:20:14,13:20:17,StoneVesselsBowl
+13:20:22,13:20:25,GlassOvenVessels
+13:20:25,13:20:28,MosaicfromSynagogue
+13:22:02,13:23:23,BronzeTools
+13:23:24,13:23:32,GlassOvenVessels
+13:23:32,13:23:34,ShipFront
+13:23:34,13:23:36,ShipEntrance
+13:23:36,13:25:19,ShipFront
+13:25:20,13:25:25,ShipEntrance
+13:25:25,13:25:30,ShipFront
+13:25:30,13:25:37,ShipEntrance
+13:31:17,13:31:34,EntranceReubenHecht
+13:31:34,13:36:47,Coins
+13:36:47,13:37:54,OilLamps
+13:37:54,13:38:00,MaterialCultures
+13:38:00,13:38:08,Phoenicians
+13:38:16,13:38:22,BronzeTools
+13:38:26,13:38:33,MosaicfromSynagogue
+13:38:33,13:38:39,GlassOvenVessels
+13:39:03,13:39:08,Phoenicians
+13:39:08,13:39:11,MaterialCultures
+13:39:25,13:39:29,JerusalemPhoto
+13:39:30,13:39:34,PersianCult
+13:39:39,13:39:45,SymbolsJewishMenorah
+13:39:45,13:41:14,EntranceReubenHecht
+
+presentations 
+13:00:41,13:00:54,EntranceReubenHecht,129,User,5,2
+13:18:46,13:20:14,GlassOvenVessels,160,System,5,2
+13:22:18,13:23:23,BronzeTools,190,System,5,2
+13:24:12,13:25:19,ShipFront,53,System,5,2
+13:31:47,13:33:00,Coins,267,System,3,-3
+13:33:10,13:34:27,Coins,268,User,3,-3
+13:35:04,13:36:47,Coins,268,System,3,-3
+
+events 
+13:00:33,chosenExhibit,40
+13:00:33,return from screen
+13:01:01,open map
+13:01:05,open map
+13:01:13,getDirections
+13:01:13,return from screen
+13:04:01,return from screen
+13:05:47,return from screen
+13:08:37,getDirections
+13:08:37,return from screen
+13:18:36,chosenExhibit,70
+13:22:11,chosenExhibit,71
+13:23:52,chosenExhibit,1
+13:27:48,chosenExhibit,88
+13:27:48,return from screen
+13:27:54,return from screen
+13:31:41,chosenExhibit,78
+13:39:45,return from screen

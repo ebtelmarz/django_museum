@@ -1,0 +1,38 @@
+
+Positions 
+14:37:35,14:38:35,EntranceReubenHecht
+14:38:35,14:38:58,SymbolsJewishMenorah
+14:39:07,14:39:15,JerusalemPhoto
+14:39:23,14:39:25,Phoenicians
+14:40:05,14:40:11,MaterialCultures
+14:40:11,14:40:15,Phoenicians
+14:40:19,14:40:25,BronzeTools
+14:40:25,14:40:56,MosaicfromSynagogue
+14:40:57,14:40:59,BronzeTools
+14:41:17,14:42:17,MosaicfromSynagogue
+14:42:21,14:42:26,Phoenicians
+14:42:26,14:42:35,MaterialCultures
+14:54:28,14:54:39,Coins
+15:01:25,15:01:33,Weights
+15:01:36,15:01:41,Gems
+15:01:41,15:01:49,TempleMount
+15:02:20,15:02:29,GreeceEgypt
+15:03:10,15:03:17,MaterialCultures
+15:03:17,15:03:22,Phoenicians
+15:03:22,15:03:24,MaterialCultures
+15:03:44,15:03:49,SymbolsJewishMenorah
+
+presentations 
+14:37:46,14:37:51,EntranceReubenHecht,129,User,3,5
+14:40:35,14:40:56,MosaicfromSynagogue,148,User,4,5
+
+events 
+14:37:42,chosenExhibit,40
+14:37:42,return from screen
+14:37:55,open map
+14:38:03,open map
+14:38:08,return from screen
+14:38:41,chosenExhibit,41
+14:38:42,return from screen
+14:40:29,chosenExhibit,67
+15:03:49,return from screen

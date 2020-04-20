@@ -1,0 +1,81 @@
+
+Positions 
+11:38:45,11:39:03,MaterialCultures
+11:41:21,11:41:27,EntranceReubenHecht
+11:41:27,11:41:31,MaterialCultures
+11:47:46,11:48:18,EntranceReubenHecht
+11:48:18,11:48:22,Phoenicians
+11:48:39,11:49:20,CraftsAndArts
+11:49:22,11:50:03,EverydayPottery
+11:50:09,11:50:12,MaritimeCommerce
+11:50:12,11:50:44,BuildingMethodsAndFacilities
+11:52:01,11:52:06,EverydayPottery
+11:52:16,11:52:29,ReligionAndCult
+11:52:36,11:52:43,EverydayPottery
+11:52:44,11:53:00,WoodenTools
+11:56:24,11:56:26,MosaicfromSynagogue
+11:56:26,11:56:28,StoneVesselsBowl
+11:56:35,11:56:41,MosaicfromSynagogue
+11:56:41,11:56:46,BronzeTools
+11:56:46,11:57:00,MosaicfromSynagogue
+11:57:00,11:57:20,BronzeTools
+11:59:20,11:59:28,MaterialCultures
+11:59:54,11:59:59,ChalcolitePeriod
+12:00:12,12:00:19,UpperFloorEntrance
+12:01:16,12:01:36,JewishCoffins
+12:02:12,12:02:36,Coins
+12:02:38,12:02:42,Weights
+12:03:30,12:03:43,Elevator2
+12:03:43,12:03:59,Gems
+12:05:39,12:05:55,Cyprus
+12:06:05,12:06:09,OilLamps
+12:06:57,12:07:04,SevenSpecies
+12:17:39,12:17:45,ShipFront
+12:18:24,12:18:26,Pottery
+12:18:28,12:19:20,ShipFront
+12:19:24,12:19:34,ShipBack
+
+presentations 
+11:48:49,11:49:20,CraftsAndArts,46,User,5,2
+11:49:29,11:50:03,EverydayPottery,10,System,5,2
+11:50:24,11:50:44,BuildingMethodsAndFacilities,16,User,5,2
+12:01:25,12:01:36,JewishCoffins,169,User,5,2
+12:18:38,12:19:20,ShipFront,61,User,5,2
+
+events 
+11:39:03,chosenExhibit,91
+11:39:03,return from screen
+11:39:16,lookTour
+11:39:16,chosenExhibit,91
+11:39:41,return from screen
+11:39:41,getDirections
+11:39:44,return from screen
+11:39:51,chosenExhibit,91
+11:40:16,return from screen
+11:40:16,getDirections
+11:41:29,chosenExhibit,91
+11:48:21,chosenExhibit,89
+11:48:41,chosenExhibit,35
+11:49:25,chosenExhibit,17
+11:50:17,chosenExhibit,20
+11:52:00,return from screen
+11:52:03,chosenExhibit,17
+11:52:03,return from screen
+11:52:47,chosenExhibit,68
+11:52:47,return from screen
+11:57:11,chosenExhibit,71
+11:57:11,return from screen
+11:59:38,chosenExhibit,91
+11:59:38,return from screen
+12:01:23,chosenExhibit,62
+12:01:23,return from screen
+12:17:42,chosenExhibit,3
+12:17:42,return from screen
+12:18:17,chosenExhibit,1
+12:18:30,chosenExhibit,2
+12:19:34,chosenExhibit,5
+12:19:34,return from screen
+12:19:59,chosenExhibit,7
+12:19:59,return from screen
+12:20:12,chosenExhibit,6
+12:20:12,return from screen

@@ -1,0 +1,26 @@
+
+Positions 
+11:30:39,11:32:02,PersianCult
+11:32:13,11:32:19,SymbolsJewishMenorah
+11:36:23,11:36:26,PersianCult
+11:38:48,11:38:51,SymbolsJewishMenorah
+11:38:51,11:38:55,PersianCult
+11:43:21,11:44:32,JerusalemPhoto
+11:44:32,11:44:34,SymbolsJewishMenorah
+11:44:34,11:44:38,JerusalemPhoto
+11:46:08,11:46:14,ChalcolitePeriod
+11:50:57,11:52:11,ChalcolitePeriod
+
+presentations 
+11:30:39,11:32:02,PersianCult,314,System,3,-3
+11:43:39,11:44:32,JerusalemPhoto,137,System,3,-3
+11:50:57,11:52:11,ChalcolitePeriod,144,System
+
+events 
+11:30:31,chosenExhibit,93
+11:38:51,open map
+11:43:03,return from screen
+11:43:31,chosenExhibit,44
+11:49:08,chosenExhibit,47
+11:49:08,return from screen
+11:50:50,chosenExhibit,46

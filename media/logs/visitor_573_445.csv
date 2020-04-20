@@ -1,0 +1,86 @@
+
+Positions 
+12:35:01,12:35:11,EntranceReubenHecht
+12:36:40,12:36:42,EntranceReubenHecht
+12:38:30,12:39:21,EntranceReubenHecht
+12:39:36,12:41:30,SymbolsJewishMenorah
+12:41:44,12:43:49,PersianCult
+12:46:45,12:48:49,JerusalemPhoto
+12:49:24,12:51:42,MaterialCultures
+12:51:43,12:53:05,DuckBoxIvories
+12:53:06,12:53:16,CanaaniteStelae
+12:53:16,12:53:18,DuckBoxIvories
+12:53:18,12:53:25,CanaaniteStelae
+12:53:28,12:56:20,IvoryWomanPhoenician
+12:56:21,12:57:37,ClayAmphorae
+12:57:37,12:57:41,RomanDivinitiesStatuettes
+12:57:41,12:57:43,JewishCoffins
+12:57:43,12:57:47,RomanDivinitiesStatuettes
+12:57:59,12:59:21,JewishCoffins
+13:03:07,13:03:56,JewishCoffins
+13:03:57,13:04:40,Phoenicians
+13:05:24,13:06:28,EverydayPottery
+13:06:31,13:08:08,PhoenicianWriting1
+13:08:50,13:10:13,BuildingMethodsAndFacilities
+13:10:37,13:10:41,Phoenicians
+13:16:42,13:18:04,Jerusalem
+13:18:45,13:22:50,Jerusalem
+13:25:49,13:25:56,PersianCult
+13:27:22,13:27:25,EntranceReubenHecht
+
+presentations 
+12:38:30,12:39:21,EntranceReubenHecht,128,System,5,3
+12:39:53,12:40:37,SymbolsJewishMenorah,130,System,5,3
+12:40:47,12:41:30,SymbolsJewishMenorah,131,System,5,3
+12:42:28,12:43:49,PersianCult,311,System,5,3
+12:46:55,12:47:55,JerusalemPhoto,137,System,5,3
+12:48:03,12:48:49,JerusalemPhoto,138,System,5,3
+12:49:37,12:50:42,MaterialCultures,165,System,5,3
+12:50:49,12:51:42,MaterialCultures,405,System,5,3
+12:52:16,12:53:05,DuckBoxIvories,153,System,5,3
+12:53:47,12:54:53,IvoryWomanPhoenician,155,System,3,3
+12:55:18,12:56:20,IvoryWomanPhoenician,245,System,5,3
+12:58:14,12:59:21,JewishCoffins,171,System,5,3
+13:03:07,13:03:56,JewishCoffins,172,System,3,3
+13:05:46,13:06:28,EverydayPottery,11,System,5,3
+13:06:52,13:08:08,PhoenicianWriting1,24,System,3,3
+13:09:07,13:10:13,BuildingMethodsAndFacilities,15,System,5,3
+13:16:56,13:18:04,Jerusalem,281,System,5,3
+13:18:45,13:20:07,Jerusalem,283,System,5,3
+13:20:32,13:21:56,Jerusalem,284,System,5,3
+13:22:26,13:22:50,Jerusalem,281,User,5,3
+
+events 
+12:35:01,return from screen
+12:38:26,chosenExhibit,39
+12:39:44,chosenExhibit,41
+12:42:21,chosenExhibit,92
+12:46:51,chosenExhibit,44
+12:49:29,chosenExhibit,91
+12:52:04,chosenExhibit,49
+12:53:34,chosenExhibit,51
+12:57:56,chosenExhibit,56
+12:58:04,chosenExhibit,62
+12:58:04,return from screen
+13:02:50,chosenExhibit,62
+13:02:50,return from screen
+13:03:04,chosenExhibit,62
+13:04:13,chosenExhibit,89
+13:04:13,return from screen
+13:04:54,chosenExhibit,89
+13:05:29,chosenExhibit,17
+13:06:46,return from screen
+13:06:46,chosenExhibit,23
+13:08:59,chosenExhibit,20
+13:08:59,return from screen
+13:15:22,return from screen
+13:15:22,chosenExhibit,89
+13:15:41,chosenExhibit,89
+13:16:50,return from screen
+13:16:50,chosenExhibit,81
+13:18:40,chosenExhibit,81
+13:18:40,return from screen
+13:20:27,return from screen
+13:20:27,chosenExhibit,81
+13:22:11,chosenExhibit,81
+13:27:22,return from screen

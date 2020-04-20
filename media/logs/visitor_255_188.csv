@@ -1,0 +1,59 @@
+
+Positions 
+12:05:08,12:08:21,PersianCult
+12:08:51,12:09:00,MaterialCultures
+12:10:19,12:12:00,CraftsAndArts
+12:13:10,12:13:34,EverydayPottery
+12:13:41,12:14:09,PhoenicianWriting1
+12:14:20,12:14:26,BuildingMethodsAndFacilities
+12:15:20,12:15:26,GlassOvenVessels
+12:15:28,12:15:35,MosaicfromSynagogue
+12:18:48,12:19:00,ShipFront
+12:19:00,12:19:14,ShipBack
+12:19:28,12:22:45,ShipFront
+12:23:25,12:23:31,IvoryWomanPhoenician
+12:23:41,12:23:48,ClayAmphorae
+12:24:44,12:25:06,JewishCoffins
+12:25:06,12:25:09,RomanDivinitiesStatuettes
+12:25:12,12:25:14,MenorahJewishEpigraphy
+12:25:19,12:25:22,Anthropoids
+12:35:32,12:35:34,EntranceReubenHecht
+12:35:40,12:39:41,MosaicfromSynagogue
+12:40:34,12:40:47,MaterialCultures
+12:40:47,12:40:51,PersianCult
+12:40:51,12:40:59,SymbolsJewishMenorah
+12:40:59,12:41:25,EntranceReubenHecht
+
+presentations 
+12:05:08,12:06:48,PersianCult,314,System,4,5
+12:07:06,12:08:21,PersianCult,312,System,4,5
+12:10:46,12:12:00,CraftsAndArts,113,System,4,5
+12:36:19,12:37:25,MosaicfromSynagogue,148,System,4,5
+12:37:37,12:38:33,MosaicfromSynagogue,149,System,4,5
+12:38:42,12:39:41,MosaicfromSynagogue,253,System,4,5
+
+events 
+12:06:58,chosenExhibit,92
+12:06:58,return from screen
+12:10:14,chosenExhibit,91
+12:10:35,chosenExhibit,33
+12:10:35,return from screen
+12:12:06,chosenExhibit,35
+12:12:06,return from screen
+12:13:54,chosenExhibit,22
+12:13:54,return from screen
+12:15:32,chosenExhibit,67
+12:17:40,open map
+12:17:46,return from screen
+12:17:57,open map
+12:18:04,return from screen
+12:18:58,chosenExhibit,1
+12:19:10,chosenExhibit,5
+12:19:10,return from screen
+12:23:41,open map
+12:24:37,return from screen
+12:25:22,chosenExhibit,61
+12:25:22,return from screen
+12:35:43,chosenExhibit,67
+12:36:15,chosenExhibit,67
+12:36:15,return from screen

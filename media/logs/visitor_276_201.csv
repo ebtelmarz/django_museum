@@ -1,0 +1,91 @@
+
+Positions 
+14:26:11,14:27:34,EntranceReubenHecht
+14:27:36,14:27:53,SymbolsJewishMenorah
+14:28:07,14:28:16,MaterialCultures
+14:28:46,14:28:48,Phoenicians
+14:29:57,14:31:46,BronzeTools
+14:32:48,14:33:22,EntranceReubenHecht
+14:33:22,14:33:27,StairsToBathroom
+14:33:51,14:35:48,EntranceReubenHecht
+14:35:48,14:35:54,ShipFront
+14:35:54,14:35:57,ShipBack
+14:36:02,14:38:35,ShipFront
+14:38:36,14:38:42,CarpenterTools
+14:38:42,14:39:52,ShipBack
+14:39:53,14:40:14,Pottery
+14:40:14,14:40:20,ShipFront
+14:40:20,14:42:09,ShipBack
+14:42:36,14:42:46,ShipFront
+14:42:50,14:43:09,ShipEntrance
+14:43:09,14:43:25,ShipFront
+14:43:26,14:43:30,ShipEntrance
+14:44:25,14:44:28,EntranceGallileeRebellion
+14:44:28,14:44:31,DuckBoxIvories
+14:44:38,14:44:43,EntranceGallileeRebellion
+14:44:53,14:45:51,ChalcolitePeriod
+14:46:05,14:46:08,JewishCoffins
+14:46:08,14:46:10,MenorahJewishEpigraphy
+14:46:10,14:47:20,JewishCoffins
+14:47:21,14:47:45,MaterialCultures
+14:47:45,14:47:49,JewishCoffins
+14:47:52,14:47:55,LeadCoffinMosaic
+14:48:01,14:48:07,JewishCoffins
+14:48:10,14:48:19,ChalcolitePeriod
+14:48:24,14:48:28,MaterialCultures
+14:48:28,14:49:14,JerusalemPhoto
+14:49:14,14:49:45,EntranceReubenHecht
+
+presentations 
+14:26:41,14:27:34,EntranceReubenHecht,129,System,5,-3
+14:30:39,14:31:46,BronzeTools,190,System,5,-3
+14:34:15,14:34:29,EntranceReubenHecht,128,User,3,3
+14:36:09,14:37:07,ShipFront,52,System,5,3
+14:37:19,14:38:35,ShipFront,56,System,5,3
+14:38:50,14:39:52,ShipBack,68,System,5,3
+14:40:51,14:41:42,ShipBack,73,System,5,3
+14:41:49,14:42:09,ShipBack,75,User,5,3
+14:45:14,14:45:40,ChalcolitePeriod,145,User,5,3
+14:45:46,14:45:51,ChalcolitePeriod,247,User,5,3
+14:46:24,14:47:20,JewishCoffins,170,User,5,3
+14:48:32,14:49:13,JerusalemPhoto,138,User,5,3
+
+events 
+14:26:37,chosenExhibit,40
+14:28:17,chosenExhibit,91
+14:28:17,return from screen
+14:28:36,chosenExhibit,91
+14:28:49,chosenExhibit,89
+14:28:49,return from screen
+14:29:15,chosenExhibit,89
+14:29:15,return from screen
+14:29:32,return from screen
+14:29:32,chosenExhibit,89
+14:29:51,chosenExhibit,89
+14:30:24,chosenExhibit,71
+14:30:24,open map
+14:32:06,return from screen
+14:32:16,return from screen
+14:32:25,return from screen
+14:33:22,return from screen
+14:33:53,chosenExhibit,40
+14:33:53,return from screen
+14:34:10,chosenExhibit,39
+14:34:10,return from screen
+14:35:53,chosenExhibit,3
+14:35:58,chosenExhibit,5
+14:36:06,chosenExhibit,1
+14:38:47,chosenExhibit,6
+14:40:42,chosenExhibit,7
+14:40:42,return from screen
+14:42:54,chosenExhibit,88
+14:43:47,return from screen
+14:43:47,chosenExhibit,88
+14:44:32,chosenExhibit,49
+14:45:08,chosenExhibit,46
+14:45:09,return from screen
+14:46:15,chosenExhibit,62
+14:47:58,chosenExhibit,63
+14:48:01,return from screen
+14:48:31,chosenExhibit,44
+14:49:14,return from screen

@@ -1,0 +1,71 @@
+
+Positions 
+13:17:03,13:17:12,EntranceReubenHecht
+13:17:29,13:18:15,SymbolsJewishMenorah
+13:19:19,13:20:57,PersianCult
+13:21:11,13:22:10,JerusalemPhoto
+13:22:20,13:22:30,MaterialCultures
+13:22:53,13:23:02,DuckBoxIvories
+13:23:02,13:23:04,CanaaniteStelae
+13:23:24,13:24:30,DuckBoxIvories
+13:24:36,13:24:44,CanaaniteStelae
+13:25:04,13:26:17,IvoryWomanPhoenician
+13:26:18,13:26:20,ClayAmphorae
+13:26:48,13:29:25,AnimalModels
+13:29:48,13:29:59,BronzeTools
+13:32:01,13:32:08,ShipEntrance
+13:32:09,13:32:33,ShipFront
+13:32:34,13:34:04,ShipBack
+13:34:45,13:36:04,ShipBack
+13:36:05,13:36:11,Pottery
+13:36:11,13:36:16,ShipBack
+13:36:19,13:36:25,ShipFront
+13:36:31,13:36:42,ShipEntrance
+13:36:57,13:37:01,ShipFront
+13:37:07,13:37:15,ShipEntrance
+13:38:24,13:38:32,WoodenTools
+13:39:15,13:39:23,WoodenTools
+13:39:50,13:40:07,GlassOvenVessels
+13:40:15,13:40:21,BronzeTools
+13:40:35,13:41:59,MosaicfromSynagogue
+13:42:11,13:42:20,Phoenicians
+13:42:41,13:42:45,MaterialCultures
+13:42:56,13:43:03,PersianCult
+13:43:03,13:43:05,SymbolsJewishMenorah
+13:43:05,13:43:16,EntranceReubenHecht
+
+presentations 
+13:17:29,13:18:15,SymbolsJewishMenorah,130,System,5,-3
+13:19:39,13:20:57,PersianCult,316,System,5,-3
+13:21:24,13:22:10,JerusalemPhoto,138,System,5,-3
+13:23:24,13:24:30,DuckBoxIvories,154,System,5,-3
+13:25:12,13:26:17,IvoryWomanPhoenician,155,System,5,-3
+13:26:56,13:28:07,AnimalModels,176,System,5,-3
+13:28:14,13:29:25,AnimalModels,177,System,5,-3
+13:32:44,13:34:04,ShipBack,64,System,5,-3
+13:34:45,13:36:04,ShipBack,65,System,5,-3
+13:39:15,13:39:23,WoodenTools,186,User,3,-3
+13:40:54,13:41:59,MosaicfromSynagogue,148,System,5,-3
+
+events 
+13:17:25,chosenExhibit,41
+13:19:27,chosenExhibit,93
+13:19:27,return from screen
+13:21:18,chosenExhibit,44
+13:23:06,chosenExhibit,49
+13:25:09,chosenExhibit,51
+13:26:18,open map
+13:26:31,return from screen
+13:26:52,chosenExhibit,54
+13:32:06,chosenExhibit,88
+13:32:20,chosenExhibit,1
+13:32:38,chosenExhibit,4
+13:32:38,return from screen
+13:34:23,chosenExhibit,5
+13:36:56,chosenExhibit,88
+13:37:07,open map
+13:38:22,return from screen
+13:38:56,chosenExhibit,68
+13:38:56,return from screen
+13:40:49,chosenExhibit,67
+13:43:05,return from screen

@@ -1,0 +1,86 @@
+
+Positions 
+13:11:02,13:12:50,SymbolsJewishMenorah
+13:12:51,13:12:53,EntranceReubenHecht
+13:12:53,13:12:55,SymbolsJewishMenorah
+13:14:21,13:14:49,SymbolsJewishMenorah
+13:14:49,13:16:34,PersianCult
+13:16:50,13:17:05,SymbolsJewishMenorah
+13:17:47,13:19:15,PersianCult
+13:19:23,13:20:32,JerusalemPhoto
+13:20:32,13:20:42,PersianCult
+13:20:56,13:20:59,Phoenicians
+13:21:13,13:22:41,MaterialCultures
+13:29:34,13:34:33,CraftsAndArts
+13:35:18,13:35:52,ImportedPottery
+13:36:06,13:37:25,MaritimeCommerce
+13:37:28,13:37:31,BuildingMethodsAndFacilities
+13:37:32,13:37:35,PhoenicianWriting1
+13:37:35,13:39:30,BuildingMethodsAndFacilities
+13:39:31,13:39:49,PhoenicianWriting1
+13:39:49,13:40:03,BuildingMethodsAndFacilities
+13:40:03,13:40:22,PhoenicianWriting1
+13:40:22,13:40:27,EverydayPottery
+13:40:27,13:40:30,PhoenicianWriting1
+13:40:30,13:40:33,BurialTradition2
+13:40:33,13:42:57,PhoenicianWriting1
+13:43:12,13:45:16,BurialTradition2
+13:51:05,13:51:30,EntranceReubenHecht
+13:51:30,13:51:37,WoodenTools
+13:58:51,14:03:32,EntranceReubenHecht
+14:03:32,14:03:53,MosaicfromSynagogue
+14:08:16,14:08:39,BronzeTools
+14:08:39,14:08:46,MaterialCultures
+14:08:46,14:08:57,PersianCult
+14:08:57,14:08:59,SymbolsJewishMenorah
+14:09:03,14:09:05,EntranceReubenHecht
+
+presentations 
+13:12:01,13:12:50,SymbolsJewishMenorah,131,System,3,5
+13:15:16,13:16:34,PersianCult,310,System,4,5
+13:17:47,13:19:15,PersianCult,315,System,4,5
+13:19:38,13:20:31,JerusalemPhoto,137,System,3,5
+13:21:28,13:22:41,MaterialCultures,165,System,4,5
+13:29:46,13:30:40,CraftsAndArts,46,System,4,5
+13:30:44,13:31:14,CraftsAndArts,47,System,4,5
+13:31:25,13:31:58,CraftsAndArts,51,System,4,5
+13:32:21,13:33:11,CraftsAndArts,45,System,4,5
+13:33:25,13:34:33,CraftsAndArts,44,System,4,5
+13:36:21,13:37:25,MaritimeCommerce,37,System,4,5
+13:37:45,13:38:24,BuildingMethodsAndFacilities,16,System,4,5
+13:38:35,13:39:30,BuildingMethodsAndFacilities,14,System,4,5
+13:40:37,13:41:26,PhoenicianWriting1,18,System,4,5
+13:41:41,13:42:57,PhoenicianWriting1,24,System,4,5
+13:43:19,13:43:57,BurialTradition2,31,System,4,5
+13:44:07,13:45:16,BurialTradition2,103,User,4,5
+
+events 
+13:11:54,chosenExhibit,41
+13:15:11,chosenExhibit,92
+13:17:42,chosenExhibit,93
+13:19:33,chosenExhibit,44
+13:21:25,chosenExhibit,91
+13:21:25,return from screen
+13:29:41,chosenExhibit,35
+13:29:41,return from screen
+13:32:18,chosenExhibit,34
+13:32:18,return from screen
+13:33:19,chosenExhibit,33
+13:35:23,chosenExhibit,31
+13:35:23,return from screen
+13:36:18,chosenExhibit,30
+13:37:36,chosenExhibit,20
+13:37:37,return from screen
+13:38:33,chosenExhibit,19
+13:40:35,chosenExhibit,21
+13:40:35,return from screen
+13:41:39,chosenExhibit,23
+13:43:17,chosenExhibit,27
+13:43:17,return from screen
+13:45:53,chosenExhibit,25
+13:51:38,chosenExhibit,68
+13:51:38,return from screen
+13:52:35,return from screen
+13:55:00,return from screen
+13:58:51,return from screen
+14:09:03,return from screen

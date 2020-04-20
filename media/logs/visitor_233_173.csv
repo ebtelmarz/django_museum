@@ -1,0 +1,57 @@
+
+Positions 
+13:54:49,13:55:08,SymbolsJewishMenorah
+13:55:34,13:55:51,EntranceReubenHecht
+13:55:51,13:56:06,SymbolsJewishMenorah
+13:56:06,13:56:09,EntranceReubenHecht
+13:56:09,13:56:11,SymbolsJewishMenorah
+13:56:11,13:56:22,EntranceReubenHecht
+13:56:22,13:56:56,SymbolsJewishMenorah
+13:56:56,14:00:44,EntranceReubenHecht
+14:00:44,14:01:07,SymbolsJewishMenorah
+14:01:07,14:02:55,PersianCult
+14:02:55,14:03:06,SymbolsJewishMenorah
+14:03:06,14:03:24,PersianCult
+14:03:24,14:04:43,MaterialCultures
+14:04:43,14:07:03,PersianCult
+14:07:03,14:09:13,MaterialCultures
+14:09:13,14:09:31,ShipEntrance
+14:09:31,14:12:17,ShipFront
+14:12:17,14:13:23,ShipBack
+14:13:23,14:22:48,ShipFront
+14:22:48,14:23:16,EntranceReubenHecht
+14:23:16,14:25:56,DuckBoxIvories
+14:25:56,14:26:22,ClayAmphorae
+14:26:22,14:36:35,AnimalModels
+14:36:35,14:37:40,ClayAmphorae
+14:37:40,14:37:46,RomanDivinitiesStatuettes
+14:37:46,14:37:50,JewishCoffins
+14:37:50,14:38:08,SymbolsJewishMenorah
+
+presentations 
+13:54:49,13:55:08,SymbolsJewishMenorah,132,User
+14:01:24,14:02:51,PersianCult,314,System,3
+14:03:24,14:04:43,MaterialCultures,310,System,2
+14:07:20,14:08:37,MaterialCultures,165,System,2
+14:12:17,14:13:23,ShipBack,63,System,2
+14:23:38,14:24:44,DuckBoxIvories,152,System,4
+14:24:59,14:25:42,DuckBoxIvories,153,User
+14:27:08,14:27:45,AnimalModels,175,User
+14:27:56,14:28:09,AnimalModels,176,User
+14:34:35,14:34:43,AnimalModels,176,User
+14:35:17,14:36:19,AnimalModels,250,System,4
+
+events 
+14:01:16,chosenExhibit,93
+14:03:13,chosenExhibit,92
+14:07:08,chosenExhibit,91
+14:09:32,return from screen
+14:12:12,chosenExhibit,3
+14:12:12,open map
+14:23:29,return from screen
+14:23:29,chosenExhibit,49
+14:26:03,chosenExhibit,52
+14:27:04,chosenExhibit,54
+14:27:04,return from screen
+14:35:11,chosenExhibit,54
+14:38:08,return from screen

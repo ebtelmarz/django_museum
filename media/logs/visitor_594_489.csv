@@ -1,0 +1,118 @@
+
+Positions 
+10:46:25,10:46:57,EntranceReubenHecht
+10:47:15,10:48:57,SymbolsJewishMenorah
+10:49:11,10:49:29,PersianCult
+10:49:29,10:49:51,SymbolsJewishMenorah
+10:49:51,10:53:17,PersianCult
+10:53:25,10:54:44,JerusalemPhoto
+10:54:56,10:55:01,MaterialCultures
+10:55:32,10:57:21,CraftsAndArts
+10:57:37,10:58:47,MaritimeCommerce
+10:59:02,11:00:12,PhoenicianWriting1
+11:00:26,11:00:28,EverydayPottery
+11:00:30,11:00:42,ReligionAndCult
+11:00:54,11:02:04,MosaicfromSynagogue
+11:02:36,11:03:58,StoneVesselsBowl
+11:04:44,11:05:02,ShipEntrance
+11:05:02,11:05:04,Pottery
+11:05:04,11:05:13,ShipBack
+11:05:13,11:05:16,Pottery
+11:05:16,11:05:37,ShipBack
+11:05:37,11:05:40,Pottery
+11:05:55,11:05:59,ShipBack
+11:05:59,11:06:02,Pottery
+11:06:02,11:07:12,ShipBack
+11:08:01,11:09:20,ShipBack
+11:09:20,11:09:24,Pottery
+11:09:31,11:09:34,ShipFront
+11:10:02,11:10:06,ShipEntrance
+11:10:06,11:10:25,ShipBack
+11:11:32,11:11:41,EntranceGallileeRebellion
+11:11:50,11:13:45,DuckBoxIvories
+11:14:49,11:15:56,RomanDivinitiesStatuettes
+11:16:17,11:16:32,SymbolsJewishMenorah
+11:16:32,11:16:35,MenorahJewishEpigraphy
+11:16:35,11:17:51,Anthropoids
+11:18:10,11:18:15,RomanDivinitiesStatuettes
+11:18:15,11:18:20,LeadCoffinMosaic
+11:18:20,11:18:25,ChalcolitePeriod
+11:18:33,11:19:44,LeadCoffinMosaic
+11:19:45,11:19:49,JewishCoffins
+11:19:49,11:19:57,LeadCoffinMosaic
+11:19:57,11:20:03,ChalcolitePeriod
+11:20:05,11:20:08,MaterialCultures
+11:20:24,11:21:46,ChalcolitePeriod
+11:21:47,11:21:50,MaterialCultures
+11:23:39,11:25:47,SevenSpecies
+11:27:25,11:27:28,JerusalemPhoto
+11:27:28,11:27:37,PersianCult
+11:27:37,11:28:37,SymbolsJewishMenorah
+11:28:37,11:28:50,EntranceReubenHecht
+
+presentations 
+10:46:25,10:46:57,EntranceReubenHecht,128,User,5,3
+10:47:23,10:48:06,SymbolsJewishMenorah,131,System,5,3
+10:48:16,10:48:57,SymbolsJewishMenorah,130,User,1,3
+10:50:15,10:51:17,PersianCult,313,System,5,3
+10:51:40,10:53:17,PersianCult,315,System,5,3
+10:53:46,10:54:44,JerusalemPhoto,137,System,5,3
+10:56:10,10:57:21,CraftsAndArts,113,System,5,3
+10:57:49,10:58:47,MaritimeCommerce,34,System,5,3
+10:59:22,11:00:12,PhoenicianWriting1,18,System,5,3
+11:01:08,11:02:04,MosaicfromSynagogue,149,System,5,3
+11:02:46,11:03:58,StoneVesselsBowl,179,System,5,3
+11:06:05,11:07:12,ShipBack,75,System,5,3
+11:08:01,11:09:20,ShipBack,64,System,5,3
+11:12:08,11:12:56,DuckBoxIvories,153,System,5,3
+11:13:13,11:13:45,DuckBoxIvories,151,System,5,3
+11:15:03,11:15:56,RomanDivinitiesStatuettes,208,System,5,3
+11:16:51,11:17:51,Anthropoids,182,System,5,3
+11:18:49,11:19:44,LeadCoffinMosaic,198,System,5,3
+11:20:40,11:21:46,ChalcolitePeriod,237,System,5,3
+
+events 
+10:46:20,return from screen
+10:46:20,chosenExhibit,39
+10:47:17,chosenExhibit,41
+10:47:17,return from screen
+10:49:55,chosenExhibit,92
+10:49:55,return from screen
+10:51:27,chosenExhibit,93
+10:51:27,return from screen
+10:53:36,chosenExhibit,44
+10:53:36,return from screen
+10:55:53,return from screen
+10:55:53,chosenExhibit,33
+10:57:44,chosenExhibit,29
+10:57:44,return from screen
+10:59:16,chosenExhibit,21
+10:59:17,return from screen
+11:00:58,chosenExhibit,67
+11:00:58,return from screen
+11:02:42,chosenExhibit,66
+11:02:42,return from screen
+11:05:20,chosenExhibit,6
+11:05:20,return from screen
+11:05:31,chosenExhibit,5
+11:05:37,chosenExhibit,5
+11:05:57,chosenExhibit,7
+11:06:04,chosenExhibit,7
+11:06:04,return from screen
+11:07:29,return from screen
+11:07:29,chosenExhibit,6
+11:07:36,open map
+11:07:40,return from screen
+11:07:51,chosenExhibit,4
+11:12:03,chosenExhibit,49
+11:12:03,return from screen
+11:13:09,chosenExhibit,49
+11:13:09,return from screen
+11:14:54,return from screen
+11:14:54,chosenExhibit,56
+11:16:39,chosenExhibit,61
+11:18:37,chosenExhibit,63
+11:20:26,chosenExhibit,47
+11:20:26,return from screen
+11:20:31,chosenExhibit,47
+11:28:37,return from screen

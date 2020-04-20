@@ -1,0 +1,83 @@
+
+Positions 
+11:30:18,11:30:41,EntranceReubenHecht
+11:31:17,11:32:07,SymbolsJewishMenorah
+11:32:10,11:32:19,PersianCult
+11:35:17,11:35:39,PersianCult
+11:36:47,11:37:02,PersianCult
+11:39:30,11:40:07,PersianCult
+11:40:08,11:42:11,Phoenicians
+11:42:34,11:42:42,ReligionAndCult
+11:43:31,11:43:46,ReligionAndCult
+11:43:57,11:44:07,WoodenTools
+11:46:22,11:46:27,ShipEntrance
+11:46:27,11:46:35,ShipFront
+11:46:49,11:48:14,ShipBack
+11:48:33,11:49:53,Pottery
+11:50:11,11:50:16,MaritimeArcheology
+11:50:16,11:51:32,CarpenterTools
+11:51:40,11:51:42,Pottery
+11:52:10,11:52:30,ShipFront
+11:52:58,11:54:06,StoneVesselsBowl
+11:54:11,11:54:20,BronzeTools
+11:54:44,11:54:46,MaterialCultures
+
+presentations 
+11:30:22,11:30:41,EntranceReubenHecht,128,User,3,5
+11:35:17,11:35:22,PersianCult,310,User,5,5
+11:35:31,11:35:39,PersianCult,311,User,4,5
+11:36:47,11:37:02,PersianCult,312,User,3,5
+11:39:30,11:40:07,PersianCult,311,System,4,5
+11:40:33,11:40:36,Phoenicians,163,User,3,5
+11:40:52,11:42:11,Phoenicians,163,System,3,5
+11:43:31,11:43:46,ReligionAndCult,1,User,2,5
+11:47:28,11:48:14,ShipBack,71,User,5,5
+11:48:33,11:48:45,Pottery,80,User,5,5
+11:48:54,11:49:53,Pottery,80,System,5,5
+11:50:34,11:51:32,CarpenterTools,88,System,5,5
+11:53:40,11:54:06,StoneVesselsBowl,178,System,5,5
+
+events 
+11:30:20,chosenExhibit,39
+11:30:20,return from screen
+11:31:30,chosenExhibit,41
+11:31:30,return from screen
+11:32:20,chosenExhibit,93
+11:32:20,return from screen
+11:32:30,chosenExhibit,92
+11:32:30,return from screen
+11:32:57,chosenExhibit,92
+11:32:57,return from screen
+11:33:19,open map
+11:34:19,return from screen
+11:34:31,open map
+11:34:39,return from screen
+11:35:16,chosenExhibit,92
+11:35:16,return from screen
+11:36:17,chosenExhibit,92
+11:36:17,return from screen
+11:39:26,chosenExhibit,92
+11:40:18,chosenExhibit,89
+11:40:18,return from screen
+11:40:29,chosenExhibit,89
+11:40:29,return from screen
+11:43:23,chosenExhibit,14
+11:44:05,chosenExhibit,68
+11:44:05,return from screen
+11:44:21,return from screen
+11:44:21,chosenExhibit,68
+11:46:34,chosenExhibit,1
+11:46:35,return from screen
+11:46:53,chosenExhibit,6
+11:47:22,chosenExhibit,6
+11:48:21,chosenExhibit,9
+11:50:22,chosenExhibit,11
+11:50:22,return from screen
+11:50:33,chosenExhibit,11
+11:53:03,chosenExhibit,66
+11:53:03,return from screen
+11:53:24,chosenExhibit,66
+11:54:19,chosenExhibit,71
+11:54:34,chosenExhibit,67
+11:54:34,return from screen
+11:54:44,return from screen

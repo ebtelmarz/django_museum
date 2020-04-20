@@ -1,0 +1,81 @@
+
+Positions 
+12:33:02,12:33:50,EntranceReubenHecht
+12:35:23,12:35:46,SymbolsJewishMenorah
+12:36:46,12:37:04,EntranceReubenHecht
+12:37:04,12:37:28,SymbolsJewishMenorah
+12:37:58,12:38:08,PersianCult
+12:43:44,12:43:48,PersianCult
+12:44:06,12:44:15,JerusalemPhoto
+12:44:26,12:44:36,MaterialCultures
+12:44:59,12:45:07,MuseumMotto
+12:46:05,12:46:20,JewishCoffins
+12:48:07,12:48:30,MenorahJewishEpigraphy
+12:49:04,12:49:09,JewishCoffins
+12:50:40,12:50:46,MaterialCultures
+12:51:03,12:51:43,RomanDivinitiesStatuettes
+12:52:28,12:52:35,JewishCoffins
+13:00:35,13:00:41,ChalcolitePeriod
+13:02:03,13:02:12,DuckBoxIvories
+13:03:21,13:03:23,EntranceGallileeRebellion
+13:03:48,13:03:53,DuckBoxIvories
+13:04:12,13:04:29,CanaaniteStelae
+13:04:55,13:05:02,DuckBoxIvories
+13:05:25,13:05:29,CanaaniteStelae
+13:05:57,13:06:03,DuckBoxIvories
+13:07:05,13:07:07,CanaaniteStelae
+13:07:10,13:07:14,DuckBoxIvories
+13:07:51,13:08:02,IvoryWomanPhoenician
+13:08:20,13:08:25,DuckBoxIvories
+13:15:16,13:15:21,ShipFront
+13:16:40,13:16:42,ShipEntrance
+13:17:13,13:17:23,ShipFront
+13:18:07,13:18:12,Pottery
+13:18:12,13:18:15,MaritimeArcheology
+13:18:15,13:18:17,Pottery
+13:18:17,13:18:22,MaritimeArcheology
+13:18:22,13:19:15,Pottery
+13:19:15,13:19:29,MaritimeArcheology
+13:19:29,13:19:59,CarpenterTools
+13:20:16,13:20:21,Pottery
+13:20:27,13:20:33,MaritimeArcheology
+13:20:33,13:20:42,Pottery
+13:20:59,13:21:04,ShipFront
+13:23:24,13:23:47,BronzeTools
+13:26:08,13:26:13,Phoenicians
+13:28:46,13:28:55,MaterialCultures
+13:31:08,13:31:13,EverydayPottery
+13:31:18,13:31:21,CraftsAndArts
+13:31:42,13:31:48,EverydayPottery
+13:32:38,13:32:48,BurialTradition2
+13:32:48,13:32:53,EverydayPottery
+13:32:53,13:32:59,ReligionAndCult
+13:36:24,13:36:32,GlassOvenVessels
+13:36:40,13:36:44,MaterialCultures
+13:37:05,13:37:13,UpperFloorEntrance
+13:38:21,13:38:27,OilLamps
+13:40:49,13:40:53,Cyprus
+13:44:33,13:44:43,TempleMount
+13:46:08,13:46:16,Gems
+13:49:09,13:49:22,Coins
+13:50:52,13:51:01,Jerusalem
+13:55:51,13:55:58,EntranceGallileeRebellion
+13:56:06,13:56:14,MaterialCultures
+13:56:29,13:56:36,SymbolsJewishMenorah
+13:56:36,13:56:47,EntranceReubenHecht
+
+presentations 
+12:33:42,12:33:50,EntranceReubenHecht,129,User,3,3
+
+events 
+12:33:36,return from screen
+12:33:36,chosenExhibit,40
+12:34:00,open map
+12:34:12,open map
+12:34:17,return from screen
+12:35:38,chosenExhibit,41
+12:35:38,return from screen
+12:42:54,chosenExhibit,44
+12:42:54,return from screen
+13:42:57,chosenExhibit,80
+13:56:36,return from screen

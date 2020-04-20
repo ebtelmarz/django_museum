@@ -1,0 +1,92 @@
+
+Positions 
+13:13:13,13:13:38,EntranceReubenHecht
+13:17:45,13:18:45,SymbolsJewishMenorah
+13:19:52,13:19:59,EntranceReubenHecht
+13:20:39,13:20:45,SymbolsJewishMenorah
+13:20:45,13:20:47,PersianCult
+13:20:47,13:21:49,JerusalemPhoto
+13:21:49,13:21:51,PersianCult
+13:21:51,13:22:02,JerusalemPhoto
+13:22:06,13:22:15,MaterialCultures
+13:22:26,13:22:37,Phoenicians
+13:24:00,13:25:08,CraftsAndArts
+13:25:09,13:25:12,Phoenicians
+13:25:22,13:26:58,ReligionAndCult
+13:27:20,13:28:17,BurialTradition2
+13:28:23,13:28:25,MaritimeCommerce
+13:28:25,13:28:27,BuildingMethodsAndFacilities
+13:28:27,13:28:31,MaritimeCommerce
+13:28:31,13:29:37,CraftsAndArts
+13:29:44,13:29:49,ReligionAndCult
+13:30:11,13:30:13,EverydayPottery
+13:30:13,13:30:15,PhoenicianWriting1
+13:30:15,13:30:20,EverydayPottery
+13:30:20,13:30:22,WoodenTools
+13:30:22,13:30:25,EverydayPottery
+13:30:47,13:32:23,WoodenTools
+13:32:23,13:32:26,EverydayPottery
+13:32:44,13:32:51,ShipEntrance
+13:32:51,13:35:06,ShipFront
+13:35:07,13:36:15,ShipBack
+13:36:16,13:37:07,Pottery
+13:37:07,13:37:13,MaritimeArcheology
+13:37:13,13:37:17,Pottery
+13:37:17,13:38:08,MaritimeArcheology
+13:38:09,13:38:24,CarpenterTools
+13:38:24,13:38:46,ShipFront
+13:38:46,13:38:57,ShipEntrance
+13:42:16,13:42:31,BronzeTools
+13:42:46,13:42:49,Phoenicians
+13:42:49,13:42:58,MaterialCultures
+13:43:20,13:43:24,UpperFloorEntrance
+13:43:35,13:43:41,Jerusalem
+13:43:41,13:43:50,SevenSpecies
+13:44:40,13:44:53,Coins
+13:45:12,13:45:16,Jerusalem
+13:45:18,13:45:28,Cyprus
+13:52:40,13:52:46,GreeceEgypt
+13:52:57,13:53:02,OilLamps
+13:53:34,13:53:42,UpperFloorEntrance
+13:54:12,13:54:18,MaterialCultures
+13:54:18,13:54:23,JerusalemPhoto
+13:54:24,13:54:40,PersianCult
+13:54:44,13:55:57,EntranceReubenHecht
+
+presentations 
+13:17:58,13:18:45,SymbolsJewishMenorah,130,System,5,-3
+13:21:04,13:21:49,JerusalemPhoto,138,System,3,-3
+13:24:11,13:25:08,CraftsAndArts,45,System,3,-3
+13:26:02,13:26:58,ReligionAndCult,1,System,3,-3
+13:27:29,13:28:17,BurialTradition2,31,System,3,-3
+13:28:33,13:29:37,CraftsAndArts,46,System,3,-3
+13:30:59,13:32:13,WoodenTools,186,System,3,-3
+13:32:57,13:34:04,ShipFront,52,System,3,-3
+13:34:10,13:35:06,ShipFront,53,System,3,-3
+13:35:16,13:36:15,ShipBack,68,System,3,-3
+13:37:21,13:38:08,MaritimeArcheology,84,System
+
+events 
+13:16:19,chosenExhibit,40
+13:16:19,return from screen
+13:16:31,open map
+13:16:39,open map
+13:16:49,lookTour
+13:17:11,getDirections
+13:17:11,return from screen
+13:17:51,chosenExhibit,41
+13:17:51,open map
+13:18:52,return from screen
+13:19:04,return from screen
+13:20:51,chosenExhibit,44
+13:24:05,chosenExhibit,34
+13:25:58,chosenExhibit,14
+13:27:26,chosenExhibit,27
+13:28:31,chosenExhibit,35
+13:30:57,chosenExhibit,68
+13:32:51,chosenExhibit,88
+13:32:56,chosenExhibit,1
+13:35:14,chosenExhibit,6
+13:37:16,chosenExhibit,9
+13:37:20,chosenExhibit,10
+13:55:55,return from screen

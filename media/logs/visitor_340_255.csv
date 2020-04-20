@@ -1,0 +1,54 @@
+
+Positions 
+13:55:22,13:58:24,EntranceReubenHecht
+13:58:26,13:58:28,PersianCult
+13:58:28,13:59:49,JerusalemPhoto
+13:59:50,14:00:11,DuckBoxIvories
+14:00:16,14:01:39,ChalcolitePeriod
+14:01:40,14:01:50,JewishCoffins
+14:01:50,14:01:53,RomanDivinitiesStatuettes
+14:01:53,14:02:03,JewishCoffins
+14:02:33,14:02:40,MenorahJewishEpigraphy
+14:02:43,14:02:47,RomanDivinitiesStatuettes
+14:02:47,14:02:53,JewishCoffins
+14:02:53,14:03:03,RomanDivinitiesStatuettes
+14:03:04,14:03:11,MenorahJewishEpigraphy
+14:03:11,14:03:21,Anthropoids
+14:03:21,14:03:31,DecoratedDoors
+14:03:36,14:03:45,Anthropoids
+14:03:51,14:03:58,RomanDivinitiesStatuettes
+14:04:20,14:04:31,LeadCoffinMosaic
+14:04:38,14:04:55,MuseumMotto
+14:05:16,14:05:19,DuckBoxIvories
+14:05:19,14:05:21,EntranceGallileeRebellion
+14:05:21,14:05:25,DuckBoxIvories
+14:05:25,14:05:33,EntranceGallileeRebellion
+14:05:33,14:05:44,DuckBoxIvories
+14:05:52,14:05:55,CanaaniteStelae
+14:06:08,14:06:10,EntranceGallileeRebellion
+14:06:10,14:06:30,DuckBoxIvories
+14:06:33,14:06:37,EntranceGallileeRebellion
+14:07:08,14:07:12,ShipEntrance
+14:07:12,14:08:04,ShipFront
+14:10:55,14:11:20,ShipBack
+14:11:44,14:11:49,Pottery
+
+presentations 
+13:56:18,13:56:34,EntranceReubenHecht,129,User,4,-5
+13:57:13,13:58:24,EntranceReubenHecht,129,System,4,-5
+13:58:53,13:59:49,JerusalemPhoto,137,System,4,-5
+14:00:29,14:01:39,ChalcolitePeriod,237,System,3,-5
+
+events 
+13:56:14,chosenExhibit,40
+13:56:14,return from screen
+13:56:38,open map
+13:56:42,open map
+13:56:55,return from screen
+13:56:55,open map
+13:57:10,chosenExhibit,40
+13:58:46,chosenExhibit,44
+14:00:23,chosenExhibit,47
+14:01:47,chosenExhibit,62
+14:01:55,chosenExhibit,62
+14:01:55,lookTour

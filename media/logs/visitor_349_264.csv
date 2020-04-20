@@ -1,0 +1,54 @@
+
+Positions 
+13:01:12,13:02:02,EntranceReubenHecht
+13:03:04,13:03:11,SymbolsJewishMenorah
+13:03:44,13:03:54,JerusalemPhoto
+13:03:54,13:04:01,MaterialCultures
+13:05:01,13:05:35,BronzeTools
+13:05:43,13:05:50,MosaicfromSynagogue
+13:05:51,13:05:58,StoneVesselsBowl
+13:07:18,13:07:30,ShipEntrance
+13:07:43,13:07:51,ShipFront
+13:07:51,13:07:56,ShipEntrance
+13:08:07,13:08:13,ShipFront
+13:08:13,13:08:18,ShipEntrance
+13:08:25,13:08:34,ShipFront
+13:08:58,13:09:04,Pottery
+13:09:19,13:09:23,ShipFront
+13:10:37,13:10:46,ShipFront
+13:10:57,13:11:08,Pottery
+13:11:08,13:11:14,MaritimeArcheology
+13:11:37,13:12:08,CarpenterTools
+13:12:09,13:12:11,Pottery
+13:12:58,13:13:03,ShipFront
+13:13:03,13:13:10,ShipEntrance
+13:16:23,13:16:25,EntranceGallileeRebellion
+13:16:46,13:16:49,DuckBoxIvories
+13:16:55,13:17:05,ChalcolitePeriod
+13:17:15,13:17:22,JerusalemPhoto
+13:17:25,13:17:30,SymbolsJewishMenorah
+13:17:45,13:17:56,EntranceReubenHecht
+
+presentations 
+13:01:54,13:02:02,EntranceReubenHecht,129,User,3,-5
+13:05:07,13:05:35,BronzeTools,190,User,1,-5
+13:12:01,13:12:08,CarpenterTools,88,User,5,-5
+13:17:01,13:17:05,ChalcolitePeriod,237,User,3,-5
+
+events 
+13:01:47,chosenExhibit,40
+13:01:47,return from screen
+13:02:06,open map
+13:02:17,return from screen
+13:02:39,open map
+13:02:42,return from screen
+13:02:43,open map
+13:02:45,open map
+13:02:47,return from screen
+13:04:59,chosenExhibit,91
+13:05:04,chosenExhibit,71
+13:06:13,chosenExhibit,66
+13:08:56,chosenExhibit,3
+13:11:51,chosenExhibit,11
+13:16:58,chosenExhibit,47
+13:17:45,return from screen

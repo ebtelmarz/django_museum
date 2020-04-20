@@ -1,0 +1,106 @@
+
+Positions 
+13:36:31,13:37:47,SymbolsJewishMenorah
+13:40:08,13:40:14,PersianCult
+13:40:14,13:40:19,SymbolsJewishMenorah
+13:40:19,13:42:55,PersianCult
+13:42:56,13:43:02,JerusalemPhoto
+13:43:07,13:43:35,MaterialCultures
+13:43:51,13:45:32,Phoenicians
+13:45:33,13:45:45,CraftsAndArts
+13:46:11,13:47:20,ImportedPottery
+13:47:44,13:47:58,MaritimeCommerce
+13:48:40,13:50:45,MaritimeCommerce
+13:50:55,13:52:22,BurialTradition2
+13:52:23,13:52:51,EverydayPottery
+13:52:51,13:52:54,ReligionAndCult
+13:52:59,13:53:02,EverydayPottery
+13:53:02,13:53:13,WoodenTools
+13:53:44,13:54:24,GlassOvenVessels
+13:54:24,13:55:51,MosaicfromSynagogue
+13:56:35,13:56:51,BronzeTools
+13:59:53,14:01:12,ShipEntrance
+14:01:14,14:01:16,Pottery
+14:01:16,14:01:23,ShipBack
+14:01:23,14:01:41,ShipFront
+14:02:23,14:02:38,ShipEntrance
+14:04:49,14:05:00,StairsToBathroom
+14:14:27,14:14:34,EntranceReubenHecht
+14:14:35,14:14:48,AnimalModels
+14:15:32,14:16:43,AnimalModels
+14:17:39,14:17:45,RomanDivinitiesStatuettes
+14:17:45,14:17:49,JewishCoffins
+14:17:49,14:20:17,RomanDivinitiesStatuettes
+14:20:23,14:20:50,JewishCoffins
+14:22:01,14:23:14,LeadCoffinMosaic
+14:23:15,14:23:17,MaterialCultures
+14:23:50,14:24:04,UpperFloorEntrance
+14:27:24,14:29:07,Coins
+14:30:06,14:30:22,Weights
+14:31:37,14:31:55,Elevator2
+14:32:19,14:33:44,Gems
+14:34:43,14:35:22,GreeceEgypt
+14:35:54,14:37:05,Jerusalem
+14:38:55,14:39:52,TempleMount
+14:39:53,14:39:56,Jerusalem
+14:41:07,14:42:29,SevenSpecies
+14:44:14,14:44:24,MaterialCultures
+14:44:24,14:44:29,JerusalemPhoto
+14:44:29,14:44:35,PersianCult
+14:44:39,14:44:41,SymbolsJewishMenorah
+
+presentations 
+13:37:01,13:37:47,SymbolsJewishMenorah,130,System,3,-5
+13:40:27,13:41:16,PersianCult,310,User,4,-5
+13:41:31,13:42:55,PersianCult,314,User,5,-5
+13:44:09,13:45:32,Phoenicians,163,System,4,-5
+13:46:11,13:47:20,ImportedPottery,38,System,4,-5
+13:48:40,13:49:34,MaritimeCommerce,33,System,4,-5
+13:49:42,13:50:45,MaritimeCommerce,107,System,3,-5
+13:51:29,13:52:22,BurialTradition2,25,System,5,-5
+13:54:33,13:55:51,MosaicfromSynagogue,164,System,2,-5
+13:59:58,14:01:12,ShipEntrance,162,System,5,-5
+14:15:32,14:16:43,AnimalModels,139,System,3,5
+14:18:15,14:19:09,RomanDivinitiesStatuettes,208,System,4,5
+14:19:23,14:20:17,RomanDivinitiesStatuettes,208,System,4,5
+14:20:45,14:20:50,JewishCoffins,169,User,3,5
+14:22:08,14:23:14,LeadCoffinMosaic,195,System,3,5
+14:27:49,14:29:07,Coins,266,System,4,5
+14:32:59,14:33:44,Gems,293,System,3,5
+14:35:59,14:37:05,Jerusalem,281,System,4,5
+14:39:04,14:39:52,TempleMount,276,User,4,5
+14:41:28,14:42:29,SevenSpecies,286,System,4,5
+
+events 
+13:36:50,chosenExhibit,41
+13:36:50,return from screen
+13:40:25,chosenExhibit,92
+13:40:25,return from screen
+13:41:22,chosenExhibit,93
+13:44:05,chosenExhibit,89
+13:45:51,chosenExhibit,32
+13:45:51,return from screen
+13:45:55,chosenExhibit,31
+13:48:37,chosenExhibit,29
+13:48:37,return from screen
+13:49:39,chosenExhibit,28
+13:51:27,chosenExhibit,24
+13:54:27,chosenExhibit,67
+13:59:56,chosenExhibit,88
+14:04:12,chosenExhibit,88
+14:15:29,chosenExhibit,53
+14:15:29,return from screen
+14:18:13,chosenExhibit,56
+14:18:13,return from screen
+14:19:18,chosenExhibit,56
+14:20:43,chosenExhibit,62
+14:20:43,return from screen
+14:22:04,chosenExhibit,63
+14:27:42,chosenExhibit,78
+14:32:27,chosenExhibit,79
+14:35:57,chosenExhibit,81
+14:35:57,return from screen
+14:39:01,chosenExhibit,74
+14:41:26,chosenExhibit,76
+14:41:26,return from screen
+14:44:41,return from screen

@@ -1,0 +1,155 @@
+
+Positions 
+10:22:10,10:23:30,EntranceReubenHecht
+10:26:30,10:28:23,EntranceReubenHecht
+10:28:32,10:30:34,SymbolsJewishMenorah
+10:30:38,10:31:16,EntranceReubenHecht
+10:33:08,10:33:12,SymbolsJewishMenorah
+10:33:12,10:33:15,EntranceReubenHecht
+10:33:15,10:33:21,SymbolsJewishMenorah
+10:33:21,10:33:23,EntranceReubenHecht
+10:33:23,10:33:43,SymbolsJewishMenorah
+10:33:43,10:34:08,EntranceReubenHecht
+10:34:08,10:36:58,SymbolsJewishMenorah
+10:36:58,10:37:01,PersianCult
+10:37:03,10:37:35,SymbolsJewishMenorah
+10:38:01,10:40:03,PersianCult
+10:41:51,10:45:39,PersianCult
+10:45:46,10:45:52,JerusalemPhoto
+10:46:21,10:46:40,PersianCult
+10:46:40,10:46:44,SymbolsJewishMenorah
+10:46:44,10:46:58,PersianCult
+10:46:58,10:47:01,JerusalemPhoto
+10:47:21,10:47:23,SymbolsJewishMenorah
+10:47:23,10:47:29,JerusalemPhoto
+10:47:38,10:47:43,SymbolsJewishMenorah
+10:47:43,10:47:45,PersianCult
+10:47:56,10:48:07,JerusalemPhoto
+10:48:15,10:48:19,PersianCult
+10:48:19,10:50:15,JerusalemPhoto
+10:50:16,10:50:22,PersianCult
+10:50:22,10:50:38,JerusalemPhoto
+10:52:03,10:53:51,Phoenicians
+10:56:47,10:57:01,CraftsAndArts
+10:57:08,10:57:17,ReligionAndCult
+10:57:40,10:58:04,Phoenicians
+10:58:08,10:59:17,ReligionAndCult
+11:03:39,11:03:51,BuildingMethodsAndFacilities
+11:03:51,11:03:56,MaritimeCommerce
+11:03:56,11:04:10,BuildingMethodsAndFacilities
+11:04:10,11:04:12,ImportedPottery
+11:04:12,11:04:14,CraftsAndArts
+11:04:14,11:04:20,ImportedPottery
+11:04:20,11:04:23,CraftsAndArts
+11:04:24,11:04:39,MaritimeCommerce
+11:04:39,11:04:43,ImportedPottery
+11:04:43,11:05:28,MaritimeCommerce
+11:05:28,11:05:36,CraftsAndArts
+11:06:30,11:12:32,CraftsAndArts
+11:12:52,11:13:01,ImportedPottery
+11:13:02,11:13:04,BuildingMethodsAndFacilities
+11:13:04,11:14:05,MaritimeCommerce
+11:14:06,11:15:12,ImportedPottery
+11:15:12,11:15:18,MaritimeCommerce
+11:15:18,11:15:23,PhoenicianWriting1
+11:15:23,11:15:28,EverydayPottery
+11:15:31,11:16:48,BuildingMethodsAndFacilities
+11:16:49,11:17:00,CraftsAndArts
+11:17:00,11:17:05,MaritimeCommerce
+11:17:05,11:17:09,BuildingMethodsAndFacilities
+11:17:09,11:17:12,EverydayPottery
+11:17:12,11:17:14,PhoenicianWriting1
+11:17:15,11:18:43,ReligionAndCult
+11:18:44,11:18:48,EverydayPottery
+11:18:49,11:19:01,PhoenicianWriting1
+11:19:01,11:19:04,ReligionAndCult
+11:19:05,11:19:30,PhoenicianWriting1
+11:20:07,11:20:36,ReligionAndCult
+11:20:36,11:20:39,EverydayPottery
+11:20:39,11:20:59,WoodenTools
+11:20:59,11:21:06,EverydayPottery
+11:21:06,11:21:34,WoodenTools
+11:21:34,11:21:39,PhoenicianWriting1
+11:21:39,11:21:44,WoodenTools
+11:21:44,11:21:59,PhoenicianWriting1
+
+presentations 
+10:34:29,10:35:13,SymbolsJewishMenorah,130,System,3,3
+10:35:19,10:35:38,SymbolsJewishMenorah,131,System,3,3
+10:35:52,10:36:38,SymbolsJewishMenorah,132,System,3,3
+10:38:35,10:40:03,PersianCult,310,System,3,3
+10:41:51,10:43:11,PersianCult,311,System,3,3
+10:43:17,10:44:30,PersianCult,312,System,3,3
+10:44:36,10:45:39,PersianCult,313,System,3,3
+10:48:25,10:49:26,JerusalemPhoto,137,System,3,3
+10:49:30,10:50:15,JerusalemPhoto,138,System,5,3
+10:52:28,10:53:51,Phoenicians,163,System,5,3
+11:07:25,11:08:30,CraftsAndArts,46,System,3,-5
+11:08:39,11:09:14,CraftsAndArts,47,System,4,-5
+11:09:18,11:09:56,CraftsAndArts,48,System,4,-5
+11:10:01,11:10:51,CraftsAndArts,49,System,5,-5
+11:10:58,11:11:36,CraftsAndArts,50,System,5,-5
+11:11:48,11:12:32,CraftsAndArts,51,System,5,-5
+11:13:10,11:14:05,MaritimeCommerce,33,System,5,-5
+11:14:21,11:15:05,ImportedPottery,43,System,5,-5
+11:15:39,11:16:48,BuildingMethodsAndFacilities,15,System,2,-5
+11:17:57,11:18:43,ReligionAndCult,7,System,3,-5
+
+events 
+10:22:10,return from screen
+10:26:42,chosenExhibit,39
+10:26:42,return from screen
+10:27:25,lookTour
+10:27:27,return from screen
+10:27:50,lookTour
+10:27:52,return from screen
+10:28:00,getDirections
+10:28:00,return from screen
+10:28:14,open map
+10:28:20,return from screen
+10:28:32,lookTour
+10:30:04,return from screen
+10:30:38,lookTour
+10:30:58,return from screen
+10:31:32,chosenExhibit,40
+10:31:32,lookTour
+10:33:08,return from screen
+10:34:24,chosenExhibit,41
+10:34:24,return from screen
+10:37:03,lookTour
+10:38:01,return from screen
+10:38:31,chosenExhibit,92
+10:48:22,chosenExhibit,44
+10:50:28,chosenExhibit,44
+10:50:28,return from screen
+10:50:34,lookTour
+10:51:34,return from screen
+10:52:19,chosenExhibit,89
+10:52:19,lookTour
+10:56:26,getDirections
+10:57:05,chosenExhibit,35
+10:57:14,chosenExhibit,16
+10:57:14,return from screen
+10:57:24,chosenExhibit,15
+10:57:24,return from screen
+10:57:39,getDirections
+10:57:52,getDirections
+11:03:49,getDirections
+11:04:43,lookTour
+11:05:07,getDirections
+11:05:30,lookTour
+11:05:49,return from screen
+11:05:49,getDirections
+11:06:16,return from screen
+11:06:30,return from screen
+11:07:23,chosenExhibit,35
+11:11:41,chosenExhibit,35
+11:11:41,return from screen
+11:13:08,chosenExhibit,29
+11:14:11,chosenExhibit,32
+11:15:34,chosenExhibit,20
+11:15:38,chosenExhibit,20
+11:17:43,chosenExhibit,14
+11:17:43,return from screen
+11:17:53,chosenExhibit,16
+11:21:59,return from screen

@@ -1,0 +1,89 @@
+
+Positions 
+12:09:25,12:09:45,PhoenicianWriting1
+12:09:45,12:09:57,EverydayPottery
+12:09:57,12:10:09,ReligionAndCult
+12:10:09,12:10:55,EverydayPottery
+12:10:55,12:11:05,PhoenicianWriting1
+12:11:05,12:11:41,ReligionAndCult
+12:11:41,12:12:41,PhoenicianWriting1
+12:12:41,12:12:47,CraftsAndArts
+12:12:47,12:12:59,ImportedPottery
+12:12:59,12:13:10,CraftsAndArts
+12:13:11,12:14:39,MaritimeCommerce
+12:14:40,12:14:42,PhoenicianWriting1
+12:14:42,12:14:46,BuildingMethodsAndFacilities
+12:14:46,12:15:13,PhoenicianWriting1
+12:15:13,12:15:16,EverydayPottery
+12:15:16,12:15:34,ReligionAndCult
+12:15:34,12:15:44,GlassOvenVessels
+12:15:44,12:16:11,EverydayPottery
+12:16:11,12:16:13,WoodenTools
+12:16:13,12:16:19,PhoenicianWriting1
+12:16:19,12:17:08,WoodenTools
+12:17:08,12:17:12,PhoenicianWriting1
+12:17:12,12:17:16,WoodenTools
+12:17:16,12:19:22,PhoenicianWriting1
+12:19:22,12:21:12,ShipFront
+12:21:12,12:21:14,ShipBack
+12:21:14,12:21:16,Pottery
+12:21:16,12:21:23,ShipBack
+12:21:23,12:21:27,Pottery
+12:21:27,12:22:04,ShipBack
+12:22:04,12:22:24,ShipFront
+12:22:24,12:22:28,Pottery
+12:22:28,12:22:30,MaritimeArcheology
+12:22:30,12:22:36,Pottery
+12:22:36,12:23:05,MaritimeArcheology
+12:23:05,12:23:09,CarpenterTools
+12:23:09,12:23:12,Pottery
+12:23:12,12:23:40,CarpenterTools
+12:23:40,12:23:50,Pottery
+12:23:50,12:23:55,MaritimeArcheology
+12:23:55,12:25:21,Pottery
+12:25:21,12:28:35,ShipEntrance
+12:28:35,12:28:56,DuckBoxIvories
+12:28:56,12:29:05,IvoryWomanPhoenician
+12:29:05,12:29:39,AnimalModels
+12:29:39,12:30:34,JewishCoffins
+12:30:34,12:31:08,ChalcolitePeriod
+12:31:08,12:58:44,UpperFloorEntrance
+12:58:44,12:59:18,OilLamps
+
+presentations 
+12:10:14,12:10:54,EverydayPottery,10,System,5
+12:11:05,12:11:41,ReligionAndCult,22,System,5
+12:13:24,12:14:33,MaritimeCommerce,35,System,5
+12:19:32,12:20:25,ShipFront,54,User
+12:21:00,12:21:11,ShipFront,54,User
+12:37:13,12:37:39,UpperFloorEntrance,304,User,3
+12:40:51,12:40:56,UpperFloorEntrance,304,User,3
+12:40:59,12:41:16,UpperFloorEntrance,304,User,3
+12:56:50,12:56:58,UpperFloorEntrance,304,User,3
+12:57:01,12:57:59,UpperFloorEntrance,304,System,3
+12:58:53,12:59:11,OilLamps,298,System,5
+
+events 
+12:09:12,chosenExhibit,89
+12:09:35,chosenExhibit,22
+12:09:55,chosenExhibit,17
+12:10:11,chosenExhibit,17
+12:11:02,chosenExhibit,22
+12:13:19,chosenExhibit,29
+12:19:29,chosenExhibit,1
+12:23:26,chosenExhibit,11
+12:23:26,return from screen
+12:23:42,chosenExhibit,9
+12:26:33,chosenExhibit,88
+12:36:43,chosenExhibit,85
+12:36:44,return from screen
+12:56:08,chosenExhibit,85
+12:56:08,return from screen
+12:58:49,chosenExhibit,82
+13:01:37,chosenExhibit,85
+13:01:37,return from screen
+13:01:43,open map
+13:02:09,return from screen
+13:02:18,open map
+13:02:39,return from screen
+13:02:41,return from screen

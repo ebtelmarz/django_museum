@@ -1,0 +1,105 @@
+
+Positions 
+13:01:19,13:02:33,SymbolsJewishMenorah
+13:02:42,13:02:52,PersianCult
+13:02:52,13:02:54,JerusalemPhoto
+13:03:32,13:03:50,MaterialCultures
+13:04:04,13:04:11,Phoenicians
+13:04:34,13:04:44,MaterialCultures
+13:07:13,13:07:28,EntranceReubenHecht
+13:07:28,13:07:36,SymbolsJewishMenorah
+13:07:38,13:07:56,PersianCult
+13:08:02,13:08:16,MaterialCultures
+13:08:55,13:09:03,Phoenicians
+13:10:30,13:10:44,MaterialCultures
+13:12:03,13:13:08,JerusalemPhoto
+13:13:32,13:15:16,MaterialCultures
+13:15:17,13:17:21,Phoenicians
+13:17:22,13:20:36,CraftsAndArts
+13:21:17,13:22:17,ImportedPottery
+13:22:27,13:26:19,BurialTradition2
+13:26:56,13:27:02,EverydayPottery
+13:27:02,13:27:06,ReligionAndCult
+13:27:06,13:27:12,CraftsAndArts
+13:27:55,13:28:00,MuseumMotto
+13:31:21,13:31:36,StairsToBathroom
+13:32:50,13:33:00,BronzeTools
+13:33:12,13:33:47,DuckBoxIvories
+13:34:40,13:34:45,AnimalModels
+13:38:58,13:39:04,JewishCoffins
+13:39:27,13:39:38,RomanDivinitiesStatuettes
+13:39:38,13:39:51,JewishCoffins
+13:40:54,13:40:59,MaterialCultures
+13:41:03,13:41:05,JerusalemPhoto
+13:41:05,13:41:11,JewishCoffins
+13:41:53,13:42:08,MenorahJewishEpigraphy
+13:42:23,13:46:12,LeadCoffinMosaic
+13:46:28,13:47:31,ChalcolitePeriod
+13:47:32,13:54:16,StairsToBathroom
+13:54:16,13:54:22,Coins
+13:54:26,13:54:32,Weights
+13:55:00,13:55:05,SevenSpecies
+13:55:06,13:55:15,Jerusalem
+13:55:25,13:55:27,TempleMount
+13:55:27,13:55:32,Jerusalem
+13:55:43,13:55:57,Cyprus
+13:56:01,13:56:08,Jerusalem
+13:57:39,13:57:44,UpperFloorEntrance
+13:58:00,13:58:10,MaterialCultures
+13:59:22,13:59:29,WoodenTools
+14:02:59,14:03:05,GlassOvenVessels
+14:03:11,14:03:15,Phoenicians
+14:03:15,14:03:24,MaterialCultures
+14:03:24,14:03:40,JerusalemPhoto
+14:03:40,14:03:45,SymbolsJewishMenorah
+14:03:45,14:03:59,EntranceReubenHecht
+
+presentations 
+13:01:42,13:02:33,SymbolsJewishMenorah,132,System,3,5
+13:12:11,13:13:08,JerusalemPhoto,137,System,3,-5
+13:13:55,13:15:16,MaterialCultures,165,System,3,-5
+13:15:59,13:17:21,Phoenicians,163,System,3,-5
+13:17:49,13:18:38,CraftsAndArts,47,System,3,-5
+13:19:08,13:19:55,CraftsAndArts,49,System,3,-5
+13:20:04,13:20:36,CraftsAndArts,50,System,3,-5
+13:21:25,13:22:17,ImportedPottery,39,System,3,-5
+13:23:04,13:24:27,BurialTradition2,103,System,3,-5
+13:24:45,13:26:19,BurialTradition2,106,System,3,-5
+13:33:31,13:33:47,DuckBoxIvories,151,System,3,-5
+13:42:39,13:43:36,LeadCoffinMosaic,195,System,3,-5
+13:43:45,13:44:48,LeadCoffinMosaic,196,System,3,-5
+13:45:03,13:45:53,LeadCoffinMosaic,197,System,3,-5
+13:46:01,13:46:12,LeadCoffinMosaic,197,User,3,-5
+13:46:28,13:47:31,ChalcolitePeriod,238,System,1,-5
+
+events 
+13:00:10,open map
+13:00:32,return from screen
+13:00:32,getDirections
+13:01:35,chosenExhibit,41
+13:03:08,chosenExhibit,44
+13:03:08,open map
+13:08:06,chosenExhibit,91
+13:08:59,chosenExhibit,89
+13:08:59,return from screen
+13:09:30,chosenExhibit,89
+13:09:30,open map
+13:10:00,return from screen
+13:10:33,lookTour
+13:10:33,chosenExhibit,91
+13:10:49,open map
+13:11:17,return from screen
+13:12:07,chosenExhibit,44
+13:13:34,chosenExhibit,91
+13:15:57,chosenExhibit,89
+13:17:40,chosenExhibit,35
+13:21:21,chosenExhibit,32
+13:22:39,chosenExhibit,27
+13:22:39,lookTour
+13:26:33,open map
+13:26:40,return from screen
+13:26:43,return from screen
+13:33:15,chosenExhibit,49
+13:42:33,chosenExhibit,63
+13:46:16,chosenExhibit,47
+14:03:45,return from screen

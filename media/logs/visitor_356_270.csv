@@ -1,0 +1,155 @@
+
+Positions 
+13:56:01,13:56:03,EntranceReubenHecht
+13:56:03,13:56:05,SymbolsJewishMenorah
+13:56:05,13:58:34,EntranceReubenHecht
+13:58:34,13:59:31,SymbolsJewishMenorah
+13:59:31,13:59:33,EntranceReubenHecht
+13:59:34,14:01:32,SymbolsJewishMenorah
+14:04:05,14:07:06,PersianCult
+14:07:17,14:07:27,JerusalemPhoto
+14:07:30,14:07:36,SymbolsJewishMenorah
+14:07:41,14:07:48,JerusalemPhoto
+14:07:48,14:07:50,SymbolsJewishMenorah
+14:08:00,14:09:59,JerusalemPhoto
+14:10:15,14:10:47,MaterialCultures
+14:11:49,14:11:54,Phoenicians
+14:11:54,14:12:02,MaterialCultures
+14:13:53,14:16:27,EverydayPottery
+14:16:47,14:22:41,BurialTradition2
+14:23:04,14:23:09,CraftsAndArts
+14:23:17,14:24:40,BurialTradition2
+14:24:44,14:25:44,MaritimeCommerce
+14:25:54,14:25:57,BuildingMethodsAndFacilities
+14:25:57,14:26:04,CraftsAndArts
+14:26:04,14:26:09,MaritimeCommerce
+14:26:09,14:26:11,BuildingMethodsAndFacilities
+14:26:14,14:26:20,EverydayPottery
+14:26:20,14:26:24,MaritimeCommerce
+14:26:30,14:26:32,BuildingMethodsAndFacilities
+14:26:32,14:26:37,EverydayPottery
+14:27:03,14:28:09,BuildingMethodsAndFacilities
+14:28:10,14:28:21,EverydayPottery
+14:28:27,14:29:53,BuildingMethodsAndFacilities
+14:30:03,14:30:17,CraftsAndArts
+14:30:45,14:30:50,ImportedPottery
+14:33:03,14:33:09,Phoenicians
+14:33:37,14:33:45,EverydayPottery
+14:33:49,14:33:54,WoodenTools
+14:37:08,14:37:17,GlassOvenVessels
+14:41:09,14:41:16,ShipEntrance
+14:41:38,14:42:41,ShipFront
+14:44:38,14:44:46,ShipBack
+14:45:18,14:45:23,ShipFront
+14:46:15,14:46:25,MaritimeArcheology
+14:47:40,14:48:43,MaritimeArcheology
+14:49:14,14:49:18,ShipBack
+14:49:25,14:50:08,ShipFront
+14:50:29,14:50:33,StairsToBathroom
+15:01:43,15:03:21,DuckBoxIvories
+15:03:30,15:03:34,AnimalModels
+15:04:05,15:04:09,CanaaniteStelae
+15:05:01,15:05:06,AnimalModels
+15:05:50,15:07:01,AnimalModels
+15:07:38,15:08:57,LeadCoffinMosaic
+15:08:58,15:09:40,JewishCoffins
+15:09:40,15:11:21,MenorahJewishEpigraphy
+15:11:22,15:12:39,Anthropoids
+15:12:40,15:12:48,JewishCoffins
+15:13:20,15:13:23,MaterialCultures
+15:13:23,15:13:28,JerusalemPhoto
+15:16:36,15:18:02,Jerusalem
+15:18:02,15:22:10,GreeceEgypt
+15:22:10,15:22:14,Weights
+15:22:14,15:22:21,Coins
+15:34:55,15:35:00,MaterialCultures
+15:35:00,15:35:11,JerusalemPhoto
+15:35:12,15:35:24,SymbolsJewishMenorah
+15:35:26,15:35:38,EntranceReubenHecht
+
+presentations 
+13:56:28,13:57:19,EntranceReubenHecht,128,System,5,2
+13:57:29,13:58:27,EntranceReubenHecht,129,System,5,2
+13:58:45,13:59:28,SymbolsJewishMenorah,131,System,5,2
+13:59:49,14:00:36,SymbolsJewishMenorah,132,System,5,2
+14:00:39,14:01:25,SymbolsJewishMenorah,130,System,5,2
+14:04:26,14:05:46,PersianCult,311,System,5,2
+14:05:53,14:07:06,PersianCult,312,System,5,2
+14:08:12,14:09:11,JerusalemPhoto,137,System,5,2
+14:09:14,14:09:59,JerusalemPhoto,138,System,5,2
+14:14:51,14:15:34,EverydayPottery,9,System,5,2
+14:15:44,14:16:27,EverydayPottery,10,System,5,2
+14:17:03,14:17:33,BurialTradition2,26,System,5,2
+14:17:40,14:18:40,BurialTradition2,28,System,5,2
+14:18:48,14:19:21,BurialTradition2,28,User,5,2
+14:19:43,14:20:44,BurialTradition2,29,System,5,2
+14:20:49,14:21:41,BurialTradition2,96,System,5,2
+14:21:47,14:22:41,BurialTradition2,98,System,5,2
+14:23:36,14:24:40,BurialTradition2,106,System,5,2
+14:25:02,14:25:44,MaritimeCommerce,36,System,5,2
+14:27:10,14:28:09,BuildingMethodsAndFacilities,14,System,5,2
+14:28:37,14:29:53,BuildingMethodsAndFacilities,13,System,5,2
+14:41:38,14:42:41,ShipFront,57,System,5,2
+14:47:40,14:48:43,MaritimeArcheology,85,System,5,2
+15:01:56,15:03:02,DuckBoxIvories,240,System,5,2
+15:05:50,15:07:01,AnimalModels,176,System,5,2
+15:07:57,15:08:57,LeadCoffinMosaic,198,System,5,2
+15:10:05,15:11:21,MenorahJewishEpigraphy,230,System,5,2
+15:11:48,15:12:39,Anthropoids,185,System,5,2
+15:16:53,15:18:02,Jerusalem,281,System,5,2
+15:18:22,15:19:42,GreeceEgypt,308,System,5,2
+
+events 
+13:56:25,chosenExhibit,39
+13:56:25,return from screen
+13:57:27,chosenExhibit,40
+13:57:27,return from screen
+13:58:39,chosenExhibit,41
+13:59:38,chosenExhibit,41
+13:59:48,chosenExhibit,41
+13:59:48,return from screen
+14:04:18,chosenExhibit,92
+14:04:18,return from screen
+14:08:08,chosenExhibit,44
+14:14:46,chosenExhibit,17
+14:14:46,return from screen
+14:16:56,return from screen
+14:16:56,chosenExhibit,24
+14:19:31,chosenExhibit,25
+14:19:31,return from screen
+14:23:22,chosenExhibit,27
+14:24:50,chosenExhibit,29
+14:24:55,chosenExhibit,29
+14:26:12,chosenExhibit,19
+14:26:33,chosenExhibit,17
+14:26:33,return from screen
+14:27:07,chosenExhibit,19
+14:28:33,chosenExhibit,18
+14:30:16,chosenExhibit,35
+14:30:16,return from screen
+14:30:30,chosenExhibit,33
+14:30:30,return from screen
+14:41:13,chosenExhibit,88
+14:41:30,chosenExhibit,1
+14:41:30,return from screen
+14:43:23,return from screen
+14:43:23,chosenExhibit,3
+14:47:26,chosenExhibit,10
+14:47:26,return from screen
+15:01:47,return from screen
+15:01:47,chosenExhibit,49
+15:05:33,chosenExhibit,53
+15:05:34,return from screen
+15:05:45,chosenExhibit,54
+15:05:45,return from screen
+15:07:42,chosenExhibit,63
+15:09:49,chosenExhibit,58
+15:09:49,return from screen
+15:09:59,chosenExhibit,59
+15:11:28,chosenExhibit,61
+15:16:42,chosenExhibit,81
+15:18:11,chosenExhibit,84
+15:18:11,return from screen
+15:18:17,chosenExhibit,83
+15:18:17,return from screen
+15:35:26,return from screen

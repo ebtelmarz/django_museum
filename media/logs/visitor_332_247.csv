@@ -1,0 +1,55 @@
+
+Positions 
+12:30:29,12:30:48,JerusalemPhoto
+12:32:11,12:34:48,BronzeTools
+12:47:29,12:50:11,StoneVesselsBowl
+12:50:12,12:50:15,MosaicfromSynagogue
+12:50:26,12:51:33,StoneVesselsBowl
+12:51:40,12:54:13,BronzeTools
+12:54:18,12:54:26,MaterialCultures
+12:54:26,12:54:34,MuseumMotto
+12:55:07,12:55:25,EntranceGallileeRebellion
+12:55:25,12:55:40,DuckBoxIvories
+12:55:40,12:55:43,CanaaniteStelae
+12:55:44,12:56:58,DuckBoxIvories
+13:00:11,13:00:17,DuckBoxIvories
+13:02:22,13:02:38,ShipEntrance
+13:02:38,13:02:44,ShipBack
+13:03:20,13:03:52,ShipFront
+13:05:12,13:05:28,ShipEntrance
+13:05:30,13:05:37,GlassOvenVessels
+13:05:37,13:05:44,MosaicfromSynagogue
+13:05:44,13:05:48,MaterialCultures
+13:05:49,13:05:55,JerusalemPhoto
+13:05:55,13:06:04,PersianCult
+13:06:05,13:06:08,EntranceReubenHecht
+
+presentations 
+12:32:34,12:33:39,BronzeTools,190,System,3,3
+12:33:46,12:34:48,BronzeTools,191,System,3,3
+12:47:44,12:48:55,StoneVesselsBowl,178,System,3,3
+12:49:02,12:50:11,StoneVesselsBowl,179,System,3,3
+12:50:26,12:51:33,StoneVesselsBowl,251,System,3,3
+12:51:57,12:53:03,BronzeTools,190,System,3,3
+12:53:13,12:54:13,BronzeTools,194,System,3,3
+12:55:58,12:56:58,DuckBoxIvories,151,System,3,3
+13:00:11,13:00:17,DuckBoxIvories,240,User,3,3
+
+events 
+12:32:17,chosenExhibit,71
+12:32:17,return from screen
+12:47:37,chosenExhibit,66
+12:50:19,chosenExhibit,66
+12:51:44,chosenExhibit,71
+12:55:35,chosenExhibit,49
+12:55:55,chosenExhibit,49
+13:02:35,chosenExhibit,88
+13:02:49,chosenExhibit,5
+13:02:49,return from screen
+13:06:05,open map
+13:07:39,open map
+13:07:39,open map
+13:08:07,open map
+13:08:24,getDirections
+13:08:24,return from screen
+13:08:30,return from screen

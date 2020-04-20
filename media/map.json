@@ -1,0 +1,2542 @@
+[{
+	"Route": [{
+		"PointsInRoute": [{
+			"PointInRoute": [
+				{
+					"Point": {
+						"_x": "640",
+						"_y": "383",
+						"_name": "EntranceReubenHecht",
+						"_type": "poi",
+						"_room": "1",
+						"_width": "20",
+						"_height": "22",
+						"_backName": "Exit"
+					},
+					"locationOnRoute": {
+						"_x": "657",
+						"_y": "383"
+					}
+				},
+				{
+					"Point": {
+						"_x": "566",
+						"_y": "383",
+						"_name": "SymbolsJewishMenorah",
+						"_type": "poi",
+						"_room": "1",
+						"_width": "20",
+						"_height": "22",
+						"_backName": ""
+					},
+					"locationOnRoute": {
+						"_x": "568",
+						"_y": "383"
+					}
+				},
+				{
+					"Point": {
+						"_x": "506",
+						"_y": "383",
+						"_name": "PersianCult",
+						"_type": "poi",
+						"_room": "1",
+						"_width": "20",
+						"_height": "22",
+						"_backName": ""
+					},
+					"locationOnRoute": {
+						"_x": "505",
+						"_y": "383"
+					}
+				},
+				{
+					"Point": {
+						"_x": "430",
+						"_y": "383",
+						"_name": "JerusalemPhoto",
+						"_type": "poi",
+						"_room": "1",
+						"_width": "20",
+						"_height": "22",
+						"_backName": ""
+					},
+					"locationOnRoute": {
+						"_x": "434",
+						"_y": "383"
+					}
+				},
+				{
+					"Point": {
+						"_x": "430",
+						"_y": "265",
+						"_name": "MaterialCultures",
+						"_type": "poi",
+						"_room": "7",
+						"_width": "20",
+						"_height": "22",
+						"_backName": "Entrance0704"
+					},
+					"locationOnRoute": {
+						"_x": "434",
+						"_y": "263"
+					}
+				},
+				{
+					"Point": {
+						"_x": "430",
+						"_y": "211",
+						"_name": "MuseumMotto",
+						"_type": "poi",
+						"_room": "2",
+						"_width": "20",
+						"_height": "22",
+						"_backName": ""
+					},
+					"locationOnRoute": {
+						"_x": "434",
+						"_y": "207"
+					}
+				},
+				{
+					"Point": {
+						"_x": "430",
+						"_y": "89",
+						"_name": "EntranceGallileeRebellion",
+						"_type": "entrance",
+						"_room": "2",
+						"_width": "20",
+						"_height": "22",
+						"_backName": "Entrance0802"
+					},
+					"locationOnRoute": {
+						"_x": "434",
+						"_y": "90"
+					}
+				},
+				{
+					"Point": {
+						"_x": "460",
+						"_y": "64",
+						"_name": "DuckBoxIvories",
+						"_type": "poi",
+						"_room": "2",
+						"_width": "20",
+						"_height": "22",
+						"_backName": ""
+					},
+					"locationOnRoute": {
+						"_x": "458",
+						"_y": "60"
+					}
+				},
+				{
+					"Point": {
+						"_x": "471",
+						"_y": "36",
+						"_name": "CanaaniteStelae",
+						"_type": "poi",
+						"_room": "2",
+						"_width": "20",
+						"_height": "22",
+						"_backName": ""
+					},
+					"locationOnRoute": {
+						"_x": "475",
+						"_y": "40"
+					}
+				},
+				{
+					"Point": {
+						"_x": "540",
+						"_y": "48",
+						"_name": "IvoryWomanPhoenician",
+						"_type": "poi",
+						"_room": "2",
+						"_width": "20",
+						"_height": "22",
+						"_backName": ""
+					},
+					"locationOnRoute": {
+						"_x": "535",
+						"_y": "51"
+					}
+				},
+				{
+					"Point": {
+						"_x": "569",
+						"_y": "66",
+						"_name": "ClayAmphorae",
+						"_type": "poi",
+						"_room": "2",
+						"_width": "20",
+						"_height": "22",
+						"_backName": ""
+					},
+					"locationOnRoute": {
+						"_x": "567",
+						"_y": "67"
+					}
+				},
+				{
+					"Point": {
+						"_x": "545",
+						"_y": "146",
+						"_name": "AnimalModels",
+						"_type": "poi",
+						"_room": "2",
+						"_width": "20",
+						"_height": "22",
+						"_backName": ""
+					},
+					"locationOnRoute": {
+						"_x": "547",
+						"_y": "147"
+					}
+				},
+				{
+					"Point": {
+						"_x": "550",
+						"_y": "240",
+						"_name": "LeadCoffinMosaic",
+						"_type": "poi",
+						"_room": "7",
+						"_width": "20",
+						"_height": "22",
+						"_backName": ""
+					},
+					"locationOnRoute": {
+						"_x": "550",
+						"_y": "238"
+					}
+				},
+				{
+					"Point": {
+						"_x": "464",
+						"_y": "229",
+						"_name": "ChalcolitePeriod",
+						"_type": "poi",
+						"_room": "7",
+						"_width": "20",
+						"_height": "22",
+						"_backName": ""
+					},
+					"locationOnRoute": {
+						"_x": "467",
+						"_y": "225"
+					}
+				},
+				{
+					"Point": {
+						"_x": "537",
+						"_y": "315",
+						"_name": "JewishCoffins",
+						"_type": "poi",
+						"_room": "7",
+						"_width": "20",
+						"_height": "22",
+						"_backName": ""
+					},
+					"locationOnRoute": {
+						"_x": "537",
+						"_y": "317"
+					}
+				},
+				{
+					"Point": {
+						"_x": "486",
+						"_y": "325",
+						"_name": "Anthropoids",
+						"_type": "poi",
+						"_room": "7",
+						"_width": "20",
+						"_height": "22",
+						"_backName": ""
+					},
+					"locationOnRoute": {
+						"_x": "483",
+						"_y": "329"
+					}
+				},
+				{
+					"Point": {
+						"_x": "468",
+						"_y": "339",
+						"_name": "DecoratedDoors",
+						"_type": "poi",
+						"_room": "7",
+						"_width": "20",
+						"_height": "22",
+						"_backName": ""
+					},
+					"locationOnRoute": {
+						"_x": "470",
+						"_y": "337"
+					}
+				},
+				{
+					"Point": {
+						"_x": "526",
+						"_y": "335",
+						"_name": "MenorahJewishEpigraphy",
+						"_type": "poi",
+						"_room": "7",
+						"_width": "20",
+						"_height": "22",
+						"_backName": ""
+					},
+					"locationOnRoute": {
+						"_x": "527",
+						"_y": "337"
+					}
+				},
+				{
+					"Point": {
+						"_x": "307",
+						"_y": "43",
+						"_name": "StairsToBathroom",
+						"_type": "poi",
+						"_room": "3",
+						"_width": "20",
+						"_height": "22",
+						"_backName": ""
+					},
+					"locationOnRoute": {
+						"_x": "307",
+						"_y": "40"
+					}
+				},
+				{
+					"Point": {
+						"_x": "212",
+						"_y": "117",
+						"_name": "ShipEntrance",
+						"_type": "poi",
+						"_room": "5",
+						"_width": "20",
+						"_height": "22",
+						"_backName": "Entrance0508"
+					},
+					"locationOnRoute": {
+						"_x": "216",
+						"_y": "120"
+					}
+				},
+				{
+					"Point": {
+						"_x": "156",
+						"_y": "105",
+						"_name": "ShipFront",
+						"_type": "poi",
+						"_room": "5",
+						"_width": "20",
+						"_height": "22",
+						"_backName": ""
+					},
+					"locationOnRoute": {
+						"_x": "158",
+						"_y": "103"
+					}
+				},
+				{
+					"Point": {
+						"_x": "127",
+						"_y": "79",
+						"_name": "ShipBack",
+						"_type": "poi",
+						"_room": "5",
+						"_width": "20",
+						"_height": "22",
+						"_backName": ""
+					},
+					"locationOnRoute": {
+						"_x": "126",
+						"_y": "82"
+					}
+				},
+				{
+					"Point": {
+						"_x": "22",
+						"_y": "140",
+						"_name": "MaritimeArcheology",
+						"_type": "poi",
+						"_room": "5",
+						"_width": "20",
+						"_height": "22",
+						"_backName": ""
+					},
+					"locationOnRoute": {
+						"_x": "23",
+						"_y": "138"
+					}
+				},
+				{
+					"Point": {
+						"_x": "21",
+						"_y": "108",
+						"_name": "Pottery",
+						"_type": "poi",
+						"_room": "5",
+						"_width": "20",
+						"_height": "22",
+						"_backName": ""
+					},
+					"locationOnRoute": {
+						"_x": "23",
+						"_y": "103"
+					}
+				},
+				{
+					"Point": {
+						"_x": "20",
+						"_y": "54",
+						"_name": "CarpenterTools",
+						"_type": "poi",
+						"_room": "5",
+						"_width": "20",
+						"_height": "22",
+						"_backName": ""
+					},
+					"locationOnRoute": {
+						"_x": "23",
+						"_y": "65"
+					}
+				},
+				{
+					"Point": {
+						"_x": "396",
+						"_y": "154",
+						"_name": "BronzeTools",
+						"_type": "poi",
+						"_room": "3",
+						"_width": "20",
+						"_height": "22",
+						"_backName": ""
+					},
+					"locationOnRoute": {
+						"_x": "392",
+						"_y": "157"
+					}
+				},
+				{
+					"Point": {
+						"_x": "323",
+						"_y": "158",
+						"_name": "StoneVesselsBowl",
+						"_type": "poi",
+						"_room": "3",
+						"_width": "20",
+						"_height": "22",
+						"_backName": ""
+					},
+					"locationOnRoute": {
+						"_x": "322",
+						"_y": "157"
+					}
+				},
+				{
+					"Point": {
+						"_x": "372",
+						"_y": "198",
+						"_name": "MosaicfromSynagogue",
+						"_type": "poi",
+						"_room": "3",
+						"_width": "20",
+						"_height": "22",
+						"_backName": ""
+					},
+					"locationOnRoute": {
+						"_x": "384",
+						"_y": "200"
+					}
+				},
+				{
+					"Point": {
+						"_x": "393",
+						"_y": "250",
+						"_name": "Phoenicians",
+						"_type": "poi",
+						"_room": "4",
+						"_width": "20",
+						"_height": "22",
+						"_backName": ""
+					},
+					"locationOnRoute": {
+						"_x": "397",
+						"_y": "247"
+					}
+				},
+				{
+					"Point": {
+						"_x": "346",
+						"_y": "223",
+						"_name": "GlassOvenVessels",
+						"_type": "poi",
+						"_room": "3",
+						"_width": "20",
+						"_height": "22",
+						"_backName": ""
+					},
+					"locationOnRoute": {
+						"_x": "347",
+						"_y": "220"
+					}
+				},
+				{
+					"Point": {
+						"_x": "235",
+						"_y": "248",
+						"_name": "WoodenTools",
+						"_type": "poi",
+						"_room": "3",
+						"_width": "20",
+						"_height": "22",
+						"_backName": ""
+					},
+					"locationOnRoute": {
+						"_x": "232",
+						"_y": "247"
+					}
+				},
+				{
+					"Point": {
+						"_x": "574",
+						"_y": "340",
+						"_name": "RomanDivinitiesStatuettes",
+						"_type": "poi",
+						"_room": "7",
+						"_width": "20",
+						"_height": "22",
+						"_backName": ""
+					},
+					"locationOnRoute": {
+						"_x": "570",
+						"_y": "337"
+					}
+				},
+				{
+					"Point": {
+						"_x": "328",
+						"_y": "325",
+						"_name": "ImportedPottery",
+						"_type": "poi",
+						"_room": "4",
+						"_width": "20",
+						"_height": "22",
+						"_backName": ""
+					},
+					"locationOnRoute": {
+						"_x": "324",
+						"_y": "324"
+					}
+				},
+				{
+					"Point": {
+						"_x": "322",
+						"_y": "304",
+						"_name": "CraftsAndArts",
+						"_type": "poi",
+						"_room": "4",
+						"_width": "20",
+						"_height": "22",
+						"_backName": ""
+					},
+					"locationOnRoute": {
+						"_x": "320",
+						"_y": "300"
+					}
+				},
+				{
+					"Point": {
+						"_x": "308",
+						"_y": "288",
+						"_name": "ReligionAndCult",
+						"_type": "poi",
+						"_room": "4",
+						"_width": "20",
+						"_height": "22",
+						"_backName": ""
+					},
+					"locationOnRoute": {
+						"_x": "305",
+						"_y": "289"
+					}
+				},
+				{
+					"Point": {
+						"_x": "284",
+						"_y": "276",
+						"_name": "EverydayPottery",
+						"_type": "poi",
+						"_room": "4",
+						"_width": "20",
+						"_height": "22",
+						"_backName": ""
+					},
+					"locationOnRoute": {
+						"_x": "285",
+						"_y": "275"
+					}
+				},
+				{
+					"Point": {
+						"_x": "265",
+						"_y": "297",
+						"_name": "PhoenicianWriting1",
+						"_type": "poi",
+						"_room": "4",
+						"_width": "20",
+						"_height": "22",
+						"_backName": ""
+					},
+					"locationOnRoute": {
+						"_x": "263",
+						"_y": "300"
+					}
+				},
+				{
+					"Point": {
+						"_x": "255",
+						"_y": "322",
+						"_name": "BurialTradition2",
+						"_type": "poi",
+						"_room": "4",
+						"_width": "20",
+						"_height": "22",
+						"_backName": ""
+					},
+					"locationOnRoute": {
+						"_x": "252",
+						"_y": "320"
+					}
+				},
+				{
+					"Point": {
+						"_x": "288",
+						"_y": "324",
+						"_name": "MaritimeCommerce",
+						"_type": "poi",
+						"_room": "4",
+						"_width": "20",
+						"_height": "22",
+						"_backName": ""
+					},
+					"locationOnRoute": {
+						"_x": "290",
+						"_y": "320"
+					}
+				},
+				{
+					"Point": {
+						"_x": "301",
+						"_y": "290",
+						"_name": "BuildingMethodsAndFacilities",
+						"_type": "poi",
+						"_room": "4",
+						"_width": "20",
+						"_height": "22",
+						"_backName": ""
+					},
+					"locationOnRoute": {
+						"_x": "305",
+						"_y": "289"
+					}
+				},
+				{
+					"Point": {
+						"_x": "677",
+						"_y": "198",
+						"_name": "Coins",
+						"_type": "poi",
+						"_room": "6",
+						"_width": "20",
+						"_height": "22",
+						"_backName": ""
+					},
+					"locationOnRoute": {
+						"_x": "679",
+						"_y": "180"
+					}
+				},
+				{
+					"Point": {
+						"_x": "716",
+						"_y": "181",
+						"_name": "SevenSpecies",
+						"_type": "poi",
+						"_room": "6",
+						"_width": "20",
+						"_height": "22",
+						"_backName": ""
+					},
+					"locationOnRoute": {
+						"_x": "716",
+						"_y": "180"
+					}
+				},
+				{
+					"Point": {
+						"_x": "678",
+						"_y": "104",
+						"_name": "Weights",
+						"_type": "poi",
+						"_room": "6",
+						"_width": "20",
+						"_height": "22",
+						"_backName": ""
+					},
+					"locationOnRoute": {
+						"_x": "679",
+						"_y": "100"
+					}
+				},
+				{
+					"Point": {
+						"_x": "737",
+						"_y": "37",
+						"_name": "Gems",
+						"_type": "poi",
+						"_room": "6",
+						"_width": "20",
+						"_height": "22",
+						"_backName": ""
+					},
+					"locationOnRoute": {
+						"_x": "735",
+						"_y": "39"
+					}
+				},
+				{
+					"Point": {
+						"_x": "844",
+						"_y": "63",
+						"_name": "Cyprus",
+						"_type": "poi",
+						"_room": "6",
+						"_width": "20",
+						"_height": "22",
+						"_backName": ""
+					},
+					"locationOnRoute": {
+						"_x": "840",
+						"_y": "65"
+					}
+				},
+				{
+					"Point": {
+						"_x": "834",
+						"_y": "104",
+						"_name": "GreeceEgypt",
+						"_type": "poi",
+						"_room": "6",
+						"_width": "20",
+						"_height": "22",
+						"_backName": ""
+					},
+					"locationOnRoute": {
+						"_x": "835",
+						"_y": "103"
+					}
+				},
+				{
+					"Point": {
+						"_x": "771",
+						"_y": "112",
+						"_name": "Jerusalem",
+						"_type": "poi",
+						"_room": "6",
+						"_width": "20",
+						"_height": "22",
+						"_backName": ""
+					},
+					"locationOnRoute": {
+						"_x": "768",
+						"_y": "116"
+					}
+				},
+				{
+					"Point": {
+						"_x": "741",
+						"_y": "88",
+						"_name": "TempleMount",
+						"_type": "poi",
+						"_room": "6",
+						"_width": "20",
+						"_height": "22",
+						"_backName": ""
+					},
+					"locationOnRoute": {
+						"_x": "742",
+						"_y": "92"
+					}
+				},
+				{
+					"Point": {
+						"_x": "811",
+						"_y": "191",
+						"_name": "OilLamps",
+						"_type": "poi",
+						"_room": "6",
+						"_width": "20",
+						"_height": "22",
+						"_backName": ""
+					},
+					"locationOnRoute": {
+						"_x": "811",
+						"_y": "194"
+					}
+				},
+				{
+					"Point": {
+						"_x": "808",
+						"_y": "234",
+						"_name": "UpperFloorEntrance",
+						"_type": "poi",
+						"_room": "6",
+						"_width": "20",
+						"_height": "22",
+						"_backName": "Entrance0602"
+					},
+					"locationOnRoute": {
+						"_x": "806",
+						"_y": "247"
+					}
+				},
+				{
+					"Point": {
+						"_x": "432",
+						"_y": "46",
+						"_name": "Elevator1",
+						"_type": "elevator",
+						"_room": "2",
+						"_width": "20",
+						"_height": "22",
+						"_backName": ""
+					},
+					"locationOnRoute": {
+						"_x": "430",
+						"_y": "44"
+					}
+				},
+				{
+					"Point": {
+						"_x": "665",
+						"_y": "21",
+						"_name": "Elevator2",
+						"_type": "elevator",
+						"_room": "6",
+						"_width": "20",
+						"_height": "22",
+						"_backName": ""
+					},
+					"locationOnRoute": {
+						"_x": "661",
+						"_y": "17"
+					}
+				}
+			]
+		}],
+		"RoutePoints": [{
+			"RoutePoint": [
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": {
+							"_x": "568",
+							"_y": "383"
+						}
+					},
+					"location": {
+						"_x": "657",
+						"_y": "383"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "657",
+								"_y": "383"
+							},
+							{
+								"_x": "505",
+								"_y": "383"
+							}
+						]
+					},
+					"location": {
+						"_x": "568",
+						"_y": "383"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "568",
+								"_y": "383"
+							},
+							{
+								"_x": "434",
+								"_y": "383"
+							}
+						]
+					},
+					"location": {
+						"_x": "505",
+						"_y": "383"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "505",
+								"_y": "383"
+							},
+							{
+								"_x": "434",
+								"_y": "354"
+							}
+						]
+					},
+					"location": {
+						"_x": "434",
+						"_y": "383"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "434",
+								"_y": "383"
+							},
+							{
+								"_x": "434",
+								"_y": "263"
+							}
+						]
+					},
+					"location": {
+						"_x": "434",
+						"_y": "354"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "434",
+								"_y": "354"
+							},
+							{
+								"_x": "434",
+								"_y": "207"
+							},
+							{
+								"_x": "465",
+								"_y": "263"
+							},
+							{
+								"_x": "410",
+								"_y": "260"
+							}
+						]
+					},
+					"location": {
+						"_x": "434",
+						"_y": "263"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "434",
+								"_y": "263"
+							},
+							{
+								"_x": "434",
+								"_y": "90"
+							},
+							{
+								"_x": "467",
+								"_y": "205"
+							}
+						]
+					},
+					"location": {
+						"_x": "434",
+						"_y": "207"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "570",
+								"_y": "153"
+							},
+							{
+								"_x": "570",
+								"_y": "241"
+							},
+							{
+								"_x": "467",
+								"_y": "225"
+							}
+						]
+					},
+					"location": {
+						"_x": "550",
+						"_y": "238"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "550",
+								"_y": "238"
+							},
+							{
+								"_x": "570",
+								"_y": "309"
+							}
+						]
+					},
+					"location": {
+						"_x": "570",
+						"_y": "241"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "570",
+								"_y": "241"
+							},
+							{
+								"_x": "537",
+								"_y": "317"
+							},
+							{
+								"_x": "576",
+								"_y": "323"
+							}
+						]
+					},
+					"location": {
+						"_x": "570",
+						"_y": "309"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "570",
+								"_y": "309"
+							},
+							{
+								"_x": "483",
+								"_y": "329"
+							}
+						]
+					},
+					"location": {
+						"_x": "537",
+						"_y": "317"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "537",
+								"_y": "317"
+							},
+							{
+								"_x": "470",
+								"_y": "337"
+							}
+						]
+					},
+					"location": {
+						"_x": "483",
+						"_y": "329"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "483",
+								"_y": "329"
+							},
+							{
+								"_x": "527",
+								"_y": "337"
+							}
+						]
+					},
+					"location": {
+						"_x": "470",
+						"_y": "337"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "470",
+								"_y": "337"
+							},
+							{
+								"_x": "570",
+								"_y": "337"
+							}
+						]
+					},
+					"location": {
+						"_x": "527",
+						"_y": "337"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "527",
+								"_y": "337"
+							},
+							{
+								"_x": "576",
+								"_y": "323"
+							}
+						]
+					},
+					"location": {
+						"_x": "570",
+						"_y": "337"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "570",
+								"_y": "337"
+							},
+							{
+								"_x": "570",
+								"_y": "309"
+							}
+						]
+					},
+					"location": {
+						"_x": "576",
+						"_y": "323"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "547",
+								"_y": "147"
+							},
+							{
+								"_x": "550",
+								"_y": "238"
+							}
+						]
+					},
+					"location": {
+						"_x": "570",
+						"_y": "153"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "547",
+								"_y": "126"
+							},
+							{
+								"_x": "570",
+								"_y": "153"
+							}
+						]
+					},
+					"location": {
+						"_x": "547",
+						"_y": "147"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "567",
+								"_y": "120"
+							},
+							{
+								"_x": "547",
+								"_y": "147"
+							}
+						]
+					},
+					"location": {
+						"_x": "547",
+						"_y": "126"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "567",
+								"_y": "67"
+							},
+							{
+								"_x": "547",
+								"_y": "126"
+							}
+						]
+					},
+					"location": {
+						"_x": "567",
+						"_y": "120"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "535",
+								"_y": "51"
+							},
+							{
+								"_x": "567",
+								"_y": "120"
+							}
+						]
+					},
+					"location": {
+						"_x": "567",
+						"_y": "67"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "519",
+								"_y": "40"
+							},
+							{
+								"_x": "567",
+								"_y": "67"
+							}
+						]
+					},
+					"location": {
+						"_x": "535",
+						"_y": "51"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "475",
+								"_y": "40"
+							},
+							{
+								"_x": "535",
+								"_y": "51"
+							}
+						]
+					},
+					"location": {
+						"_x": "519",
+						"_y": "40"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "458",
+								"_y": "60"
+							},
+							{
+								"_x": "519",
+								"_y": "40"
+							}
+						]
+					},
+					"location": {
+						"_x": "475",
+						"_y": "40"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "434",
+								"_y": "60"
+							},
+							{
+								"_x": "475",
+								"_y": "40"
+							}
+						]
+					},
+					"location": {
+						"_x": "458",
+						"_y": "60"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "434",
+								"_y": "207"
+							},
+							{
+								"_x": "434",
+								"_y": "60"
+							},
+							{
+								"_x": "322",
+								"_y": "90"
+							}
+						]
+					},
+					"location": {
+						"_x": "434",
+						"_y": "90"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "434",
+								"_y": "90"
+							},
+							{
+								"_x": "242",
+								"_y": "114"
+							},
+							{
+								"_x": "320",
+								"_y": "50"
+							}
+						]
+					},
+					"location": {
+						"_x": "322",
+						"_y": "90"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "434",
+								"_y": "90"
+							},
+							{
+								"_x": "458",
+								"_y": "60"
+							},
+							{
+								"_x": "430",
+								"_y": "44"
+							}
+						]
+					},
+					"location": {
+						"_x": "434",
+						"_y": "60"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "434",
+								"_y": "60"
+							},
+							{
+								"_x": "661",
+								"_y": "17"
+							}
+						]
+					},
+					"location": {
+						"_x": "430",
+						"_y": "44"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "322",
+								"_y": "90"
+							},
+							{
+								"_x": "307",
+								"_y": "40"
+							}
+						]
+					},
+					"location": {
+						"_x": "320",
+						"_y": "50"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": {
+							"_x": "320",
+							"_y": "50"
+						}
+					},
+					"location": {
+						"_x": "307",
+						"_y": "40"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "322",
+								"_y": "90"
+							},
+							{
+								"_x": "216",
+								"_y": "120"
+							},
+							{
+								"_x": "245",
+								"_y": "157"
+							}
+						]
+					},
+					"location": {
+						"_x": "242",
+						"_y": "114"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "242",
+								"_y": "114"
+							},
+							{
+								"_x": "187",
+								"_y": "103"
+							}
+						]
+					},
+					"location": {
+						"_x": "216",
+						"_y": "120"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "216",
+								"_y": "120"
+							},
+							{
+								"_x": "158",
+								"_y": "103"
+							}
+						]
+					},
+					"location": {
+						"_x": "187",
+						"_y": "103"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "187",
+								"_y": "103"
+							},
+							{
+								"_x": "133",
+								"_y": "103"
+							},
+							{
+								"_x": "158",
+								"_y": "148"
+							}
+						]
+					},
+					"location": {
+						"_x": "158",
+						"_y": "103"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "158",
+								"_y": "103"
+							},
+							{
+								"_x": "126",
+								"_y": "82"
+							}
+						]
+					},
+					"location": {
+						"_x": "133",
+						"_y": "103"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": {
+							"_x": "133",
+							"_y": "103"
+						}
+					},
+					"location": {
+						"_x": "126",
+						"_y": "82"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "158",
+								"_y": "103"
+							},
+							{
+								"_x": "66",
+								"_y": "142"
+							}
+						]
+					},
+					"location": {
+						"_x": "158",
+						"_y": "148"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "158",
+								"_y": "148"
+							},
+							{
+								"_x": "23",
+								"_y": "138"
+							}
+						]
+					},
+					"location": {
+						"_x": "66",
+						"_y": "142"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "66",
+								"_y": "142"
+							},
+							{
+								"_x": "23",
+								"_y": "103"
+							}
+						]
+					},
+					"location": {
+						"_x": "23",
+						"_y": "138"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "23",
+								"_y": "138"
+							},
+							{
+								"_x": "23",
+								"_y": "65"
+							}
+						]
+					},
+					"location": {
+						"_x": "23",
+						"_y": "103"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": {
+							"_x": "23",
+							"_y": "103"
+						}
+					},
+					"location": {
+						"_x": "23",
+						"_y": "65"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": {
+							"_x": "242",
+							"_y": "114"
+						}
+					},
+					"location": {
+						"_x": "245",
+						"_y": "157"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "245",
+								"_y": "157"
+							},
+							{
+								"_x": "392",
+								"_y": "157"
+							}
+						]
+					},
+					"location": {
+						"_x": "322",
+						"_y": "157"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "400",
+								"_y": "195"
+							},
+							{
+								"_x": "384",
+								"_y": "200"
+							},
+							{
+								"_x": "322",
+								"_y": "157"
+							}
+						]
+					},
+					"location": {
+						"_x": "392",
+						"_y": "157"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "397",
+								"_y": "247"
+							},
+							{
+								"_x": "392",
+								"_y": "157"
+							},
+							{
+								"_x": "384",
+								"_y": "200"
+							}
+						]
+					},
+					"location": {
+						"_x": "400",
+						"_y": "195"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "400",
+								"_y": "195"
+							},
+							{
+								"_x": "392",
+								"_y": "157"
+							}
+						]
+					},
+					"location": {
+						"_x": "384",
+						"_y": "200"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "347",
+								"_y": "220"
+							},
+							{
+								"_x": "397",
+								"_y": "247"
+							}
+						]
+					},
+					"location": {
+						"_x": "371",
+						"_y": "220"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "269",
+								"_y": "220"
+							},
+							{
+								"_x": "371",
+								"_y": "220"
+							}
+						]
+					},
+					"location": {
+						"_x": "347",
+						"_y": "220"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "232",
+								"_y": "220"
+							},
+							{
+								"_x": "347",
+								"_y": "220"
+							}
+						]
+					},
+					"location": {
+						"_x": "269",
+						"_y": "220"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "232",
+								"_y": "247"
+							},
+							{
+								"_x": "269",
+								"_y": "220"
+							}
+						]
+					},
+					"location": {
+						"_x": "232",
+						"_y": "220"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "300",
+								"_y": "247"
+							},
+							{
+								"_x": "232",
+								"_y": "220"
+							}
+						]
+					},
+					"location": {
+						"_x": "232",
+						"_y": "247"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "349",
+								"_y": "247"
+							},
+							{
+								"_x": "232",
+								"_y": "247"
+							}
+						]
+					},
+					"location": {
+						"_x": "300",
+						"_y": "247"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "349",
+								"_y": "247"
+							},
+							{
+								"_x": "349",
+								"_y": "247"
+							},
+							{
+								"_x": "300",
+								"_y": "247"
+							},
+							{
+								"_x": "364",
+								"_y": "247"
+							}
+						]
+					},
+					"location": {
+						"_x": "349",
+						"_y": "247"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "397",
+								"_y": "247"
+							},
+							{
+								"_x": "364",
+								"_y": "247"
+							},
+							{
+								"_x": "364",
+								"_y": "247"
+							},
+							{
+								"_x": "358",
+								"_y": "321"
+							},
+							{
+								"_x": "349",
+								"_y": "247"
+							}
+						]
+					},
+					"location": {
+						"_x": "364",
+						"_y": "247"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "410",
+								"_y": "260"
+							},
+							{
+								"_x": "364",
+								"_y": "247"
+							},
+							{
+								"_x": "371",
+								"_y": "220"
+							},
+							{
+								"_x": "400",
+								"_y": "195"
+							}
+						]
+					},
+					"location": {
+						"_x": "397",
+						"_y": "247"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "434",
+								"_y": "263"
+							},
+							{
+								"_x": "397",
+								"_y": "247"
+							}
+						]
+					},
+					"location": {
+						"_x": "410",
+						"_y": "260"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "358",
+								"_y": "321"
+							},
+							{
+								"_x": "290",
+								"_y": "320"
+							},
+							{
+								"_x": "320",
+								"_y": "300"
+							}
+						]
+					},
+					"location": {
+						"_x": "324",
+						"_y": "324"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "324",
+								"_y": "324"
+							},
+							{
+								"_x": "252",
+								"_y": "320"
+							}
+						]
+					},
+					"location": {
+						"_x": "290",
+						"_y": "320"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "290",
+								"_y": "320"
+							},
+							{
+								"_x": "263",
+								"_y": "300"
+							}
+						]
+					},
+					"location": {
+						"_x": "252",
+						"_y": "320"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "252",
+								"_y": "320"
+							},
+							{
+								"_x": "274",
+								"_y": "286"
+							}
+						]
+					},
+					"location": {
+						"_x": "263",
+						"_y": "300"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "263",
+								"_y": "300"
+							},
+							{
+								"_x": "285",
+								"_y": "275"
+							}
+						]
+					},
+					"location": {
+						"_x": "274",
+						"_y": "286"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "274",
+								"_y": "286"
+							},
+							{
+								"_x": "305",
+								"_y": "289"
+							}
+						]
+					},
+					"location": {
+						"_x": "285",
+						"_y": "275"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "285",
+								"_y": "275"
+							},
+							{
+								"_x": "320",
+								"_y": "300"
+							}
+						]
+					},
+					"location": {
+						"_x": "305",
+						"_y": "289"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "305",
+								"_y": "289"
+							},
+							{
+								"_x": "324",
+								"_y": "324"
+							}
+						]
+					},
+					"location": {
+						"_x": "320",
+						"_y": "300"
+					}
+				},
+				{
+					"connectedRoutePoints": "",
+					"location": {
+						"_x": "336",
+						"_y": "277"
+					}
+				},
+				{
+					"connectedRoutePoints": "",
+					"location": {
+						"_x": "346",
+						"_y": "263"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "434",
+								"_y": "263"
+							},
+							{
+								"_x": "733",
+								"_y": "248"
+							}
+						]
+					},
+					"location": {
+						"_x": "465",
+						"_y": "263"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "465",
+								"_y": "263"
+							},
+							{
+								"_x": "806",
+								"_y": "247"
+							}
+						]
+					},
+					"location": {
+						"_x": "733",
+						"_y": "248"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "733",
+								"_y": "248"
+							},
+							{
+								"_x": "806",
+								"_y": "225"
+							}
+						]
+					},
+					"location": {
+						"_x": "806",
+						"_y": "247"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "806",
+								"_y": "247"
+							},
+							{
+								"_x": "811",
+								"_y": "194"
+							}
+						]
+					},
+					"location": {
+						"_x": "806",
+						"_y": "225"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "806",
+								"_y": "225"
+							},
+							{
+								"_x": "800",
+								"_y": "158"
+							},
+							{
+								"_x": "763",
+								"_y": "180"
+							}
+						]
+					},
+					"location": {
+						"_x": "811",
+						"_y": "194"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "811",
+								"_y": "194"
+							},
+							{
+								"_x": "768",
+								"_y": "116"
+							},
+							{
+								"_x": "835",
+								"_y": "103"
+							}
+						]
+					},
+					"location": {
+						"_x": "800",
+						"_y": "158"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "800",
+								"_y": "158"
+							},
+							{
+								"_x": "742",
+								"_y": "92"
+							},
+							{
+								"_x": "768",
+								"_y": "116"
+							},
+							{
+								"_x": "768",
+								"_y": "116"
+							},
+							{
+								"_x": "809",
+								"_y": "80"
+							}
+						]
+					},
+					"location": {
+						"_x": "768",
+						"_y": "116"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "768",
+								"_y": "116"
+							},
+							{
+								"_x": "809",
+								"_y": "80"
+							}
+						]
+					},
+					"location": {
+						"_x": "742",
+						"_y": "92"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "768",
+								"_y": "116"
+							},
+							{
+								"_x": "836",
+								"_y": "80"
+							},
+							{
+								"_x": "742",
+								"_y": "92"
+							}
+						]
+					},
+					"location": {
+						"_x": "809",
+						"_y": "80"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "835",
+								"_y": "103"
+							},
+							{
+								"_x": "809",
+								"_y": "80"
+							},
+							{
+								"_x": "840",
+								"_y": "65"
+							}
+						]
+					},
+					"location": {
+						"_x": "836",
+						"_y": "80"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "800",
+								"_y": "158"
+							},
+							{
+								"_x": "836",
+								"_y": "80"
+							}
+						]
+					},
+					"location": {
+						"_x": "835",
+						"_y": "103"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "836",
+								"_y": "80"
+							},
+							{
+								"_x": "840",
+								"_y": "39"
+							}
+						]
+					},
+					"location": {
+						"_x": "840",
+						"_y": "65"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "840",
+								"_y": "65"
+							},
+							{
+								"_x": "735",
+								"_y": "39"
+							}
+						]
+					},
+					"location": {
+						"_x": "840",
+						"_y": "39"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "840",
+								"_y": "39"
+							},
+							{
+								"_x": "679",
+								"_y": "39"
+							}
+						]
+					},
+					"location": {
+						"_x": "735",
+						"_y": "39"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "735",
+								"_y": "39"
+							},
+							{
+								"_x": "679",
+								"_y": "100"
+							},
+							{
+								"_x": "661",
+								"_y": "17"
+							}
+						]
+					},
+					"location": {
+						"_x": "679",
+						"_y": "39"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "679",
+								"_y": "39"
+							},
+							{
+								"_x": "679",
+								"_y": "180"
+							}
+						]
+					},
+					"location": {
+						"_x": "679",
+						"_y": "100"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "679",
+								"_y": "100"
+							},
+							{
+								"_x": "679",
+								"_y": "195"
+							},
+							{
+								"_x": "716",
+								"_y": "180"
+							}
+						]
+					},
+					"location": {
+						"_x": "679",
+						"_y": "180"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "679",
+								"_y": "180"
+							},
+							{
+								"_x": "763",
+								"_y": "180"
+							}
+						]
+					},
+					"location": {
+						"_x": "716",
+						"_y": "180"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": {
+							"_x": "679",
+							"_y": "180"
+						}
+					},
+					"location": {
+						"_x": "679",
+						"_y": "195"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "716",
+								"_y": "180"
+							},
+							{
+								"_x": "811",
+								"_y": "194"
+							}
+						]
+					},
+					"location": {
+						"_x": "763",
+						"_y": "180"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "679",
+								"_y": "39"
+							},
+							{
+								"_x": "430",
+								"_y": "44"
+							}
+						]
+					},
+					"location": {
+						"_x": "661",
+						"_y": "17"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "364",
+								"_y": "247"
+							},
+							{
+								"_x": "324",
+								"_y": "324"
+							}
+						]
+					},
+					"location": {
+						"_x": "358",
+						"_y": "321"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "467",
+								"_y": "225"
+							},
+							{
+								"_x": "434",
+								"_y": "207"
+							}
+						]
+					},
+					"location": {
+						"_x": "467",
+						"_y": "205"
+					}
+				},
+				{
+					"connectedRoutePoints": {
+						"connectedRoutePoint": [
+							{
+								"_x": "467",
+								"_y": "205"
+							},
+							{
+								"_x": "550",
+								"_y": "238"
+							}
+						]
+					},
+					"location": {
+						"_x": "467",
+						"_y": "225"
+					}
+				}
+			]
+		}],
+		"_xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+		"_xmlns:xsd": "http://www.w3.org/2001/XMLSchema"
+	}]
+}]

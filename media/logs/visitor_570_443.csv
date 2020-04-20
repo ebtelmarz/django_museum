@@ -1,0 +1,102 @@
+
+Positions 
+13:05:36,13:06:01,EntranceReubenHecht
+13:06:41,13:07:01,SymbolsJewishMenorah
+13:07:44,13:08:58,EntranceReubenHecht
+13:10:07,13:11:15,EntranceReubenHecht
+13:11:28,13:12:43,SymbolsJewishMenorah
+13:13:59,13:14:08,PersianCult
+13:15:20,13:18:01,PersianCult
+13:18:27,13:18:56,MaterialCultures
+13:19:18,13:19:25,ChalcolitePeriod
+13:20:09,13:21:07,ChalcolitePeriod
+13:21:08,13:24:16,JewishCoffins
+13:24:16,13:24:21,BronzeTools
+13:32:21,13:32:25,ShipEntrance
+13:32:44,13:36:24,BronzeTools
+13:36:39,13:36:49,ShipEntrance
+13:36:57,13:38:41,ShipBack
+13:40:22,13:41:22,ShipBack
+13:42:13,13:44:15,ShipBack
+13:45:08,13:45:13,ShipEntrance
+13:46:52,13:48:58,Anthropoids
+13:52:06,13:52:26,EntranceReubenHecht
+13:52:26,13:52:30,SymbolsJewishMenorah
+13:52:30,13:52:43,PersianCult
+13:52:43,13:52:51,JerusalemPhoto
+13:52:51,13:52:58,MaterialCultures
+13:53:01,13:53:10,ChalcolitePeriod
+13:53:12,13:53:19,LeadCoffinMosaic
+13:53:19,13:53:25,RomanDivinitiesStatuettes
+13:53:25,13:53:44,JewishCoffins
+13:53:45,13:53:51,Anthropoids
+13:53:54,13:53:57,DecoratedDoors
+13:53:57,13:54:06,PersianCult
+14:17:38,14:17:41,SymbolsJewishMenorah
+14:17:41,14:17:43,PersianCult
+14:17:43,14:17:51,RomanDivinitiesStatuettes
+14:18:00,14:19:47,JewishCoffins
+14:21:03,14:21:07,ChalcolitePeriod
+14:37:05,14:37:12,Phoenicians
+
+presentations 
+13:05:36,13:06:01,EntranceReubenHecht,129,User,5,-5
+13:08:21,13:08:38,EntranceReubenHecht,128,User,2,-5
+13:08:45,13:08:58,EntranceReubenHecht,128,User,2,-5
+13:10:07,13:11:15,EntranceReubenHecht,129,System,5,-5
+13:11:54,13:12:43,SymbolsJewishMenorah,131,System,5,-5
+13:15:20,13:16:38,PersianCult,311,System,3,-5
+13:16:59,13:18:01,PersianCult,313,System,3,-5
+13:20:09,13:21:07,ChalcolitePeriod,236,System,3,-5
+13:21:44,13:22:55,JewishCoffins,171,System,4,-5
+13:32:59,13:33:11,BronzeTools,190,System,4,-5
+13:33:26,13:33:34,BronzeTools,190,System,4,-5
+13:33:49,13:34:55,BronzeTools,190,System,4,-5
+13:35:12,13:36:24,BronzeTools,193,System,4,-5
+13:37:20,13:38:41,ShipBack,65,System,5,-5
+13:40:22,13:41:22,ShipBack,71,System,5,-5
+13:42:13,13:43:24,ShipBack,75,System,4,-5
+13:43:32,13:44:15,ShipBack,76,System,4,-5
+13:47:06,13:47:55,Anthropoids,181,System,3,-5
+13:48:08,13:48:58,Anthropoids,184,System,4,-5
+13:53:30,13:53:35,JewishCoffins,170,User,2,5
+14:18:30,14:18:38,JewishCoffins,172,User,4,5
+14:18:54,14:19:47,JewishCoffins,172,System,4,5
+
+events 
+13:05:23,return from screen
+13:05:23,chosenExhibit,40
+13:08:19,chosenExhibit,39
+13:08:19,return from screen
+13:09:22,chosenExhibit,40
+13:09:22,return from screen
+13:11:31,chosenExhibit,41
+13:11:32,return from screen
+13:15:03,chosenExhibit,92
+13:19:53,chosenExhibit,47
+13:21:28,chosenExhibit,62
+13:21:28,return from screen
+13:23:48,chosenExhibit,62
+13:23:48,return from screen
+13:24:31,chosenExhibit,71
+13:24:31,return from screen
+13:29:15,chosenExhibit,71
+13:32:51,chosenExhibit,71
+13:32:51,return from screen
+13:37:07,chosenExhibit,5
+13:37:07,return from screen
+13:40:12,chosenExhibit,6
+13:40:12,return from screen
+13:41:44,chosenExhibit,7
+13:41:44,return from screen
+13:47:00,chosenExhibit,61
+13:53:27,chosenExhibit,62
+13:53:28,return from screen
+13:53:58,return from screen
+14:18:21,chosenExhibit,62
+14:18:21,return from screen
+14:37:16,return from screen
+14:37:16,chosenExhibit,89
+14:37:37,chosenExhibit,89
+14:37:37,return from screen
+14:38:41,return from screen

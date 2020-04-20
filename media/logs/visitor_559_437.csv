@@ -1,0 +1,25 @@
+
+Positions 
+14:08:42,14:09:17,Anthropoids
+14:10:51,14:10:55,LeadCoffinMosaic
+14:11:13,14:11:19,EntranceGallileeRebellion
+14:20:48,14:20:58,Gems
+14:23:08,14:23:11,Cyprus
+14:23:44,14:24:02,GreeceEgypt
+14:24:13,14:24:19,OilLamps
+14:24:49,14:24:55,MaterialCultures
+14:25:46,14:27:18,ShipEntrance
+14:27:19,14:27:26,Pottery
+14:27:32,14:27:36,CarpenterTools
+14:27:38,14:28:01,Pottery
+14:29:10,14:29:19,ShipFront
+14:33:48,14:33:59,EntranceReubenHecht
+
+presentations 
+14:08:56,14:09:17,Anthropoids,182,User,5,-3
+14:26:06,14:27:18,ShipEntrance,162,System,5,-3
+
+events 
+14:08:49,chosenExhibit,61
+14:26:00,chosenExhibit,88
+14:33:48,return from screen

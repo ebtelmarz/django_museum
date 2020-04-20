@@ -1,0 +1,94 @@
+
+Positions 
+11:25:30,11:25:46,EntranceReubenHecht
+11:29:09,11:29:16,SymbolsJewishMenorah
+11:31:43,11:32:12,EntranceReubenHecht
+11:33:28,11:33:32,JerusalemPhoto
+11:33:32,11:33:34,PersianCult
+11:33:34,11:33:40,JerusalemPhoto
+11:33:53,11:34:12,EntranceReubenHecht
+11:34:12,11:34:23,MaterialCultures
+11:35:06,11:35:09,ReligionAndCult
+11:35:19,11:35:30,CraftsAndArts
+11:36:03,11:36:13,ImportedPottery
+11:36:13,11:36:22,MaritimeCommerce
+11:36:44,11:36:50,PhoenicianWriting1
+11:36:50,11:36:57,BurialTradition2
+11:37:05,11:37:14,BuildingMethodsAndFacilities
+11:37:20,11:37:30,ReligionAndCult
+11:38:02,11:38:06,CraftsAndArts
+11:38:09,11:38:12,GlassOvenVessels
+11:38:21,11:38:24,EverydayPottery
+11:38:24,11:38:27,PhoenicianWriting1
+11:40:05,11:40:09,GlassOvenVessels
+11:40:09,11:40:11,MosaicfromSynagogue
+11:41:02,11:41:05,BronzeTools
+11:42:11,11:42:16,ShipEntrance
+11:42:16,11:42:25,ShipFront
+11:42:25,11:42:29,ShipEntrance
+11:42:47,11:42:51,ShipFront
+11:42:51,11:42:53,ShipEntrance
+11:42:53,11:42:56,ShipFront
+11:42:56,11:42:59,ShipEntrance
+11:42:59,11:45:27,ShipFront
+11:45:28,11:45:42,ShipBack
+11:59:18,12:02:40,ShipBack
+12:03:20,12:03:28,ShipFront
+12:04:12,12:04:15,Pottery
+12:04:48,12:05:55,MaritimeArcheology
+12:05:55,12:07:12,CarpenterTools
+12:07:13,12:07:55,Pottery
+12:08:16,12:08:18,ShipFront
+12:08:50,12:08:56,ShipEntrance
+12:08:56,12:09:09,ShipFront
+12:09:09,12:12:17,ShipEntrance
+12:16:07,12:16:09,EntranceGallileeRebellion
+12:16:09,12:16:19,DuckBoxIvories
+12:19:34,12:19:37,RomanDivinitiesStatuettes
+12:19:42,12:19:44,MenorahJewishEpigraphy
+12:19:50,12:22:15,Anthropoids
+12:30:02,12:31:47,Coins
+
+presentations 
+11:43:19,11:44:16,ShipFront,52,System,4,5
+11:44:33,11:45:27,ShipFront,55,System,5,5
+11:59:18,12:00:18,ShipBack,72,System,4,5
+12:00:33,12:01:35,ShipBack,68,System,5,5
+12:01:53,12:02:40,ShipBack,70,System,4,5
+12:04:59,12:05:55,MaritimeArcheology,85,System,5,5
+12:06:16,12:07:12,CarpenterTools,121,System,4,5
+12:09:28,12:10:43,ShipEntrance,162,System,5,5
+12:11:04,12:12:17,ShipEntrance,162,System,5,5
+12:20:12,12:21:13,Anthropoids,183,System,3,5
+12:21:23,12:22:15,Anthropoids,181,System,3,5
+12:30:16,12:31:47,Coins,270,System,4,5
+
+events 
+11:26:42,chosenExhibit,40
+11:26:42,open map
+11:27:44,open map
+11:27:47,lookTour
+11:31:54,return from screen
+11:32:01,chosenExhibit,40
+11:33:34,return from screen
+11:37:20,lookTour
+11:37:27,return from screen
+11:39:41,chosenExhibit,21
+11:40:49,chosenExhibit,67
+11:42:41,chosenExhibit,88
+11:43:01,chosenExhibit,1
+11:59:12,chosenExhibit,6
+11:59:12,return from screen
+12:04:53,chosenExhibit,10
+12:06:08,chosenExhibit,12
+12:09:15,chosenExhibit,88
+12:20:01,chosenExhibit,61
+12:20:01,return from screen
+12:23:57,open map
+12:26:43,return from screen
+12:26:49,lookTour
+12:28:18,open map
+12:28:47,open map
+12:28:47,return from screen
+12:30:08,chosenExhibit,78
+12:30:08,return from screen

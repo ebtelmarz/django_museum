@@ -1,0 +1,106 @@
+
+Positions 
+11:45:21,11:45:28,EntranceReubenHecht
+11:47:27,11:47:58,SymbolsJewishMenorah
+11:55:14,11:56:32,JerusalemPhoto
+11:57:39,11:57:45,MaterialCultures
+12:04:03,12:04:09,EntranceGallileeRebellion
+12:04:09,12:04:19,DuckBoxIvories
+12:04:44,12:04:46,EntranceGallileeRebellion
+12:04:46,12:05:02,DuckBoxIvories
+12:10:04,12:10:10,CanaaniteStelae
+12:10:14,12:10:30,DuckBoxIvories
+12:10:31,12:10:45,CanaaniteStelae
+12:11:14,12:11:16,DuckBoxIvories
+12:11:16,12:11:25,CanaaniteStelae
+12:11:25,12:11:29,DuckBoxIvories
+12:11:29,12:11:31,CanaaniteStelae
+12:12:12,12:12:27,CanaaniteStelae
+12:13:43,12:13:50,IvoryWomanPhoenician
+12:14:12,12:14:16,ClayAmphorae
+12:14:49,12:15:10,AnimalModels
+12:21:02,12:22:00,RomanDivinitiesStatuettes
+12:22:00,12:22:16,JewishCoffins
+12:23:14,12:23:19,LeadCoffinMosaic
+12:24:15,12:24:21,EntranceGallileeRebellion
+12:30:46,12:30:48,ShipEntrance
+12:30:48,12:30:59,ShipFront
+12:30:59,12:31:01,ShipBack
+12:31:03,12:31:07,ShipFront
+12:31:07,12:31:09,ShipBack
+12:31:09,12:31:11,ShipFront
+12:31:30,12:31:32,ShipEntrance
+12:31:43,12:31:47,ShipFront
+12:32:22,12:32:25,ShipBack
+12:32:25,12:32:27,ShipFront
+12:32:27,12:32:29,ShipBack
+12:32:29,12:32:32,ShipFront
+12:32:32,12:32:34,ShipBack
+12:32:34,12:33:08,ShipFront
+12:33:37,12:33:40,Pottery
+12:33:40,12:33:53,ShipFront
+12:33:53,12:33:55,ShipBack
+12:34:43,12:39:09,ShipBack
+12:40:40,12:44:30,ShipBack
+12:46:19,12:46:26,ShipBack
+12:47:22,12:47:51,ShipFront
+12:48:40,12:48:44,ShipEntrance
+12:51:18,12:51:30,BronzeTools
+12:55:51,12:56:02,Phoenicians
+13:01:08,13:01:11,CraftsAndArts
+13:01:56,13:02:28,CraftsAndArts
+13:02:49,13:02:53,MaritimeCommerce
+13:03:55,13:04:00,BuildingMethodsAndFacilities
+13:05:40,13:05:45,PhoenicianWriting1
+13:09:08,13:09:11,BurialTradition2
+13:10:07,13:10:13,MaritimeCommerce
+13:11:08,13:11:12,Phoenicians
+13:12:32,13:12:38,MaterialCultures
+13:15:57,13:16:02,SevenSpecies
+13:17:32,13:17:47,Jerusalem
+13:18:06,13:18:10,GreeceEgypt
+13:19:39,13:19:48,Cyprus
+13:33:14,13:33:36,Gems
+
+presentations 
+11:55:38,11:56:32,JerusalemPhoto,137,System,3,-5
+12:10:20,12:10:30,DuckBoxIvories,151,User,3,-5
+12:34:43,12:35:33,ShipBack,73,System,4,-5
+12:36:13,12:37:37,ShipBack,64,System,3,-5
+12:38:10,12:39:09,ShipBack,67,System,4,-5
+12:40:40,12:40:47,ShipBack,68,User,3,-5
+12:41:16,12:42:18,ShipBack,68,System,3,-5
+12:42:29,12:43:16,ShipBack,70,System,3,-5
+12:43:30,12:44:30,ShipBack,72,System,3,-5
+12:46:19,12:46:26,ShipBack,71,User,3,-5
+13:01:56,13:02:28,CraftsAndArts,50,System,2,-5
+
+events 
+11:46:02,chosenExhibit,40
+11:46:02,return from screen
+11:46:22,open map
+11:46:34,open map
+11:46:46,lookTour
+11:47:03,getDirections
+11:47:04,return from screen
+11:47:33,chosenExhibit,41
+11:47:33,return from screen
+11:55:34,chosenExhibit,44
+11:55:34,return from screen
+11:58:53,return from screen
+11:58:53,chosenExhibit,91
+12:10:17,chosenExhibit,49
+12:18:12,chosenExhibit,53
+12:18:12,return from screen
+12:34:37,chosenExhibit,7
+12:34:37,return from screen
+12:35:56,chosenExhibit,4
+12:35:56,return from screen
+12:37:44,chosenExhibit,5
+12:37:44,return from screen
+12:37:57,chosenExhibit,5
+12:37:57,return from screen
+12:40:04,chosenExhibit,6
+12:40:04,return from screen
+13:01:15,chosenExhibit,35
+13:01:15,return from screen

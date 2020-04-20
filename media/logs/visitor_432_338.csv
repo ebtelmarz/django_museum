@@ -1,0 +1,83 @@
+
+Positions 
+13:35:45,13:35:58,EntranceReubenHecht
+13:37:11,13:37:34,SymbolsJewishMenorah
+13:37:40,13:38:27,PersianCult
+13:38:28,13:38:35,JerusalemPhoto
+13:38:47,13:38:57,MaterialCultures
+13:39:34,13:39:46,Phoenicians
+13:39:53,13:39:55,ReligionAndCult
+13:39:55,13:40:01,GlassOvenVessels
+13:40:03,13:41:11,ReligionAndCult
+13:41:12,13:41:20,CraftsAndArts
+13:41:21,13:41:29,ImportedPottery
+13:41:37,13:41:46,PhoenicianWriting1
+13:41:46,13:41:51,BuildingMethodsAndFacilities
+13:41:51,13:41:59,PhoenicianWriting1
+13:41:59,13:42:01,BurialTradition2
+13:42:03,13:42:12,BuildingMethodsAndFacilities
+13:42:12,13:42:21,CraftsAndArts
+13:43:29,13:43:38,ReligionAndCult
+13:43:38,13:43:54,PhoenicianWriting1
+13:43:54,13:44:10,BuildingMethodsAndFacilities
+13:44:10,13:44:12,MaritimeCommerce
+13:44:12,13:44:36,CraftsAndArts
+13:44:36,13:44:41,GlassOvenVessels
+13:44:42,13:44:44,WoodenTools
+13:44:44,13:44:54,EverydayPottery
+13:44:54,13:45:03,WoodenTools
+13:45:17,13:45:45,EverydayPottery
+13:46:32,13:46:52,GlassOvenVessels
+13:48:52,13:48:59,MosaicfromSynagogue
+13:49:10,13:49:15,ShipEntrance
+13:49:15,13:49:17,ShipFront
+13:49:19,13:49:22,Pottery
+13:49:22,13:49:24,ShipFront
+13:50:26,13:50:38,ShipEntrance
+13:50:58,13:51:04,ShipFront
+13:51:04,13:51:18,ShipEntrance
+13:52:07,13:52:21,EntranceGallileeRebellion
+13:53:03,13:53:14,DuckBoxIvories
+13:53:29,13:53:39,CanaaniteStelae
+13:55:08,13:55:19,AnimalModels
+13:56:45,13:56:51,LeadCoffinMosaic
+13:57:14,13:57:20,RomanDivinitiesStatuettes
+13:57:43,13:57:50,JewishCoffins
+13:58:26,13:58:36,LeadCoffinMosaic
+13:58:45,13:58:53,MaterialCultures
+13:59:08,13:59:30,UpperFloorEntrance
+13:59:54,14:00:02,Jerusalem
+14:00:38,14:00:44,GreeceEgypt
+14:01:02,14:01:09,Cyprus
+14:03:52,14:03:58,SevenSpecies
+14:04:46,14:04:54,MaterialCultures
+14:08:55,14:09:04,UpperFloorEntrance
+14:09:08,14:09:14,MaterialCultures
+14:09:14,14:09:17,JerusalemPhoto
+14:09:19,14:09:21,PersianCult
+14:09:21,14:09:30,SymbolsJewishMenorah
+14:09:30,14:09:52,EntranceReubenHecht
+
+presentations 
+13:38:09,13:38:27,PersianCult,314,User,4,5
+13:40:15,13:41:11,ReligionAndCult,1,System,5,5
+
+events 
+13:36:00,return from screen
+13:36:00,chosenExhibit,40
+13:36:26,open map
+13:36:33,open map
+13:36:42,lookTour
+13:36:56,getDirections
+13:36:56,return from screen
+13:37:18,chosenExhibit,41
+13:37:18,return from screen
+13:37:55,chosenExhibit,92
+13:37:55,return from screen
+13:38:56,chosenExhibit,91
+13:38:56,return from screen
+13:40:12,chosenExhibit,14
+14:00:00,chosenExhibit,81
+14:00:00,open map
+14:00:37,return from screen
+14:09:30,return from screen

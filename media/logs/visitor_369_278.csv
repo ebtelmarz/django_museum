@@ -1,0 +1,64 @@
+
+Positions 
+12:16:18,12:19:00,EntranceReubenHecht
+12:19:17,12:19:56,PersianCult
+12:20:00,12:20:10,MaterialCultures
+12:20:10,12:20:20,Phoenicians
+12:20:34,12:20:41,EverydayPottery
+12:20:44,12:20:55,WoodenTools
+12:21:13,12:21:40,GlassOvenVessels
+12:22:54,12:23:00,ShipEntrance
+12:23:00,12:23:33,ShipFront
+12:23:44,12:23:47,Pottery
+12:23:47,12:24:16,ShipFront
+12:24:37,12:24:46,Pottery
+12:24:46,12:24:49,ShipBack
+12:24:52,12:24:59,ShipFront
+12:25:02,12:25:21,ShipEntrance
+12:25:44,12:25:48,EntranceGallileeRebellion
+12:26:06,12:26:12,AnimalModels
+12:27:04,12:27:07,JewishCoffins
+12:27:07,12:27:15,RomanDivinitiesStatuettes
+12:27:23,12:27:29,MenorahJewishEpigraphy
+12:28:56,12:29:12,MenorahJewishEpigraphy
+12:29:13,12:29:18,RomanDivinitiesStatuettes
+12:29:18,12:29:40,MenorahJewishEpigraphy
+12:29:46,12:29:54,Anthropoids
+12:30:08,12:30:11,JewishCoffins
+12:30:14,12:30:21,RomanDivinitiesStatuettes
+12:30:57,12:31:04,JewishCoffins
+12:31:09,12:31:26,LeadCoffinMosaic
+12:31:59,12:32:02,UpperFloorEntrance
+12:33:11,12:33:18,Jerusalem
+12:33:19,12:33:30,GreeceEgypt
+12:34:03,12:34:34,Gems
+12:34:54,12:34:58,Weights
+12:35:11,12:35:18,SevenSpecies
+12:40:54,12:40:57,MaterialCultures
+12:41:11,12:41:14,PersianCult
+12:41:17,12:41:23,SymbolsJewishMenorah
+12:41:23,12:41:37,EntranceReubenHecht
+
+presentations 
+12:16:41,12:17:19,EntranceReubenHecht,129,User,5,2
+12:28:56,12:29:12,MenorahJewishEpigraphy,206,User,5,2
+
+events 
+12:16:33,chosenExhibit,40
+12:16:33,return from screen
+12:17:30,open map
+12:17:38,open map
+12:17:46,return from screen
+12:18:00,lookTour
+12:18:28,return from screen
+12:18:28,getDirections
+12:28:07,chosenExhibit,59
+12:28:07,return from screen
+12:28:18,chosenExhibit,58
+12:28:18,return from screen
+12:28:22,lookTour
+12:28:25,return from screen
+12:28:49,chosenExhibit,58
+12:29:34,chosenExhibit,59
+12:29:34,return from screen
+12:41:23,return from screen

@@ -1,0 +1,29 @@
+
+Positions 
+12:35:03,12:35:11,EntranceReubenHecht
+12:35:47,12:35:56,SymbolsJewishMenorah
+12:38:08,12:39:36,SymbolsJewishMenorah
+12:41:04,12:41:37,JerusalemPhoto
+12:41:37,12:41:41,PersianCult
+12:41:41,12:42:06,SymbolsJewishMenorah
+12:42:06,12:43:06,EntranceReubenHecht
+12:43:06,12:43:43,SymbolsJewishMenorah
+
+presentations 
+12:35:03,12:35:11,EntranceReubenHecht,128,User,3,-5
+12:38:08,12:38:09,SymbolsJewishMenorah,130,System,4,-5
+12:38:19,12:38:19,SymbolsJewishMenorah,130,System,4,-5
+12:38:57,12:39:07,SymbolsJewishMenorah,132,User,2,-5
+12:39:23,12:39:36,SymbolsJewishMenorah,130,User,4,-5
+12:42:21,12:42:26,EntranceReubenHecht,319,User,3,-5
+12:42:28,12:42:57,EntranceReubenHecht,128,User,3,-5
+
+events 
+12:37:51,chosenExhibit,41
+12:41:49,chosenExhibit,41
+12:42:20,chosenExhibit,39
+12:42:20,return from screen
+12:43:07,open map
+12:47:06,return from screen
+12:47:15,chosenExhibit,41
+12:47:15,return from screen

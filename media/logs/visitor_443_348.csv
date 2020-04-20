@@ -1,0 +1,83 @@
+
+Positions 
+12:23:58,12:24:35,SymbolsJewishMenorah
+12:25:52,12:26:38,SymbolsJewishMenorah
+12:26:38,12:26:57,JerusalemPhoto
+12:27:10,12:29:17,PersianCult
+12:29:22,12:29:29,MaterialCultures
+12:30:11,12:33:19,MaterialCultures
+12:34:44,12:35:01,MaterialCultures
+12:38:51,12:38:57,DuckBoxIvories
+12:43:07,12:45:14,DuckBoxIvories
+12:45:14,12:45:28,RomanDivinitiesStatuettes
+12:49:15,12:49:30,JewishCoffins
+12:49:32,12:49:34,RomanDivinitiesStatuettes
+12:53:32,12:54:43,RomanDivinitiesStatuettes
+12:55:41,12:55:58,CanaaniteStelae
+13:04:23,13:04:30,EntranceGallileeRebellion
+13:15:21,13:15:33,ShipEntrance
+13:15:54,13:16:00,ShipFront
+13:18:17,13:18:24,Pottery
+13:18:31,13:18:33,MaritimeArcheology
+13:18:33,13:18:38,Pottery
+13:18:38,13:18:41,MaritimeArcheology
+13:18:41,13:19:51,Pottery
+13:21:17,13:21:29,ShipFront
+13:23:13,13:23:16,EverydayPottery
+13:23:29,13:25:08,CraftsAndArts
+13:25:12,13:26:33,MaritimeCommerce
+13:26:34,13:27:33,BurialTradition2
+13:27:34,13:30:16,PhoenicianWriting1
+13:30:27,13:30:31,BuildingMethodsAndFacilities
+
+presentations 
+12:25:52,12:26:38,SymbolsJewishMenorah,130,System,5,-5
+12:27:31,12:27:39,PersianCult,311,System,5,-5
+12:27:58,12:29:17,PersianCult,311,System,5,-5
+12:30:11,12:31:04,MaterialCultures,405,System,5,-5
+12:31:08,12:32:14,MaterialCultures,406,System,5,-5
+12:32:18,12:33:19,MaterialCultures,407,System,5,-5
+12:34:44,12:35:01,MaterialCultures,405,User,5,-5
+12:43:07,12:44:14,DuckBoxIvories,240,System,5,-5
+12:44:25,12:45:14,DuckBoxIvories,153,System,4,-5
+12:53:32,12:54:43,RomanDivinitiesStatuettes,213,System,5,-5
+13:23:58,13:25:08,CraftsAndArts,111,System,5,-5
+13:25:37,13:26:33,MaritimeCommerce,34,System,5,-5
+13:26:44,13:27:33,BurialTradition2,25,System,5,-5
+13:29:24,13:30:16,PhoenicianWriting1,18,System,5,-5
+
+events 
+12:23:58,lookTour
+12:24:13,open map
+12:24:57,return from screen
+12:25:48,chosenExhibit,41
+12:27:26,chosenExhibit,92
+12:30:04,chosenExhibit,91
+12:30:04,return from screen
+12:33:56,chosenExhibit,91
+12:33:56,return from screen
+12:34:33,chosenExhibit,91
+12:34:33,return from screen
+12:35:08,open map
+12:35:37,lookTour
+12:35:41,return from screen
+12:36:18,open map
+12:36:34,return from screen
+12:38:13,lookTour
+12:38:13,getDirections
+12:39:57,getDirections
+12:39:57,lookTour
+12:40:43,return from screen
+12:42:47,chosenExhibit,49
+12:53:11,chosenExhibit,56
+12:55:41,lookTour
+13:16:46,lookTour
+13:16:46,getDirections
+13:18:50,getDirections
+13:18:50,return from screen
+13:23:44,chosenExhibit,33
+13:25:18,chosenExhibit,29
+13:26:40,chosenExhibit,24
+13:29:20,chosenExhibit,21
+13:56:21,open map
+13:56:39,return from screen

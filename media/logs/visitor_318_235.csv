@@ -1,0 +1,56 @@
+
+Positions 
+14:32:03,14:32:11,SymbolsJewishMenorah
+14:32:31,14:32:33,PersianCult
+14:32:41,14:33:12,SymbolsJewishMenorah
+14:33:12,14:33:25,PersianCult
+14:33:25,14:33:31,JerusalemPhoto
+14:33:37,14:34:47,MaterialCultures
+14:34:48,14:34:58,ChalcolitePeriod
+14:34:58,14:35:02,RomanDivinitiesStatuettes
+14:35:11,14:36:22,JewishCoffins
+14:37:20,14:37:38,RomanDivinitiesStatuettes
+14:37:58,14:38:11,AnimalModels
+14:38:11,14:38:20,IvoryWomanPhoenician
+14:38:20,14:38:23,CanaaniteStelae
+14:38:52,14:38:54,DuckBoxIvories
+14:38:54,14:39:48,CanaaniteStelae
+14:39:48,14:39:56,DuckBoxIvories
+14:39:56,14:40:07,EntranceGallileeRebellion
+14:41:02,14:41:42,StoneVesselsBowl
+14:41:43,14:43:28,BronzeTools
+14:43:28,14:43:31,Phoenicians
+14:43:41,14:43:48,CraftsAndArts
+14:43:48,14:43:54,ImportedPottery
+14:43:54,14:45:08,EverydayPottery
+14:45:08,14:45:17,BurialTradition2
+14:45:17,14:45:24,BuildingMethodsAndFacilities
+14:45:25,14:45:31,CraftsAndArts
+14:45:50,14:45:54,Phoenicians
+14:45:54,14:45:56,MaterialCultures
+14:46:04,14:46:13,PersianCult
+14:46:13,14:46:24,SymbolsJewishMenorah
+14:46:24,14:47:07,EntranceReubenHecht
+
+presentations 
+14:34:00,14:34:47,MaterialCultures,165,User,4,5
+14:35:22,14:36:22,JewishCoffins,170,User,5,5
+14:39:02,14:39:28,CanaaniteStelae,147,User,5,5
+14:41:12,14:41:42,StoneVesselsBowl,179,User,5,5
+14:44:27,14:45:08,EverydayPottery,10,System,5,5
+
+events 
+14:32:09,return from screen
+14:32:09,chosenExhibit,41
+14:32:47,chosenExhibit,41
+14:32:47,return from screen
+14:33:36,chosenExhibit,44
+14:33:56,chosenExhibit,91
+14:35:15,chosenExhibit,62
+14:35:15,return from screen
+14:39:01,chosenExhibit,50
+14:41:05,chosenExhibit,66
+14:41:51,chosenExhibit,71
+14:43:33,chosenExhibit,89
+14:44:21,chosenExhibit,17
+14:46:24,return from screen

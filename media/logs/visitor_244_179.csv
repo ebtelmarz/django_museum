@@ -1,0 +1,47 @@
+
+Positions 
+11:59:33,12:01:02,Phoenicians
+12:01:30,12:01:55,BronzeTools
+12:01:55,12:02:06,ShipEntrance
+12:02:06,12:03:31,ShipFront
+12:03:31,12:03:46,ShipEntrance
+12:03:46,12:04:48,ShipFront
+12:04:48,12:04:56,ShipEntrance
+12:04:56,12:06:09,ShipFront
+12:06:09,12:06:20,ShipEntrance
+12:06:20,12:07:45,ShipFront
+12:07:45,12:08:08,ShipEntrance
+12:08:08,12:08:57,ShipFront
+12:08:57,12:09:00,ShipEntrance
+12:09:00,12:09:44,ShipFront
+12:09:44,12:12:25,ShipEntrance
+12:12:25,12:14:10,DuckBoxIvories
+12:14:10,12:17:26,AnimalModels
+12:17:26,12:17:37,ChalcolitePeriod
+12:17:37,12:17:59,MaterialCultures
+12:17:59,12:18:03,SymbolsJewishMenorah
+12:18:03,12:18:05,EntranceReubenHecht
+
+presentations 
+11:59:33,12:01:02,Phoenicians,163,System,4
+12:02:06,12:03:31,ShipFront,162,System,5
+12:03:46,12:04:48,ShipFront,52,System,5
+12:04:56,12:06:09,ShipFront,53,System,5
+12:06:20,12:07:45,ShipFront,56,System,5
+12:08:08,12:08:57,ShipFront,60,User
+12:09:00,12:09:44,ShipFront,118,System,3
+12:12:35,12:13:31,DuckBoxIvories,153,System,2
+12:14:57,12:16:05,AnimalModels,176,System,5
+12:16:10,12:17:15,AnimalModels,177,System,5
+
+events 
+11:59:28,chosenExhibit,89
+11:59:28,return from screen
+12:01:57,chosenExhibit,88
+12:01:57,return from screen
+12:03:42,return from screen
+12:03:42,chosenExhibit,1
+12:07:54,chosenExhibit,2
+12:07:54,return from screen
+12:12:30,chosenExhibit,49
+12:14:50,chosenExhibit,54

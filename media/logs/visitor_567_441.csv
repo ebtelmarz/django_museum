@@ -1,0 +1,136 @@
+
+Positions 
+11:37:48,11:38:58,EntranceReubenHecht
+11:39:16,11:40:17,SymbolsJewishMenorah
+11:40:22,11:40:25,EntranceReubenHecht
+11:40:25,11:40:30,SymbolsJewishMenorah
+11:40:30,11:40:51,EntranceReubenHecht
+11:40:52,11:41:01,PersianCult
+11:42:07,11:42:12,SymbolsJewishMenorah
+11:42:12,11:42:51,EntranceReubenHecht
+11:43:50,11:46:29,EntranceReubenHecht
+11:46:43,11:49:26,SymbolsJewishMenorah
+11:49:26,11:55:58,PersianCult
+11:55:59,11:58:00,JerusalemPhoto
+11:58:01,12:01:44,MaterialCultures
+12:02:16,12:04:46,LeadCoffinMosaic
+12:04:46,12:06:21,JewishCoffins
+12:07:49,12:08:56,JewishCoffins
+12:09:41,12:10:29,JewishCoffins
+12:10:30,12:12:00,Anthropoids
+12:12:55,12:14:00,Anthropoids
+12:14:02,12:15:04,MaterialCultures
+12:15:04,12:15:08,Anthropoids
+12:18:27,12:18:35,PersianCult
+12:18:35,12:19:32,JewishCoffins
+12:19:32,12:19:56,LeadCoffinMosaic
+12:19:56,12:23:54,DuckBoxIvories
+12:23:54,12:24:56,CanaaniteStelae
+12:24:57,12:26:09,DuckBoxIvories
+12:26:10,12:28:43,IvoryWomanPhoenician
+12:28:43,12:29:31,DuckBoxIvories
+12:30:55,12:30:58,BronzeTools
+12:36:24,12:36:34,MaterialCultures
+12:36:34,12:36:56,Phoenicians
+12:37:06,12:39:05,MosaicfromSynagogue
+12:39:05,12:40:29,BronzeTools
+12:43:57,12:46:19,MosaicfromSynagogue
+12:47:01,12:48:27,ShipEntrance
+12:48:28,12:51:50,ShipBack
+12:52:38,12:52:41,Pottery
+12:53:24,12:54:04,Pottery
+12:55:40,12:57:25,Pottery
+12:57:26,12:57:35,ShipBack
+12:57:49,12:57:55,Pottery
+12:58:00,12:58:02,ShipBack
+12:58:33,12:58:36,ShipEntrance
+
+presentations 
+11:38:19,11:38:58,EntranceReubenHecht,128,System,3,3
+11:40:07,11:40:17,SymbolsJewishMenorah,130,System,3,3
+11:42:15,11:42:30,EntranceReubenHecht,128,User,3,3
+11:42:34,11:42:51,EntranceReubenHecht,128,User,3,3
+11:44:07,11:44:59,EntranceReubenHecht,128,System,3,3
+11:45:30,11:46:29,EntranceReubenHecht,129,System,3,3
+11:46:43,11:47:26,SymbolsJewishMenorah,130,System,3,3
+11:47:31,11:48:14,SymbolsJewishMenorah,131,System,3,3
+11:48:40,11:49:26,SymbolsJewishMenorah,132,System,3,3
+11:49:40,11:51:08,PersianCult,310,System,3,3
+11:51:15,11:52:36,PersianCult,311,System,3,3
+11:52:45,11:53:58,PersianCult,312,System,3,3
+11:54:18,11:55:58,PersianCult,314,System,3,3
+11:56:06,11:57:07,JerusalemPhoto,137,System,3,3
+11:57:16,11:58:00,JerusalemPhoto,138,System,3,3
+11:58:16,11:59:20,MaterialCultures,165,System,3,3
+11:59:25,12:00:17,MaterialCultures,405,System,3,3
+12:00:43,12:01:44,MaterialCultures,407,System,3,3
+12:02:16,12:03:23,LeadCoffinMosaic,195,System,3,3
+12:03:37,12:04:46,LeadCoffinMosaic,196,System,3,3
+12:04:59,12:06:21,JewishCoffins,169,System,3,3
+12:07:49,12:08:56,JewishCoffins,171,System,3,3
+12:09:41,12:10:29,JewishCoffins,172,System,3,3
+12:10:44,12:12:00,Anthropoids,182,System,3,3
+12:12:55,12:14:00,Anthropoids,183,System,3,3
+12:18:43,12:19:32,JewishCoffins,172,System,3,3
+12:20:16,12:21:05,DuckBoxIvories,153,System,3,3
+12:21:19,12:22:19,DuckBoxIvories,152,System,3,3
+12:22:26,12:23:14,DuckBoxIvories,153,System,3,3
+12:24:05,12:24:56,CanaaniteStelae,146,System,3,3
+12:25:14,12:26:09,DuckBoxIvories,151,System,3,3
+12:26:21,12:27:27,IvoryWomanPhoenician,155,System,3,3
+12:27:40,12:28:33,IvoryWomanPhoenician,244,System,3,3
+12:37:48,12:39:05,MosaicfromSynagogue,164,System,3,3
+12:39:15,12:40:29,BronzeTools,190,System,3,3
+12:44:07,12:45:12,MosaicfromSynagogue,148,System,5,3
+12:45:22,12:46:19,MosaicfromSynagogue,149,System,3,3
+12:47:14,12:48:27,ShipEntrance,162,System,3,3
+12:48:39,12:49:37,ShipBack,68,System,5,3
+12:49:50,12:50:36,ShipBack,70,System,3,3
+12:50:46,12:51:50,ShipBack,71,System,3,3
+12:53:24,12:54:04,Pottery,82,System,3,3
+12:55:40,12:56:33,Pottery,80,System,3,3
+12:56:57,12:57:25,Pottery,81,User,3,3
+
+events 
+11:38:06,chosenExhibit,39
+11:39:46,chosenExhibit,41
+11:42:14,chosenExhibit,39
+11:42:14,return from screen
+11:42:57,return from screen
+11:44:04,return from screen
+11:44:04,chosenExhibit,39
+11:45:25,chosenExhibit,40
+11:46:35,chosenExhibit,41
+11:48:33,chosenExhibit,41
+11:49:35,chosenExhibit,92
+11:49:35,return from screen
+11:54:16,chosenExhibit,93
+11:56:04,chosenExhibit,44
+11:58:12,chosenExhibit,91
+11:58:12,return from screen
+12:00:28,chosenExhibit,91
+12:00:28,open map
+12:00:33,return from screen
+12:02:08,chosenExhibit,63
+12:04:53,chosenExhibit,62
+12:10:37,chosenExhibit,61
+12:14:06,return from screen
+12:14:06,chosenExhibit,91
+12:14:56,chosenExhibit,91
+12:18:37,chosenExhibit,62
+12:20:06,chosenExhibit,49
+12:23:44,chosenExhibit,49
+12:23:44,return from screen
+12:24:01,chosenExhibit,50
+12:25:06,chosenExhibit,49
+12:26:17,chosenExhibit,51
+12:28:43,open map
+12:29:58,open map
+12:30:31,open map
+12:30:51,getDirections
+12:37:42,chosenExhibit,67
+12:39:12,chosenExhibit,71
+12:43:59,chosenExhibit,67
+12:47:07,chosenExhibit,88
+12:48:33,chosenExhibit,6
+12:53:23,chosenExhibit,9

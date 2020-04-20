@@ -1,0 +1,67 @@
+
+Positions 
+11:17:40,11:18:58,EntranceReubenHecht
+11:18:58,11:20:23,SymbolsJewishMenorah
+11:20:24,11:20:33,JerusalemPhoto
+11:21:19,11:21:42,RomanDivinitiesStatuettes
+11:21:42,11:21:54,JewishCoffins
+11:22:20,11:22:24,RomanDivinitiesStatuettes
+11:22:24,11:22:31,LeadCoffinMosaic
+11:22:37,11:22:46,ChalcolitePeriod
+11:23:13,11:23:26,UpperFloorEntrance
+11:24:51,11:25:04,Jerusalem
+11:28:49,11:28:53,UpperFloorEntrance
+11:29:31,11:29:37,MaterialCultures
+11:29:42,11:29:46,MuseumMotto
+11:30:12,11:30:19,AnimalModels
+11:31:30,11:31:33,IvoryWomanPhoenician
+11:31:49,11:31:53,ClayAmphorae
+11:44:45,11:46:04,IvoryWomanPhoenician
+11:46:05,11:47:37,CanaaniteStelae
+11:47:37,11:49:14,DuckBoxIvories
+11:49:15,11:49:32,ShipFront
+11:50:34,11:52:37,ShipFront
+11:53:20,11:53:44,ShipEntrance
+11:54:07,11:54:14,EntranceGallileeRebellion
+11:54:19,11:54:23,AnimalModels
+11:55:48,11:55:54,JewishCoffins
+11:55:54,11:56:40,MenorahJewishEpigraphy
+11:56:41,11:57:49,RomanDivinitiesStatuettes
+11:57:50,11:59:58,LeadCoffinMosaic
+
+presentations 
+11:18:12,11:18:19,EntranceReubenHecht,129,User,3,5
+11:19:09,11:20:23,SymbolsJewishMenorah,130,User,3,5
+11:45:00,11:46:04,IvoryWomanPhoenician,155,User,2,5
+11:46:37,11:47:27,CanaaniteStelae,254,User,2,5
+11:48:28,11:49:14,DuckBoxIvories,151,User,2,5
+11:50:34,11:51:36,ShipFront,52,System,4,5
+11:51:58,11:52:37,ShipFront,56,User,3,5
+11:56:14,11:56:40,MenorahJewishEpigraphy,205,User,1,5
+11:56:54,11:57:49,RomanDivinitiesStatuettes,209,System,3,5
+11:58:08,11:59:08,LeadCoffinMosaic,195,System,2,5
+11:59:27,11:59:58,LeadCoffinMosaic,197,User
+
+events 
+11:18:05,chosenExhibit,40
+11:18:05,return from screen
+11:18:25,open map
+11:18:34,open map
+11:18:41,return from screen
+11:19:04,chosenExhibit,41
+11:20:42,chosenExhibit,44
+11:20:42,return from screen
+11:21:28,chosenExhibit,56
+11:24:51,open map
+11:25:07,return from screen
+11:25:13,open map
+11:26:55,return from screen
+11:28:38,return from screen
+11:44:56,chosenExhibit,51
+11:46:29,chosenExhibit,50
+11:48:18,chosenExhibit,49
+11:50:21,chosenExhibit,1
+11:56:05,chosenExhibit,58
+11:56:52,chosenExhibit,56
+11:58:05,chosenExhibit,63
+11:59:59,return from screen

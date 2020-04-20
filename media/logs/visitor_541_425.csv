@@ -1,0 +1,84 @@
+
+Positions 
+14:30:41,14:32:05,EntranceReubenHecht
+14:32:05,14:33:33,SymbolsJewishMenorah
+14:33:33,14:33:41,EntranceReubenHecht
+14:34:38,14:38:15,SymbolsJewishMenorah
+14:41:12,14:45:35,PersianCult
+14:45:36,14:45:38,SymbolsJewishMenorah
+14:45:38,14:45:46,PersianCult
+14:45:46,14:45:48,JerusalemPhoto
+14:45:53,14:45:56,PersianCult
+14:48:28,14:48:30,SymbolsJewishMenorah
+14:48:38,14:48:43,PersianCult
+14:48:54,14:50:31,JerusalemPhoto
+14:51:23,14:53:15,Phoenicians
+14:56:57,14:57:51,CraftsAndArts
+14:57:51,14:58:54,PhoenicianWriting1
+14:59:12,14:59:17,CraftsAndArts
+14:59:28,15:02:31,ImportedPottery
+15:02:45,15:02:47,PhoenicianWriting1
+15:09:25,15:09:30,GlassOvenVessels
+15:09:30,15:15:36,MosaicfromSynagogue
+15:25:54,15:30:23,BronzeTools
+15:30:41,15:34:26,StoneVesselsBowl
+15:40:03,15:41:12,StoneVesselsBowl
+15:42:32,15:42:34,ChalcolitePeriod
+15:43:04,15:43:06,SymbolsJewishMenorah
+
+presentations 
+14:31:09,14:31:29,EntranceReubenHecht,128,User,3,-3
+14:34:52,14:34:56,SymbolsJewishMenorah,130,User,5,-3
+14:35:11,14:35:22,SymbolsJewishMenorah,130,User,5,-3
+14:35:26,14:36:16,SymbolsJewishMenorah,130,System,5,-3
+14:36:28,14:37:21,SymbolsJewishMenorah,130,User,5,-3
+14:37:27,14:38:15,SymbolsJewishMenorah,131,System,5,-3
+14:41:27,14:42:45,PersianCult,310,System,5,-3
+14:42:53,14:43:05,PersianCult,311,User,3,-3
+14:43:16,14:44:26,PersianCult,312,System,5,-3
+14:44:33,14:45:35,PersianCult,313,System,5,-3
+14:48:54,14:49:49,JerusalemPhoto,137,System,5,-3
+14:49:56,14:50:31,JerusalemPhoto,138,User,5,-3
+14:51:54,14:53:15,Phoenicians,163,System,5,-3
+14:56:57,14:57:51,CraftsAndArts,46,System,5,-3
+14:58:05,14:58:54,PhoenicianWriting1,18,System,5,-3
+14:59:28,15:00:23,ImportedPottery,39,System,5,-3
+15:00:28,15:01:03,ImportedPottery,41,System,5,-3
+15:01:08,15:01:45,ImportedPottery,42,System,5,-3
+15:01:50,15:02:31,ImportedPottery,43,System,5,-3
+15:09:42,15:10:53,MosaicfromSynagogue,164,System,5,-3
+15:11:01,15:12:07,MosaicfromSynagogue,148,System,5,-3
+15:12:14,15:13:17,MosaicfromSynagogue,149,System,5,-3
+15:13:27,15:14:30,MosaicfromSynagogue,150,System,5,-3
+15:14:33,15:15:36,MosaicfromSynagogue,252,System,5,-3
+15:26:05,15:27:10,BronzeTools,190,System,5,-3
+15:27:15,15:28:16,BronzeTools,191,System,5,-3
+15:28:20,15:29:07,BronzeTools,192,System,5,-3
+15:29:11,15:30:23,BronzeTools,193,System,5,-3
+15:30:48,15:31:59,StoneVesselsBowl,178,System,5,-3
+15:32:10,15:33:17,StoneVesselsBowl,251,System,5,-3
+15:33:25,15:34:26,StoneVesselsBowl,180,User,3,-3
+15:40:03,15:41:12,StoneVesselsBowl,179,System,5,-3
+
+events 
+14:31:00,chosenExhibit,39
+14:31:00,return from screen
+14:32:25,chosenExhibit,41
+14:32:25,return from screen
+14:34:48,chosenExhibit,41
+14:34:48,return from screen
+14:41:22,chosenExhibit,92
+14:48:49,chosenExhibit,44
+14:51:40,chosenExhibit,89
+14:56:32,chosenExhibit,35
+14:58:00,chosenExhibit,21
+14:59:16,chosenExhibit,35
+14:59:21,chosenExhibit,32
+15:09:39,chosenExhibit,67
+15:26:01,chosenExhibit,71
+15:26:01,return from screen
+15:30:44,chosenExhibit,66
+15:30:44,return from screen
+15:41:33,chosenExhibit,66
+15:41:33,return from screen
+15:43:06,return from screen

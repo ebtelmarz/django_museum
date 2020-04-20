@@ -1,0 +1,72 @@
+
+Positions 
+14:00:09,14:00:26,EntranceReubenHecht
+14:00:28,14:01:16,SymbolsJewishMenorah
+14:03:24,14:04:19,SymbolsJewishMenorah
+14:04:19,14:06:57,EntranceReubenHecht
+14:06:26,14:07:14,SymbolsJewishMenorah
+14:07:14,14:08:14,EntranceReubenHecht
+14:09:48,14:10:04,SymbolsJewishMenorah
+14:12:41,14:13:33,PersianCult
+14:13:33,14:13:36,SymbolsJewishMenorah
+14:13:36,14:15:40,PersianCult
+14:16:50,14:16:54,SymbolsJewishMenorah
+14:16:58,14:23:11,PersianCult
+14:23:20,14:23:27,JerusalemPhoto
+14:23:34,14:23:36,PersianCult
+14:24:22,14:24:28,MaterialCultures
+14:25:54,14:25:58,LeadCoffinMosaic
+14:27:31,14:27:36,MenorahJewishEpigraphy
+14:27:37,14:27:40,Anthropoids
+14:31:34,14:32:09,MenorahJewishEpigraphy
+14:33:02,14:33:06,RomanDivinitiesStatuettes
+14:42:23,14:42:26,ShipFront
+14:42:26,14:42:29,ShipEntrance
+14:42:50,14:44:03,ShipFront
+
+presentations 
+14:00:49,14:01:13,SymbolsJewishMenorah,132,User,5,-5
+14:04:19,14:05:49,EntranceReubenHecht,130,System,5,3
+14:05:57,14:05:58,EntranceReubenHecht,129,System,5,-3
+14:06:00,14:06:57,EntranceReubenHecht,129,System,5,-3
+14:06:26,14:07:03,SymbolsJewishMenorah,130,User,5,3
+14:07:14,14:08:00,EntranceReubenHecht,130,System,5,3
+14:07:17,14:08:14,EntranceReubenHecht,129,System,5,-3
+14:14:00,14:15:40,PersianCult,314,System,5,-5
+14:16:58,14:16:59,PersianCult,311,System,5,-5
+14:18:43,14:20:12,PersianCult,310,System,5,-5
+14:20:27,14:21:49,PersianCult,311,System,5,-5
+14:21:57,14:23:11,PersianCult,312,System,5,-5
+14:42:50,14:44:03,ShipFront,162,System,5,-5
+
+events 
+14:00:39,chosenExhibit,41
+14:04:16,chosenExhibit,41
+14:04:16,return from screen
+14:05:56,chosenExhibit,40
+14:05:56,open map
+14:06:23,open map
+14:06:23,chosenExhibit,41
+14:09:48,open map
+14:10:34,return from screen
+14:11:16,open map
+14:11:28,return from screen
+14:13:47,open map
+14:13:47,getDirections
+14:13:54,chosenExhibit,93
+14:14:11,return from screen
+14:15:04,open map
+14:15:15,open map
+14:15:17,return from screen
+14:15:20,return from screen
+14:15:23,open map
+14:15:33,return from screen
+14:15:48,open map
+14:16:01,return from screen
+14:16:01,getDirections
+14:16:05,return from screen
+14:16:54,chosenExhibit,92
+14:17:53,chosenExhibit,92
+14:18:40,chosenExhibit,92
+14:42:31,chosenExhibit,88
+14:42:31,return from screen

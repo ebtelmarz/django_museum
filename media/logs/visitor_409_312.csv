@@ -1,0 +1,57 @@
+
+Positions 
+12:48:55,12:50:34,PersianCult
+12:51:11,12:51:16,JerusalemPhoto
+12:51:24,12:51:37,MaterialCultures
+12:52:52,12:52:58,JewishCoffins
+12:52:58,12:53:39,LeadCoffinMosaic
+12:53:40,12:54:55,RomanDivinitiesStatuettes
+12:54:55,12:55:00,LeadCoffinMosaic
+12:56:47,12:56:51,IvoryWomanPhoenician
+12:57:28,12:57:39,ClayAmphorae
+12:57:53,12:57:59,IvoryWomanPhoenician
+12:58:05,12:58:11,CanaaniteStelae
+12:58:11,12:58:14,DuckBoxIvories
+12:58:14,12:58:25,CanaaniteStelae
+12:58:25,12:58:32,DuckBoxIvories
+12:58:32,12:59:02,CanaaniteStelae
+12:59:02,12:59:42,DuckBoxIvories
+13:00:11,13:00:15,BronzeTools
+13:00:36,13:00:47,DuckBoxIvories
+13:00:58,13:01:04,EntranceGallileeRebellion
+13:01:33,13:01:36,BronzeTools
+13:03:33,13:03:46,StoneVesselsBowl
+13:05:57,13:06:06,ShipEntrance
+13:06:24,13:07:36,ShipFront
+13:07:41,13:07:45,ShipBack
+13:07:45,13:07:57,ShipFront
+13:07:57,13:08:08,Pottery
+13:08:12,13:09:31,ShipFront
+13:09:31,13:09:45,Pottery
+13:09:56,13:09:58,MaritimeArcheology
+13:09:58,13:10:11,Pottery
+13:10:11,13:10:13,MaritimeArcheology
+13:10:13,13:10:19,Pottery
+13:10:19,13:10:31,MaritimeArcheology
+13:10:37,13:10:48,Pottery
+13:11:00,13:11:13,ShipFront
+13:35:58,13:36:16,EntranceReubenHecht
+
+presentations 
+12:49:16,12:50:34,PersianCult,310,System,3,5
+12:53:11,12:53:39,LeadCoffinMosaic,195,User,3,5
+13:06:38,13:07:36,ShipFront,52,System,3,5
+13:08:17,13:09:31,ShipFront,125,System,1,5
+
+events 
+12:46:16,chosenExhibit,41
+12:46:16,return from screen
+12:49:09,chosenExhibit,92
+12:49:09,return from screen
+12:53:04,chosenExhibit,63
+13:03:43,chosenExhibit,66
+13:03:43,return from screen
+13:06:31,chosenExhibit,1
+13:07:55,chosenExhibit,3
+13:08:14,chosenExhibit,3
+13:35:58,return from screen

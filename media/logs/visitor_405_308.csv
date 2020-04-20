@@ -1,0 +1,106 @@
+
+Positions 
+13:26:01,13:26:53,EntranceReubenHecht
+13:26:54,13:27:56,SymbolsJewishMenorah
+13:28:51,13:30:59,PersianCult
+13:31:00,13:31:04,JerusalemPhoto
+13:31:08,13:31:14,PersianCult
+13:31:14,13:33:18,JerusalemPhoto
+13:33:18,13:33:27,MaterialCultures
+13:33:27,13:33:30,Phoenicians
+13:34:12,13:35:34,Phoenicians
+13:35:35,13:36:42,EverydayPottery
+13:36:43,13:37:47,PhoenicianWriting1
+13:37:51,13:37:59,CraftsAndArts
+13:38:15,13:38:18,Phoenicians
+13:38:26,13:38:29,ReligionAndCult
+13:38:29,13:38:32,EverydayPottery
+13:38:37,13:40:01,WoodenTools
+13:41:50,13:43:26,GlassOvenVessels
+13:43:26,13:44:49,MosaicfromSynagogue
+13:44:50,13:46:30,GlassOvenVessels
+13:46:30,13:46:36,StoneVesselsBowl
+13:46:41,13:46:47,BronzeTools
+13:46:51,13:46:55,MosaicfromSynagogue
+13:47:09,13:47:15,ShipEntrance
+13:47:15,13:48:35,ShipFront
+13:48:36,13:48:39,ShipBack
+13:48:39,13:49:34,ShipFront
+13:49:35,13:50:48,ShipBack
+13:50:54,13:51:01,ShipFront
+13:52:02,13:52:09,ShipEntrance
+13:54:44,13:56:57,DuckBoxIvories
+13:56:57,13:59:30,AnimalModels
+13:59:47,13:59:50,LeadCoffinMosaic
+14:00:00,14:01:32,JewishCoffins
+14:23:13,14:24:01,JewishCoffins
+14:24:02,14:25:17,Jerusalem
+14:25:17,14:26:24,Cyprus
+14:26:25,14:26:51,UpperFloorEntrance
+14:27:03,14:27:09,EntranceReubenHecht
+
+presentations 
+13:26:01,13:26:53,EntranceReubenHecht,128,System,5,-3
+13:27:12,13:27:56,SymbolsJewishMenorah,131,System,5,-3
+13:29:32,13:30:59,PersianCult,310,System,5,-3
+13:31:23,13:32:23,JerusalemPhoto,137,System,5,-3
+13:32:33,13:33:18,JerusalemPhoto,138,System,5,-3
+13:34:12,13:35:34,Phoenicians,163,System,5,-3
+13:35:47,13:36:42,EverydayPottery,8,System,5,-3
+13:36:56,13:37:47,PhoenicianWriting1,18,System,5,-3
+13:38:50,13:39:44,WoodenTools,188,System,5,-3
+13:39:50,13:40:01,WoodenTools,186,User,5,-3
+13:42:14,13:43:26,GlassOvenVessels,156,System,5,-3
+13:43:44,13:44:49,MosaicfromSynagogue,148,System,5,-3
+13:45:09,13:46:30,GlassOvenVessels,159,System,5,-3
+13:47:29,13:48:35,ShipFront,52,System,5,-3
+13:48:52,13:49:34,ShipFront,127,System,5,-3
+13:50:03,13:50:48,ShipBack,73,System,5,-3
+13:54:53,13:55:47,DuckBoxIvories,151,System,5,-3
+13:55:57,13:56:57,DuckBoxIvories,152,System,5,-3
+13:57:12,13:58:23,AnimalModels,139,System,5,-3
+14:00:11,14:01:32,JewishCoffins,169,System,5,-3
+14:23:13,14:24:01,JewishCoffins,172,System,5,-3
+14:24:10,14:25:17,Jerusalem,281,System,5,-3
+14:25:27,14:26:24,Cyprus,271,System,5,-3
+
+events 
+13:25:56,chosenExhibit,39
+13:27:07,chosenExhibit,41
+13:27:07,return from screen
+13:28:29,chosenExhibit,41
+13:29:01,chosenExhibit,92
+13:31:19,chosenExhibit,44
+13:34:07,chosenExhibit,89
+13:35:40,chosenExhibit,17
+13:36:48,chosenExhibit,21
+13:38:32,chosenExhibit,17
+13:38:42,chosenExhibit,68
+13:38:42,return from screen
+13:42:11,chosenExhibit,70
+13:43:33,chosenExhibit,67
+13:43:40,chosenExhibit,67
+13:45:03,chosenExhibit,70
+13:47:22,chosenExhibit,1
+13:48:44,chosenExhibit,3
+13:49:48,chosenExhibit,7
+13:52:02,lookTour
+13:53:48,return from screen
+13:54:00,open map
+13:54:16,return from screen
+13:54:18,open map
+13:54:26,return from screen
+13:54:50,chosenExhibit,49
+13:57:07,chosenExhibit,53
+14:00:07,chosenExhibit,62
+14:00:07,return from screen
+14:22:56,chosenExhibit,62
+14:24:07,chosenExhibit,81
+14:25:24,chosenExhibit,80
+14:26:29,chosenExhibit,85
+14:26:47,getDirections
+14:26:47,open map
+14:26:48,return from screen
+14:26:51,lookTour
+14:26:54,return from screen
+14:28:01,return from screen

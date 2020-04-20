@@ -1,0 +1,26 @@
+
+Positions 
+11:55:07,12:05:54,MaterialCultures
+12:05:54,12:05:56,EntranceReubenHecht
+12:05:56,12:07:26,ShipFront
+12:07:26,12:08:06,ShipEntrance
+12:08:06,12:10:17,ShipFront
+12:10:17,12:11:11,DuckBoxIvories
+12:11:11,12:11:22,CanaaniteStelae
+12:11:22,12:11:34,IvoryWomanPhoenician
+
+presentations 
+11:55:16,11:55:55,MaterialCultures,165,User
+12:06:09,12:06:18,ShipFront,52,User,4
+12:06:21,12:07:19,ShipFront,52,System,4
+12:07:26,12:08:06,ShipEntrance,56,User
+
+events 
+11:55:09,chosenExhibit,91
+12:06:02,chosenExhibit,1
+12:06:02,open map
+12:08:45,return from screen
+12:08:58,open map
+12:09:06,return from screen
+12:10:31,chosenExhibit,49
+12:11:34,return from screen

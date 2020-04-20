@@ -1,0 +1,24 @@
+
+Positions 
+12:15:33,12:17:01,SymbolsJewishMenorah
+12:21:24,12:21:28,JerusalemPhoto
+12:21:28,12:21:49,PersianCult
+12:21:49,12:21:51,JerusalemPhoto
+12:21:51,12:22:19,PersianCult
+12:22:21,12:22:30,JerusalemPhoto
+12:22:30,12:22:36,PersianCult
+12:22:36,12:22:41,JerusalemPhoto
+
+presentations 
+12:16:10,12:17:01,SymbolsJewishMenorah,132,System,1,2
+
+events 
+12:15:10,chosenExhibit,40
+12:15:10,return from screen
+12:15:44,chosenExhibit,41
+12:15:44,return from screen
+12:21:49,chosenExhibit,44
+12:21:54,open map
+12:21:56,return from screen
+12:22:02,return from screen
+12:22:36,return from screen

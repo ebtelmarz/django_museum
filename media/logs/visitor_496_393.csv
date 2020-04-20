@@ -1,0 +1,78 @@
+
+Positions 
+11:55:54,11:57:01,EntranceReubenHecht
+11:58:17,11:58:30,SymbolsJewishMenorah
+11:59:02,11:59:04,EntranceReubenHecht
+11:59:04,11:59:08,SymbolsJewishMenorah
+12:02:13,12:02:31,SymbolsJewishMenorah
+12:02:31,12:02:33,EntranceReubenHecht
+12:02:33,12:02:43,SymbolsJewishMenorah
+12:03:12,12:03:15,EntranceReubenHecht
+12:03:15,12:04:30,SymbolsJewishMenorah
+12:07:55,12:08:01,JerusalemPhoto
+12:08:01,12:10:00,PersianCult
+12:12:00,12:12:05,SymbolsJewishMenorah
+12:12:05,12:12:15,EntranceReubenHecht
+12:12:28,12:12:42,SymbolsJewishMenorah
+12:16:52,12:16:55,JerusalemPhoto
+12:16:55,12:17:02,PersianCult
+12:18:03,12:18:07,JerusalemPhoto
+12:21:31,12:21:36,Phoenicians
+12:22:13,12:22:22,CraftsAndArts
+12:22:53,12:22:59,ImportedPottery
+12:23:26,12:23:39,CraftsAndArts
+12:24:02,12:24:05,ImportedPottery
+12:24:05,12:24:17,CraftsAndArts
+12:25:00,12:25:07,ImportedPottery
+12:30:09,12:30:13,BurialTradition2
+12:30:32,12:30:39,MaritimeCommerce
+12:30:49,12:30:53,BurialTradition2
+12:31:24,12:31:27,MaritimeCommerce
+12:31:44,12:31:47,BuildingMethodsAndFacilities
+12:32:22,12:34:50,BurialTradition2
+12:35:48,12:36:38,BurialTradition2
+12:38:19,12:38:21,PhoenicianWriting1
+12:42:56,12:43:05,EntranceReubenHecht
+12:43:05,12:43:11,PhoenicianWriting1
+12:44:35,12:44:39,BurialTradition2
+12:44:39,12:44:47,PhoenicianWriting1
+12:45:42,12:45:50,PhoenicianWriting1
+12:45:52,12:45:54,EverydayPottery
+12:45:54,12:45:56,ReligionAndCult
+12:46:09,12:46:13,Phoenicians
+12:46:25,12:46:32,JerusalemPhoto
+12:46:40,12:46:44,PersianCult
+12:46:50,12:46:53,SymbolsJewishMenorah
+
+presentations 
+11:56:46,11:57:01,EntranceReubenHecht,128,User,5,2
+12:03:46,12:04:30,SymbolsJewishMenorah,130,System,5,2
+12:08:34,12:10:00,PersianCult,311,System,5,2
+12:32:50,12:33:39,BurialTradition2,31,System,5,2
+12:33:47,12:34:50,BurialTradition2,103,System,5,2
+12:35:48,12:36:38,BurialTradition2,31,System
+
+events 
+11:56:31,chosenExhibit,39
+11:56:31,return from screen
+11:58:17,open map
+11:58:43,return from screen
+11:59:04,open map
+12:02:25,getDirections
+12:02:41,return from screen
+12:02:41,chosenExhibit,41
+12:03:34,chosenExhibit,41
+12:03:34,return from screen
+12:08:21,chosenExhibit,92
+12:24:37,chosenExhibit,33
+12:29:31,chosenExhibit,31
+12:29:31,open map
+12:29:32,open map
+12:29:34,return from screen
+12:32:44,chosenExhibit,27
+12:43:12,chosenExhibit,22
+12:43:12,return from screen
+12:44:51,chosenExhibit,22
+12:44:51,open map
+12:45:05,return from screen
+12:46:53,return from screen

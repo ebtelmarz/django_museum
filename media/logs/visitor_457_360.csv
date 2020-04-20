@@ -1,0 +1,187 @@
+
+Positions 
+13:05:36,13:06:34,EntranceReubenHecht
+13:06:43,13:09:24,SymbolsJewishMenorah
+13:09:54,13:11:59,JerusalemPhoto
+13:12:08,13:17:14,PersianCult
+13:17:22,13:17:27,SymbolsJewishMenorah
+13:17:27,13:20:27,PersianCult
+13:20:36,13:20:42,SymbolsJewishMenorah
+13:20:55,13:21:01,PersianCult
+13:21:02,13:21:14,JerusalemPhoto
+13:21:55,13:22:59,MaterialCultures
+13:23:27,13:25:03,Phoenicians
+13:25:20,13:26:38,GlassOvenVessels
+13:26:39,13:31:01,BurialTradition2
+13:31:02,13:34:40,PhoenicianWriting1
+13:34:48,13:35:41,BurialTradition2
+13:35:42,13:36:00,PhoenicianWriting1
+13:36:00,13:37:00,EverydayPottery
+13:37:00,13:37:10,PhoenicianWriting1
+13:37:10,13:37:12,ReligionAndCult
+13:37:22,13:40:58,BuildingMethodsAndFacilities
+13:40:58,13:44:09,ReligionAndCult
+13:44:18,13:48:08,CraftsAndArts
+13:48:23,13:48:25,ImportedPottery
+13:48:25,13:48:28,ReligionAndCult
+13:48:53,13:48:57,EverydayPottery
+13:49:00,13:49:02,WoodenTools
+13:49:02,13:49:08,PhoenicianWriting1
+13:49:11,13:50:25,WoodenTools
+13:53:20,13:55:02,GlassOvenVessels
+13:55:14,13:56:38,MosaicfromSynagogue
+13:56:38,13:56:46,Phoenicians
+13:59:46,14:01:15,BronzeTools
+14:02:46,14:04:03,StoneVesselsBowl
+14:06:08,14:06:16,ShipEntrance
+14:12:53,14:12:58,EntranceGallileeRebellion
+14:13:23,14:13:25,ShipEntrance
+14:13:25,14:13:33,ShipFront
+14:13:36,14:14:54,ShipEntrance
+14:14:54,14:17:20,ShipFront
+14:17:20,14:17:27,Pottery
+14:17:27,14:18:47,ShipFront
+14:18:48,14:20:43,Pottery
+14:20:53,14:21:49,MaritimeArcheology
+14:21:59,14:22:03,Pottery
+14:22:11,14:25:11,CarpenterTools
+14:25:12,14:25:25,Pottery
+14:25:37,14:25:45,ShipEntrance
+14:26:28,14:26:34,MuseumMotto
+14:27:10,14:27:14,EntranceGallileeRebellion
+14:27:43,14:28:44,DuckBoxIvories
+14:29:07,14:30:04,CanaaniteStelae
+14:30:05,14:30:09,DuckBoxIvories
+
+presentations 
+13:05:36,13:06:34,EntranceReubenHecht,129,System,5,3
+13:06:51,13:07:37,SymbolsJewishMenorah,130,System,5,3
+13:07:44,13:08:28,SymbolsJewishMenorah,131,System,5,3
+13:08:39,13:09:24,SymbolsJewishMenorah,132,System,5,3
+13:10:05,13:11:05,JerusalemPhoto,137,System,5,3
+13:11:14,13:11:59,JerusalemPhoto,138,System,5,3
+13:12:23,13:14:01,PersianCult,314,System,3,3
+13:14:12,13:15:51,PersianCult,315,System,3,3
+13:15:57,13:17:14,PersianCult,316,System,5,3
+13:17:32,13:19:00,PersianCult,310,System,5,3
+13:19:07,13:20:27,PersianCult,311,System,5,3
+13:21:55,13:22:59,MaterialCultures,165,System,5,3
+13:23:39,13:25:03,Phoenicians,163,System,5,3
+13:25:26,13:26:38,GlassOvenVessels,156,System,5,3
+13:26:47,13:27:36,BurialTradition2,31,System,5,3
+13:27:44,13:28:47,BurialTradition2,103,System,5,3
+13:28:55,13:29:50,BurialTradition2,30,System,5,3
+13:30:01,13:31:01,BurialTradition2,29,System,5,3
+13:31:12,13:32:03,PhoenicianWriting1,18,System,5,3
+13:32:11,13:33:26,PhoenicianWriting1,24,System,5,3
+13:33:36,13:34:40,PhoenicianWriting1,19,System,5,3
+13:34:52,13:35:41,BurialTradition2,25,System,5,3
+13:36:05,13:37:00,EverydayPottery,8,System,5,3
+13:37:22,13:38:37,BuildingMethodsAndFacilities,13,System,5,3
+13:38:45,13:39:43,BuildingMethodsAndFacilities,14,System,5,3
+13:39:52,13:40:58,BuildingMethodsAndFacilities,15,System,5,3
+13:41:05,13:41:52,ReligionAndCult,7,System,5,3
+13:42:00,13:43:06,ReligionAndCult,2,System,5,3
+13:43:14,13:44:09,ReligionAndCult,1,System,5,3
+13:44:24,13:44:38,CraftsAndArts,46,User,5,3
+13:44:43,13:45:39,CraftsAndArts,46,System,5,3
+13:45:47,13:46:44,CraftsAndArts,45,System,5,3
+13:46:52,13:48:08,CraftsAndArts,44,System,5,3
+13:49:11,13:50:25,WoodenTools,186,System,5,3
+13:53:50,13:55:02,GlassOvenVessels,156,System,5,3
+13:55:20,13:56:38,MosaicfromSynagogue,164,System,5,3
+14:00:01,14:01:15,BronzeTools,190,System,5,3
+14:02:53,14:04:03,StoneVesselsBowl,178,System,5,3
+14:13:39,14:14:54,ShipEntrance,162,System,5,3
+14:15:00,14:16:04,ShipFront,63,System,5,3
+14:16:12,14:17:20,ShipFront,52,System,5,3
+14:17:35,14:18:47,ShipFront,58,System,5,3
+14:18:53,14:19:37,Pottery,78,System,5,3
+14:19:49,14:20:43,Pottery,80,System,5,3
+14:21:02,14:21:49,MaritimeArcheology,84,System,5,3
+14:22:11,14:23:12,CarpenterTools,88,System,5,3
+14:23:21,14:24:21,CarpenterTools,90,System,5,3
+14:24:30,14:25:11,CarpenterTools,92,System,5,3
+14:27:49,14:28:44,DuckBoxIvories,151,System,5,3
+14:29:13,14:30:04,CanaaniteStelae,146,System,5,3
+
+events 
+13:05:31,return from screen
+13:05:31,chosenExhibit,40
+13:06:48,chosenExhibit,41
+13:06:48,return from screen
+13:08:37,chosenExhibit,41
+13:08:37,return from screen
+13:10:00,chosenExhibit,44
+13:10:00,return from screen
+13:12:17,chosenExhibit,93
+13:12:17,return from screen
+13:17:21,chosenExhibit,92
+13:17:29,chosenExhibit,92
+13:17:30,return from screen
+13:21:49,chosenExhibit,91
+13:21:49,return from screen
+13:23:30,chosenExhibit,89
+13:23:30,return from screen
+13:25:23,chosenExhibit,70
+13:26:45,chosenExhibit,27
+13:26:45,return from screen
+13:28:53,chosenExhibit,26
+13:28:53,return from screen
+13:29:58,chosenExhibit,25
+13:31:08,chosenExhibit,21
+13:31:08,return from screen
+13:32:09,chosenExhibit,23
+13:32:09,return from screen
+13:33:34,chosenExhibit,22
+13:33:34,return from screen
+13:34:50,chosenExhibit,24
+13:36:03,chosenExhibit,17
+13:37:19,chosenExhibit,18
+13:37:19,return from screen
+13:38:43,chosenExhibit,19
+13:38:43,return from screen
+13:39:49,chosenExhibit,20
+13:41:03,chosenExhibit,16
+13:41:03,return from screen
+13:41:58,chosenExhibit,15
+13:41:58,return from screen
+13:43:11,chosenExhibit,14
+13:43:12,return from screen
+13:44:22,chosenExhibit,35
+13:44:22,return from screen
+13:45:45,chosenExhibit,34
+13:45:45,return from screen
+13:46:49,chosenExhibit,33
+13:46:49,return from screen
+13:49:10,chosenExhibit,68
+13:49:10,return from screen
+13:53:48,chosenExhibit,70
+13:53:48,return from screen
+13:55:17,chosenExhibit,67
+13:59:50,chosenExhibit,71
+13:59:50,return from screen
+14:02:49,chosenExhibit,66
+14:02:49,return from screen
+14:06:11,chosenExhibit,88
+14:06:11,return from screen
+14:13:38,chosenExhibit,88
+14:14:57,chosenExhibit,3
+14:14:58,return from screen
+14:16:10,chosenExhibit,1
+14:17:33,chosenExhibit,2
+14:18:51,chosenExhibit,8
+14:18:51,return from screen
+14:19:44,chosenExhibit,9
+14:20:59,chosenExhibit,10
+14:20:59,return from screen
+14:22:01,chosenExhibit,8
+14:22:08,chosenExhibit,11
+14:22:08,return from screen
+14:23:17,chosenExhibit,12
+14:23:17,return from screen
+14:24:27,chosenExhibit,13
+14:27:47,chosenExhibit,49
+14:27:47,return from screen
+14:29:09,chosenExhibit,50
+14:30:09,return from screen

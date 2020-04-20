@@ -1,0 +1,83 @@
+
+Positions 
+13:59:07,14:00:34,SymbolsJewishMenorah
+14:02:02,14:03:48,PersianCult
+14:04:39,14:04:56,MaterialCultures
+14:04:56,14:05:03,Phoenicians
+14:05:06,14:06:18,MaterialCultures
+14:06:19,14:06:28,CraftsAndArts
+14:06:33,14:07:47,ImportedPottery
+14:07:48,14:07:53,BurialTradition2
+14:08:35,14:09:38,BurialTradition2
+14:09:39,14:09:42,EverydayPottery
+14:09:42,14:09:47,ReligionAndCult
+14:09:52,14:09:57,CraftsAndArts
+14:10:10,14:10:16,EverydayPottery
+14:10:17,14:11:32,WoodenTools
+14:12:33,14:14:00,GlassOvenVessels
+14:14:01,14:14:33,BronzeTools
+14:14:33,14:15:57,ShipEntrance
+14:15:58,14:17:20,ShipFront
+14:18:08,14:18:18,ShipEntrance
+14:19:02,14:19:14,StairsToBathroom
+14:20:51,14:21:00,EntranceGallileeRebellion
+14:21:05,14:21:26,DuckBoxIvories
+14:22:25,14:23:13,DuckBoxIvories
+14:23:14,14:28:13,AnimalModels
+14:28:13,14:28:20,EntranceGallileeRebellion
+14:29:38,14:29:44,ChalcolitePeriod
+14:31:10,14:32:24,SevenSpecies
+14:33:01,14:34:24,Gems
+14:34:34,14:35:39,GreeceEgypt
+14:44:05,14:44:12,Phoenicians
+14:44:53,14:44:59,PersianCult
+14:44:59,14:45:06,SymbolsJewishMenorah
+14:45:07,14:45:37,EntranceReubenHecht
+
+presentations 
+13:59:51,14:00:34,SymbolsJewishMenorah,131,System,3,-3
+14:02:24,14:03:48,PersianCult,311,System,3,-3
+14:05:14,14:06:18,MaterialCultures,165,System,3,-3
+14:06:40,14:07:47,ImportedPottery,38,System,3,-3
+14:08:35,14:09:38,BurialTradition2,102,System,3,-3
+14:10:27,14:11:32,WoodenTools,186,User,3,-3
+14:12:48,14:14:00,GlassOvenVessels,156,System,3,-3
+14:14:43,14:15:57,ShipEntrance,162,System,3,-3
+14:16:17,14:17:20,ShipFront,57,System,3,-3
+14:22:25,14:23:13,DuckBoxIvories,153,System,3,-3
+14:23:30,14:24:40,AnimalModels,177,System,3,-3
+14:24:50,14:25:52,AnimalModels,250,System,3,-3
+14:31:22,14:32:24,SevenSpecies,286,System,3,-3
+14:33:08,14:33:52,Gems,293,System,3,-3
+14:33:57,14:34:24,Gems,295,User,3,-3
+14:34:41,14:35:39,GreeceEgypt,305,User,3,-3
+
+events 
+13:59:19,chosenExhibit,41
+13:59:19,return from screen
+14:01:30,chosenExhibit,41
+14:01:30,return from screen
+14:01:38,chosenExhibit,41
+14:01:38,return from screen
+14:02:10,chosenExhibit,92
+14:05:02,chosenExhibit,89
+14:05:08,chosenExhibit,91
+14:06:27,chosenExhibit,35
+14:06:38,chosenExhibit,31
+14:08:19,chosenExhibit,26
+14:10:21,chosenExhibit,68
+14:10:21,return from screen
+14:12:41,chosenExhibit,70
+14:14:38,chosenExhibit,88
+14:16:09,chosenExhibit,1
+14:18:28,chosenExhibit,88
+14:18:28,return from screen
+14:22:18,chosenExhibit,49
+14:23:28,chosenExhibit,54
+14:23:28,return from screen
+14:31:19,chosenExhibit,76
+14:33:05,chosenExhibit,79
+14:34:38,chosenExhibit,83
+14:34:38,return from screen
+14:44:05,return from screen
+14:45:07,return from screen

@@ -1,0 +1,75 @@
+
+Positions 
+12:00:31,12:00:56,EntranceReubenHecht
+12:01:38,12:02:48,SymbolsJewishMenorah
+12:02:48,12:05:05,EntranceReubenHecht
+12:05:28,12:06:17,SymbolsJewishMenorah
+12:06:22,12:06:33,PersianCult
+12:06:33,12:06:39,SymbolsJewishMenorah
+12:06:39,12:09:49,PersianCult
+12:09:50,12:10:01,Phoenicians
+12:10:01,12:10:48,ImportedPottery
+12:10:52,12:11:43,Phoenicians
+12:12:24,12:12:32,EntranceReubenHecht
+12:12:32,12:13:39,EverydayPottery
+12:13:40,12:14:42,BurialTradition2
+12:14:43,12:14:59,WoodenTools
+12:15:49,12:16:51,GlassOvenVessels
+12:17:46,12:19:16,MosaicfromSynagogue
+12:19:17,12:19:19,ShipEntrance
+12:19:19,12:20:43,ShipFront
+12:20:44,12:20:54,Pottery
+12:20:57,12:21:05,MaritimeArcheology
+12:21:05,12:21:54,CarpenterTools
+12:21:55,12:22:12,Pottery
+12:22:12,12:22:20,ShipFront
+12:22:20,12:22:22,ShipEntrance
+12:23:27,12:23:45,EntranceReubenHecht
+12:23:45,12:24:29,ShipFront
+12:27:41,12:29:35,EntranceReubenHecht
+12:31:23,12:32:22,EntranceReubenHecht
+
+presentations 
+12:00:31,12:00:56,EntranceReubenHecht,128,User,4,5
+12:02:56,12:03:47,EntranceReubenHecht,128,System,4,5
+12:04:06,12:05:05,EntranceReubenHecht,129,System,5,3
+12:05:33,12:06:17,SymbolsJewishMenorah,130,System,4,5
+12:06:53,12:08:13,PersianCult,311,System,4,5
+12:08:22,12:09:49,PersianCult,310,System,4,5
+12:12:44,12:13:39,EverydayPottery,8,System,4,-5
+12:13:53,12:14:42,BurialTradition2,31,System,4,-5
+12:15:54,12:16:51,GlassOvenVessels,157,System,4,-5
+12:17:58,12:19:16,MosaicfromSynagogue,164,System,4,-5
+12:19:38,12:20:43,ShipFront,63,System,4,-5
+12:21:13,12:21:54,CarpenterTools,92,System,4,-5
+12:31:23,12:32:22,EntranceReubenHecht,129,System,5,3
+
+events 
+12:00:20,chosenExhibit,39
+12:00:20,return from screen
+12:02:03,chosenExhibit,41
+12:02:03,return from screen
+12:02:51,chosenExhibit,39
+12:02:51,return from screen
+12:03:56,chosenExhibit,40
+12:03:56,return from screen
+12:05:30,chosenExhibit,41
+12:06:26,chosenExhibit,92
+12:06:46,chosenExhibit,92
+12:09:59,chosenExhibit,89
+12:10:55,chosenExhibit,89
+12:12:36,chosenExhibit,17
+12:13:51,chosenExhibit,27
+12:15:08,chosenExhibit,68
+12:15:08,return from screen
+12:15:53,chosenExhibit,70
+12:15:53,return from screen
+12:17:51,chosenExhibit,67
+12:19:25,chosenExhibit,1
+12:19:25,return from screen
+12:19:34,chosenExhibit,3
+12:21:11,chosenExhibit,13
+12:22:20,return from screen
+12:23:45,return from screen
+12:27:37,return from screen
+12:31:22,chosenExhibit,40

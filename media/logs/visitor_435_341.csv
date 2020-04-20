@@ -1,0 +1,45 @@
+
+Positions 
+14:05:34,14:05:54,EntranceReubenHecht
+14:08:30,14:10:36,SymbolsJewishMenorah
+14:11:13,14:11:35,PersianCult
+14:11:42,14:11:54,JerusalemPhoto
+14:12:53,14:14:48,JerusalemPhoto
+14:15:22,14:15:42,MaterialCultures
+14:29:41,14:29:58,ShipFront
+14:30:53,14:30:59,Pottery
+14:31:34,14:31:43,StoneVesselsBowl
+
+presentations 
+14:05:34,14:05:54,EntranceReubenHecht,128,User,3,5
+14:09:50,14:10:36,SymbolsJewishMenorah,130,System
+14:12:53,14:14:48,JerusalemPhoto,137,System,4,5
+
+events 
+14:05:20,chosenExhibit,39
+14:05:20,open map
+14:06:23,open map
+14:06:46,return from screen
+14:06:46,open map
+14:06:54,return from screen
+14:07:01,lookTour
+14:07:30,getDirections
+14:07:31,return from screen
+14:09:25,chosenExhibit,41
+14:09:25,return from screen
+14:09:31,lookTour
+14:09:34,return from screen
+14:09:48,chosenExhibit,41
+14:09:48,return from screen
+14:11:13,lookTour
+14:11:35,open map
+14:12:35,return from screen
+14:12:50,chosenExhibit,44
+14:12:50,lookTour
+14:15:06,getDirections
+14:30:11,return from screen
+14:30:11,chosenExhibit,1
+14:30:24,chosenExhibit,3
+14:30:24,return from screen
+14:30:37,chosenExhibit,2
+14:30:37,lookTour

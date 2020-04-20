@@ -1,0 +1,36 @@
+
+Positions 
+13:46:20,13:48:01,EntranceReubenHecht
+13:48:37,13:48:44,SymbolsJewishMenorah
+13:49:25,13:49:27,PersianCult
+13:49:54,13:50:01,JerusalemPhoto
+13:50:15,13:50:17,MaterialCultures
+13:50:43,13:50:51,Phoenicians
+13:51:19,13:51:21,CraftsAndArts
+13:51:26,13:51:29,BuildingMethodsAndFacilities
+13:52:12,13:53:12,BuildingMethodsAndFacilities
+13:53:13,13:54:33,WoodenTools
+13:54:33,13:54:45,BronzeTools
+13:56:22,13:58:14,ShipFront
+13:58:21,13:58:24,ShipEntrance
+
+presentations 
+13:46:49,13:48:01,EntranceReubenHecht,129,System,3,-5
+13:52:12,13:53:12,BuildingMethodsAndFacilities,14,System,1,-5
+13:57:03,13:58:14,ShipFront,63,System,1,-5
+
+events 
+13:46:45,chosenExhibit,40
+13:46:45,return from screen
+13:48:09,open map
+13:48:18,open map
+13:48:24,return from screen
+13:49:14,chosenExhibit,41
+13:49:14,return from screen
+13:49:32,getDirections
+13:49:32,return from screen
+13:52:06,chosenExhibit,19
+13:53:13,open map
+13:54:20,return from screen
+13:56:51,chosenExhibit,3
+14:01:07,chosenExhibit,88

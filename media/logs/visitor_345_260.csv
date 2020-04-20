@@ -1,0 +1,41 @@
+
+Positions 
+14:31:08,14:33:08,SymbolsJewishMenorah
+14:35:25,14:36:52,JerusalemPhoto
+14:37:06,14:38:00,MaterialCultures
+14:38:13,14:38:21,MuseumMotto
+14:39:18,14:40:29,DuckBoxIvories
+14:46:33,14:47:51,AnimalModels
+14:50:23,14:50:30,MaterialCultures
+14:51:23,14:53:03,UpperFloorEntrance
+14:53:03,14:53:29,Jerusalem
+14:59:05,14:59:15,SevenSpecies
+15:00:49,15:00:57,UpperFloorEntrance
+15:01:24,15:01:31,MuseumMotto
+15:02:11,15:02:18,SymbolsJewishMenorah
+15:02:18,15:02:42,EntranceReubenHecht
+
+presentations 
+14:31:08,14:31:56,SymbolsJewishMenorah,130,User,2,5
+14:32:03,14:32:51,SymbolsJewishMenorah,131,System,5,5
+14:32:58,14:33:08,SymbolsJewishMenorah,132,User,5,5
+14:35:47,14:35:55,JerusalemPhoto,138,User,3,5
+14:35:59,14:36:52,JerusalemPhoto,137,System,5,5
+14:37:28,14:38:00,MaterialCultures,165,User,5,5
+14:39:36,14:40:29,DuckBoxIvories,151,User,5,5
+14:46:53,14:47:51,AnimalModels,176,User,5,5
+14:51:57,14:53:03,UpperFloorEntrance,304,System,5,5
+
+events 
+14:31:02,chosenExhibit,41
+14:31:02,return from screen
+14:35:30,chosenExhibit,44
+14:37:21,chosenExhibit,91
+14:37:21,return from screen
+14:39:28,chosenExhibit,49
+14:39:28,return from screen
+14:46:45,chosenExhibit,54
+14:51:48,chosenExhibit,85
+14:53:10,chosenExhibit,81
+14:53:10,return from screen
+15:02:18,return from screen

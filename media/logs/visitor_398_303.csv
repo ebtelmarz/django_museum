@@ -1,0 +1,45 @@
+
+Positions 
+12:52:26,12:52:49,EntranceReubenHecht
+12:54:10,12:54:15,SymbolsJewishMenorah
+12:54:20,12:54:25,PersianCult
+12:55:57,12:56:00,MosaicfromSynagogue
+12:56:16,12:56:21,ShipEntrance
+12:57:38,12:57:44,ShipFront
+12:58:19,12:58:26,ShipEntrance
+13:00:01,13:00:08,EntranceGallileeRebellion
+13:00:08,13:00:11,DuckBoxIvories
+13:00:55,13:01:02,IvoryWomanPhoenician
+13:02:34,13:03:04,AnimalModels
+13:28:54,13:31:01,EntranceReubenHecht
+13:31:01,13:31:04,Phoenicians
+13:31:50,13:31:53,BronzeTools
+13:32:08,13:32:14,MosaicfromSynagogue
+13:32:16,13:32:23,BronzeTools
+13:32:55,13:32:59,PersianCult
+13:33:03,13:33:07,SymbolsJewishMenorah
+13:33:12,13:33:24,EntranceReubenHecht
+
+presentations 
+13:29:06,13:30:16,EntranceReubenHecht,129,System,3,3
+
+events 
+12:53:17,return from screen
+12:53:17,chosenExhibit,40
+12:53:23,open map
+12:53:31,open map
+12:53:35,return from screen
+12:53:41,lookTour
+12:53:43,return from screen
+12:56:56,chosenExhibit,88
+12:56:56,return from screen
+12:58:24,chosenExhibit,88
+12:58:24,return from screen
+12:58:46,open map
+12:58:52,open map
+13:04:22,return from screen
+13:05:39,return from screen
+13:29:03,chosenExhibit,40
+13:29:03,return from screen
+13:30:29,lookTour
+13:30:36,return from screen

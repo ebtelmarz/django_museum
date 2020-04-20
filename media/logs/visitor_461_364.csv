@@ -1,0 +1,169 @@
+
+Positions 
+13:01:12,13:02:15,EntranceReubenHecht
+13:03:25,13:03:51,EntranceReubenHecht
+13:05:57,13:06:39,SymbolsJewishMenorah
+13:07:04,13:10:50,PersianCult
+13:10:57,13:11:03,JerusalemPhoto
+13:12:01,13:12:04,PersianCult
+13:12:04,13:13:08,JerusalemPhoto
+13:14:03,13:14:12,MaterialCultures
+13:14:28,13:14:30,MuseumMotto
+13:15:10,13:16:40,JewishCoffins
+13:17:39,13:17:51,RomanDivinitiesStatuettes
+13:17:55,13:19:04,LeadCoffinMosaic
+13:19:04,13:21:34,RomanDivinitiesStatuettes
+13:21:34,13:21:40,JewishCoffins
+13:21:40,13:21:43,RomanDivinitiesStatuettes
+13:22:14,13:24:56,MenorahJewishEpigraphy
+13:24:57,13:25:00,Anthropoids
+13:25:00,13:25:04,MenorahJewishEpigraphy
+13:25:04,13:26:09,Anthropoids
+13:26:10,13:27:40,MaterialCultures
+13:27:41,13:29:59,LeadCoffinMosaic
+13:29:59,13:32:40,DuckBoxIvories
+13:32:46,13:33:59,CanaaniteStelae
+13:35:54,13:37:32,IvoryWomanPhoenician
+13:37:41,13:39:06,ClayAmphorae
+13:41:16,13:41:35,CanaaniteStelae
+13:42:07,13:42:18,DuckBoxIvories
+13:43:27,13:43:35,EntranceGallileeRebellion
+13:44:17,13:45:31,BronzeTools
+13:47:55,13:49:16,ShipEntrance
+13:49:17,13:54:35,ShipBack
+13:55:19,13:55:29,ShipFront
+13:55:32,13:55:39,ShipBack
+13:55:48,13:56:02,ShipFront
+13:56:09,13:56:14,ShipEntrance
+13:57:04,13:57:17,ShipFront
+13:58:08,13:58:14,Pottery
+13:58:29,13:58:31,MaritimeArcheology
+13:58:31,13:58:55,Pottery
+13:59:10,13:59:17,CarpenterTools
+14:00:30,14:00:40,ShipFront
+14:00:57,14:01:04,ShipBack
+14:01:25,14:01:28,ShipFront
+14:01:28,14:01:33,ShipBack
+14:01:33,14:01:35,ShipFront
+14:01:35,14:01:40,ShipBack
+14:01:42,14:02:36,ShipFront
+14:02:36,14:02:38,ShipBack
+14:02:38,14:02:41,ShipFront
+14:02:41,14:02:47,ShipBack
+14:02:47,14:02:59,Pottery
+14:03:58,14:04:05,ShipBack
+14:04:51,14:04:59,ShipBack
+14:05:03,14:05:18,ShipFront
+14:05:18,14:05:28,ShipEntrance
+14:05:28,14:05:31,ShipFront
+14:05:31,14:05:42,ShipEntrance
+14:06:48,14:09:20,StoneVesselsBowl
+14:09:21,14:10:33,WoodenTools
+14:10:37,14:11:27,EverydayPottery
+14:11:28,14:12:23,BuildingMethodsAndFacilities
+14:12:36,14:13:01,PhoenicianWriting1
+14:15:20,14:15:22,EverydayPottery
+14:15:27,14:15:34,ReligionAndCult
+14:15:45,14:15:49,EverydayPottery
+14:15:49,14:15:52,PhoenicianWriting1
+14:15:54,14:16:01,EverydayPottery
+14:16:01,14:16:17,BuildingMethodsAndFacilities
+14:16:17,14:16:19,PhoenicianWriting1
+14:16:34,14:16:40,BuildingMethodsAndFacilities
+14:16:43,14:16:55,CraftsAndArts
+14:17:09,14:17:17,Phoenicians
+14:17:17,14:17:36,MaterialCultures
+14:18:11,14:18:26,JerusalemPhoto
+14:18:37,14:18:42,SymbolsJewishMenorah
+14:18:42,14:19:10,EntranceReubenHecht
+
+presentations 
+13:01:29,13:01:40,EntranceReubenHecht,128,User,1,2
+13:03:25,13:03:39,EntranceReubenHecht,128,System,1,2
+13:03:42,13:03:51,EntranceReubenHecht,128,User,1,2
+13:06:07,13:06:39,SymbolsJewishMenorah,130,User,5,2
+13:07:19,13:07:42,PersianCult,310,User,5,2
+13:07:49,13:09:09,PersianCult,310,System,5,2
+13:09:27,13:10:50,PersianCult,314,System,5,2
+13:12:14,13:13:08,JerusalemPhoto,137,System,5,2
+13:15:21,13:16:40,JewishCoffins,169,System,5,2
+13:18:07,13:19:04,LeadCoffinMosaic,195,System,5,2
+13:19:27,13:20:24,RomanDivinitiesStatuettes,208,System,5,2
+13:20:38,13:21:34,RomanDivinitiesStatuettes,216,System,5,2
+13:22:23,13:23:29,MenorahJewishEpigraphy,204,System,5,2
+13:23:39,13:24:56,MenorahJewishEpigraphy,230,System,5,2
+13:25:13,13:26:09,Anthropoids,182,System,5,2
+13:26:27,13:27:40,MaterialCultures,165,System,5,2
+13:30:32,13:31:26,DuckBoxIvories,153,System,5,2
+13:31:40,13:32:40,DuckBoxIvories,152,System,5,2
+13:33:06,13:33:59,CanaaniteStelae,146,System,5,2
+13:36:34,13:37:32,IvoryWomanPhoenician,244,System,5,2
+13:37:51,13:38:43,ClayAmphorae,242,System,5,2
+13:38:56,13:39:06,ClayAmphorae,166,User,5,2
+13:44:25,13:45:31,BronzeTools,190,System,5,2
+13:48:03,13:49:16,ShipEntrance,162,System,5,2
+13:49:28,13:50:49,ShipBack,65,System,5,2
+13:51:00,13:52:24,ShipBack,66,System,5,2
+13:53:00,13:53:08,ShipBack,67,User,5,2
+13:53:36,13:54:35,ShipBack,67,System,5,2
+14:07:22,14:08:31,StoneVesselsBowl,179,System,5,2
+14:08:36,14:08:46,StoneVesselsBowl,178,User,5,2
+14:09:12,14:09:20,StoneVesselsBowl,179,User,5,2
+14:09:31,14:10:33,WoodenTools,187,System,5,2
+14:10:48,14:11:27,EverydayPottery,9,System,5,2
+14:12:08,14:12:23,BuildingMethodsAndFacilities,15,User,5,2
+
+events 
+13:01:18,return from screen
+13:01:18,chosenExhibit,39
+13:03:22,chosenExhibit,39
+13:03:22,return from screen
+13:03:56,return from screen
+13:06:01,chosenExhibit,41
+13:06:01,return from screen
+13:07:12,chosenExhibit,92
+13:07:12,return from screen
+13:09:19,chosenExhibit,93
+13:09:19,return from screen
+13:11:00,chosenExhibit,44
+13:12:11,chosenExhibit,44
+13:12:11,return from screen
+13:15:18,chosenExhibit,62
+13:15:18,return from screen
+13:16:56,chosenExhibit,62
+13:16:56,return from screen
+13:18:03,chosenExhibit,63
+13:19:24,chosenExhibit,56
+13:19:25,return from screen
+13:20:33,chosenExhibit,57
+13:22:18,chosenExhibit,58
+13:22:18,return from screen
+13:23:37,chosenExhibit,59
+13:25:07,chosenExhibit,61
+13:26:16,chosenExhibit,91
+13:30:21,chosenExhibit,49
+13:32:59,chosenExhibit,50
+13:32:59,return from screen
+13:35:58,chosenExhibit,51
+13:35:58,return from screen
+13:36:30,chosenExhibit,51
+13:37:48,chosenExhibit,52
+13:37:48,return from screen
+13:44:20,chosenExhibit,71
+13:47:59,chosenExhibit,88
+13:49:22,return from screen
+13:49:22,chosenExhibit,5
+13:54:43,chosenExhibit,5
+13:54:43,return from screen
+13:58:14,chosenExhibit,8
+13:58:43,chosenExhibit,9
+14:07:15,chosenExhibit,66
+14:07:15,return from screen
+14:09:09,chosenExhibit,66
+14:09:26,chosenExhibit,68
+14:10:43,chosenExhibit,17
+14:12:05,chosenExhibit,20
+14:14:13,chosenExhibit,21
+14:16:18,chosenExhibit,22
+14:16:34,return from screen
+14:18:42,return from screen

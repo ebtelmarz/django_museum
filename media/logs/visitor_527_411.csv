@@ -1,0 +1,89 @@
+
+Positions 
+11:10:47,11:10:51,EntranceReubenHecht
+11:13:34,11:14:49,SymbolsJewishMenorah
+11:15:34,11:17:30,SymbolsJewishMenorah
+11:18:42,11:18:47,EntranceReubenHecht
+11:18:47,11:18:52,SymbolsJewishMenorah
+11:18:52,11:18:59,EntranceReubenHecht
+11:18:59,11:20:27,SymbolsJewishMenorah
+11:20:27,11:25:34,PersianCult
+11:25:36,11:25:39,JerusalemPhoto
+11:25:39,11:25:42,PersianCult
+11:25:42,11:26:50,JerusalemPhoto
+11:28:50,11:29:49,JerusalemPhoto
+11:29:50,11:30:00,Phoenicians
+11:30:00,11:30:07,CraftsAndArts
+11:30:09,11:30:25,ImportedPottery
+11:35:04,11:36:47,ImportedPottery
+11:36:47,11:41:46,PhoenicianWriting1
+11:41:47,11:42:02,CraftsAndArts
+11:42:02,11:42:07,Phoenicians
+11:42:48,11:44:10,Phoenicians
+11:44:11,11:47:32,MosaicfromSynagogue
+11:47:33,11:49:23,BronzeTools
+11:50:21,11:51:37,BronzeTools
+11:51:47,11:51:52,MosaicfromSynagogue
+11:52:53,11:52:58,GlassOvenVessels
+11:53:55,11:55:07,GlassOvenVessels
+11:55:13,11:55:16,PhoenicianWriting1
+11:57:32,11:58:11,PhoenicianWriting1
+12:03:18,12:15:30,EntranceReubenHecht
+12:15:30,12:15:34,EntranceGallileeRebellion
+12:15:34,12:15:42,DuckBoxIvories
+12:16:37,12:16:41,ChalcolitePeriod
+12:24:14,12:24:19,Coins
+12:25:04,12:25:07,JerusalemPhoto
+12:25:07,12:25:15,PersianCult
+12:25:15,12:25:19,SymbolsJewishMenorah
+12:25:19,12:25:47,EntranceReubenHecht
+
+presentations 
+11:14:05,11:14:49,SymbolsJewishMenorah,131,System,3,-3
+11:15:34,11:16:17,SymbolsJewishMenorah,130,System,5,-3
+11:16:44,11:17:30,SymbolsJewishMenorah,132,System,5,-3
+11:19:43,11:20:27,SymbolsJewishMenorah,131,System,3,-3
+11:21:05,11:22:24,PersianCult,311,System,5,-3
+11:22:39,11:23:52,PersianCult,312,System,5,-3
+11:24:07,11:25:34,PersianCult,310,System,3,-3
+11:26:05,11:26:50,JerusalemPhoto,138,System,3,-3
+11:28:50,11:29:49,JerusalemPhoto,137,System,5,-3
+11:35:04,11:35:47,ImportedPottery,40,System,5,-3
+11:36:03,11:36:47,ImportedPottery,43,System,5,-3
+11:37:08,11:38:01,PhoenicianWriting1,18,System,5,-3
+11:39:35,11:40:23,PhoenicianWriting1,21,System,5,-3
+11:40:41,11:41:46,PhoenicianWriting1,19,System,5,-3
+11:42:48,11:44:10,Phoenicians,163,System,5,-3
+11:46:35,11:47:32,MosaicfromSynagogue,149,System,5,-3
+11:50:21,11:51:37,BronzeTools,193,System,5,-3
+11:53:55,11:55:07,GlassOvenVessels,156,System,5,-3
+11:57:32,11:58:11,PhoenicianWriting1,22,System,5,-3
+12:06:36,12:08:34,EntranceReubenHecht,319,System,5,-3
+12:11:26,12:12:47,EntranceReubenHecht,321,System,3,-3
+
+events 
+11:13:50,chosenExhibit,41
+11:19:30,chosenExhibit,41
+11:20:46,chosenExhibit,92
+11:25:55,chosenExhibit,44
+11:25:55,open map
+11:27:55,return from screen
+11:30:39,chosenExhibit,32
+11:30:39,return from screen
+11:31:05,chosenExhibit,31
+11:31:05,open map
+11:31:49,return from screen
+11:34:34,return from screen
+11:34:43,chosenExhibit,32
+11:37:00,chosenExhibit,21
+11:37:00,return from screen
+11:39:29,chosenExhibit,22
+11:42:41,chosenExhibit,89
+11:45:15,chosenExhibit,67
+11:49:38,chosenExhibit,71
+11:53:42,chosenExhibit,70
+11:57:16,chosenExhibit,22
+11:57:16,return from screen
+12:02:56,return from screen
+12:03:27,chosenExhibit,40
+12:25:19,return from screen

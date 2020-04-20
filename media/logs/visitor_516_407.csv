@@ -1,0 +1,50 @@
+
+Positions 
+14:05:41,14:07:42,JerusalemPhoto
+14:20:59,14:22:39,OilLamps
+14:25:20,14:25:24,PhoenicianWriting1
+14:27:56,14:29:09,CraftsAndArts
+14:32:36,14:32:39,ShipFront
+14:32:40,14:32:43,ShipBack
+14:42:30,14:42:34,ShipFront
+14:44:06,14:46:32,EntranceReubenHecht
+14:46:32,14:47:48,JewishCoffins
+14:48:05,14:49:04,Anthropoids
+14:49:04,14:51:00,MenorahJewishEpigraphy
+14:51:00,14:51:15,EntranceReubenHecht
+
+presentations 
+14:05:51,14:06:51,JerusalemPhoto,137,System,4,-5
+14:06:57,14:07:42,JerusalemPhoto,138,System,4,-5
+14:21:29,14:22:39,OilLamps,299,System,5,-5
+14:27:56,14:29:09,CraftsAndArts,44,System,3,-5
+14:32:36,14:32:39,ShipFront,52,User,4,-5
+14:46:39,14:47:48,JewishCoffins,170,System,4,5
+14:48:11,14:49:04,Anthropoids,181,System,5,5
+
+events 
+14:05:48,return from screen
+14:05:48,chosenExhibit,44
+14:07:49,open map
+14:21:16,return from screen
+14:21:16,getDirections
+14:21:27,chosenExhibit,82
+14:21:27,open map
+14:24:39,open map
+14:24:39,open map
+14:25:59,open map
+14:26:22,getDirections
+14:26:22,open map
+14:27:18,getDirections
+14:27:18,open map
+14:27:36,return from screen
+14:27:53,chosenExhibit,33
+14:27:53,return from screen
+14:29:15,open map
+14:32:19,return from screen
+14:32:33,chosenExhibit,1
+14:44:06,open map
+14:44:08,return from screen
+14:46:36,return from screen
+14:46:36,chosenExhibit,62
+14:48:08,chosenExhibit,61

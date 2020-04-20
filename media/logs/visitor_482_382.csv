@@ -1,0 +1,30 @@
+
+Positions 
+11:10:08,11:10:59,SymbolsJewishMenorah
+11:15:42,11:15:45,JerusalemPhoto
+11:16:28,11:16:30,PersianCult
+11:16:45,11:16:50,JerusalemPhoto
+11:17:11,11:17:14,PersianCult
+11:19:24,11:19:31,JerusalemPhoto
+11:19:45,11:24:10,PersianCult
+11:24:31,11:24:37,JerusalemPhoto
+11:24:47,11:24:49,MaterialCultures
+11:26:35,11:26:42,LeadCoffinMosaic
+11:28:32,11:28:35,ChalcolitePeriod
+11:41:30,11:42:31,EntranceGallileeRebellion
+11:48:39,11:48:50,DuckBoxIvories
+11:50:37,11:50:57,MaterialCultures
+
+presentations 
+11:10:08,11:10:59,SymbolsJewishMenorah,132,System,5,2
+11:20:08,11:21:25,PersianCult,311,System,5,2
+11:21:32,11:22:42,PersianCult,312,System,5,2
+11:22:52,11:24:10,PersianCult,310,System,5,2
+
+events 
+11:09:48,chosenExhibit,41
+11:09:48,return from screen
+11:19:52,chosenExhibit,92
+11:28:32,open map
+11:28:43,return from screen
+11:50:57,return from screen

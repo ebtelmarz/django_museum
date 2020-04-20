@@ -1,0 +1,96 @@
+
+Positions 
+11:29:17,11:31:28,EntranceReubenHecht
+11:31:29,11:32:49,SymbolsJewishMenorah
+11:32:53,11:32:58,PersianCult
+11:32:58,11:33:03,SymbolsJewishMenorah
+11:33:06,11:33:09,PersianCult
+11:33:09,11:33:18,SymbolsJewishMenorah
+11:34:29,11:38:26,PersianCult
+11:38:27,11:38:57,MaterialCultures
+11:39:31,11:39:37,DuckBoxIvories
+11:39:52,11:39:55,EntranceGallileeRebellion
+11:39:55,11:40:01,DuckBoxIvories
+11:40:01,11:40:09,EntranceGallileeRebellion
+11:40:09,11:40:15,DuckBoxIvories
+11:40:49,11:42:06,Jerusalem
+11:42:06,11:43:12,Cyprus
+11:43:21,11:43:23,Gems
+11:44:05,11:44:08,Cyprus
+11:44:36,11:45:49,Weights
+11:46:14,11:48:20,Coins
+11:48:21,11:48:26,SevenSpecies
+11:50:34,11:50:36,UpperFloorEntrance
+11:50:49,11:50:52,MaterialCultures
+11:51:05,11:51:07,EntranceGallileeRebellion
+11:51:24,11:51:27,BronzeTools
+11:51:43,11:51:45,EntranceGallileeRebellion
+11:51:45,11:51:47,BronzeTools
+11:51:47,11:51:59,EntranceGallileeRebellion
+11:52:33,11:53:59,BronzeTools
+11:55:18,11:57:17,ShipEntrance
+11:57:17,11:57:24,ShipFront
+11:57:24,11:57:34,Pottery
+11:57:34,11:57:38,ShipFront
+11:57:38,11:57:41,Pottery
+11:57:41,11:57:50,MaritimeArcheology
+11:57:50,11:59:52,Pottery
+12:00:00,12:00:08,MaritimeArcheology
+12:00:08,12:01:00,CarpenterTools
+12:01:01,12:01:13,Pottery
+
+presentations 
+11:30:04,11:30:17,EntranceReubenHecht,129,User,3,-5
+11:30:54,11:31:28,EntranceReubenHecht,128,User,3,-5
+11:31:43,11:32:29,SymbolsJewishMenorah,130,System,4,-5
+11:34:35,11:36:03,PersianCult,310,System,3,-5
+11:36:13,11:37:12,PersianCult,312,User,3,-5
+11:37:27,11:38:26,PersianCult,314,User,3,-5
+11:38:39,11:38:55,MaterialCultures,405,User,3,-5
+11:40:59,11:42:06,Jerusalem,281,System,3,-5
+11:42:15,11:43:12,Cyprus,271,System,3,-5
+11:44:54,11:45:49,Weights,261,System,3,-5
+11:46:53,11:48:10,Coins,266,System,3,-5
+11:48:17,11:48:20,Coins,267,User,3,-5
+11:52:45,11:53:59,BronzeTools,190,System,1,-5
+11:55:23,11:55:57,ShipEntrance,417,System,3,-5
+11:56:03,11:57:17,ShipEntrance,162,System,3,-5
+11:57:57,11:58:41,Pottery,78,System,3,-5
+11:58:58,11:59:52,Pottery,80,System,3,-5
+12:00:33,12:01:00,CarpenterTools,92,User,4,-5
+
+events 
+11:30:00,return from screen
+11:30:00,chosenExhibit,40
+11:30:45,return from screen
+11:30:50,chosenExhibit,39
+11:31:38,chosenExhibit,41
+11:31:38,return from screen
+11:32:57,chosenExhibit,92
+11:33:09,open map
+11:33:39,open map
+11:33:51,open map
+11:33:54,open map
+11:34:20,open map
+11:34:20,return from screen
+11:34:32,chosenExhibit,92
+11:34:32,return from screen
+11:37:22,chosenExhibit,93
+11:38:32,chosenExhibit,91
+11:40:51,chosenExhibit,81
+11:42:11,chosenExhibit,80
+11:44:45,chosenExhibit,77
+11:46:49,chosenExhibit,78
+11:48:44,return from screen
+11:48:44,chosenExhibit,76
+11:52:41,chosenExhibit,71
+11:52:41,return from screen
+11:55:22,chosenExhibit,88
+11:57:51,chosenExhibit,8
+11:57:51,return from screen
+11:58:52,chosenExhibit,9
+12:00:09,chosenExhibit,12
+12:00:09,return from screen
+12:00:24,chosenExhibit,12
+12:00:24,return from screen
+12:00:27,chosenExhibit,13

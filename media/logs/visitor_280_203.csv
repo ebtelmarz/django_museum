@@ -1,0 +1,55 @@
+
+Positions 
+13:00:07,13:01:08,SymbolsJewishMenorah
+13:01:38,13:01:49,PersianCult
+13:01:49,13:01:52,SymbolsJewishMenorah
+13:01:52,13:01:58,PersianCult
+13:02:18,13:02:28,JerusalemPhoto
+13:02:28,13:02:38,MaterialCultures
+13:02:59,13:03:03,Phoenicians
+13:09:07,13:09:10,ShipBack
+13:10:29,13:11:06,ShipBack
+13:11:26,13:14:22,ShipFront
+13:14:22,13:14:30,StairsToBathroom
+13:19:01,13:20:22,DuckBoxIvories
+13:20:31,13:20:37,IvoryWomanPhoenician
+13:21:27,13:21:31,AnimalModels
+13:23:52,13:24:05,AnimalModels
+13:24:28,13:26:49,Anthropoids
+13:26:50,13:26:56,JewishCoffins
+13:26:57,13:27:48,RomanDivinitiesStatuettes
+13:42:41,13:42:43,MaterialCultures
+13:43:02,13:43:14,SymbolsJewishMenorah
+13:43:14,13:43:31,EntranceReubenHecht
+
+presentations 
+13:00:25,13:01:07,SymbolsJewishMenorah,131,User,3,-5
+13:10:29,13:11:06,ShipBack,68,User,5,-5
+13:19:16,13:20:22,DuckBoxIvories,152,System,5,-5
+13:23:52,13:24:05,AnimalModels,139,User,3,-5
+13:24:35,13:25:27,Anthropoids,181,System,5,-5
+
+events 
+13:00:17,return from screen
+13:00:17,chosenExhibit,41
+13:01:43,chosenExhibit,92
+13:01:54,chosenExhibit,92
+13:01:54,return from screen
+13:02:32,chosenExhibit,91
+13:03:19,chosenExhibit,89
+13:03:19,return from screen
+13:04:32,chosenExhibit,89
+13:04:32,lookTour
+13:07:24,getDirections
+13:07:24,return from screen
+13:07:28,return from screen
+13:10:25,chosenExhibit,6
+13:10:25,return from screen
+13:19:05,chosenExhibit,49
+13:19:06,return from screen
+13:20:39,chosenExhibit,51
+13:21:33,chosenExhibit,53
+13:24:32,chosenExhibit,61
+13:35:56,chosenExhibit,91
+13:42:20,chosenExhibit,89
+13:43:14,return from screen

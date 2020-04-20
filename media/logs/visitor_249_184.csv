@@ -1,0 +1,128 @@
+
+Positions 
+11:36:48,11:37:04,JerusalemPhoto
+11:37:15,11:37:18,EntranceReubenHecht
+11:37:22,11:37:29,JerusalemPhoto
+11:37:38,11:38:32,MaterialCultures
+11:38:38,11:38:45,ChalcolitePeriod
+11:40:23,11:40:26,JewishCoffins
+11:40:53,11:40:55,MenorahJewishEpigraphy
+11:40:55,11:41:04,JewishCoffins
+11:41:49,11:41:55,Anthropoids
+11:41:59,11:42:20,MaterialCultures
+11:42:54,11:43:10,Anthropoids
+11:43:10,11:43:28,MenorahJewishEpigraphy
+11:43:31,11:43:41,Anthropoids
+11:43:41,11:44:31,JewishCoffins
+11:45:39,11:46:27,Anthropoids
+11:46:39,11:46:44,JewishCoffins
+11:46:44,11:47:23,MenorahJewishEpigraphy
+11:47:23,11:48:41,Anthropoids
+11:48:50,11:48:58,MenorahJewishEpigraphy
+11:49:25,12:02:07,RomanDivinitiesStatuettes
+12:02:07,12:02:09,EntranceReubenHecht
+12:02:19,12:02:23,ClayAmphorae
+12:02:23,12:02:27,IvoryWomanPhoenician
+12:02:27,12:03:29,ClayAmphorae
+12:03:30,12:04:17,IvoryWomanPhoenician
+12:04:24,12:05:42,CanaaniteStelae
+12:05:52,12:06:28,DuckBoxIvories
+12:10:23,12:11:30,DuckBoxIvories
+12:11:34,12:11:38,ChalcolitePeriod
+12:11:38,12:11:45,DuckBoxIvories
+12:12:16,12:12:23,BronzeTools
+12:13:05,12:13:15,BronzeTools
+12:24:31,12:24:39,StoneVesselsBowl
+12:26:42,12:27:11,ShipFront
+12:27:57,12:28:28,ShipFront
+12:28:30,12:28:35,ShipEntrance
+12:28:37,12:28:48,ShipFront
+12:28:48,12:29:01,ShipEntrance
+12:29:55,12:30:04,ShipEntrance
+12:30:04,12:30:13,ShipFront
+12:30:29,12:31:45,ShipEntrance
+12:31:47,12:31:54,ShipFront
+12:31:54,12:33:02,ShipBigScreen
+12:33:02,12:33:04,ShipFront
+12:33:04,12:33:15,ShipBack
+12:33:15,12:34:54,ShipFront
+12:34:59,12:35:08,Pottery
+12:35:33,12:35:43,ShipFront
+12:35:52,12:35:58,Pottery
+12:36:24,12:37:06,MaritimeArcheology
+12:37:10,12:37:15,CarpenterTools
+12:37:15,12:37:21,ShipBack
+12:37:40,12:39:17,MaritimeArcheology
+12:39:17,12:40:07,CarpenterTools
+12:40:35,12:40:51,MaritimeArcheology
+12:40:59,12:41:05,ShipBack
+12:41:05,12:41:11,MaritimeArcheology
+12:41:11,12:41:30,Pottery
+12:44:12,12:44:15,Phoenicians
+12:44:15,12:44:43,MaterialCultures
+12:44:55,12:45:06,Phoenicians
+12:45:41,12:45:49,MaterialCultures
+12:46:31,12:46:48,Coins
+12:47:58,12:48:04,Gems
+12:48:24,12:48:29,Cyprus
+12:48:29,12:48:33,GreeceEgypt
+12:48:33,12:48:43,Cyprus
+12:48:43,12:49:32,GreeceEgypt
+12:50:29,12:50:37,Jerusalem
+12:52:11,12:52:26,TempleMount
+
+presentations 
+11:36:53,11:36:58,JerusalemPhoto,137,User,4,-5
+11:43:41,11:44:31,JewishCoffins,181,System,5,-5
+11:45:39,11:46:27,Anthropoids,185,System,5,-5
+11:47:23,11:48:41,Anthropoids,230,System,5,-5
+12:02:27,12:03:29,ClayAmphorae,245,System,3,-3
+12:03:36,12:04:17,IvoryWomanPhoenician,245,User,3,-3
+12:04:31,12:05:42,CanaaniteStelae,254,System,5,-3
+12:30:29,12:31:45,ShipEntrance,56,System,5,-3
+12:31:54,12:33:02,ShipBigScreen,57,System,5,-3
+12:33:45,12:34:45,ShipFront,125,User,5,-3
+12:36:24,12:37:06,MaritimeArcheology,79,System,5,-3
+12:39:34,12:40:07,CarpenterTools,123,User,5,-3
+12:48:43,12:49:32,GreeceEgypt,274,User,3,-3
+
+events 
+11:36:50,chosenExhibit,44
+11:36:50,return from screen
+11:37:03,return from screen
+11:41:01,chosenExhibit,62
+11:41:01,return from screen
+11:43:07,chosenExhibit,61
+11:43:10,return from screen
+11:43:34,chosenExhibit,61
+11:43:34,return from screen
+11:47:10,chosenExhibit,59
+11:49:14,chosenExhibit,58
+11:49:14,return from screen
+11:49:35,return from screen
+11:49:35,chosenExhibit,56
+11:49:46,chosenExhibit,56
+12:02:15,chosenExhibit,51
+12:02:25,chosenExhibit,51
+12:03:33,chosenExhibit,51
+12:03:34,return from screen
+12:04:28,chosenExhibit,50
+12:29:58,chosenExhibit,88
+12:30:07,chosenExhibit,3
+12:30:07,return from screen
+12:30:22,chosenExhibit,1
+12:31:53,chosenExhibit,1
+12:33:18,chosenExhibit,3
+12:33:26,chosenExhibit,3
+12:33:26,return from screen
+12:36:03,chosenExhibit,9
+12:36:03,return from screen
+12:36:20,chosenExhibit,8
+12:39:25,chosenExhibit,11
+12:39:25,return from screen
+12:39:33,chosenExhibit,11
+12:39:33,return from screen
+12:48:27,chosenExhibit,80
+12:48:34,chosenExhibit,80
+12:48:34,return from screen
+12:52:11,return from screen

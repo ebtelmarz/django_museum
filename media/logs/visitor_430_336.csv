@@ -1,0 +1,27 @@
+
+Positions 
+14:15:26,14:15:36,EntranceReubenHecht
+14:15:43,14:15:53,SymbolsJewishMenorah
+14:16:29,14:16:34,PersianCult
+14:17:50,14:17:54,JerusalemPhoto
+14:17:54,14:17:56,PersianCult
+14:18:04,14:19:08,JerusalemPhoto
+14:19:27,14:19:48,MaterialCultures
+14:19:55,14:20:03,Phoenicians
+14:20:36,14:20:53,GlassOvenVessels
+14:40:19,14:51:58,EntranceReubenHecht
+
+presentations 
+14:18:15,14:19:08,JerusalemPhoto,137,System,5,-5
+14:40:25,14:41:19,EntranceReubenHecht,128,System,5,-5
+
+events 
+14:16:37,chosenExhibit,92
+14:16:37,return from screen
+14:17:34,chosenExhibit,92
+14:18:08,chosenExhibit,44
+14:18:08,return from screen
+14:20:36,return from screen
+14:40:21,chosenExhibit,39
+14:40:21,return from screen
+14:41:27,return from screen

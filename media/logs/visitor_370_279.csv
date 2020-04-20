@@ -1,0 +1,27 @@
+
+Positions 
+14:25:13,14:25:15,EntranceReubenHecht
+14:25:15,14:25:43,SymbolsJewishMenorah
+14:25:43,14:25:48,JewishCoffins
+14:25:48,14:27:16,RomanDivinitiesStatuettes
+14:28:06,14:29:10,EntranceReubenHecht
+14:29:11,14:29:19,RomanDivinitiesStatuettes
+14:29:19,14:29:21,JewishCoffins
+14:29:21,14:29:24,RomanDivinitiesStatuettes
+14:29:24,14:29:41,JewishCoffins
+14:30:28,14:30:35,LeadCoffinMosaic
+14:30:37,14:30:49,MuseumMotto
+14:31:07,14:31:12,ChalcolitePeriod
+14:46:20,14:46:28,UpperFloorEntrance
+14:46:49,14:46:52,ChalcolitePeriod
+14:47:07,14:47:15,MaterialCultures
+14:47:46,14:48:03,ChalcolitePeriod
+14:48:29,14:48:39,RomanDivinitiesStatuettes
+14:48:50,14:49:12,SymbolsJewishMenorah
+
+presentations 
+14:28:12,14:29:10,EntranceReubenHecht,129,System,3,-5
+
+events 
+14:28:10,chosenExhibit,40
+14:48:50,return from screen

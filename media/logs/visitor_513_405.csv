@@ -1,0 +1,57 @@
+
+Positions 
+13:36:46,13:37:56,EntranceReubenHecht
+13:37:56,13:38:53,SymbolsJewishMenorah
+13:38:59,13:39:29,PersianCult
+13:39:29,13:40:29,JerusalemPhoto
+13:41:14,13:41:22,MosaicfromSynagogue
+13:42:33,13:44:05,Phoenicians
+13:44:11,13:47:13,MosaicfromSynagogue
+13:47:13,13:47:15,ShipEntrance
+13:47:15,13:47:18,ShipFront
+13:47:18,13:47:20,ShipEntrance
+13:47:20,13:48:33,ShipFront
+13:49:28,13:50:21,ShipFront
+13:50:49,13:50:51,EntranceGallileeRebellion
+13:51:42,13:51:45,MosaicfromSynagogue
+13:51:46,13:51:50,Phoenicians
+13:51:57,13:52:03,PersianCult
+13:52:54,13:52:59,JerusalemPhoto
+13:55:37,13:55:43,JerusalemPhoto
+13:58:39,13:59:13,GreeceEgypt
+13:59:41,14:01:38,Jerusalem
+14:01:38,14:02:24,OilLamps
+14:02:24,14:02:29,PersianCult
+
+presentations 
+13:38:17,13:38:32,SymbolsJewishMenorah,130,User,3,3
+13:38:34,13:38:40,SymbolsJewishMenorah,130,User,3,3
+13:39:40,13:40:29,JerusalemPhoto,138,System,3,3
+13:42:45,13:44:05,Phoenicians,163,System,3,3
+13:44:27,13:45:20,MosaicfromSynagogue,149,User,3,3
+13:45:45,13:45:49,MosaicfromSynagogue,148,System,3,3
+13:46:03,13:46:07,MosaicfromSynagogue,164,System,3,3
+13:46:10,13:47:13,MosaicfromSynagogue,164,System,3,3
+13:47:38,13:47:42,ShipFront,62,User,3,3
+13:47:45,13:48:33,ShipFront,58,User,3,3
+13:49:28,13:50:21,ShipFront,62,System,3,3
+13:55:37,13:55:43,JerusalemPhoto,137,User,3,3
+13:58:51,13:59:13,GreeceEgypt,306,User,3,3
+13:59:58,14:00:09,Jerusalem,285,User,3,3
+14:00:30,14:01:38,Jerusalem,285,System,3,3
+
+events 
+13:36:46,return from screen
+13:38:11,return from screen
+13:38:11,chosenExhibit,41
+13:39:34,chosenExhibit,44
+13:39:34,return from screen
+13:42:42,chosenExhibit,89
+13:44:18,chosenExhibit,67
+13:47:21,chosenExhibit,2
+13:47:21,return from screen
+13:54:01,chosenExhibit,44
+13:58:44,chosenExhibit,83
+13:58:44,return from screen
+13:59:46,chosenExhibit,81
+14:02:24,return from screen

@@ -1,0 +1,93 @@
+
+Positions 
+14:38:08,14:39:42,EntranceReubenHecht
+14:40:38,14:41:30,SymbolsJewishMenorah
+14:42:26,14:42:52,EntranceReubenHecht
+14:43:07,14:45:05,SymbolsJewishMenorah
+14:45:52,14:46:01,EntranceReubenHecht
+14:46:20,14:47:35,SymbolsJewishMenorah
+14:47:35,14:47:43,PersianCult
+14:47:43,14:47:55,JerusalemPhoto
+14:48:36,14:50:15,MaterialCultures
+14:52:41,14:52:52,EntranceReubenHecht
+14:53:12,14:53:20,SymbolsJewishMenorah
+14:53:20,14:53:25,PersianCult
+14:53:25,14:53:33,JerusalemPhoto
+14:53:39,14:53:43,MaterialCultures
+14:54:41,14:55:05,EntranceReubenHecht
+14:55:23,14:56:58,ChalcolitePeriod
+14:58:10,14:59:07,ChalcolitePeriod
+14:59:08,15:00:33,LeadCoffinMosaic
+15:00:36,15:06:06,JewishCoffins
+15:06:53,15:08:19,MenorahJewishEpigraphy
+15:08:20,15:08:28,JewishCoffins
+15:08:28,15:09:55,MenorahJewishEpigraphy
+15:09:56,15:09:58,JewishCoffins
+15:09:58,15:11:19,RomanDivinitiesStatuettes
+15:11:20,15:12:17,LeadCoffinMosaic
+15:12:17,15:18:33,EntranceReubenHecht
+15:18:33,15:18:35,ChalcolitePeriod
+15:23:16,15:24:23,ChalcolitePeriod
+15:24:24,15:33:39,Coins
+15:33:43,15:43:23,EntranceReubenHecht
+15:43:23,15:43:27,PersianCult
+15:43:34,15:43:36,SymbolsJewishMenorah
+15:43:36,15:43:55,EntranceReubenHecht
+
+presentations 
+14:38:54,14:39:26,EntranceReubenHecht,128,User,3,3
+14:41:14,14:41:30,SymbolsJewishMenorah,132,User,5,3
+14:43:18,14:44:10,SymbolsJewishMenorah,130,User,5,3
+14:44:17,14:45:05,SymbolsJewishMenorah,131,System,5,3
+14:46:44,14:47:35,SymbolsJewishMenorah,132,System,5,3
+14:49:02,14:50:15,MaterialCultures,165,System,5,3
+14:55:44,14:56:58,ChalcolitePeriod,144,System,3,3
+14:58:10,14:59:07,ChalcolitePeriod,235,System,3,3
+14:59:43,15:00:33,LeadCoffinMosaic,197,System,3,3
+15:01:00,15:02:19,JewishCoffins,169,System,3,3
+15:02:39,15:03:43,JewishCoffins,170,System,5,3
+15:03:55,15:05:06,JewishCoffins,171,System,5,3
+15:05:16,15:06:06,JewishCoffins,172,System,5,3
+15:07:15,15:08:19,MenorahJewishEpigraphy,204,System,5,3
+15:08:38,15:09:55,MenorahJewishEpigraphy,230,System,5,3
+15:10:23,15:11:19,RomanDivinitiesStatuettes,208,System,5,3
+15:12:53,15:14:01,EntranceReubenHecht,129,System,5,3
+15:14:15,15:16:12,EntranceReubenHecht,319,System,3,3
+15:16:27,15:17:48,EntranceReubenHecht,321,System,3,3
+15:23:16,15:24:23,ChalcolitePeriod,248,System,5,3
+15:24:40,15:25:58,Coins,266,System,5,3
+15:26:20,15:28:02,Coins,268,System,5,3
+15:28:11,15:29:33,Coins,269,System,5,3
+
+events 
+14:38:37,chosenExhibit,39
+14:38:37,return from screen
+14:41:04,return from screen
+14:41:04,chosenExhibit,41
+14:43:11,chosenExhibit,41
+14:46:32,chosenExhibit,41
+14:48:53,chosenExhibit,91
+14:53:44,chosenExhibit,91
+14:55:33,return from screen
+14:55:33,chosenExhibit,46
+14:58:00,chosenExhibit,47
+14:59:38,chosenExhibit,63
+15:00:50,chosenExhibit,62
+15:00:50,return from screen
+15:07:02,chosenExhibit,58
+15:08:31,chosenExhibit,59
+15:10:16,chosenExhibit,56
+15:11:20,return from screen
+15:12:48,chosenExhibit,40
+15:12:48,return from screen
+15:18:33,open map
+15:19:12,return from screen
+15:23:01,chosenExhibit,46
+15:24:35,chosenExhibit,78
+15:24:35,return from screen
+15:29:43,return from screen
+15:33:52,return from screen
+15:33:52,chosenExhibit,40
+15:33:54,open map
+15:34:01,return from screen
+15:43:50,return from screen

@@ -1,0 +1,47 @@
+
+Positions 
+13:41:09,13:41:23,EntranceReubenHecht
+13:41:23,13:41:28,SymbolsJewishMenorah
+13:42:20,13:43:58,PersianCult
+13:45:10,13:46:40,PersianCult
+13:48:13,13:48:17,CraftsAndArts
+13:52:46,13:52:58,EntranceReubenHecht
+13:52:58,13:53:56,PhoenicianWriting1
+13:55:17,13:56:08,PhoenicianWriting1
+14:01:54,14:01:58,EntranceGallileeRebellion
+14:04:20,14:04:30,DuckBoxIvories
+14:09:00,14:10:43,ClayAmphorae
+14:13:50,14:13:54,ChalcolitePeriod
+14:21:02,14:28:22,EntranceReubenHecht
+
+presentations 
+13:42:34,13:43:58,PersianCult,314,System,4,5
+13:45:10,13:46:40,PersianCult,315,System,4,5
+13:55:17,13:56:08,PhoenicianWriting1,18,System,5,-3
+14:09:49,14:10:43,ClayAmphorae,242,System,5,-3
+
+events 
+13:42:24,chosenExhibit,93
+13:42:24,return from screen
+13:48:57,chosenExhibit,33
+13:54:56,return from screen
+13:54:56,chosenExhibit,21
+13:56:22,open map
+13:56:46,open map
+13:56:59,open map
+13:56:59,open map
+13:57:35,return from screen
+14:04:20,open map
+14:08:43,getDirections
+14:09:05,return from screen
+14:09:18,return from screen
+14:09:18,chosenExhibit,52
+14:10:49,open map
+14:11:20,return from screen
+14:11:20,getDirections
+14:12:01,open map
+14:12:54,return from screen
+14:13:35,getDirections
+14:13:35,return from screen
+14:14:37,chosenExhibit,46
+14:28:31,chosenExhibit,81

@@ -1,0 +1,93 @@
+
+Positions 
+15:01:28,15:05:02,SymbolsJewishMenorah
+15:05:27,15:05:30,EntranceReubenHecht
+15:05:30,15:05:38,SymbolsJewishMenorah
+15:05:51,15:05:58,PersianCult
+15:07:18,15:07:21,SymbolsJewishMenorah
+15:07:21,15:14:02,PersianCult
+15:14:15,15:15:41,JerusalemPhoto
+15:16:25,15:16:36,MaterialCultures
+15:17:53,15:18:01,MuseumMotto
+15:18:08,15:18:17,ChalcolitePeriod
+15:18:33,15:18:36,MaterialCultures
+15:19:03,15:20:28,ChalcolitePeriod
+15:20:29,15:20:38,MaterialCultures
+15:20:38,15:22:42,ChalcolitePeriod
+15:24:25,15:28:34,AnimalModels
+15:30:53,15:30:57,DuckBoxIvories
+15:31:26,15:31:33,IvoryWomanPhoenician
+15:31:41,15:31:43,CanaaniteStelae
+15:31:43,15:34:12,IvoryWomanPhoenician
+15:34:29,15:35:35,DuckBoxIvories
+15:36:03,15:36:06,CanaaniteStelae
+15:36:18,15:36:20,DuckBoxIvories
+15:36:20,15:36:27,CanaaniteStelae
+15:36:27,15:36:44,DuckBoxIvories
+15:37:27,15:37:36,CanaaniteStelae
+15:37:36,15:37:39,DuckBoxIvories
+15:37:39,15:38:02,CanaaniteStelae
+15:38:02,15:38:08,DuckBoxIvories
+15:38:08,15:38:17,CanaaniteStelae
+15:46:06,15:46:10,ShipEntrance
+15:46:23,15:46:29,ShipFront
+15:46:29,15:46:33,Pottery
+15:46:33,15:46:53,ShipFront
+15:48:36,15:49:52,ShipFront
+15:51:56,15:51:59,Pottery
+15:52:03,15:53:38,ShipFront
+15:53:38,15:53:41,ShipEntrance
+15:53:41,15:53:45,StoneVesselsBowl
+15:53:48,15:55:11,MosaicfromSynagogue
+15:55:12,15:55:21,PersianCult
+
+presentations 
+15:02:52,15:03:38,SymbolsJewishMenorah,130,System,3,-3
+15:03:43,15:04:09,SymbolsJewishMenorah,131,User,3,-3
+15:04:25,15:04:47,SymbolsJewishMenorah,132,User,3,-3
+15:07:49,15:09:08,PersianCult,311,System,3,-3
+15:09:14,15:10:28,PersianCult,312,System,3,-3
+15:10:50,15:12:29,PersianCult,314,System,3,-3
+15:12:42,15:14:02,PersianCult,316,System,3,-3
+15:14:37,15:15:41,JerusalemPhoto,137,System,3,-3
+15:19:15,15:20:28,ChalcolitePeriod,144,System,5,-3
+15:20:44,15:21:25,ChalcolitePeriod,235,User,3,-3
+15:21:33,15:22:42,ChalcolitePeriod,237,System,5,-3
+15:24:42,15:25:54,AnimalModels,139,System,3,-3
+15:25:59,15:27:05,AnimalModels,140,System,5,-3
+15:27:23,15:28:34,AnimalModels,176,System,5,-3
+15:32:02,15:33:07,IvoryWomanPhoenician,155,System,3,-3
+15:33:19,15:34:12,IvoryWomanPhoenician,244,System,3,-3
+15:35:04,15:35:35,DuckBoxIvories,151,User,5,-3
+15:52:30,15:53:38,ShipFront,52,System,5,-3
+15:54:14,15:55:11,MosaicfromSynagogue,149,System,3,-3
+
+events 
+15:01:36,chosenExhibit,41
+15:04:20,return from screen
+15:04:20,chosenExhibit,41
+15:06:45,chosenExhibit,92
+15:07:27,return from screen
+15:07:27,chosenExhibit,92
+15:10:43,chosenExhibit,93
+15:10:43,return from screen
+15:14:35,return from screen
+15:14:35,chosenExhibit,44
+15:16:32,chosenExhibit,91
+15:18:38,chosenExhibit,91
+15:19:08,chosenExhibit,46
+15:20:37,chosenExhibit,91
+15:20:39,chosenExhibit,47
+15:20:39,return from screen
+15:24:36,chosenExhibit,53
+15:24:36,return from screen
+15:27:21,chosenExhibit,54
+15:27:21,return from screen
+15:31:04,chosenExhibit,49
+15:31:45,chosenExhibit,51
+15:31:45,return from screen
+15:34:53,chosenExhibit,49
+15:46:13,chosenExhibit,88
+15:52:22,chosenExhibit,1
+15:54:05,chosenExhibit,67
+15:55:12,return from screen

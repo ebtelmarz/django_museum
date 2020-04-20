@@ -1,0 +1,46 @@
+
+Positions 
+14:01:48,14:03:35,SymbolsJewishMenorah
+14:04:02,14:04:14,PersianCult
+14:04:19,14:04:29,SymbolsJewishMenorah
+14:04:32,14:04:42,PersianCult
+14:04:55,14:05:02,SymbolsJewishMenorah
+14:05:21,14:05:40,EntranceReubenHecht
+14:05:40,14:05:46,PersianCult
+14:05:46,14:05:50,SymbolsJewishMenorah
+14:06:10,14:07:27,PersianCult
+14:08:04,14:08:31,JerusalemPhoto
+14:08:32,14:08:43,MaterialCultures
+14:09:29,14:09:31,MuseumMotto
+14:09:46,14:09:54,MaterialCultures
+14:10:16,14:11:34,LeadCoffinMosaic
+14:11:35,14:11:48,JewishCoffins
+14:11:48,14:11:53,RomanDivinitiesStatuettes
+14:11:53,14:11:55,DecoratedDoors
+14:12:28,14:13:24,Anthropoids
+14:13:55,14:13:58,MenorahJewishEpigraphy
+14:13:58,14:14:01,JewishCoffins
+14:14:01,14:14:56,MenorahJewishEpigraphy
+14:15:00,14:15:09,JewishCoffins
+14:15:20,14:15:29,LeadCoffinMosaic
+
+presentations 
+14:01:48,14:02:38,SymbolsJewishMenorah,131,System,3,5
+14:02:44,14:03:35,SymbolsJewishMenorah,132,System,2,5
+14:06:22,14:07:27,PersianCult,310,User,3,5
+14:10:46,14:11:34,LeadCoffinMosaic,198,System,4,5
+14:12:28,14:13:24,Anthropoids,182,System,5,5
+14:14:37,14:14:56,MenorahJewishEpigraphy,205,User
+
+events 
+14:04:51,chosenExhibit,92
+14:04:55,return from screen
+14:05:21,return from screen
+14:06:17,chosenExhibit,92
+14:06:17,return from screen
+14:09:45,chosenExhibit,47
+14:09:53,chosenExhibit,91
+14:10:21,chosenExhibit,63
+14:12:23,chosenExhibit,61
+14:14:01,return from screen
+14:14:34,chosenExhibit,58

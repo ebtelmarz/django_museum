@@ -1,0 +1,50 @@
+
+Positions 
+13:44:31,13:45:03,EntranceReubenHecht
+13:46:42,13:48:04,RomanDivinitiesStatuettes
+13:48:04,13:53:58,JewishCoffins
+13:53:58,13:54:05,EntranceGallileeRebellion
+13:54:13,13:54:27,DuckBoxIvories
+13:54:27,13:54:30,EntranceGallileeRebellion
+13:54:33,13:55:44,DuckBoxIvories
+13:57:10,13:57:13,EntranceGallileeRebellion
+14:03:52,14:05:15,ShipEntrance
+14:05:15,14:06:45,ShipFront
+14:07:55,14:08:04,ShipEntrance
+14:12:57,14:12:59,EntranceGallileeRebellion
+14:13:19,14:13:35,RomanDivinitiesStatuettes
+14:13:35,14:13:43,SymbolsJewishMenorah
+14:13:43,14:13:45,PersianCult
+14:13:45,14:13:49,JerusalemPhoto
+14:13:52,14:14:01,MaterialCultures
+14:14:13,14:14:17,PersianCult
+14:14:21,14:14:24,SymbolsJewishMenorah
+14:14:24,14:14:44,EntranceReubenHecht
+
+presentations 
+13:44:55,13:45:03,EntranceReubenHecht,319,User,3,5
+13:47:07,13:48:04,RomanDivinitiesStatuettes,208,System,3,5
+13:48:24,13:49:43,JewishCoffins,169,System,4,5
+13:54:49,13:55:44,DuckBoxIvories,153,System,4,5
+14:04:01,14:05:15,ShipEntrance,162,System,5,5
+
+events 
+13:44:50,chosenExhibit,40
+13:44:51,return from screen
+13:45:10,open map
+13:45:19,open map
+13:45:30,lookTour
+13:45:47,return from screen
+13:45:47,getDirections
+13:46:51,chosenExhibit,56
+13:48:11,chosenExhibit,62
+13:48:11,return from screen
+13:51:38,open map
+13:53:38,getDirections
+13:54:37,chosenExhibit,49
+14:03:56,chosenExhibit,88
+14:14:24,lookTour
+14:14:57,return from screen
+14:15:04,lookTour
+14:15:16,return from screen
+14:15:25,return from screen

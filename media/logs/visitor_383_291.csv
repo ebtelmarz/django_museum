@@ -1,0 +1,84 @@
+
+Positions 
+15:08:02,15:08:06,EntranceReubenHecht
+15:09:37,15:09:44,SymbolsJewishMenorah
+15:09:50,15:10:00,JerusalemPhoto
+15:11:10,15:11:14,UpperFloorEntrance
+15:12:29,15:16:13,Coins
+15:16:14,15:16:18,Elevator2
+15:16:18,15:18:28,Weights
+15:18:46,15:21:40,Gems
+15:22:05,15:23:32,Cyprus
+15:23:53,15:23:56,GreeceEgypt
+15:24:48,15:24:54,Cyprus
+15:26:51,15:27:02,UpperFloorEntrance
+15:27:02,15:27:05,ChalcolitePeriod
+15:28:23,15:28:41,Phoenicians
+15:29:24,15:29:30,StoneVesselsBowl
+15:29:49,15:29:52,MosaicfromSynagogue
+15:29:52,15:29:56,StoneVesselsBowl
+15:31:06,15:33:47,ShipFront
+15:33:48,15:33:54,Pottery
+15:33:58,15:34:08,MaritimeArcheology
+15:34:08,15:34:19,CarpenterTools
+15:34:19,15:34:29,Pottery
+15:34:29,15:34:39,CarpenterTools
+15:34:56,15:35:20,Pottery
+15:35:36,15:35:54,ShipFront
+15:35:54,15:36:02,ShipEntrance
+15:42:13,15:42:16,BronzeTools
+15:42:16,15:42:29,EntranceGallileeRebellion
+15:42:29,15:42:50,DuckBoxIvories
+15:42:50,15:42:54,CanaaniteStelae
+15:42:54,15:43:00,DuckBoxIvories
+15:43:08,15:43:19,CanaaniteStelae
+15:43:19,15:43:52,EntranceGallileeRebellion
+15:43:52,15:44:06,CanaaniteStelae
+15:44:28,15:44:37,IvoryWomanPhoenician
+15:44:44,15:44:47,ClayAmphorae
+15:44:47,15:44:53,IvoryWomanPhoenician
+15:44:53,15:44:57,ClayAmphorae
+15:45:32,15:45:38,RomanDivinitiesStatuettes
+15:45:38,15:45:42,MenorahJewishEpigraphy
+15:45:42,15:45:47,JewishCoffins
+15:45:50,15:45:53,LeadCoffinMosaic
+15:46:08,15:46:25,Phoenicians
+15:46:59,15:47:04,MaterialCultures
+15:47:10,15:47:15,JerusalemPhoto
+15:47:15,15:47:24,PersianCult
+15:47:24,15:47:28,SymbolsJewishMenorah
+15:47:28,15:47:36,EntranceReubenHecht
+
+presentations 
+15:13:04,15:14:17,Coins,267,System,5,2
+15:14:31,15:16:13,Coins,268,System,5,2
+15:17:21,15:18:28,Weights,263,System,5,2
+15:19:15,15:20:04,Gems,293,System,5,2
+15:20:16,15:21:40,Gems,294,System,5,2
+15:22:25,15:23:32,Cyprus,271,System,5,2
+15:31:35,15:32:33,ShipFront,52,System,5,2
+15:32:40,15:33:47,ShipFront,53,System,5,2
+
+events 
+15:08:36,return from screen
+15:08:36,chosenExhibit,40
+15:08:41,open map
+15:08:51,open map
+15:09:03,getDirections
+15:09:03,lookTour
+15:09:24,getDirections
+15:09:24,return from screen
+15:12:39,chosenExhibit,78
+15:16:31,chosenExhibit,77
+15:16:31,return from screen
+15:19:08,chosenExhibit,79
+15:19:08,return from screen
+15:22:18,chosenExhibit,80
+15:29:04,chosenExhibit,89
+15:31:12,chosenExhibit,1
+15:35:57,open map
+15:36:05,return from screen
+15:42:36,chosenExhibit,49
+15:47:37,chosenExhibit,40
+15:47:37,return from screen
+15:47:51,return from screen

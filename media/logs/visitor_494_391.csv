@@ -1,0 +1,55 @@
+
+Positions 
+14:16:23,14:16:41,EntranceReubenHecht
+14:17:30,14:17:40,EntranceReubenHecht
+14:18:08,14:18:11,SymbolsJewishMenorah
+14:18:18,14:18:23,EntranceReubenHecht
+14:18:23,14:18:26,SymbolsJewishMenorah
+14:19:12,14:19:18,PersianCult
+14:19:18,14:19:26,JerusalemPhoto
+14:19:36,14:19:44,Phoenicians
+14:35:41,14:36:09,BronzeTools
+14:36:09,14:36:25,Jerusalem
+14:37:07,14:37:12,Coins
+14:40:10,14:40:16,ShipFront
+14:46:47,14:46:51,EntranceGallileeRebellion
+14:47:40,14:47:46,ShipEntrance
+14:47:46,14:48:09,ShipFront
+14:50:49,14:50:51,ShipEntrance
+14:50:51,14:51:06,ShipFront
+14:51:06,14:51:12,ShipEntrance
+14:51:12,14:51:20,ShipFront
+14:51:20,14:51:23,ShipEntrance
+14:51:23,14:51:28,ShipFront
+14:52:14,14:52:22,StoneVesselsBowl
+14:52:28,14:52:34,BronzeTools
+14:53:15,14:53:19,MosaicfromSynagogue
+14:53:28,14:53:34,JerusalemPhoto
+14:54:19,14:54:28,PersianCult
+14:54:28,14:54:40,JerusalemPhoto
+14:54:40,14:54:47,PersianCult
+14:54:48,14:54:55,SymbolsJewishMenorah
+14:54:55,14:55:28,EntranceReubenHecht
+
+presentations 
+14:17:30,14:17:40,EntranceReubenHecht,128,User,3,5
+
+events 
+14:17:25,return from screen
+14:17:25,chosenExhibit,39
+14:19:39,chosenExhibit,89
+14:19:39,return from screen
+14:31:23,chosenExhibit,89
+14:35:44,chosenExhibit,71
+14:35:44,return from screen
+14:36:11,chosenExhibit,81
+14:36:11,return from screen
+14:37:10,chosenExhibit,78
+14:37:10,return from screen
+14:40:15,return from screen
+14:40:15,chosenExhibit,3
+14:40:23,chosenExhibit,1
+14:40:23,return from screen
+14:40:52,chosenExhibit,2
+14:40:52,return from screen
+14:54:55,return from screen

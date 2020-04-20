@@ -1,0 +1,73 @@
+
+Positions 
+10:56:01,10:57:03,EntranceReubenHecht
+10:57:04,10:58:22,PersianCult
+10:58:39,10:58:53,JerusalemPhoto
+10:58:53,10:58:59,MaterialCultures
+11:02:00,11:05:01,BronzeTools
+11:05:25,11:05:32,Cyprus
+11:06:56,11:07:02,Cyprus
+11:09:10,11:10:10,Cyprus
+11:12:22,11:12:29,Cyprus
+11:31:43,11:32:05,Cyprus
+11:33:48,11:34:58,Cyprus
+11:34:59,11:35:01,Coins
+11:35:55,11:36:02,MaterialCultures
+11:36:02,11:36:22,Phoenicians
+11:36:47,11:38:04,MosaicfromSynagogue
+11:38:33,11:38:59,BronzeTools
+11:38:59,11:39:13,ShipEntrance
+11:39:13,11:40:22,ShipFront
+11:40:25,11:40:31,ShipEntrance
+11:40:57,11:41:27,BronzeTools
+11:41:27,11:41:40,MosaicfromSynagogue
+11:41:40,11:41:48,Phoenicians
+11:41:53,11:42:00,CraftsAndArts
+11:42:15,11:42:21,Phoenicians
+11:42:58,11:43:20,MaterialCultures
+11:43:37,11:43:48,MosaicfromSynagogue
+11:44:06,11:44:32,MaterialCultures
+11:46:12,11:46:25,PersianCult
+11:46:26,11:46:36,SymbolsJewishMenorah
+
+presentations 
+10:57:57,10:58:22,PersianCult,310,User,5,2
+11:02:18,11:02:57,BronzeTools,191,User,5,2
+11:03:49,11:04:06,BronzeTools,191,User,5,2
+11:04:49,11:05:01,BronzeTools,190,User,5,2
+11:06:56,11:07:02,Cyprus,273,User,5,2
+11:09:10,11:10:10,Cyprus,272,User,5,2
+11:12:22,11:12:29,Cyprus,271,User,1,2
+11:31:43,11:32:05,Cyprus,272,User,5,2
+11:33:48,11:34:58,Cyprus,272,System,5,2
+11:36:58,11:38:04,MosaicfromSynagogue,148,System,5,2
+11:39:27,11:40:22,ShipFront,53,User,5,2
+
+events 
+10:56:01,return from screen
+10:57:41,chosenExhibit,92
+10:57:41,return from screen
+10:58:53,return from screen
+11:02:14,chosenExhibit,71
+11:02:14,return from screen
+11:03:17,return from screen
+11:03:44,chosenExhibit,71
+11:03:44,return from screen
+11:04:18,return from screen
+11:04:46,chosenExhibit,71
+11:05:02,return from screen
+11:06:52,chosenExhibit,80
+11:06:52,return from screen
+11:07:56,chosenExhibit,80
+11:07:56,return from screen
+11:09:07,chosenExhibit,80
+11:09:07,return from screen
+11:12:16,chosenExhibit,80
+11:12:16,return from screen
+11:33:45,chosenExhibit,80
+11:36:51,return from screen
+11:36:51,chosenExhibit,67
+11:38:16,return from screen
+11:39:26,chosenExhibit,1
+11:40:25,return from screen
+11:46:42,return from screen

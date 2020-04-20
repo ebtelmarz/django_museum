@@ -1,0 +1,38 @@
+
+Positions 
+15:05:07,15:06:00,SymbolsJewishMenorah
+15:06:51,15:08:58,PersianCult
+15:08:58,15:10:26,JerusalemPhoto
+15:10:27,15:12:06,PersianCult
+15:27:51,15:31:10,PhoenicianWriting1
+15:31:12,15:31:30,ImportedPottery
+15:32:06,15:32:40,PhoenicianWriting1
+15:34:06,15:35:32,MosaicfromSynagogue
+
+presentations 
+15:05:07,15:06:00,SymbolsJewishMenorah,132,System,4,-5
+15:07:35,15:08:58,PersianCult,314,System,5,-5
+15:09:34,15:10:26,JerusalemPhoto,137,System,5,-5
+15:10:47,15:12:06,PersianCult,310,System,5,-5
+15:28:17,15:29:14,PhoenicianWriting1,19,System,5,-5
+15:29:18,15:30:03,PhoenicianWriting1,20,System,5,-5
+15:30:13,15:31:10,PhoenicianWriting1,23,System,5,-5
+15:34:27,15:35:32,MosaicfromSynagogue,148,System,5,-5
+15:35:46,15:36:49,MosaicfromSynagogue,150,System,5,-5
+15:36:53,15:37:57,MosaicfromSynagogue,149,System,5,-5
+
+events 
+15:07:08,chosenExhibit,93
+15:09:22,chosenExhibit,44
+15:10:38,return from screen
+15:10:38,chosenExhibit,92
+15:28:03,chosenExhibit,22
+15:31:23,chosenExhibit,31
+15:31:23,return from screen
+15:32:11,chosenExhibit,21
+15:32:11,return from screen
+15:32:23,return from screen
+15:32:23,chosenExhibit,23
+15:34:10,chosenExhibit,67
+15:34:10,return from screen
+15:38:10,return from screen

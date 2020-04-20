@@ -1,0 +1,21 @@
+
+Positions 
+15:10:30,15:11:44,EntranceReubenHecht
+15:12:08,15:13:07,SymbolsJewishMenorah
+15:14:26,15:14:55,PersianCult
+15:14:55,15:15:16,Phoenicians
+15:15:16,15:15:20,EverydayPottery
+
+presentations 
+15:11:19,15:11:25,EntranceReubenHecht,128,User,5,2
+15:11:28,15:11:29,EntranceReubenHecht,128,System,5,2
+15:11:31,15:11:44,EntranceReubenHecht,128,User,5,2
+15:12:39,15:12:45,SymbolsJewishMenorah,132,System
+15:12:57,15:13:06,SymbolsJewishMenorah,131,User,5,2
+
+events 
+15:11:14,chosenExhibit,39
+15:11:14,return from screen
+15:12:34,chosenExhibit,41
+15:12:34,return from screen
+15:33:48,return from screen

@@ -1,0 +1,31 @@
+
+Positions 
+15:30:23,15:31:03,EntranceReubenHecht
+15:31:04,15:32:08,SymbolsJewishMenorah
+15:32:11,15:32:16,PersianCult
+15:40:52,15:42:32,EntranceReubenHecht
+15:42:32,15:43:39,ShipFront
+15:43:39,15:43:47,ShipEntrance
+15:45:42,15:46:55,DuckBoxIvories
+15:46:59,15:47:08,PersianCult
+15:47:18,15:47:20,SymbolsJewishMenorah
+15:47:20,15:47:25,EntranceReubenHecht
+
+presentations 
+15:30:23,15:31:03,EntranceReubenHecht,319,User,5,2
+15:31:18,15:32:08,SymbolsJewishMenorah,130,User,1,2
+15:42:50,15:43:39,ShipFront,127,System,3,5
+15:45:51,15:46:55,DuckBoxIvories,152,System,5,5
+
+events 
+15:31:14,chosenExhibit,41
+15:32:19,chosenExhibit,92
+15:40:52,open map
+15:41:30,getDirections
+15:41:30,return from screen
+15:42:36,chosenExhibit,3
+15:44:07,chosenExhibit,88
+15:45:45,chosenExhibit,49
+15:47:08,chosenExhibit,93
+15:47:08,return from screen
+15:47:20,return from screen

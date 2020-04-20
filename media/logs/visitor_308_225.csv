@@ -1,0 +1,118 @@
+
+Positions 
+14:30:42,14:31:10,EntranceReubenHecht
+14:31:59,14:32:02,SymbolsJewishMenorah
+14:32:02,14:32:08,EntranceReubenHecht
+14:32:08,14:32:26,SymbolsJewishMenorah
+14:32:26,14:32:28,EntranceReubenHecht
+14:32:28,14:33:27,SymbolsJewishMenorah
+14:34:18,14:34:28,PersianCult
+14:34:34,14:34:37,MenorahJewishEpigraphy
+14:34:37,14:34:44,PersianCult
+14:34:45,14:35:00,JerusalemPhoto
+14:35:02,14:35:05,PersianCult
+14:35:05,14:35:13,JerusalemPhoto
+14:35:18,14:35:23,PersianCult
+14:35:23,14:37:16,JerusalemPhoto
+14:37:32,14:38:59,MaterialCultures
+14:39:00,14:39:09,RomanDivinitiesStatuettes
+14:39:39,14:39:45,ChalcolitePeriod
+14:39:58,14:40:01,EntranceGallileeRebellion
+14:40:01,14:41:30,DuckBoxIvories
+14:41:30,14:41:32,AnimalModels
+14:41:32,14:41:39,ClayAmphorae
+14:41:39,14:41:49,IvoryWomanPhoenician
+14:41:55,14:41:57,DuckBoxIvories
+14:41:57,14:42:00,CanaaniteStelae
+14:42:05,14:42:17,IvoryWomanPhoenician
+14:42:19,14:42:33,CanaaniteStelae
+14:42:37,14:42:42,DuckBoxIvories
+14:42:42,14:44:55,EntranceGallileeRebellion
+14:44:56,14:45:00,StairsToBathroom
+14:45:57,14:46:01,StoneVesselsBowl
+14:46:28,14:46:35,BronzeTools
+14:47:28,14:47:43,WoodenTools
+14:47:47,14:47:52,EverydayPottery
+14:47:52,14:48:43,ReligionAndCult
+14:48:47,14:48:53,CraftsAndArts
+14:49:00,14:49:05,EverydayPottery
+14:49:31,14:49:34,BurialTradition2
+14:50:08,14:50:15,EverydayPottery
+14:50:15,14:50:17,ImportedPottery
+14:50:17,14:50:19,MaritimeCommerce
+14:50:22,14:50:24,BuildingMethodsAndFacilities
+14:50:24,14:50:37,EverydayPottery
+14:50:46,14:50:53,CraftsAndArts
+14:50:53,14:50:56,GlassOvenVessels
+14:50:56,14:51:00,Phoenicians
+14:51:03,14:52:22,MosaicfromSynagogue
+14:52:23,14:52:35,ShipEntrance
+14:52:35,14:53:06,ShipFront
+14:53:34,14:53:37,ShipEntrance
+14:53:37,14:53:49,ShipFront
+14:53:49,14:53:51,ShipEntrance
+14:58:13,14:59:37,EntranceReubenHecht
+14:59:38,14:59:41,BronzeTools
+15:00:14,15:00:28,Coins
+15:00:31,15:01:53,Weights
+15:02:24,15:02:35,Gems
+15:03:14,15:03:19,OilLamps
+15:03:23,15:03:29,UpperFloorEntrance
+15:03:52,15:06:41,SevenSpecies
+15:07:29,15:07:37,SevenSpecies
+15:07:45,15:07:53,UpperFloorEntrance
+15:08:01,15:08:07,MaterialCultures
+15:08:07,15:08:13,PersianCult
+15:08:18,15:08:24,SymbolsJewishMenorah
+15:08:24,15:09:26,EntranceReubenHecht
+
+presentations 
+14:32:38,14:33:27,SymbolsJewishMenorah,131,System,5,2
+14:35:30,14:36:22,JerusalemPhoto,137,System,5,2
+14:36:29,14:37:16,JerusalemPhoto,138,System,5,2
+14:37:45,14:38:59,MaterialCultures,165,System,1,2
+14:40:22,14:41:30,DuckBoxIvories,154,System,5,2
+14:47:58,14:48:43,ReligionAndCult,3,System,5,2
+14:51:22,14:52:22,MosaicfromSynagogue,253,System,5,2
+15:00:53,15:01:53,Weights,261,System,5,2
+15:04:13,15:05:26,SevenSpecies,290,System,1,2
+15:05:37,15:06:41,SevenSpecies,289,System,1,2
+15:07:29,15:07:37,SevenSpecies,289,User,1,2
+
+events 
+14:30:42,open map
+14:30:56,open map
+14:31:02,return from screen
+14:31:18,getDirections
+14:31:18,return from screen
+14:32:29,chosenExhibit,41
+14:32:30,return from screen
+14:34:25,chosenExhibit,92
+14:35:25,chosenExhibit,44
+14:35:25,return from screen
+14:37:38,chosenExhibit,91
+14:39:43,chosenExhibit,46
+14:39:43,return from screen
+14:40:07,chosenExhibit,49
+14:47:27,getDirections
+14:47:33,return from screen
+14:47:50,chosenExhibit,17
+14:47:55,chosenExhibit,15
+14:50:23,chosenExhibit,17
+14:50:23,return from screen
+14:50:24,return from screen
+14:51:08,chosenExhibit,67
+14:52:28,chosenExhibit,88
+14:58:15,open map
+14:59:02,return from screen
+14:59:45,lookTour
+15:00:17,chosenExhibit,78
+15:00:17,return from screen
+15:00:23,getDirections
+15:00:39,getDirections
+15:00:39,return from screen
+15:00:47,chosenExhibit,77
+15:03:23,return from screen
+15:03:55,chosenExhibit,76
+15:03:55,return from screen
+15:08:24,return from screen

@@ -1,0 +1,54 @@
+
+Positions 
+14:55:01,14:55:43,JerusalemPhoto
+14:55:43,14:55:58,MaterialCultures
+14:56:13,14:56:27,Phoenicians
+14:58:11,14:58:14,CraftsAndArts
+14:58:14,14:58:16,MaritimeCommerce
+14:58:16,14:58:19,EverydayPottery
+14:58:20,15:00:00,PhoenicianWriting1
+15:00:01,15:01:14,EverydayPottery
+15:01:14,15:01:32,BurialTradition2
+15:01:40,15:01:43,PhoenicianWriting1
+15:01:43,15:01:45,BuildingMethodsAndFacilities
+15:01:48,15:02:14,EverydayPottery
+15:02:14,15:02:17,WoodenTools
+15:02:17,15:02:21,ReligionAndCult
+15:02:21,15:02:26,WoodenTools
+15:03:00,15:04:18,EntranceReubenHecht
+15:04:37,15:05:09,StairsToBathroom
+15:05:09,15:05:49,ShipEntrance
+15:05:50,15:07:21,ShipFront
+15:07:24,15:07:26,ShipBack
+15:07:26,15:07:38,ShipFront
+15:07:44,15:08:18,ShipEntrance
+15:08:18,15:08:41,EntranceReubenHecht
+15:08:59,15:10:34,BronzeTools
+15:10:55,15:11:05,ShipEntrance
+15:13:33,15:14:26,StairsToBathroom
+15:16:40,15:17:32,PhoenicianWriting1
+15:18:11,15:21:39,EntranceReubenHecht
+
+presentations 
+14:59:01,14:59:12,PhoenicianWriting1,19,System,3,3
+14:59:29,15:00:00,PhoenicianWriting1,20,System,3,3
+15:00:17,15:01:14,EverydayPottery,8,System,3,3
+15:03:28,15:04:18,EntranceReubenHecht,128,System,3,3
+15:05:16,15:05:49,ShipEntrance,417,System,3,3
+15:06:07,15:07:10,ShipFront,63,System,3,3
+15:09:19,15:10:34,BronzeTools,193,System,3,3
+
+events 
+14:58:41,chosenExhibit,22
+14:58:42,return from screen
+14:59:24,chosenExhibit,22
+15:00:04,chosenExhibit,17
+15:00:14,chosenExhibit,17
+15:02:21,return from screen
+15:03:21,chosenExhibit,39
+15:05:13,chosenExhibit,88
+15:06:03,chosenExhibit,3
+15:07:44,return from screen
+15:09:04,chosenExhibit,71
+15:16:40,return from screen
+15:18:11,return from screen

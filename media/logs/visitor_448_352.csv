@@ -1,0 +1,111 @@
+
+Positions 
+13:57:12,13:57:51,EntranceReubenHecht
+13:59:18,13:59:35,EntranceReubenHecht
+13:59:35,14:00:13,SymbolsJewishMenorah
+14:02:59,14:03:38,SymbolsJewishMenorah
+14:06:05,14:06:09,EntranceReubenHecht
+14:06:09,14:06:23,SymbolsJewishMenorah
+14:13:02,14:13:13,PersianCult
+14:13:46,14:13:59,MaterialCultures
+14:15:38,14:15:53,LeadCoffinMosaic
+14:16:41,14:16:46,RomanDivinitiesStatuettes
+14:16:46,14:16:50,JewishCoffins
+14:17:23,14:17:28,RomanDivinitiesStatuettes
+14:17:32,14:17:37,JewishCoffins
+14:18:19,14:18:32,MenorahJewishEpigraphy
+14:18:32,14:18:53,Anthropoids
+14:19:57,14:20:05,DecoratedDoors
+14:20:09,14:20:22,Anthropoids
+14:20:24,14:20:42,MenorahJewishEpigraphy
+14:21:45,14:21:54,JewishCoffins
+14:21:54,14:22:04,RomanDivinitiesStatuettes
+14:24:56,14:24:59,JewishCoffins
+14:28:48,14:30:46,AnimalModels
+14:31:19,14:31:27,MuseumMotto
+14:33:35,14:33:39,DuckBoxIvories
+14:33:39,14:33:42,EntranceGallileeRebellion
+14:39:24,14:42:32,ShipBack
+14:43:13,14:47:18,ShipBack
+14:48:36,14:48:49,ShipFront
+14:49:06,14:49:17,Pottery
+14:49:17,14:49:27,MaritimeArcheology
+14:49:27,14:50:17,Pottery
+14:50:17,14:50:39,CarpenterTools
+14:50:47,14:50:57,Pottery
+14:52:22,14:52:43,ShipFront
+14:55:52,14:56:00,StoneVesselsBowl
+14:56:00,14:56:11,BronzeTools
+14:56:11,14:56:21,GlassOvenVessels
+14:59:21,14:59:36,WoodenTools
+15:00:01,15:00:08,PhoenicianWriting1
+15:02:03,15:02:18,CraftsAndArts
+15:02:18,15:02:20,BuildingMethodsAndFacilities
+15:02:20,15:02:40,PhoenicianWriting1
+15:02:40,15:02:42,BurialTradition2
+15:02:42,15:02:53,PhoenicianWriting1
+15:02:53,15:02:57,BurialTradition2
+15:03:05,15:03:13,PhoenicianWriting1
+15:03:13,15:03:24,BuildingMethodsAndFacilities
+15:03:27,15:03:29,MaritimeCommerce
+15:03:29,15:03:32,CraftsAndArts
+15:03:32,15:03:36,ImportedPottery
+15:03:36,15:03:48,CraftsAndArts
+15:03:58,15:04:27,Phoenicians
+15:04:30,15:04:34,MaterialCultures
+15:05:03,15:05:10,Phoenicians
+15:05:10,15:05:46,MaterialCultures
+15:06:08,15:06:22,UpperFloorEntrance
+15:09:57,15:09:59,GreeceEgypt
+15:10:47,15:10:59,Jerusalem
+15:10:59,15:11:07,OilLamps
+15:11:20,15:11:36,GreeceEgypt
+15:14:05,15:14:17,Coins
+15:31:38,15:31:44,JerusalemPhoto
+15:31:54,15:32:06,SymbolsJewishMenorah
+
+presentations 
+14:02:59,14:03:25,SymbolsJewishMenorah,130,User,1,-5
+14:03:31,14:03:38,SymbolsJewishMenorah,130,User,1,-5
+14:29:10,14:30:21,AnimalModels,139,System,3,-5
+14:30:42,14:30:46,AnimalModels,140,User,3,-5
+14:41:32,14:42:32,ShipBack,72,System,5,-5
+14:43:13,14:44:14,ShipBack,68,System,5,-5
+14:44:20,14:44:51,ShipBack,69,User,5,-5
+14:44:55,14:45:30,ShipBack,70,User,5,-5
+14:45:50,14:46:12,ShipBack,68,User,5,-5
+14:46:18,14:47:18,ShipBack,72,System,5,-5
+
+events 
+13:57:39,chosenExhibit,40
+13:57:40,return from screen
+13:57:48,open map
+13:57:57,open map
+13:58:09,lookTour
+13:58:42,return from screen
+13:58:42,getDirections
+13:59:35,open map
+14:00:10,return from screen
+14:00:51,chosenExhibit,41
+14:00:51,return from screen
+14:01:09,chosenExhibit,41
+14:01:09,return from screen
+14:01:18,chosenExhibit,41
+14:01:18,return from screen
+14:01:29,chosenExhibit,41
+14:01:29,return from screen
+14:01:56,chosenExhibit,41
+14:09:09,return from screen
+14:11:53,lookTour
+14:11:57,return from screen
+14:16:18,chosenExhibit,63
+14:16:18,return from screen
+14:18:28,chosenExhibit,59
+14:18:42,chosenExhibit,61
+14:25:14,chosenExhibit,62
+14:25:14,return from screen
+14:28:55,chosenExhibit,53
+14:28:55,return from screen
+14:40:25,chosenExhibit,6
+14:40:25,return from screen
+14:40:39,chosenExhibit,6

@@ -1,0 +1,70 @@
+
+Positions 
+15:15:24,15:17:12,JerusalemPhoto
+15:18:05,15:18:07,GlassOvenVessels
+15:18:17,15:18:37,CraftsAndArts
+15:18:37,15:18:50,EverydayPottery
+15:18:50,15:18:53,ImportedPottery
+15:18:53,15:18:57,BuildingMethodsAndFacilities
+15:18:57,15:18:59,EverydayPottery
+15:18:59,15:19:27,BuildingMethodsAndFacilities
+15:19:27,15:19:52,EverydayPottery
+15:19:52,15:20:05,BuildingMethodsAndFacilities
+15:20:05,15:20:12,EverydayPottery
+15:21:07,15:21:42,EverydayPottery
+15:21:54,15:21:59,ReligionAndCult
+15:21:59,15:22:07,EverydayPottery
+15:22:08,15:22:10,CraftsAndArts
+15:22:10,15:22:13,ReligionAndCult
+15:22:13,15:22:21,EverydayPottery
+15:24:03,15:24:10,ReligionAndCult
+15:24:10,15:24:12,EverydayPottery
+15:24:12,15:24:21,GlassOvenVessels
+15:24:21,15:24:28,EverydayPottery
+15:24:28,15:24:40,WoodenTools
+15:26:48,15:28:00,WoodenTools
+15:30:03,15:30:09,ShipEntrance
+15:30:54,15:30:59,ShipEntrance
+15:30:59,15:31:05,ShipFront
+15:32:30,15:32:34,Pottery
+15:32:59,15:33:03,MaritimeArcheology
+15:33:16,15:33:46,Pottery
+15:33:46,15:33:56,MaritimeArcheology
+15:33:58,15:34:00,CarpenterTools
+15:34:00,15:34:06,MaritimeArcheology
+15:34:06,15:34:10,Pottery
+15:37:25,15:37:40,StoneVesselsBowl
+15:38:05,15:38:18,BronzeTools
+15:38:18,15:39:40,MosaicfromSynagogue
+15:39:51,15:41:59,GlassOvenVessels
+15:42:00,15:42:09,Phoenicians
+15:42:09,15:42:16,MaterialCultures
+15:42:59,15:43:06,MuseumMotto
+15:43:22,15:43:24,DuckBoxIvories
+15:43:24,15:43:27,EntranceGallileeRebellion
+15:43:27,15:47:51,DuckBoxIvories
+15:47:51,15:48:04,Coins
+15:49:27,15:49:29,SevenSpecies
+
+presentations 
+15:16:13,15:17:12,JerusalemPhoto,137,User,3,-5
+15:21:07,15:21:42,EverydayPottery,12,System,4,-5
+15:26:48,15:28:00,WoodenTools,186,System,3,-5
+15:38:35,15:39:40,MosaicfromSynagogue,148,System,4,-5
+
+events 
+15:15:01,chosenExhibit,92
+15:16:05,chosenExhibit,44
+15:16:05,return from screen
+15:19:43,chosenExhibit,17
+15:20:55,chosenExhibit,17
+15:24:36,chosenExhibit,68
+15:24:36,return from screen
+15:29:00,open map
+15:29:45,return from screen
+15:34:06,return from screen
+15:37:24,return from screen
+15:37:42,chosenExhibit,66
+15:37:42,return from screen
+15:38:21,chosenExhibit,67
+15:49:30,return from screen

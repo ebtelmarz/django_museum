@@ -1,0 +1,101 @@
+
+Positions 
+14:12:32,14:13:54,MaterialCultures
+14:14:13,14:19:49,DuckBoxIvories
+14:19:49,14:20:55,IvoryWomanPhoenician
+14:20:55,14:21:07,DuckBoxIvories
+14:21:07,14:21:45,IvoryWomanPhoenician
+14:21:45,14:21:51,DuckBoxIvories
+14:21:51,14:22:17,ClayAmphorae
+14:22:17,14:22:19,DuckBoxIvories
+14:22:19,14:24:23,IvoryWomanPhoenician
+14:24:23,14:28:51,ClayAmphorae
+14:28:51,14:29:48,RomanDivinitiesStatuettes
+14:29:48,14:31:50,JewishCoffins
+14:31:50,14:32:22,MenorahJewishEpigraphy
+14:32:22,14:32:34,Anthropoids
+14:32:34,14:32:43,JewishCoffins
+14:32:43,14:32:45,Anthropoids
+14:32:45,14:33:10,JewishCoffins
+14:33:10,14:33:25,Anthropoids
+14:33:25,14:35:08,JewishCoffins
+14:35:08,14:37:08,LeadCoffinMosaic
+14:37:08,14:38:53,ChalcolitePeriod
+14:38:53,14:41:04,MaterialCultures
+14:41:04,14:41:41,Phoenicians
+14:41:41,14:42:00,GlassOvenVessels
+14:42:00,14:42:25,CraftsAndArts
+14:42:25,14:43:27,MaritimeCommerce
+14:43:27,14:43:43,CraftsAndArts
+14:43:43,14:44:02,ImportedPottery
+14:44:02,14:45:06,MaritimeCommerce
+14:45:06,14:45:47,BuildingMethodsAndFacilities
+14:45:47,14:46:21,PhoenicianWriting1
+14:46:21,14:46:29,BuildingMethodsAndFacilities
+14:46:29,14:47:09,BurialTradition2
+14:47:09,14:49:16,EverydayPottery
+14:49:16,14:50:42,BronzeTools
+14:50:42,14:50:50,MosaicfromSynagogue
+14:50:50,14:52:08,GlassOvenVessels
+14:52:08,14:52:25,MosaicfromSynagogue
+14:52:25,14:52:59,WoodenTools
+14:52:59,14:53:37,PhoenicianWriting1
+14:53:37,14:55:17,WoodenTools
+14:55:17,14:56:09,GlassOvenVessels
+14:56:09,14:56:27,MaterialCultures
+14:56:27,14:56:36,SymbolsJewishMenorah
+
+presentations 
+14:12:32,14:13:01,MaterialCultures,165,User
+14:13:25,14:13:54,MaterialCultures,165,User
+14:15:32,14:15:36,DuckBoxIvories,240,User
+14:19:49,14:20:55,IvoryWomanPhoenician,154,User
+14:21:07,14:21:45,IvoryWomanPhoenician,155,User
+14:21:51,14:22:17,ClayAmphorae,155,User
+14:24:31,14:24:52,ClayAmphorae,166,User
+14:25:08,14:25:53,ClayAmphorae,166,User
+14:30:17,14:31:42,JewishCoffins,169,System,5
+14:35:23,14:36:30,LeadCoffinMosaic,196,System,4
+14:37:28,14:38:36,ChalcolitePeriod,237,System,5
+14:42:25,14:43:27,MaritimeCommerce,39,System,4
+14:44:23,14:45:04,MaritimeCommerce,36,System,5
+14:45:19,14:45:33,BuildingMethodsAndFacilities,15,User
+14:45:47,14:46:21,PhoenicianWriting1,17,System,5
+14:47:21,14:48:04,EverydayPottery,11,System,5
+14:48:07,14:48:14,EverydayPottery,12,User
+14:49:43,14:50:30,BronzeTools,194,User
+14:50:50,14:52:08,GlassOvenVessels,164,System,5
+14:53:48,14:54:40,WoodenTools,189,User
+
+events 
+14:14:38,return from screen
+14:14:38,chosenExhibit,49
+14:19:45,chosenExhibit,49
+14:19:45,return from screen
+14:20:59,chosenExhibit,51
+14:24:25,chosenExhibit,52
+14:24:25,return from screen
+14:28:59,chosenExhibit,56
+14:28:59,return from screen
+14:29:28,return from screen
+14:29:28,chosenExhibit,57
+14:29:58,chosenExhibit,62
+14:32:29,chosenExhibit,61
+14:32:34,return from screen
+14:33:12,chosenExhibit,61
+14:35:11,chosenExhibit,63
+14:37:13,chosenExhibit,47
+14:40:05,chosenExhibit,91
+14:40:05,return from screen
+14:41:03,chosenExhibit,91
+14:41:07,chosenExhibit,89
+14:42:13,chosenExhibit,32
+14:44:04,chosenExhibit,29
+14:45:10,chosenExhibit,20
+14:45:11,return from screen
+14:45:39,chosenExhibit,20
+14:47:11,return from screen
+14:47:11,chosenExhibit,17
+14:49:19,chosenExhibit,71
+14:50:44,chosenExhibit,67
+14:53:40,chosenExhibit,68

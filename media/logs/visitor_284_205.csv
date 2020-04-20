@@ -1,0 +1,44 @@
+
+Positions 
+13:30:04,13:33:33,SymbolsJewishMenorah
+13:34:45,13:35:12,SymbolsJewishMenorah
+13:35:12,13:35:15,JerusalemPhoto
+13:35:17,13:36:05,PersianCult
+13:37:16,13:37:25,EntranceReubenHecht
+13:37:25,13:37:32,SymbolsJewishMenorah
+13:37:32,13:39:21,PersianCult
+13:39:22,13:39:25,MaterialCultures
+13:39:29,13:39:55,Phoenicians
+13:39:55,13:41:38,MaterialCultures
+13:42:12,13:42:23,EntranceGallileeRebellion
+13:44:52,13:44:57,ShipEntrance
+13:44:57,13:48:34,ShipFront
+13:49:24,13:50:56,ShipEntrance
+13:51:22,13:51:24,MaterialCultures
+13:52:35,13:53:04,PersianCult
+13:53:04,13:53:19,SymbolsJewishMenorah
+13:53:19,13:53:33,EntranceReubenHecht
+
+presentations 
+13:30:57,13:32:27,SymbolsJewishMenorah,130,System
+13:32:44,13:33:33,SymbolsJewishMenorah,131,System,5,-3
+13:38:03,13:39:21,PersianCult,310,System,5,2
+13:40:25,13:41:38,MaterialCultures,165,System,5,2
+13:45:17,13:46:14,ShipFront,52,System,5,2
+13:46:24,13:47:30,ShipFront,53,System,5,2
+13:47:41,13:48:34,ShipFront,55,System,5,2
+
+events 
+13:30:43,chosenExhibit,41
+13:34:01,getDirections
+13:37:44,chosenExhibit,92
+13:39:58,chosenExhibit,91
+13:42:37,return from screen
+13:42:37,getDirections
+13:44:04,open map
+13:44:33,return from screen
+13:45:10,chosenExhibit,1
+13:49:24,open map
+13:50:47,lookTour
+13:52:47,getDirections
+13:53:19,return from screen

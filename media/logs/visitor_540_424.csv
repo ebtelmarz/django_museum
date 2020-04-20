@@ -1,0 +1,20 @@
+
+Positions 
+12:40:39,12:40:45,EntranceReubenHecht
+12:41:14,12:41:26,SymbolsJewishMenorah
+12:41:31,12:42:45,PersianCult
+12:43:12,12:43:14,JerusalemPhoto
+12:43:14,12:43:20,PersianCult
+12:45:19,12:46:14,MosaicfromSynagogue
+12:54:04,12:54:17,Jerusalem
+
+presentations 
+12:41:42,12:42:45,PersianCult,311,User,3,-5
+12:45:26,12:46:14,MosaicfromSynagogue,148,User,4,-5
+
+events 
+12:41:36,chosenExhibit,92
+12:41:36,return from screen
+12:45:23,return from screen
+12:45:23,chosenExhibit,67
+12:54:13,chosenExhibit,81

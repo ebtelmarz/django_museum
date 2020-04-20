@@ -1,0 +1,83 @@
+
+Positions 
+13:55:25,13:55:33,EntranceReubenHecht
+13:57:32,13:57:44,SymbolsJewishMenorah
+13:57:44,13:57:55,EntranceReubenHecht
+13:57:55,13:58:03,SymbolsJewishMenorah
+13:58:35,13:58:39,EntranceReubenHecht
+13:58:39,13:59:05,SymbolsJewishMenorah
+13:59:41,13:59:43,PersianCult
+13:59:43,13:59:47,SymbolsJewishMenorah
+13:59:47,13:59:49,PersianCult
+13:59:54,14:00:08,SymbolsJewishMenorah
+14:00:08,14:00:15,PersianCult
+14:00:15,14:00:17,JerusalemPhoto
+14:00:34,14:00:40,SymbolsJewishMenorah
+14:01:24,14:02:14,PersianCult
+14:02:14,14:02:17,SymbolsJewishMenorah
+14:03:57,14:04:16,PersianCult
+14:05:06,14:05:21,JerusalemPhoto
+14:05:21,14:05:31,MaterialCultures
+14:05:40,14:05:50,Phoenicians
+14:05:50,14:05:52,MaterialCultures
+14:05:52,14:06:05,Phoenicians
+14:06:05,14:06:11,MaterialCultures
+14:08:05,14:08:25,Phoenicians
+14:09:20,14:09:33,ReligionAndCult
+14:10:13,14:10:53,CraftsAndArts
+14:10:53,14:11:14,ImportedPottery
+14:11:23,14:11:36,MaritimeCommerce
+14:11:36,14:11:46,ImportedPottery
+14:11:46,14:11:56,MaritimeCommerce
+14:11:56,14:12:00,ImportedPottery
+14:12:00,14:13:29,MaritimeCommerce
+14:13:34,14:13:36,BuildingMethodsAndFacilities
+14:13:36,14:13:44,MaritimeCommerce
+14:13:44,14:13:54,BuildingMethodsAndFacilities
+14:13:54,14:14:01,ReligionAndCult
+14:14:06,14:14:13,EverydayPottery
+14:14:13,14:14:15,WoodenTools
+14:19:25,14:19:44,GlassOvenVessels
+14:19:44,14:20:00,MosaicfromSynagogue
+14:20:00,14:20:06,Phoenicians
+14:20:24,14:20:51,BronzeTools
+14:21:20,14:21:33,StoneVesselsBowl
+14:21:37,14:21:42,ShipEntrance
+14:21:42,14:22:27,ShipFront
+14:24:07,14:24:22,ShipEntrance
+14:29:08,14:29:11,BronzeTools
+14:29:11,14:29:14,EntranceGallileeRebellion
+14:29:14,14:29:20,DuckBoxIvories
+14:29:20,14:29:41,EntranceGallileeRebellion
+14:31:31,14:31:53,CanaaniteStelae
+14:33:02,14:33:33,IvoryWomanPhoenician
+14:34:59,14:35:14,ClayAmphorae
+14:37:40,14:37:57,RomanDivinitiesStatuettes
+14:39:11,14:39:20,JewishCoffins
+14:39:20,14:39:27,LeadCoffinMosaic
+14:39:27,14:39:30,ChalcolitePeriod
+14:39:37,14:39:55,MaterialCultures
+14:41:40,14:41:45,Phoenicians
+14:41:45,14:41:59,MaterialCultures
+14:42:04,14:42:23,UpperFloorEntrance
+15:04:31,15:04:44,JerusalemPhoto
+
+presentations 
+13:55:25,13:55:33,EntranceReubenHecht,129,User,1,2
+14:12:36,14:13:29,MaritimeCommerce,34,System,5,2
+
+events 
+13:55:18,chosenExhibit,40
+13:55:19,return from screen
+13:56:03,open map
+13:57:01,open map
+13:57:07,return from screen
+13:58:01,chosenExhibit,41
+13:58:01,return from screen
+14:00:34,lookTour
+14:01:50,getDirections
+14:11:45,chosenExhibit,32
+14:12:00,open map
+14:12:03,return from screen
+14:12:27,chosenExhibit,29
+15:04:43,getDirections

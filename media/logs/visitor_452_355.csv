@@ -1,0 +1,62 @@
+
+Positions 
+11:47:42,11:48:31,EntranceReubenHecht
+11:49:55,11:50:22,SymbolsJewishMenorah
+11:50:22,11:50:33,EntranceReubenHecht
+11:50:57,11:52:51,SymbolsJewishMenorah
+11:54:23,11:54:25,PersianCult
+11:54:25,11:54:30,JerusalemPhoto
+12:04:01,12:06:54,EntranceReubenHecht
+12:06:55,12:07:03,MaterialCultures
+12:07:22,12:07:31,Phoenicians
+12:07:31,12:07:36,MaterialCultures
+12:08:05,12:08:11,EntranceGallileeRebellion
+12:12:55,12:13:01,CanaaniteStelae
+12:14:38,12:14:47,IvoryWomanPhoenician
+12:18:23,12:18:52,RomanDivinitiesStatuettes
+12:18:55,12:18:59,JewishCoffins
+12:19:03,12:19:09,RomanDivinitiesStatuettes
+12:19:25,12:19:29,JewishCoffins
+12:19:35,12:20:06,RomanDivinitiesStatuettes
+12:20:06,12:20:21,JewishCoffins
+12:20:22,12:20:27,MenorahJewishEpigraphy
+12:24:31,12:24:48,JewishCoffins
+12:24:49,12:24:51,LeadCoffinMosaic
+12:24:51,12:24:56,RomanDivinitiesStatuettes
+12:26:34,12:26:48,MaterialCultures
+12:28:25,12:28:40,EntranceReubenHecht
+12:28:40,12:29:36,MaterialCultures
+12:33:17,12:35:19,MaterialCultures
+12:39:12,12:39:20,GreeceEgypt
+12:44:03,12:44:17,Jerusalem
+
+presentations 
+11:48:14,11:48:28,EntranceReubenHecht,129,User,1,2
+11:51:05,11:51:53,SymbolsJewishMenorah,130,User,5,2
+11:52:03,11:52:51,SymbolsJewishMenorah,131,System,5,2
+12:04:08,12:04:49,EntranceReubenHecht,319,User,5,-5
+12:33:17,12:34:22,MaterialCultures,165,System,5,2
+12:34:26,12:35:19,MaterialCultures,405,System,5,2
+
+events 
+11:48:07,return from screen
+11:48:07,chosenExhibit,40
+11:48:42,open map
+11:49:02,open map
+11:49:14,return from screen
+11:50:05,chosenExhibit,41
+11:50:45,chosenExhibit,40
+11:51:01,chosenExhibit,41
+11:51:01,open map
+11:53:28,open map
+11:53:28,getDirections
+11:53:51,open map
+11:53:54,open map
+12:04:03,chosenExhibit,40
+12:04:03,open map
+12:30:54,chosenExhibit,91
+12:30:54,open map
+12:39:31,open map
+12:39:49,open map
+12:44:16,getDirections
+13:14:53,return from screen

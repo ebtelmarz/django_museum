@@ -1,0 +1,75 @@
+
+Positions 
+11:36:46,11:39:38,SymbolsJewishMenorah
+11:39:38,11:39:40,EntranceReubenHecht
+11:39:40,11:42:34,SymbolsJewishMenorah
+11:42:34,11:43:06,PersianCult
+11:43:06,11:43:11,SymbolsJewishMenorah
+11:43:11,11:51:30,PersianCult
+11:51:30,11:51:41,JerusalemPhoto
+11:51:41,11:53:50,MaterialCultures
+11:53:50,12:00:42,ChalcolitePeriod
+12:00:42,12:02:08,BronzeTools
+12:02:08,12:02:20,ShipEntrance
+12:02:20,12:04:21,ShipFront
+12:04:21,12:04:40,ShipEntrance
+12:04:40,12:05:54,ShipFront
+12:05:54,12:10:16,ShipEntrance
+12:10:16,12:13:31,DuckBoxIvories
+12:13:31,12:13:37,CanaaniteStelae
+12:13:37,12:14:11,DuckBoxIvories
+12:14:11,12:14:54,CanaaniteStelae
+12:14:54,12:15:02,IvoryWomanPhoenician
+12:15:02,12:16:39,ClayAmphorae
+12:16:39,12:21:25,AnimalModels
+12:21:25,12:31:14,ChalcolitePeriod
+12:31:14,12:32:05,BronzeTools
+12:32:05,12:32:56,UpperFloorEntrance
+12:32:56,12:34:01,SevenSpecies
+12:34:01,12:57:40,UpperFloorEntrance
+12:57:40,12:57:49,MaterialCultures
+12:57:49,12:57:57,JerusalemPhoto
+12:57:57,12:58:13,PersianCult
+12:58:13,12:58:17,SymbolsJewishMenorah
+
+presentations 
+11:37:01,11:37:45,SymbolsJewishMenorah,131,System,4
+11:43:43,11:44:00,PersianCult,310,User
+11:44:13,11:45:33,PersianCult,311,System,4
+11:45:46,11:46:59,PersianCult,312,System,4
+11:47:47,11:49:26,PersianCult,314,System,5
+11:49:29,11:51:11,PersianCult,315,System,5
+11:52:27,11:53:36,MaterialCultures,165,System,5
+11:54:32,11:55:37,ChalcolitePeriod,236,System,5
+11:55:53,11:57:01,ChalcolitePeriod,237,System,5
+12:04:40,12:05:54,ShipFront,162,System,4
+12:10:53,12:11:54,DuckBoxIvories,152,System,5
+12:12:01,12:12:50,DuckBoxIvories,153,System,4
+12:15:39,12:16:36,ClayAmphorae,242,System,4
+12:17:03,12:18:13,AnimalModels,177,System,4
+12:18:27,12:19:39,AnimalModels,176,System,5
+12:32:56,12:34:01,SevenSpecies,304,System,4
+
+events 
+11:36:52,chosenExhibit,41
+11:36:52,return from screen
+11:43:31,chosenExhibit,92
+11:43:31,return from screen
+11:47:40,chosenExhibit,93
+11:47:40,return from screen
+11:52:16,chosenExhibit,91
+11:52:16,return from screen
+11:54:23,chosenExhibit,47
+11:54:23,return from screen
+12:04:35,chosenExhibit,88
+12:04:35,return from screen
+12:08:34,chosenExhibit,88
+12:08:34,return from screen
+12:10:45,chosenExhibit,49
+12:10:45,return from screen
+12:15:30,chosenExhibit,52
+12:16:54,chosenExhibit,54
+12:16:54,return from screen
+12:32:51,chosenExhibit,85
+12:32:51,return from screen
+12:58:17,return from screen

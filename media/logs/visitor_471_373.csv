@@ -1,0 +1,99 @@
+
+Positions 
+14:05:47,14:06:33,EntranceReubenHecht
+14:07:11,14:07:14,SymbolsJewishMenorah
+14:07:14,14:07:31,EntranceReubenHecht
+14:07:31,14:09:15,SymbolsJewishMenorah
+14:11:44,14:13:01,JerusalemPhoto
+14:16:03,14:16:09,JerusalemPhoto
+14:16:09,14:16:24,MaterialCultures
+14:17:13,14:17:35,Phoenicians
+14:22:42,14:22:50,MaterialCultures
+14:23:40,14:23:47,Phoenicians
+14:24:30,14:27:36,Phoenicians
+14:27:37,14:27:40,CraftsAndArts
+14:28:02,14:28:05,ImportedPottery
+14:28:05,14:28:15,CraftsAndArts
+14:29:17,14:29:22,ReligionAndCult
+14:30:22,14:31:14,ReligionAndCult
+14:31:15,14:31:31,PhoenicianWriting1
+14:31:31,14:33:08,BuildingMethodsAndFacilities
+14:33:09,14:33:15,PhoenicianWriting1
+14:33:15,14:33:22,BuildingMethodsAndFacilities
+14:33:22,14:33:29,PhoenicianWriting1
+14:33:53,14:33:56,ReligionAndCult
+14:33:56,14:34:18,PhoenicianWriting1
+14:34:18,14:34:22,ReligionAndCult
+14:34:22,14:34:41,PhoenicianWriting1
+14:35:22,14:35:25,BuildingMethodsAndFacilities
+14:35:25,14:35:31,CraftsAndArts
+14:36:25,14:36:27,EverydayPottery
+14:36:27,14:36:53,WoodenTools
+14:40:01,14:40:55,WoodenTools
+14:41:31,14:41:37,GlassOvenVessels
+14:43:26,14:43:36,MosaicfromSynagogue
+14:46:58,14:47:01,ShipEntrance
+14:47:56,14:48:32,ShipFront
+14:48:32,14:48:36,ShipEntrance
+14:48:36,14:48:43,ShipFront
+15:12:48,15:12:54,EntranceGallileeRebellion
+15:12:54,15:13:01,DuckBoxIvories
+15:15:50,15:15:58,EntranceGallileeRebellion
+15:16:18,15:16:33,DuckBoxIvories
+15:17:06,15:17:14,IvoryWomanPhoenician
+15:17:18,15:17:24,CanaaniteStelae
+15:18:59,15:19:03,DuckBoxIvories
+15:19:14,15:19:19,IvoryWomanPhoenician
+15:19:28,15:19:33,ClayAmphorae
+15:21:08,15:21:13,AnimalModels
+15:25:50,15:25:55,RomanDivinitiesStatuettes
+15:25:55,15:26:03,JewishCoffins
+15:26:15,15:26:23,LeadCoffinMosaic
+15:27:03,15:27:09,RomanDivinitiesStatuettes
+15:27:47,15:27:55,JewishCoffins
+15:27:59,15:28:04,RomanDivinitiesStatuettes
+15:28:04,15:28:10,JewishCoffins
+15:28:10,15:28:40,RomanDivinitiesStatuettes
+15:28:40,15:28:45,JewishCoffins
+15:29:32,15:29:37,RomanDivinitiesStatuettes
+
+presentations 
+14:06:18,14:06:33,EntranceReubenHecht,129,User,3,5
+14:08:26,14:09:15,SymbolsJewishMenorah,131,System,4,5
+14:12:08,14:13:01,JerusalemPhoto,137,System,3,5
+14:24:30,14:25:56,Phoenicians,163,System,3,5
+14:26:10,14:27:36,Phoenicians,163,System,3,5
+14:30:22,14:31:14,ReligionAndCult,6,System,2,5
+14:32:00,14:33:08,BuildingMethodsAndFacilities,13,System,4,5
+14:40:01,14:40:55,WoodenTools,188,System,4,5
+
+events 
+14:06:14,chosenExhibit,40
+14:06:14,return from screen
+14:08:15,chosenExhibit,41
+14:08:15,return from screen
+14:11:54,chosenExhibit,44
+14:17:40,return from screen
+14:17:40,chosenExhibit,89
+14:22:17,chosenExhibit,89
+14:24:07,chosenExhibit,89
+14:30:04,chosenExhibit,14
+14:30:04,return from screen
+14:30:10,chosenExhibit,15
+14:31:37,chosenExhibit,20
+14:31:37,return from screen
+14:31:47,chosenExhibit,19
+14:31:47,return from screen
+14:31:52,chosenExhibit,18
+14:36:35,return from screen
+14:36:35,chosenExhibit,68
+14:39:43,chosenExhibit,68
+14:39:43,return from screen
+14:52:17,chosenExhibit,88
+14:52:17,return from screen
+14:52:25,chosenExhibit,88
+14:52:25,return from screen
+14:52:27,open map
+14:55:06,return from screen
+14:55:53,chosenExhibit,88
+14:55:53,return from screen

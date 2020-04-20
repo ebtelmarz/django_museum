@@ -1,0 +1,50 @@
+
+Positions 
+13:55:02,13:55:07,EntranceReubenHecht
+13:55:07,14:01:10,SymbolsJewishMenorah
+14:01:10,14:06:24,PersianCult
+14:06:24,14:06:34,EntranceReubenHecht
+14:06:34,14:06:53,PersianCult
+14:06:53,14:07:41,JerusalemPhoto
+14:07:41,14:08:15,PersianCult
+14:08:15,14:08:42,MaterialCultures
+14:08:42,14:10:35,DuckBoxIvories
+14:10:35,14:11:51,ShipEntrance
+14:11:51,14:12:27,StoneVesselsBowl
+14:12:27,14:13:49,MosaicfromSynagogue
+14:13:49,14:17:58,ReligionAndCult
+14:17:58,14:18:54,EverydayPottery
+14:18:54,14:20:52,PhoenicianWriting1
+14:20:52,14:21:09,BurialTradition2
+14:21:09,14:26:12,PhoenicianWriting1
+14:26:12,14:26:20,EverydayPottery
+14:26:20,14:27:01,PhoenicianWriting1
+
+presentations 
+13:55:29,13:56:17,SymbolsJewishMenorah,130,System,5
+13:56:43,13:57:26,SymbolsJewishMenorah,131,System,4
+13:57:51,13:58:37,SymbolsJewishMenorah,132,System,5
+14:01:55,14:03:17,PersianCult,311,System,4
+14:06:53,14:07:41,JerusalemPhoto,310,User
+14:16:55,14:17:39,ReligionAndCult,3,System,5
+14:22:17,14:23:24,PhoenicianWriting1,19,System,5
+14:23:57,14:24:06,PhoenicianWriting1,23,User
+
+events 
+13:55:26,chosenExhibit,41
+14:01:35,chosenExhibit,92
+14:01:35,return from screen
+14:03:36,chosenExhibit,93
+14:03:36,return from screen
+14:03:45,return from screen
+14:06:43,chosenExhibit,92
+14:11:12,chosenExhibit,88
+14:11:12,open map
+14:11:40,return from screen
+14:16:17,chosenExhibit,15
+14:19:43,chosenExhibit,21
+14:21:38,chosenExhibit,22
+14:21:38,return from screen
+14:25:49,chosenExhibit,22
+14:25:49,return from screen
+14:27:01,return from screen

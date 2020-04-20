@@ -1,0 +1,51 @@
+
+Positions 
+13:00:09,13:01:05,SymbolsJewishMenorah
+13:05:08,13:05:48,ShipFront
+13:05:50,13:06:11,Pottery
+13:06:15,13:06:23,ShipBack
+13:11:06,13:11:14,ShipFront
+13:11:21,13:11:30,ShipEntrance
+13:11:30,13:11:34,ShipFront
+13:11:34,13:11:37,ShipEntrance
+13:11:38,13:11:52,ShipFront
+13:11:52,13:11:55,ShipEntrance
+13:19:14,13:19:39,CanaaniteStelae
+13:20:04,13:21:04,DuckBoxIvories
+13:21:11,13:21:14,IvoryWomanPhoenician
+13:21:15,13:21:28,ClayAmphorae
+13:21:30,13:23:44,AnimalModels
+13:23:46,13:23:53,JewishCoffins
+13:24:53,13:27:15,JewishCoffins
+13:27:16,13:27:33,LeadCoffinMosaic
+13:29:49,13:41:27,UpperFloorEntrance
+
+presentations 
+13:00:24,13:01:05,SymbolsJewishMenorah,130,User,4,5
+13:19:14,13:19:39,CanaaniteStelae,146,User,5,5
+13:20:14,13:21:04,DuckBoxIvories,151,User,5,5
+13:24:53,13:25:55,JewishCoffins,170,System,5,5
+13:26:00,13:27:15,JewishCoffins,171,System,5,5
+
+events 
+13:00:14,chosenExhibit,41
+13:00:21,return from screen
+13:00:21,chosenExhibit,41
+13:01:53,return from screen
+13:05:18,getDirections
+13:07:32,chosenExhibit,7
+13:11:52,lookTour
+13:13:10,getDirections
+13:13:11,return from screen
+13:13:14,lookTour
+13:14:28,open map
+13:14:28,getDirections
+13:15:56,lookTour
+13:16:07,getDirections
+13:19:09,chosenExhibit,50
+13:20:12,chosenExhibit,49
+13:20:12,return from screen
+13:24:50,chosenExhibit,62
+13:37:17,chosenExhibit,85
+13:37:17,return from screen
+13:40:11,return from screen

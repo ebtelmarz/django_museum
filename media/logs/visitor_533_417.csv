@@ -1,0 +1,113 @@
+
+Positions 
+13:12:14,13:12:58,SymbolsJewishMenorah
+13:14:59,13:18:41,PersianCult
+13:18:42,13:19:57,JerusalemPhoto
+13:24:48,13:24:59,Phoenicians
+13:26:12,13:27:14,Phoenicians
+13:27:50,13:30:21,CraftsAndArts
+13:30:46,13:30:59,PhoenicianWriting1
+13:32:26,13:33:18,PhoenicianWriting1
+13:38:47,13:38:55,PhoenicianWriting1
+13:40:39,13:43:06,MosaicfromSynagogue
+13:47:14,13:47:23,ShipEntrance
+13:47:23,13:47:36,ShipFront
+13:47:41,13:48:22,ShipEntrance
+13:48:23,13:49:50,ShipFront
+13:49:51,13:50:11,ShipEntrance
+13:50:11,13:51:14,Pottery
+13:51:57,13:52:54,CarpenterTools
+13:52:54,13:53:06,Pottery
+13:53:06,13:53:12,CarpenterTools
+13:53:16,13:53:21,Pottery
+13:53:21,13:53:56,CarpenterTools
+13:54:03,13:54:11,Pottery
+13:54:24,13:54:37,ShipFront
+13:54:47,13:54:50,ShipEntrance
+13:58:54,13:59:02,StoneVesselsBowl
+14:08:30,14:08:46,EntranceGallileeRebellion
+14:08:58,14:09:08,BronzeTools
+14:09:52,14:09:57,EntranceGallileeRebellion
+14:09:57,14:11:23,DuckBoxIvories
+14:21:18,14:22:33,JewishCoffins
+14:22:34,14:23:01,RomanDivinitiesStatuettes
+14:23:01,14:23:24,MenorahJewishEpigraphy
+14:26:25,14:27:41,MenorahJewishEpigraphy
+14:27:42,14:27:55,JewishCoffins
+14:27:55,14:27:59,LeadCoffinMosaic
+14:27:59,14:28:11,ChalcolitePeriod
+14:36:30,14:36:42,Coins
+14:37:46,14:42:08,Weights
+14:42:08,14:42:20,Gems
+14:50:17,14:51:15,Coins
+14:52:23,14:53:36,Coins
+14:53:36,14:53:42,ChalcolitePeriod
+14:53:42,14:53:50,Weights
+14:54:47,14:54:57,PersianCult
+14:55:01,14:55:05,SymbolsJewishMenorah
+14:55:05,14:55:13,EntranceReubenHecht
+
+presentations 
+13:12:14,13:12:58,SymbolsJewishMenorah,130,System,5,2
+13:15:22,13:17:01,PersianCult,314,System,5,2
+13:17:22,13:18:41,PersianCult,311,System,5,2
+13:18:58,13:19:57,JerusalemPhoto,137,System,5,2
+13:26:12,13:27:14,Phoenicians,163,User,5,2
+13:27:50,13:28:57,CraftsAndArts,115,System,5,2
+13:29:09,13:30:21,CraftsAndArts,111,System,5,2
+13:32:26,13:33:18,PhoenicianWriting1,18,System,5,2
+13:38:47,13:38:55,PhoenicianWriting1,20,User,5,2
+13:40:49,13:42:07,MosaicfromSynagogue,164,System,5,2
+13:42:10,13:43:06,MosaicfromSynagogue,149,System,5,2
+13:47:48,13:48:22,ShipEntrance,417,System,1,2
+13:48:46,13:49:50,ShipFront,63,System,5,2
+13:50:31,13:51:14,Pottery,122,System,5,2
+13:53:26,13:53:56,CarpenterTools,123,User,1,2
+14:10:15,14:11:23,DuckBoxIvories,154,System,5,2
+14:21:27,14:22:33,JewishCoffins,170,System,5,2
+14:26:25,14:27:41,MenorahJewishEpigraphy,230,System,5,2
+14:39:18,14:40:27,Weights,264,System,1,2
+14:40:33,14:41:43,Weights,263,System,5,2
+14:52:23,14:53:36,Coins,267,System,5,2
+
+events 
+13:12:05,chosenExhibit,41
+13:12:05,return from screen
+13:15:09,chosenExhibit,93
+13:15:09,return from screen
+13:17:13,chosenExhibit,92
+13:18:48,chosenExhibit,44
+13:18:48,return from screen
+13:26:09,chosenExhibit,89
+13:27:22,chosenExhibit,35
+13:27:22,return from screen
+13:27:33,chosenExhibit,34
+13:27:33,return from screen
+13:29:05,chosenExhibit,33
+13:29:05,return from screen
+13:30:59,chosenExhibit,22
+13:30:59,return from screen
+13:32:23,chosenExhibit,21
+13:32:23,return from screen
+13:38:46,chosenExhibit,22
+13:38:46,return from screen
+13:40:43,chosenExhibit,67
+13:40:43,return from screen
+13:47:18,chosenExhibit,88
+13:47:43,chosenExhibit,88
+13:48:35,chosenExhibit,3
+13:50:17,chosenExhibit,9
+13:52:10,chosenExhibit,13
+13:52:10,return from screen
+13:53:09,chosenExhibit,11
+13:53:24,chosenExhibit,11
+13:55:07,chosenExhibit,88
+13:59:00,chosenExhibit,66
+13:59:00,return from screen
+14:10:02,chosenExhibit,49
+14:10:02,return from screen
+14:21:22,chosenExhibit,62
+14:26:22,chosenExhibit,59
+14:39:08,chosenExhibit,77
+14:52:08,chosenExhibit,78
+14:55:05,return from screen

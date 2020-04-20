@@ -1,0 +1,116 @@
+
+Positions 
+14:21:06,14:22:00,EntranceReubenHecht
+14:22:00,14:22:15,SymbolsJewishMenorah
+14:22:15,14:24:02,PersianCult
+14:24:04,14:24:06,JewishCoffins
+14:24:06,14:24:53,RomanDivinitiesStatuettes
+14:25:09,14:25:12,JewishCoffins
+14:25:24,14:26:20,RomanDivinitiesStatuettes
+14:26:21,14:26:51,MenorahJewishEpigraphy
+14:26:58,14:28:02,JewishCoffins
+14:28:02,14:31:18,AnimalModels
+14:31:33,14:32:43,LeadCoffinMosaic
+14:32:52,14:33:16,MuseumMotto
+14:33:16,14:33:44,ChalcolitePeriod
+14:35:17,14:36:08,ChalcolitePeriod
+14:36:10,14:36:13,ShipBack
+14:36:14,14:36:23,ShipFront
+14:36:23,14:37:50,ShipEntrance
+14:37:51,14:37:56,Pottery
+14:38:33,14:38:39,ShipFront
+14:39:47,14:39:53,ShipEntrance
+14:49:18,14:50:31,ShipEntrance
+14:51:41,14:51:48,UpperFloorEntrance
+14:53:00,14:53:04,ChalcolitePeriod
+14:53:08,14:53:17,MaterialCultures
+14:53:32,14:54:15,Phoenicians
+14:54:28,14:54:31,CraftsAndArts
+14:54:42,14:54:52,PhoenicianWriting1
+14:54:57,14:55:25,EverydayPottery
+14:55:29,14:55:33,PhoenicianWriting1
+14:56:10,14:56:22,EverydayPottery
+14:56:22,14:56:26,PhoenicianWriting1
+14:56:56,14:57:01,EverydayPottery
+14:57:01,14:57:06,ReligionAndCult
+14:57:43,14:57:48,CraftsAndArts
+14:58:42,14:59:19,CraftsAndArts
+
+presentations 
+14:21:06,14:22:00,EntranceReubenHecht,128,System,5,2
+14:22:50,14:24:02,PersianCult,316,System,5,2
+14:25:37,14:26:20,RomanDivinitiesStatuettes,221,User,1,2
+14:27:10,14:28:02,JewishCoffins,170,User,5,2
+14:31:52,14:32:43,LeadCoffinMosaic,197,System,5,2
+14:33:33,14:33:44,ChalcolitePeriod,236,User,1,2
+14:35:17,14:36:08,ChalcolitePeriod,239,User,5,2
+14:36:37,14:37:50,ShipEntrance,162,System,5,2
+14:49:18,14:50:31,ShipEntrance,162,System,5,2
+14:53:44,14:54:15,Phoenicians,163,User,5,2
+14:58:42,14:59:19,CraftsAndArts,112,User,5,2
+
+events 
+14:20:11,open map
+14:20:27,open map
+14:20:39,return from screen
+14:21:00,chosenExhibit,39
+14:22:43,chosenExhibit,93
+14:25:06,chosenExhibit,57
+14:25:34,chosenExhibit,57
+14:27:04,chosenExhibit,62
+14:28:02,open map
+14:30:07,return from screen
+14:30:18,open map
+14:30:27,return from screen
+14:31:44,chosenExhibit,63
+14:33:29,chosenExhibit,47
+14:36:17,chosenExhibit,3
+14:36:29,chosenExhibit,88
+14:37:51,open map
+14:38:15,return from screen
+14:39:58,chosenExhibit,88
+14:39:58,return from screen
+14:40:03,open map
+14:42:22,getDirections
+14:42:22,open map
+14:42:45,open map
+14:43:15,open map
+14:43:23,getDirections
+14:43:23,open map
+14:43:38,open map
+14:43:46,open map
+14:43:46,open map
+14:44:00,open map
+14:45:00,open map
+14:45:00,return from screen
+14:45:11,open map
+14:45:14,return from screen
+14:46:33,getDirections
+14:46:33,return from screen
+14:46:59,open map
+14:48:57,getDirections
+14:48:57,return from screen
+14:49:16,chosenExhibit,88
+14:49:16,return from screen
+14:50:36,open map
+14:50:38,open map
+14:51:54,open map
+14:53:12,getDirections
+14:53:41,chosenExhibit,89
+14:53:41,return from screen
+14:54:19,open map
+14:54:36,getDirections
+14:54:46,open map
+14:54:53,getDirections
+14:55:00,return from screen
+14:55:00,open map
+14:55:06,open map
+14:55:22,open map
+14:55:41,getDirections
+14:55:42,open map
+14:57:22,return from screen
+14:58:36,chosenExhibit,33
+14:58:36,open map
+14:59:23,open map
+14:59:36,open map
+14:59:44,getDirections

@@ -1,0 +1,72 @@
+
+Positions 
+15:18:26,15:19:11,EntranceReubenHecht
+15:20:34,15:22:18,SymbolsJewishMenorah
+15:22:54,15:23:02,PersianCult
+15:23:53,15:26:21,SymbolsJewishMenorah
+15:27:03,15:27:24,PersianCult
+15:28:35,15:28:53,JerusalemPhoto
+15:29:00,15:29:05,PersianCult
+15:29:05,15:30:05,JerusalemPhoto
+15:30:20,15:30:52,MaterialCultures
+15:30:52,15:30:56,Phoenicians
+15:30:56,15:31:02,MaterialCultures
+15:34:24,15:34:28,Phoenicians
+15:34:35,15:35:52,CraftsAndArts
+15:36:25,15:36:32,ImportedPottery
+15:36:55,15:39:08,MaritimeCommerce
+15:39:08,15:39:19,EverydayPottery
+15:39:19,15:39:23,WoodenTools
+15:40:16,15:41:30,WoodenTools
+15:42:42,15:42:48,StoneVesselsBowl
+15:44:06,15:44:08,ShipEntrance
+15:44:08,15:44:16,ShipFront
+15:44:16,15:44:32,ShipBack
+15:44:49,15:44:51,ShipFront
+15:45:22,15:45:26,ShipEntrance
+15:46:21,15:46:25,EntranceGallileeRebellion
+15:46:33,15:46:38,MuseumMotto
+
+presentations 
+15:24:04,15:24:10,SymbolsJewishMenorah,131,User,5,-5
+15:25:33,15:26:21,SymbolsJewishMenorah,131,System,5,-5
+15:29:12,15:30:05,JerusalemPhoto,137,System,5,-5
+15:35:05,15:35:52,CraftsAndArts,49,System,5,-5
+15:37:38,15:39:08,MaritimeCommerce,108,System,5,-5
+15:40:16,15:41:30,WoodenTools,186,System,5,-5
+
+events 
+15:18:45,chosenExhibit,40
+15:18:45,return from screen
+15:18:53,open map
+15:18:56,open map
+15:19:01,lookTour
+15:19:37,getDirections
+15:19:37,return from screen
+15:19:51,lookTour
+15:20:26,return from screen
+15:20:26,getDirections
+15:22:47,chosenExhibit,41
+15:23:24,chosenExhibit,93
+15:23:24,return from screen
+15:23:34,chosenExhibit,92
+15:23:34,return from screen
+15:23:57,chosenExhibit,41
+15:23:57,return from screen
+15:28:51,chosenExhibit,44
+15:29:09,chosenExhibit,44
+15:29:09,return from screen
+15:32:12,chosenExhibit,91
+15:32:13,return from screen
+15:34:57,chosenExhibit,35
+15:34:57,return from screen
+15:36:31,return from screen
+15:36:31,chosenExhibit,31
+15:37:07,chosenExhibit,29
+15:37:07,return from screen
+15:37:27,chosenExhibit,28
+15:39:41,chosenExhibit,68
+15:39:41,return from screen
+15:42:43,lookTour
+15:43:02,return from screen
+15:46:34,return from screen

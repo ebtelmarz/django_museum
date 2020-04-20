@@ -1,0 +1,45 @@
+
+Positions 
+13:42:14,13:42:26,EntranceReubenHecht
+13:42:26,13:43:20,Gems
+13:43:20,13:45:48,Cyprus
+13:45:48,13:46:53,GreeceEgypt
+13:46:53,13:46:54,Cyprus
+13:46:54,13:47:08,Jerusalem
+13:47:08,13:47:39,OilLamps
+13:47:39,13:47:56,MaterialCultures
+13:47:56,13:48:43,BronzeTools
+13:48:43,13:49:06,ShipFront
+13:49:06,13:49:18,ShipBack
+13:49:18,13:49:53,ShipFront
+13:49:53,13:50:11,ShipBack
+13:50:11,13:50:13,ShipFront
+13:50:13,13:50:22,ShipBack
+13:50:22,13:51:32,ShipFront
+13:51:32,13:51:34,Pottery
+13:51:34,13:51:50,ShipFront
+13:51:50,13:52:02,Pottery
+13:52:02,13:52:04,MaritimeArcheology
+13:52:04,13:53:15,Pottery
+13:53:15,13:53:23,EntranceReubenHecht
+13:53:23,13:57:15,Pottery
+13:57:15,13:57:20,MaritimeArcheology
+13:58:01,13:58:43,ShipFront
+
+presentations 
+13:43:57,13:45:05,Cyprus,271,System
+13:45:48,13:46:53,GreeceEgypt,273,System
+13:58:01,13:58:43,ShipFront,82,System
+
+events 
+13:43:53,chosenExhibit,80
+13:43:53,return from screen
+13:45:17,chosenExhibit,80
+13:45:17,return from screen
+13:45:45,chosenExhibit,80
+13:52:32,chosenExhibit,9
+13:52:32,return from screen
+13:52:55,return from screen
+13:53:52,chosenExhibit,9
+13:57:52,chosenExhibit,9
+13:57:52,return from screen

@@ -1,0 +1,106 @@
+
+Positions 
+13:50:51,13:51:12,EntranceReubenHecht
+13:52:53,13:52:57,SymbolsJewishMenorah
+13:52:57,13:53:10,EntranceReubenHecht
+13:53:10,13:55:54,SymbolsJewishMenorah
+13:55:54,13:55:57,EntranceReubenHecht
+13:55:57,13:56:45,SymbolsJewishMenorah
+13:56:45,13:57:34,PersianCult
+13:57:34,13:58:40,JerusalemPhoto
+13:58:40,14:00:17,MaterialCultures
+14:00:17,14:01:00,EntranceReubenHecht
+14:01:00,14:02:57,Phoenicians
+14:02:57,14:05:38,BronzeTools
+14:05:38,14:05:52,EntranceReubenHecht
+14:05:52,14:07:26,MosaicfromSynagogue
+14:07:26,14:07:34,BronzeTools
+14:07:34,14:08:44,MosaicfromSynagogue
+14:08:44,14:09:24,WoodenTools
+14:09:24,14:10:33,GlassOvenVessels
+14:10:33,14:12:26,WoodenTools
+14:12:26,14:12:33,GlassOvenVessels
+14:12:33,14:13:51,MosaicfromSynagogue
+14:13:51,14:14:26,ChalcolitePeriod
+14:14:26,14:17:21,DuckBoxIvories
+14:17:21,14:18:14,CanaaniteStelae
+14:22:40,14:22:44,DuckBoxIvories
+
+presentations 
+13:50:51,13:51:12,EntranceReubenHecht,128,User,3,-5
+14:06:00,14:06:13,MosaicfromSynagogue,164,User,3,5
+14:15:04,14:15:17,DuckBoxIvories,154,User,3,5
+14:22:40,14:22:44,DuckBoxIvories,153,User,3,-3
+
+events 
+13:50:42,return from screen
+13:50:42,chosenExhibit,39
+13:52:11,open map
+13:52:44,getDirections
+13:52:57,return from screen
+13:53:17,chosenExhibit,41
+13:56:00,getDirections
+13:56:01,return from screen
+13:57:43,chosenExhibit,44
+13:58:03,getDirections
+13:58:04,lookTour
+13:58:53,getDirections
+14:04:01,chosenExhibit,71
+14:05:55,chosenExhibit,67
+14:05:55,return from screen
+14:07:19,return from screen
+14:07:34,return from screen
+14:07:42,return from screen
+14:07:55,return from screen
+14:08:44,open map
+14:08:44,return from screen
+14:08:52,return from screen
+14:09:24,open map
+14:09:34,return from screen
+14:09:37,open map
+14:09:41,open map
+14:09:44,return from screen
+14:09:53,return from screen
+14:10:04,return from screen
+14:10:16,return from screen
+14:10:43,chosenExhibit,68
+14:10:43,return from screen
+14:10:46,open map
+14:11:24,open map
+14:11:25,open map
+14:11:31,open map
+14:11:41,open map
+14:11:41,return from screen
+14:11:43,open map
+14:11:44,open map
+14:11:49,open map
+14:11:59,return from screen
+14:11:59,getDirections
+14:13:52,chosenExhibit,47
+14:13:52,return from screen
+14:14:16,chosenExhibit,46
+14:14:16,return from screen
+14:14:39,chosenExhibit,49
+14:14:39,return from screen
+14:15:02,chosenExhibit,49
+14:15:02,return from screen
+14:15:22,return from screen
+14:16:43,return from screen
+14:17:02,return from screen
+14:17:08,return from screen
+14:17:29,return from screen
+14:18:06,return from screen
+14:18:28,return from screen
+14:21:32,return from screen
+14:21:42,return from screen
+14:21:42,chosenExhibit,49
+14:22:27,chosenExhibit,49
+14:22:27,return from screen
+14:22:32,return from screen
+14:22:38,chosenExhibit,49
+14:22:38,return from screen
+14:25:55,chosenExhibit,49
+14:25:55,return from screen
+14:26:27,return from screen
+14:26:27,chosenExhibit,49
+14:26:28,return from screen

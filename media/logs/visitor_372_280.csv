@@ -1,0 +1,63 @@
+
+Positions 
+12:30:24,12:31:07,SymbolsJewishMenorah
+12:31:07,12:31:34,EntranceReubenHecht
+12:32:59,12:33:04,SymbolsJewishMenorah
+12:33:05,12:33:16,EntranceReubenHecht
+12:33:36,12:33:53,SymbolsJewishMenorah
+12:35:49,12:37:31,SymbolsJewishMenorah
+12:41:05,12:42:12,JerusalemPhoto
+12:43:31,12:43:37,MaterialCultures
+12:44:37,12:44:43,Phoenicians
+12:46:56,12:47:02,EverydayPottery
+12:47:02,12:48:18,BuildingMethodsAndFacilities
+12:48:47,12:48:51,EverydayPottery
+12:53:14,12:53:18,EverydayPottery
+12:53:18,12:53:22,BuildingMethodsAndFacilities
+12:53:22,12:53:24,EverydayPottery
+12:53:24,12:53:28,BuildingMethodsAndFacilities
+12:53:28,12:53:53,EverydayPottery
+12:53:53,12:53:55,BuildingMethodsAndFacilities
+12:53:55,12:54:57,EverydayPottery
+12:54:57,12:55:27,BuildingMethodsAndFacilities
+12:55:27,12:55:40,EverydayPottery
+12:55:40,12:56:21,BuildingMethodsAndFacilities
+12:56:21,12:56:28,EverydayPottery
+12:56:28,12:56:31,BuildingMethodsAndFacilities
+12:56:31,12:56:44,EverydayPottery
+12:56:44,12:58:51,PhoenicianWriting1
+13:01:50,13:03:18,PhoenicianWriting1
+13:03:18,13:04:12,BurialTradition2
+
+presentations 
+12:35:49,12:36:32,SymbolsJewishMenorah,130,User,3,-3
+12:36:42,12:37:31,SymbolsJewishMenorah,131,System,3,-3
+12:41:19,12:42:12,JerusalemPhoto,137,System,3,-3
+12:47:24,12:48:18,BuildingMethodsAndFacilities,14,System,3,-3
+12:58:04,12:58:51,PhoenicianWriting1,18,System,3,-3
+13:02:03,13:02:59,PhoenicianWriting1,23,System,3,-3
+
+events 
+12:30:46,chosenExhibit,41
+12:35:45,chosenExhibit,41
+12:35:45,return from screen
+12:40:12,chosenExhibit,41
+12:40:12,return from screen
+12:41:12,chosenExhibit,44
+12:41:12,return from screen
+12:43:38,chosenExhibit,91
+12:43:38,return from screen
+12:44:03,return from screen
+12:44:03,chosenExhibit,91
+12:44:19,chosenExhibit,91
+12:47:19,chosenExhibit,19
+12:53:30,chosenExhibit,17
+12:53:30,return from screen
+12:57:48,chosenExhibit,21
+13:01:47,chosenExhibit,24
+13:01:55,chosenExhibit,22
+13:04:23,chosenExhibit,25
+13:04:23,return from screen
+13:04:46,chosenExhibit,24
+13:04:46,return from screen
+13:04:59,chosenExhibit,25

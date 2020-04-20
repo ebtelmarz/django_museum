@@ -1,0 +1,50 @@
+
+Positions 
+12:32:45,12:33:05,MaterialCultures
+12:34:23,12:34:25,JerusalemPhoto
+12:34:26,12:34:31,PersianCult
+12:34:35,12:34:46,EntranceReubenHecht
+12:35:39,12:35:50,EntranceReubenHecht
+12:36:33,12:36:45,EntranceReubenHecht
+12:36:45,12:36:48,SymbolsJewishMenorah
+12:37:10,12:37:13,MaterialCultures
+12:38:38,12:40:53,ShipFront
+12:41:30,12:41:34,ShipEntrance
+12:43:38,12:43:41,DuckBoxIvories
+12:43:44,12:43:51,EntranceGallileeRebellion
+12:44:45,12:46:11,ChalcolitePeriod
+12:47:00,12:47:59,ChalcolitePeriod
+12:53:05,12:53:22,MaterialCultures
+12:56:10,12:56:13,JerusalemPhoto
+12:56:22,12:56:29,SymbolsJewishMenorah
+12:56:29,12:56:37,EntranceReubenHecht
+
+presentations 
+12:32:45,12:33:05,MaterialCultures,405,User,1,2
+12:35:39,12:35:50,EntranceReubenHecht,129,User,1,2
+12:39:24,12:40:31,ShipFront,52,System,5,5
+12:40:45,12:40:53,ShipFront,52,User,5,5
+12:45:02,12:46:11,ChalcolitePeriod,145,System,5,5
+12:47:00,12:47:59,ChalcolitePeriod,235,System,5,5
+
+events 
+12:30:56,return from screen
+12:32:37,chosenExhibit,91
+12:32:37,open map
+12:33:29,return from screen
+12:35:31,chosenExhibit,40
+12:35:31,return from screen
+12:36:04,return from screen
+12:37:38,chosenExhibit,91
+12:37:38,return from screen
+12:37:49,chosenExhibit,91
+12:37:49,return from screen
+12:38:45,return from screen
+12:38:45,chosenExhibit,3
+12:39:15,chosenExhibit,1
+12:45:01,chosenExhibit,46
+12:45:02,return from screen
+12:46:47,chosenExhibit,47
+12:46:47,return from screen
+12:54:42,chosenExhibit,91
+12:56:29,return from screen

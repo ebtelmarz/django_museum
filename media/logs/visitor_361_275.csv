@@ -1,0 +1,21 @@
+
+Positions 
+12:38:11,12:39:17,SymbolsJewishMenorah
+12:40:47,12:40:55,PersianCult
+12:43:26,12:43:37,EntranceReubenHecht
+12:43:37,12:43:48,SymbolsJewishMenorah
+
+presentations 
+12:38:28,12:39:17,SymbolsJewishMenorah,132,System,5,-3
+
+events 
+12:38:19,chosenExhibit,41
+12:38:19,return from screen
+12:40:57,chosenExhibit,92
+12:43:37,lookTour
+12:46:32,return from screen
+12:46:32,getDirections
+12:46:39,open map
+12:46:44,return from screen
+12:47:47,open map
+12:48:33,open map

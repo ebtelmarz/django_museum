@@ -1,0 +1,55 @@
+
+Positions 
+14:05:10,14:06:09,EntranceReubenHecht
+14:06:09,14:07:49,SymbolsJewishMenorah
+14:08:10,14:09:22,PersianCult
+14:09:23,14:09:59,JerusalemPhoto
+14:09:59,14:11:33,Phoenicians
+14:11:34,14:12:11,CraftsAndArts
+14:12:36,14:12:40,PhoenicianWriting1
+14:13:23,14:14:39,PhoenicianWriting1
+14:14:40,14:15:23,CraftsAndArts
+14:15:23,14:17:05,ShipEntrance
+14:23:24,14:23:28,Phoenicians
+14:24:40,14:24:56,Jerusalem
+14:27:22,14:28:58,MosaicfromSynagogue
+14:28:59,14:29:08,BronzeTools
+14:30:12,14:31:26,BronzeTools
+14:32:43,14:32:49,ShipFront
+14:37:22,14:37:25,ShipEntrance
+14:38:40,14:38:45,PersianCult
+14:38:49,14:38:56,SymbolsJewishMenorah
+14:38:57,14:39:00,EntranceReubenHecht
+
+presentations 
+14:05:10,14:06:09,EntranceReubenHecht,129,System,1,-5
+14:07:06,14:07:49,SymbolsJewishMenorah,131,System,3,-5
+14:08:23,14:09:22,PersianCult,310,User,2,-5
+14:10:10,14:11:33,Phoenicians,163,System,3,-5
+14:13:23,14:14:39,PhoenicianWriting1,24,System,3,-5
+14:15:32,14:16:45,ShipEntrance,162,System,3,-5
+14:17:01,14:17:05,ShipEntrance,162,User,3,-5
+14:27:41,14:28:58,MosaicfromSynagogue,164,System,2,-5
+14:30:12,14:31:26,BronzeTools,190,System,2,-5
+
+events 
+14:05:08,chosenExhibit,40
+14:06:31,chosenExhibit,41
+14:06:31,return from screen
+14:07:05,chosenExhibit,41
+14:07:05,return from screen
+14:08:18,chosenExhibit,92
+14:09:23,open map
+14:09:35,return from screen
+14:10:03,chosenExhibit,89
+14:13:20,chosenExhibit,23
+14:15:29,chosenExhibit,88
+14:15:29,open map
+14:17:42,open map
+14:18:49,open map
+14:21:09,open map
+14:22:33,open map
+14:24:17,getDirections
+14:27:37,chosenExhibit,67
+14:30:09,chosenExhibit,71
+14:38:57,return from screen

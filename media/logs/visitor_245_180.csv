@@ -1,0 +1,55 @@
+
+Positions 
+12:10:20,12:10:28,PersianCult
+12:10:28,12:12:12,SymbolsJewishMenorah
+12:12:12,12:24:40,PersianCult
+12:24:40,12:25:13,SymbolsJewishMenorah
+12:25:13,12:25:40,JerusalemPhoto
+12:25:40,12:29:35,MaterialCultures
+12:29:35,12:35:33,DuckBoxIvories
+12:35:33,12:37:44,ShipFront
+12:37:44,12:38:48,Pottery
+12:38:48,12:38:50,ShipFront
+12:38:50,12:40:03,MaritimeArcheology
+12:40:03,12:41:36,Pottery
+12:41:36,12:42:17,MaritimeArcheology
+12:42:17,12:43:59,Pottery
+12:43:59,12:46:15,ShipEntrance
+12:46:15,12:47:17,DuckBoxIvories
+12:47:17,12:48:06,StoneVesselsBowl
+12:48:06,12:48:08,BronzeTools
+12:48:08,12:48:43,MosaicfromSynagogue
+12:48:43,12:51:17,GlassOvenVessels
+12:51:17,12:54:55,Phoenicians
+12:54:55,12:57:11,GreeceEgypt
+12:57:11,12:58:00,OilLamps
+12:58:00,13:12:55,UpperFloorEntrance
+13:12:55,13:13:23,LeadCoffinMosaic
+
+presentations 
+12:12:37,12:14:05,PersianCult,310,System,5
+12:14:10,12:15:30,PersianCult,311,System,5
+12:16:00,12:17:13,PersianCult,312,System,5
+12:17:18,12:18:22,PersianCult,313,System,5
+12:18:40,12:20:19,PersianCult,314,System,5
+12:22:22,12:23:41,PersianCult,316,System,5
+12:26:20,12:27:25,MaterialCultures,165,System,5
+12:35:57,12:37:04,ShipFront,52,System,5
+12:37:44,12:38:48,Pottery,57,System,5
+12:40:22,12:41:08,Pottery,79,System,5
+12:41:36,12:42:17,MaritimeArcheology,120,System,5
+
+events 
+12:09:58,return from screen
+12:12:32,chosenExhibit,92
+12:12:32,return from screen
+12:18:35,chosenExhibit,93
+12:18:35,return from screen
+12:26:10,chosenExhibit,91
+12:26:10,return from screen
+12:35:54,chosenExhibit,1
+12:39:04,chosenExhibit,10
+12:40:12,chosenExhibit,8
+12:40:12,return from screen
+12:42:39,return from screen
+12:42:39,chosenExhibit,10

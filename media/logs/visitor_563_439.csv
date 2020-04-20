@@ -1,0 +1,39 @@
+
+Positions 
+13:56:00,13:57:53,PersianCult
+13:58:20,13:59:38,JerusalemPhoto
+13:59:56,14:00:00,MaterialCultures
+14:00:50,14:00:55,Phoenicians
+14:04:14,14:04:31,ReligionAndCult
+14:04:31,14:04:33,EverydayPottery
+14:04:33,14:05:59,WoodenTools
+14:06:48,14:08:37,StoneVesselsBowl
+14:09:13,14:09:16,ShipBack
+14:09:53,14:11:06,ShipEntrance
+14:12:25,14:12:46,MaterialCultures
+14:13:46,14:14:50,EntranceReubenHecht
+
+presentations 
+13:56:35,13:57:53,PersianCult,311,System,5,2
+13:58:37,13:59:35,JerusalemPhoto,137,System,1,2
+14:04:48,14:05:59,WoodenTools,186,System,5,2
+14:07:25,14:08:37,StoneVesselsBowl,179,System,5,2
+14:09:53,14:11:06,ShipEntrance,162,System,5,2
+
+events 
+13:56:19,chosenExhibit,92
+13:56:19,return from screen
+13:58:03,return from screen
+13:58:03,chosenExhibit,93
+13:58:25,chosenExhibit,44
+13:58:25,return from screen
+14:00:11,chosenExhibit,91
+14:00:11,return from screen
+14:04:40,chosenExhibit,68
+14:04:40,return from screen
+14:07:03,chosenExhibit,66
+14:09:21,chosenExhibit,5
+14:09:21,return from screen
+14:09:49,chosenExhibit,88
+14:09:49,return from screen
+14:13:46,return from screen

@@ -1,0 +1,135 @@
+
+Positions 
+12:35:26,12:37:20,SymbolsJewishMenorah
+12:37:20,12:37:38,EntranceReubenHecht
+12:39:41,12:39:55,SymbolsJewishMenorah
+12:40:13,12:40:20,EntranceReubenHecht
+12:40:20,12:40:44,SymbolsJewishMenorah
+12:42:51,12:44:37,SymbolsJewishMenorah
+12:45:08,12:45:40,PersianCult
+12:49:15,12:49:32,SymbolsJewishMenorah
+12:49:46,12:49:48,JerusalemPhoto
+12:49:48,12:49:55,PersianCult
+12:49:55,12:52:14,JerusalemPhoto
+12:52:44,12:52:57,MaterialCultures
+12:56:34,12:56:44,EntranceReubenHecht
+12:57:20,12:57:24,PersianCult
+12:57:24,12:57:37,JerusalemPhoto
+12:57:49,12:57:57,MuseumMotto
+13:00:55,13:01:04,MaterialCultures
+13:01:54,13:03:30,MaterialCultures
+13:04:06,13:04:14,Phoenicians
+13:04:14,13:06:02,MaterialCultures
+13:07:37,13:11:14,CraftsAndArts
+13:11:58,13:12:04,Phoenicians
+13:12:18,13:16:21,MosaicfromSynagogue
+13:16:54,13:17:05,BronzeTools
+13:17:53,13:19:16,ShipEntrance
+13:19:17,13:22:39,ShipBack
+13:23:18,13:23:32,ShipFront
+13:25:07,13:25:16,ShipEntrance
+13:25:19,13:25:50,ShipFront
+13:25:54,13:27:54,Pottery
+13:27:55,13:28:04,MaritimeArcheology
+13:28:04,13:31:06,Pottery
+13:32:14,13:32:25,ShipEntrance
+
+presentations 
+12:43:54,12:44:37,SymbolsJewishMenorah,131,System,5,2
+12:50:12,12:51:13,JerusalemPhoto,137,System,3,3
+12:51:29,12:52:14,JerusalemPhoto,138,System,5,3
+13:01:54,13:02:53,MaterialCultures,405,System,3,3
+13:03:04,13:03:30,MaterialCultures,406,User,3,3
+13:04:33,13:05:37,MaterialCultures,165,System,5,3
+13:05:44,13:06:02,MaterialCultures,405,User,3,3
+13:08:23,13:08:58,CraftsAndArts,47,System,5,3
+13:09:07,13:10:05,CraftsAndArts,46,User,5,3
+13:10:11,13:11:14,CraftsAndArts,46,System,5,3
+13:12:30,13:13:48,MosaicfromSynagogue,164,System,5,3
+13:13:54,13:14:59,MosaicfromSynagogue,148,System,5,3
+13:15:23,13:16:21,MosaicfromSynagogue,253,System,5,3
+13:18:03,13:19:16,ShipEntrance,162,System,5,3
+13:19:34,13:20:54,ShipBack,64,System,5,3
+13:21:19,13:22:39,ShipBack,65,System,5,3
+13:26:14,13:26:57,Pottery,78,System,5,3
+13:27:13,13:27:54,Pottery,120,System,5,3
+13:28:23,13:29:17,Pottery,80,System,5,3
+13:29:26,13:30:08,Pottery,81,System,5,3
+13:30:23,13:31:06,Pottery,122,System,5,3
+
+events 
+12:35:01,return from screen
+12:35:01,getDirections
+12:36:10,chosenExhibit,41
+12:36:10,return from screen
+12:36:18,lookTour
+12:36:22,return from screen
+12:38:00,lookTour
+12:38:00,chosenExhibit,39
+12:39:31,lookTour
+12:39:31,getDirections
+12:42:30,lookTour
+12:42:43,getDirections
+12:42:43,return from screen
+12:43:39,chosenExhibit,41
+12:43:39,lookTour
+12:44:49,getDirections
+12:44:49,lookTour
+12:48:42,chosenExhibit,40
+12:48:42,return from screen
+12:48:58,lookTour
+12:49:17,getDirections
+12:49:18,lookTour
+12:49:38,getDirections
+12:49:39,lookTour
+12:49:57,return from screen
+12:50:05,chosenExhibit,44
+12:50:05,lookTour
+12:52:28,getDirections
+12:52:28,lookTour
+12:56:41,chosenExhibit,40
+12:56:41,return from screen
+12:56:58,lookTour
+12:57:11,getDirections
+12:57:12,lookTour
+12:57:58,return from screen
+12:58:00,lookTour
+12:58:42,getDirections
+12:58:43,lookTour
+12:59:56,return from screen
+12:59:58,lookTour
+13:00:16,lookTour
+13:00:16,getDirections
+13:01:34,return from screen
+13:01:38,return from screen
+13:01:38,chosenExhibit,91
+13:03:39,lookTour
+13:03:49,getDirections
+13:04:27,chosenExhibit,91
+13:04:27,lookTour
+13:06:43,getDirections
+13:07:46,return from screen
+13:07:57,chosenExhibit,35
+13:07:57,lookTour
+13:11:30,getDirections
+13:12:25,return from screen
+13:12:27,chosenExhibit,67
+13:12:27,lookTour
+13:16:44,getDirections
+13:18:00,chosenExhibit,88
+13:19:28,chosenExhibit,4
+13:19:28,return from screen
+13:21:08,chosenExhibit,5
+13:21:08,lookTour
+13:23:12,getDirections
+13:23:13,lookTour
+13:24:56,getDirections
+13:25:13,return from screen
+13:25:13,lookTour
+13:25:24,getDirections
+13:26:03,chosenExhibit,8
+13:27:59,chosenExhibit,10
+13:28:09,lookTour
+13:28:09,chosenExhibit,9
+13:31:38,lookTour
+13:31:38,getDirections

@@ -1,0 +1,65 @@
+
+Positions 
+15:00:08,15:00:16,EntranceReubenHecht
+15:01:33,15:03:33,SymbolsJewishMenorah
+15:04:14,15:05:00,SymbolsJewishMenorah
+15:06:35,15:08:38,PersianCult
+15:09:20,15:10:25,PersianCult
+15:11:37,15:14:01,PersianCult
+15:14:17,15:15:47,JerusalemPhoto
+15:16:51,15:16:56,MaterialCultures
+15:18:10,15:19:45,ChalcolitePeriod
+15:21:24,15:22:57,LeadCoffinMosaic
+15:23:24,15:23:28,JewishCoffins
+15:24:17,15:24:27,LeadCoffinMosaic
+15:26:35,15:27:07,JewishCoffins
+15:28:23,15:29:30,JewishCoffins
+15:30:15,15:30:20,MenorahJewishEpigraphy
+15:30:22,15:31:52,Anthropoids
+15:33:29,15:33:39,MenorahJewishEpigraphy
+15:34:06,15:34:10,JewishCoffins
+15:34:10,15:34:33,MenorahJewishEpigraphy
+15:34:36,15:34:40,Anthropoids
+15:35:15,15:36:31,MenorahJewishEpigraphy
+15:36:32,15:36:39,Anthropoids
+15:37:40,15:38:38,DecoratedDoors
+15:38:39,15:38:42,JewishCoffins
+15:38:42,15:38:48,Anthropoids
+15:38:50,15:38:53,JewishCoffins
+15:41:43,15:41:49,AnimalModels
+15:44:36,15:45:04,EntranceGallileeRebellion
+15:56:17,15:56:39,EntranceReubenHecht
+
+presentations 
+15:02:47,15:03:33,SymbolsJewishMenorah,131,System,3,5
+15:04:14,15:05:00,SymbolsJewishMenorah,132,System,3,5
+15:07:08,15:08:38,PersianCult,310,System,3,5
+15:09:20,15:10:25,PersianCult,313,System,3,5
+15:11:37,15:11:47,PersianCult,311,User,3,5
+15:12:20,15:14:01,PersianCult,314,System,5,5
+15:14:47,15:15:47,JerusalemPhoto,137,System,5,5
+15:18:38,15:19:45,ChalcolitePeriod,145,System,3,5
+15:21:49,15:22:57,LeadCoffinMosaic,195,System,2,5
+15:28:23,15:29:30,JewishCoffins,171,System,3,5
+15:31:01,15:31:52,Anthropoids,181,System,2,5
+15:35:15,15:36:31,MenorahJewishEpigraphy,230,System,3,5
+
+events 
+15:01:56,chosenExhibit,41
+15:06:59,chosenExhibit,92
+15:06:59,return from screen
+15:11:55,chosenExhibit,93
+15:11:55,return from screen
+15:14:29,chosenExhibit,44
+15:18:37,chosenExhibit,46
+15:18:37,return from screen
+15:21:43,chosenExhibit,63
+15:28:18,chosenExhibit,62
+15:30:55,chosenExhibit,61
+15:30:55,return from screen
+15:33:54,chosenExhibit,59
+15:34:18,chosenExhibit,59
+15:34:43,chosenExhibit,59
+15:37:40,open map
+15:37:50,return from screen
+15:56:17,return from screen

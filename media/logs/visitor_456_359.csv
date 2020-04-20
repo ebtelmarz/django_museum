@@ -1,0 +1,41 @@
+
+Positions 
+12:07:17,12:09:16,SymbolsJewishMenorah
+12:09:50,12:11:01,PersianCult
+12:11:17,12:12:50,MaterialCultures
+12:14:11,12:16:40,JewishCoffins
+12:18:52,12:20:24,LeadCoffinMosaic
+12:20:57,12:24:06,Anthropoids
+12:24:24,12:24:29,LeadCoffinMosaic
+12:28:59,12:29:10,MaterialCultures
+12:29:21,12:29:23,SymbolsJewishMenorah
+12:29:23,12:29:31,EntranceReubenHecht
+
+presentations 
+12:07:32,12:08:15,SymbolsJewishMenorah,131,System,4,-5
+12:08:30,12:09:16,SymbolsJewishMenorah,132,System,4,-5
+12:10:13,12:10:40,PersianCult,312,User,3,-5
+12:11:58,12:12:50,MaterialCultures,405,System,3,-5
+12:14:22,12:15:42,JewishCoffins,169,System,4,-5
+12:15:52,12:16:40,JewishCoffins,172,System,4,-5
+12:19:16,12:20:24,LeadCoffinMosaic,195,System,4,-5
+12:21:04,12:21:56,Anthropoids,181,System,4,-5
+12:22:18,12:22:41,Anthropoids,408,System,3,-5
+12:23:00,12:24:06,Anthropoids,183,System,4,-5
+
+events 
+12:07:02,return from screen
+12:07:02,chosenExhibit,40
+12:07:27,chosenExhibit,41
+12:07:27,return from screen
+12:10:07,chosenExhibit,92
+12:10:07,return from screen
+12:11:49,chosenExhibit,91
+12:11:49,return from screen
+12:14:19,chosenExhibit,62
+12:14:19,return from screen
+12:19:11,chosenExhibit,63
+12:19:11,return from screen
+12:21:01,chosenExhibit,61
+12:21:01,return from screen
+12:29:23,return from screen

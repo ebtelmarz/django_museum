@@ -1,0 +1,79 @@
+
+Positions 
+12:54:44,12:56:06,MaterialCultures
+12:56:06,12:56:28,ChalcolitePeriod
+12:56:28,12:57:48,AnimalModels
+12:57:48,12:58:34,RomanDivinitiesStatuettes
+12:58:34,13:02:07,ClayAmphorae
+13:02:07,13:02:29,CanaaniteStelae
+13:02:29,13:02:37,ClayAmphorae
+13:02:37,13:04:18,IvoryWomanPhoenician
+13:04:18,13:04:35,CanaaniteStelae
+13:04:35,13:05:00,IvoryWomanPhoenician
+13:05:00,13:08:01,DuckBoxIvories
+13:08:01,13:09:05,ShipEntrance
+13:09:05,13:09:34,ShipFront
+13:09:34,13:11:32,Pottery
+13:11:32,13:11:53,ShipFront
+13:11:53,13:12:02,Pottery
+13:12:02,13:12:18,ShipFront
+13:12:18,13:12:23,MaritimeArcheology
+13:12:23,13:13:13,CarpenterTools
+13:13:13,13:14:09,ShipEntrance
+13:14:09,13:14:18,GlassOvenVessels
+13:14:18,13:14:44,MosaicfromSynagogue
+13:14:44,13:14:59,MaterialCultures
+13:14:59,13:15:57,UpperFloorEntrance
+13:15:57,13:16:43,SevenSpecies
+13:16:43,13:33:42,Coins
+13:33:42,13:35:41,ChalcolitePeriod
+13:35:41,13:35:44,OilLamps
+13:35:44,13:35:48,Jerusalem
+13:35:48,13:36:15,GreeceEgypt
+13:36:15,13:38:12,Cyprus
+13:38:12,13:38:57,TempleMount
+13:38:57,13:39:21,Weights
+13:39:21,13:39:52,Coins
+13:39:52,13:40:19,UpperFloorEntrance
+13:40:19,13:42:32,MaterialCultures
+13:42:32,13:42:49,PersianCult
+13:42:49,13:42:55,SymbolsJewishMenorah
+
+presentations 
+13:00:52,13:01:07,ClayAmphorae,241,User
+13:01:09,13:01:46,ClayAmphorae,242,User
+13:02:07,13:02:29,CanaaniteStelae,242,User
+13:02:53,13:03:59,IvoryWomanPhoenician,155,System,3
+13:09:34,13:11:32,Pottery,63,User
+13:11:53,13:12:02,Pottery,82,User
+13:16:48,13:17:09,Coins,267,User
+13:33:43,13:33:53,ChalcolitePeriod,236,User
+
+events 
+12:54:26,chosenExhibit,44
+12:54:26,return from screen
+12:54:32,open map
+12:54:33,return from screen
+12:54:54,chosenExhibit,91
+12:54:54,return from screen
+12:55:29,chosenExhibit,91
+12:58:43,chosenExhibit,52
+12:58:43,return from screen
+13:00:11,chosenExhibit,52
+13:00:11,return from screen
+13:00:37,chosenExhibit,52
+13:00:37,return from screen
+13:02:43,chosenExhibit,51
+13:08:01,open map
+13:08:26,open map
+13:08:45,open map
+13:08:45,return from screen
+13:09:25,return from screen
+13:09:25,chosenExhibit,3
+13:11:50,chosenExhibit,9
+13:11:50,open map
+13:12:04,return from screen
+13:12:06,return from screen
+13:16:46,chosenExhibit,78
+13:16:46,return from screen
+13:33:43,open map
