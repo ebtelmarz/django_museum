@@ -3,7 +3,6 @@
 # Edit at https://www.gitignore.io/?templates=python
 
 ### Django ###
-media/
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
