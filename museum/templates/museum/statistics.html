@@ -1,12 +1,80 @@
 {% extends "museum/base.html" %}
+
 {% block content %}
+
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+</head>
+
 <div class="col-md-10" style="margin:50px;">
-    <h1>STATISTICHE VARIE</h1><br>
+    <h1>STATISTICS</h1><br>
+    
     <div class="container">
-        <p>che minchia bisogna fa vede qua???</p>
-        {%for elem in summary%}
-        <p>prova prova {{elem.start}}</p>
-        {%endfor%}
+        <h2>Average number of people per hour</h2>
+        <canvas id="myChart" width="500" height="300"></canvas>
+        <script>
+            function replaceCommasWithMinus(item)
+            {
+                result = new Array();
+
+                for(var i = 0; i < item.length; i++)
+                {
+                    result[i] = item[i].replace(', ', '-');
+                }
+
+                return result;
+            }
+
+            // a bit of formattation for labels
+            var timeWindowsLabels = "{{visitorsPermanencyTimeWindowsLabels}}";
+            timeWindowsLabels = timeWindowsLabels.substring(2, timeWindowsLabels.length-2);
+            timeWindowsLabels = timeWindowsLabels.split("), (")
+            timeWindowsLabels = replaceCommasWithMinus(timeWindowsLabels)
+
+            var timeWindowsData = "{{visitorsPermanencyTimeWindowsValues}}";
+            timeWindowsData = timeWindowsData.substring(1, timeWindowsData.length-1);
+            timeWindowsData = timeWindowsData.split(", ")
+            console.log(timeWindowsData);
+
+            var ctx = document.getElementById('myChart').getContext('2d');
+
+            var myChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: timeWindowsLabels,
+                    datasets: [{
+                        label: 'average # of people who started a visit in that time window',
+                        data: timeWindowsData,
+                        backgroundColor: [
+                            'rgba(255, 99, 132, 0.2)',
+                            'rgba(54, 162, 235, 0.2)',
+                            'rgba(255, 206, 86, 0.2)',
+                            'rgba(75, 192, 192, 0.2)',
+                            'rgba(153, 102, 255, 0.2)',
+                            'rgba(255, 159, 64, 0.2)'
+                        ],
+                        borderColor: [
+                            'rgba(255, 99, 132, 1)',
+                            'rgba(54, 162, 235, 1)',
+                            'rgba(255, 206, 86, 1)',
+                            'rgba(75, 192, 192, 1)',
+                            'rgba(153, 102, 255, 1)',
+                            'rgba(255, 159, 64, 1)'
+                        ],
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    scales: {
+                        yAxes: [{
+                            ticks: {
+                                beginAtZero: true
+                            }
+                        }]
+                    }
+                }
+            });
+        </script>
     </div>
 </div>
 {% endblock content %}
