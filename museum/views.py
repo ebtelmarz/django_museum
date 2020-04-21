@@ -13,6 +13,8 @@ import json
 import subprocess
 from datetime import datetime, timedelta
 from django.contrib import messages
+from django.db.models import Count
+from collections import Counter
 
 
 # Create your views here.
@@ -35,7 +37,6 @@ def prepareVisitor(path_visitors, presentations, interruptions, positions, group
                 data = line[3]
                 global_start = line[4] + ':00'
                 global_end = line[5] + ':00'
-                visitor_data.append((visitor_id, group, data, global_start, global_end, len(presentations), interruptions))
                 break
             else:
                 data = ''
@@ -324,7 +325,94 @@ def about(request):
 
 
 def statistics(request):
-    return render(request, 'museum/statistics.html')
+
+    ### .values('startTime__hour', 'endTime__hour') this adds projection and grouping clauses.
+    # Syntax like: values('columnNameOnWichYouWantToSelectAndGroupBy__theSubValueToExtractFromColumnValue')
+    # It builds the query adding a projection on start time hour, and end time hour
+    # It also builds the grouping statement to group on start time hour, and end time hour
+    ### .exclude(date='')
+    # Filter to exclude every visitor without a date value
+    ### .annotate(visitors=Count('number'))
+    # Counts the number of visitors in the specified time window.
+    ### data struct output example
+    # [{'startTime__hour': 11, 'endTime__hour': 12, 'visitors': 9}, {'startTime__hour': 11, 'endTime__hour': 13, 'visitors': 9}, ...]
+
+    visitorsPermanencyTimeWindowsQuerySet = Visitor.objects.values('startTime__hour', 'endTime__hour').exclude(date='').annotate(visitors=Count('number')).order_by('startTime__hour')
+    #print("==========VISITORS PERMANENCY TIME WINDOWS QUERY==========")
+    #print(visitorsPermanencyTimeWindowsQuerySet)
+
+    ### .values('date') this adds projection and grouping clauses.
+    # It builds the query adding a projection on date
+    # It also builds the grouping statement to group on date
+    ### .exclude(date='')
+    # Filter to exclude every visitor without a date value
+    ### .annotate(visitors=Count('number'))
+    # Counts the number of visitors in the specified time window.
+    ### .count()
+    # returns rows number retreived
+    ### data struct output example
+    # 45
+
+    countUniqueDatesInWichMuseumWasVisited = Visitor.objects.values('date').exclude(date='').annotate(visitors=Count('number')).count()
+    #print("==========COUNT UNIQUE DATES IN WICH MUSEUM WAS VISITED QUERY==========")
+    #print(countUniqueDatesInWichMuseumWasVisited)
+
+    # time windows coming from database aren't splitted well, example below:
+    # [{'startTime__hour': 11, 'endTime__hour': 12, 'visitors': 9}, {'startTime__hour': 11, 'endTime__hour': 13, 'visitors': 9}, ...]
+    # i want (below):
+    # # [{'startTime__hour': 11, 'endTime__hour': 12, 'visitors': 18}, {'startTime__hour': 12, 'endTime__hour': 13, 'visitors': 9}, ...]
+
+
+    # from QuerySet to List (to avoid any possibility to change database data, now i'm working on a Collection, not on a database API)
+    visitorsPermanencyTimeWindows = list(visitorsPermanencyTimeWindowsQuerySet)
+    
+    # this sounds like a Map task (MapReduce paradigm)
+    visitorsPermanencyTimeWindowsMapped = list()
+
+    for timeWindow in visitorsPermanencyTimeWindows:                                        # for each visitors permanency time window
+        if timeWindow['startTime__hour'] == timeWindow['endTime__hour']:                    # particular log case in wich you have a visitor entering, and leaving in the same hour
+            visitor = {
+                'startTime__hour': timeWindow['startTime__hour'],
+                'endTime__hour': timeWindow['startTime__hour'] + 1, 
+                'visitors': timeWindow['visitors']
+                }
+            visitorsPermanencyTimeWindowsMapped.append(visitor)
+            continue
+
+        j = 0
+        while (timeWindow['startTime__hour'] + j) <= (timeWindow['endTime__hour'] - 1):    # slide a time window 1 hour big inside the time window x hour big
+            visitor = {
+                'startTime__hour': timeWindow['startTime__hour'] + j,
+                'endTime__hour': timeWindow['startTime__hour'] + j + 1, 
+                'visitors': timeWindow['visitors']
+                }
+            visitorsPermanencyTimeWindowsMapped.append(visitor)
+            j+=1
+
+    #print("==========VISITORS PERMANENCY TIME WINDOWS MAP RESULT==========")
+    #print(visitorsPermanencyTimeWindowsMapped)
+
+    # this sounds like a Reduce task (MapReduce paradigm)
+    counter = Counter()
+    for timeWindow in visitorsPermanencyTimeWindowsMapped:
+        counter[timeWindow['startTime__hour'], timeWindow['endTime__hour']] += timeWindow['visitors']
+
+    visitorsPermanencyTimeWindowsReduced = dict(counter)
+
+    #print("==========VISITORS PERMANENCY TIME WINDOWS REDUCE RESULT==========")
+    #print(visitorsPermanencyTimeWindowsReduced)
+    #print(visitorsPermanencyTimeWindowsReduced.get((11,12)))
+    #print(list(visitorsPermanencyTimeWindowsReduced.keys()))
+
+    for key in visitorsPermanencyTimeWindowsReduced.keys():
+        visitorsPermanencyTimeWindowsReduced[key] = round(visitorsPermanencyTimeWindowsReduced[key]/countUniqueDatesInWichMuseumWasVisited,2)
+
+    context = {
+        'visitorsPermanencyTimeWindowsLabels': list(visitorsPermanencyTimeWindowsReduced.keys()),
+        'visitorsPermanencyTimeWindowsValues': list(visitorsPermanencyTimeWindowsReduced.values())
+    }
+
+    return render(request, 'museum/statistics.html', context)
 
 
 def map(request):
