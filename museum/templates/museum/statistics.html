@@ -4,14 +4,40 @@
 
 <head>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+    <script>
+        var backgroundColors = [
+            'rgba(255, 99, 132, 0.2)',
+            'rgba(54, 162, 235, 0.2)',
+            'rgba(255, 206, 86, 0.2)',
+            'rgba(75, 192, 192, 0.2)',
+            'rgba(153, 102, 255, 0.2)',
+            'rgba(255, 159, 64, 0.2)',
+            'rgba(66, 202, 60, 0.2)',
+            'rgba(83, 81, 84, 0.2)',
+            'rgba(146, 63, 40, 0.2)',
+            'rgba(132, 186, 91, 0.2)',
+        ];
+
+        var borderColors = [
+            'rgba(255, 99, 132, 1)',
+            'rgba(54, 162, 235, 1)',
+            'rgba(255, 206, 86, 1)',
+            'rgba(75, 192, 192, 1)',
+            'rgba(153, 102, 255, 1)',
+            'rgba(255, 159, 64, 1)',
+            'rgba(66, 202, 60, 1)',
+            'rgba(83, 81, 84, 1)',
+            'rgba(146, 63, 40, 1)',
+            'rgba(132, 186, 91, 1)',
+        ];
+    </script>
 </head>
 
 <div class="col-md-10" style="margin:50px;">
-    <h1>STATISTICS</h1><br>
-    
     <!-- AVERAGE NUMBER OF PEOPLE PER HOUR GRAPH -->
     <div class="container">
-        <h2>Average number of people per hour</h2>
+        <h1>Average number of people per hour</h1>
+        <br>
         <canvas id="averageNumberOfPeoplePerHour" width="500" height="300"></canvas>
         <script>
             function replaceCommasWithMinus(item)
@@ -78,7 +104,8 @@
     <!-- AVERAGE NUMBER OF PEOPLE PER ROOM PER HOUR GRAPH -->
 
     <div class="container">
-        <h2>Average number of people per room per hour</h2>
+        <h1>Average number of people per room per hour</h1>
+        <br>
         <canvas id="averageNumberOfPeoplePerHourPerRoom" width="500" height="300"></canvas>
         
         <script>
@@ -87,26 +114,6 @@
             
             var hourLabels = new Set();
             var roomDatasets = [];
-
-            var backgroundColors = [
-                'rgba(255, 99, 132, 0.2)',
-                'rgba(54, 162, 235, 0.2)',
-                'rgba(255, 206, 86, 0.2)',
-                'rgba(75, 192, 192, 0.2)',
-                'rgba(153, 102, 255, 0.2)',
-                'rgba(255, 159, 64, 0.2)',
-                'rgba(66, 202, 60, 0.2)',
-            ];
-
-            var borderColors = [
-                'rgba(255, 99, 132, 1)',
-                'rgba(54, 162, 235, 1)',
-                'rgba(255, 206, 86, 1)',
-                'rgba(75, 192, 192, 1)',
-                'rgba(153, 102, 255, 1)',
-                'rgba(255, 159, 64, 1)',
-                'rgba(66, 202, 60, 1)',
-            ];
 
             for (key in averageNumberOfPeoplePerHourPerRoomData)
             {
@@ -157,7 +164,101 @@
     </div>
 
     <div class="container">
+        <h1>Attractive power (how many times a visitor was on that point of interest)</h1>
+        <br>
+        <h5>Ten most attractive</h5>
+        <br>
+        <canvas id="attractivePower" width="500" height="300"></canvas>
+
+        <script>
+            var pointOfInterestAttractivePowerData = JSON.parse("{{pointOfInterestAttractivePowerData}}".replace(/&quot;/g,'"'));
+
+            var pointOfInterestLabels = new Set()
+            var pointOfInterestDataset = []
+            var i = 0;
+
+            for (key in pointOfInterestAttractivePowerData)
+            {
+                if(i > 9) // i want to print first ten most attractive point of interest
+                {
+                    break;
+                }
+
+                pointOfInterestName = key
+                value = pointOfInterestAttractivePowerData[key]
+
+                pointOfInterestLabels.add(pointOfInterestName)
+                pointOfInterestDataset.push(value)
+                i+=1
+            }
+
+            pointOfInterestLabels = Array.from(pointOfInterestLabels)
+
+            var attractivePowerConfig = {
+                type: 'doughnut',
+                data: {
+                    labels: pointOfInterestLabels,     // point of interest names
+                    datasets: [{ 
+                        data: pointOfInterestDataset,
+                        backgroundColor: backgroundColors,
+                        borderColor: borderColors
+                        }]    // visit count
+                },
+                options: {}
+            };
+
+            var ctx = document.getElementById('attractivePower').getContext('2d');
+            var attractivePower = new Chart(ctx, attractivePowerConfig);
+        </script>
         
+    </div>
+
+    <div class="container">
+        <h1>Holding power in seconds(how long a visitor stays on a point of interest)</h1>
+        <br>
+        <h5>Ten most holding</h5>
+        <canvas id="holdingPower" width="500" height="300"></canvas>
+
+        <script>
+            var pointOfInterestHoldingPowerData = JSON.parse("{{pointOfInterestHoldingPowerData}}".replace(/&quot;/g,'"'));
+
+            var holdingPowerLabels = new Set()
+            var holdingPowerDataset = []
+            var i = 0;
+
+            for (key in pointOfInterestHoldingPowerData)
+            {
+                if(i > 9) // i want to print first ten most attractive point of interest
+                {
+                    break;
+                }
+
+                pointOfInterestName = key
+                value = pointOfInterestHoldingPowerData[key]
+
+                holdingPowerLabels.add(pointOfInterestName)
+                holdingPowerDataset.push(value)
+                i+=1
+            }
+
+            holdingPowerLabels = Array.from(holdingPowerLabels)
+
+            var holdingPowerConfig = {
+                type: 'doughnut',
+                data: {
+                    labels: holdingPowerLabels,
+                    datasets: [{ 
+                        data: holdingPowerDataset,
+                        backgroundColor: backgroundColors,
+                        borderColor: borderColors
+                        }]
+                },
+                options: {}
+            };
+
+            var ctx = document.getElementById('holdingPower').getContext('2d');
+            var holdingPower = new Chart(ctx, holdingPowerConfig);
+        </script>
     </div>
 
 </div>

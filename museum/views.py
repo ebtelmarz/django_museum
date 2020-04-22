@@ -17,6 +17,8 @@ from django.db.models import Count
 from django.db import connection, transaction
 from collections import Counter
 import json
+from django.db.models import Avg
+from django.db.models import F
 
 
 # Create your views here.
@@ -470,21 +472,65 @@ def averageNumberOfPeoplePerHourPerRoomGraphStatisticsTemplate(request):
 
     return json.dumps(result)
 
+def pointOfInterestAttractivePower(request):
+    
+    result = dict()
+
+    ## example below:
+    # [{'poi_id': 'SymbolsJewishMenorah', 'visits': 818}, {'poi_id': 'PersianCult', 'visits': 749}, ...]
+    
+    query = Position.objects.values('poi_id').annotate(visits=Count('*')).order_by('-visits')
+    
+    for queryRow in query:
+        poiId = queryRow['poi_id']
+        visits = queryRow['visits']
+
+        result[poiId] = visits
+
+    return json.dumps(result)
+
+def pointOfInterestHoldingPower(request):
+    result = dict()
+
+    ## returns an aray of elements like below:
+    #((1, '11:00:00', 16), (1, '12:00:00', 25), (1, '13:00:00', 45), (1, '14:00:00', 36), ...)
+
+    query = "\
+        SELECT poi_id_id, AVG(end-start) AS averageHoldingTimeInSeconds\
+        FROM museum.museum_position\
+        GROUP BY poi_id_id\
+        ORDER BY averageHoldingTimeInSeconds DESC;\
+    "
+
+    cursor = connection.cursor()
+    cursor.execute(query)
+    queryResult = cursor.fetchall()
+
+    for queryRow in queryResult:
+        result[queryRow[0]] = round(float(queryRow[1]))
+
+    print(result)
+
+    return json.dumps(result)
+
 def about(request):
     return render(request, 'museum/about.html')
-
 
 def statistics(request):
     averageNumberOfPeoplePerHourContext = averageNumberOfPeoplePerHourGraphStatisticsTemplate(request)
     averageNumberOfPeoplePerHourPerRoomContext = averageNumberOfPeoplePerHourPerRoomGraphStatisticsTemplate(request)
+    pointOfInterestAttractivePowerContext = pointOfInterestAttractivePower(request)
+    pointOfInterestHoldingPowerContext = pointOfInterestHoldingPower(request)
 
-    print("")
-    print(averageNumberOfPeoplePerHourPerRoomContext)
+    #print("")
+    #print(averageNumberOfPeoplePerHourPerRoomContext)
 
     context = {
         'visitorsPermanencyTimeWindowsLabels': averageNumberOfPeoplePerHourContext['visitorsPermanencyTimeWindowsLabels'],
         'visitorsPermanencyTimeWindowsValues': averageNumberOfPeoplePerHourContext['visitorsPermanencyTimeWindowsValues'],
-        'averageNumberOfPeoplePerHourPerRoomData': averageNumberOfPeoplePerHourPerRoomContext
+        'averageNumberOfPeoplePerHourPerRoomData': averageNumberOfPeoplePerHourPerRoomContext,
+        'pointOfInterestAttractivePowerData': pointOfInterestAttractivePowerContext,
+        'pointOfInterestHoldingPowerData': pointOfInterestHoldingPowerContext,
         
     }
 
@@ -538,9 +584,6 @@ def home(request):
                 return render(request, 'museum/map.html', data)
 
         elif 'stat' in request.POST:
-            if request.POST['drop'] == 'Choose...':
-                messages.warning(request, f'Please choose a visitor')
-            else:
                 return statistics(request)
 
     return render(request, 'museum/home.html', {'visitors': Visitor.objects.all()})
