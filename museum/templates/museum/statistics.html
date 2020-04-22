@@ -9,9 +9,10 @@
 <div class="col-md-10" style="margin:50px;">
     <h1>STATISTICS</h1><br>
     
+    <!-- AVERAGE NUMBER OF PEOPLE PER HOUR GRAPH -->
     <div class="container">
         <h2>Average number of people per hour</h2>
-        <canvas id="myChart" width="500" height="300"></canvas>
+        <canvas id="averageNumberOfPeoplePerHour" width="500" height="300"></canvas>
         <script>
             function replaceCommasWithMinus(item)
             {
@@ -34,35 +35,30 @@
             var timeWindowsData = "{{visitorsPermanencyTimeWindowsValues}}";
             timeWindowsData = timeWindowsData.substring(1, timeWindowsData.length-1);
             timeWindowsData = timeWindowsData.split(", ")
-            console.log(timeWindowsData);
 
-            var ctx = document.getElementById('myChart').getContext('2d');
+            var ctx = document.getElementById('averageNumberOfPeoplePerHour').getContext('2d');
 
-            var myChart = new Chart(ctx, {
+            var averageNumberOfPeoplePerHourChartConfig = {
                 type: 'bar',
                 data: {
                     labels: timeWindowsLabels,
                     datasets: [{
                         label: 'average # of people who started a visit in that time window',
                         data: timeWindowsData,
-                        backgroundColor: [
-                            'rgba(255, 99, 132, 0.2)',
-                            'rgba(54, 162, 235, 0.2)',
-                            'rgba(255, 206, 86, 0.2)',
-                            'rgba(75, 192, 192, 0.2)',
-                            'rgba(153, 102, 255, 0.2)',
-                            'rgba(255, 159, 64, 0.2)'
-                        ],
-                        borderColor: [
-                            'rgba(255, 99, 132, 1)',
-                            'rgba(54, 162, 235, 1)',
-                            'rgba(255, 206, 86, 1)',
-                            'rgba(75, 192, 192, 1)',
-                            'rgba(153, 102, 255, 1)',
-                            'rgba(255, 159, 64, 1)'
-                        ],
+                        backgroundColor: 'rgba(255, 206, 86, 0.2)',
+                        borderColor: 'rgba(255, 206, 86, 1)',
                         borderWidth: 1
-                    }]
+                    },
+                    {
+                        label: 'average # of people who started a visit in that time window distribution',
+                        data: timeWindowsData,
+                        backgroundColor: 'rgba(255, 159, 64, 0.2)',
+                        borderColor: 'rgba(255, 159, 64, 1)',
+                        borderWidth: 1,
+                        type: 'line',
+                        hidden: true
+                    }
+                    ]
                 },
                 options: {
                     scales: {
@@ -73,8 +69,96 @@
                         }]
                     }
                 }
-            });
+            };
+
+            var averageNumberOfPeoplePerHour = new Chart(ctx, averageNumberOfPeoplePerHourChartConfig);
         </script>
     </div>
+
+    <!-- AVERAGE NUMBER OF PEOPLE PER ROOM PER HOUR GRAPH -->
+
+    <div class="container">
+        <h2>Average number of people per room per hour</h2>
+        <canvas id="averageNumberOfPeoplePerHourPerRoom" width="500" height="300"></canvas>
+        
+        <script>
+            var ctx = document.getElementById('averageNumberOfPeoplePerHourPerRoom').getContext('2d');
+            var averageNumberOfPeoplePerHourPerRoomData = JSON.parse("{{averageNumberOfPeoplePerHourPerRoomData}}".replace(/&quot;/g,'"'));
+            
+            var hourLabels = new Set();
+            var roomDatasets = [];
+
+            var backgroundColors = [
+                'rgba(255, 99, 132, 0.2)',
+                'rgba(54, 162, 235, 0.2)',
+                'rgba(255, 206, 86, 0.2)',
+                'rgba(75, 192, 192, 0.2)',
+                'rgba(153, 102, 255, 0.2)',
+                'rgba(255, 159, 64, 0.2)',
+                'rgba(66, 202, 60, 0.2)',
+            ];
+
+            var borderColors = [
+                'rgba(255, 99, 132, 1)',
+                'rgba(54, 162, 235, 1)',
+                'rgba(255, 206, 86, 1)',
+                'rgba(75, 192, 192, 1)',
+                'rgba(153, 102, 255, 1)',
+                'rgba(255, 159, 64, 1)',
+                'rgba(66, 202, 60, 1)',
+            ];
+
+            for (key in averageNumberOfPeoplePerHourPerRoomData)
+            {
+                roomNumber = key
+                labels = averageNumberOfPeoplePerHourPerRoomData[key]["labels"]
+                values = averageNumberOfPeoplePerHourPerRoomData[key]["values"]
+                backgroundColor = backgroundColors[key-1]
+                borderColor = borderColors[key-1]
+                for (key in labels)
+                {
+                    hourLabels.add(labels[key])
+                }
+
+                dataset = {
+                    label: 'Room ' + roomNumber,
+                    data: values,
+                    backgroundColor: backgroundColor,
+                    borderColor: borderColor,
+                    borderWidth: 1
+                }
+
+                roomDatasets.push(dataset)
+            }
+
+            hourLabels = Array.from(hourLabels)
+
+            var averageNumberOfPeoplePerHourPerRoomChartConfig = {
+                type: 'bar',
+                data: {
+                    labels: hourLabels,
+                    datasets: roomDatasets
+                },
+                options: {
+                    scales: {
+                        yAxes: [{
+                            ticks: {
+                                beginAtZero: true
+                            }
+                        }]
+                    }
+                }
+            };
+
+            var averageNumberOfPeoplePerHour = new Chart(ctx, averageNumberOfPeoplePerHourPerRoomChartConfig);
+
+        </script>
+        
+    </div>
+
+    <div class="container">
+        
+    </div>
+
 </div>
 {% endblock content %}

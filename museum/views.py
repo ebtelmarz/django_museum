@@ -14,7 +14,9 @@ import subprocess
 from datetime import datetime, timedelta
 from django.contrib import messages
 from django.db.models import Count
+from django.db import connection, transaction
 from collections import Counter
+import json
 
 
 # Create your views here.
@@ -319,13 +321,8 @@ def mapData(number):
 
     return map_data
 
-
-def about(request):
-    return render(request, 'museum/about.html')
-
-
-def statistics(request):
-
+def averageNumberOfPeoplePerHourGraphStatisticsTemplate(request):
+    
     ### .values('startTime__hour', 'endTime__hour') this adds projection and grouping clauses.
     # Syntax like: values('columnNameOnWichYouWantToSelectAndGroupBy__theSubValueToExtractFromColumnValue')
     # It builds the query adding a projection on start time hour, and end time hour
@@ -404,12 +401,91 @@ def statistics(request):
     #print(visitorsPermanencyTimeWindowsReduced.get((11,12)))
     #print(list(visitorsPermanencyTimeWindowsReduced.keys()))
 
+    ## calculating average for each time window
     for key in visitorsPermanencyTimeWindowsReduced.keys():
         visitorsPermanencyTimeWindowsReduced[key] = round(visitorsPermanencyTimeWindowsReduced[key]/countUniqueDatesInWichMuseumWasVisited,2)
 
-    context = {
+    result = {
         'visitorsPermanencyTimeWindowsLabels': list(visitorsPermanencyTimeWindowsReduced.keys()),
         'visitorsPermanencyTimeWindowsValues': list(visitorsPermanencyTimeWindowsReduced.values())
+    }
+
+    return result
+
+def averageNumberOfPeoplePerHourPerRoomGraphStatisticsTemplate(request):
+
+    ### .values('date') this adds projection and grouping clauses.
+    # It builds the query adding a projection on date
+    # It also builds the grouping statement to group on date
+    ### .exclude(date='')
+    # Filter to exclude every visitor without a date value
+    ### .annotate(visitors=Count('number'))
+    # Counts the number of visitors in the specified time window.
+    ### .count()
+    # returns rows number retreived
+    ### data struct output example
+    # 45
+
+    countUniqueDatesInWichMuseumWasVisited = Visitor.objects.values('date').exclude(date='').annotate(visitors=Count('number')).count()
+
+    ## returns an aray of elements like below:
+    #((1, '11:00:00', 16), (1, '12:00:00', 25), (1, '13:00:00', 45), (1, '14:00:00', 36), ...)
+
+    query = "\
+    SELECT room, startHour, COUNT(*)\
+    FROM\
+    (\
+        SELECT room, number, DATE_FORMAT(start, '%H:00:00') AS startHour, date\
+        FROM museum.museum_pointofinterest AS poi\
+        JOIN museum.museum_position AS p ON poi.name = p.poi_id_id\
+        JOIN museum.museum_visitor AS v ON v.number = p.visitor_id_id\
+        WHERE date!=''\
+        GROUP BY room, number, DATE_FORMAT(start, '%H:00:00'), date\
+        ORDER BY date desc, startHour desc, number desc\
+    ) AS grouped\
+    GROUP BY room, startHour"
+
+    cursor = connection.cursor()
+    cursor.execute(query)
+    visitorsEntriesGroupedByRoomByNumberByStartHourAndByDate = cursor.fetchall()
+
+    #print(visitorsEntriesGroupedByRoomByNumberByStartHourAndByDate)
+
+    result = dict()
+    labels = "labels"
+    values = "values"
+
+    for elem in visitorsEntriesGroupedByRoomByNumberByStartHourAndByDate:
+        room = int(elem[0])
+        hour = int(elem[1][:2])
+        entries = round(elem[2]/countUniqueDatesInWichMuseumWasVisited, 2)
+
+        if not room in result:
+            result[room] = { labels: list(), values: list() }
+        
+        result[room].get(labels).append(hour)
+        result[room].get(values).append(entries)
+
+        print(result)
+
+    return json.dumps(result)
+
+def about(request):
+    return render(request, 'museum/about.html')
+
+
+def statistics(request):
+    averageNumberOfPeoplePerHourContext = averageNumberOfPeoplePerHourGraphStatisticsTemplate(request)
+    averageNumberOfPeoplePerHourPerRoomContext = averageNumberOfPeoplePerHourPerRoomGraphStatisticsTemplate(request)
+
+    print("")
+    print(averageNumberOfPeoplePerHourPerRoomContext)
+
+    context = {
+        'visitorsPermanencyTimeWindowsLabels': averageNumberOfPeoplePerHourContext['visitorsPermanencyTimeWindowsLabels'],
+        'visitorsPermanencyTimeWindowsValues': averageNumberOfPeoplePerHourContext['visitorsPermanencyTimeWindowsValues'],
+        'averageNumberOfPeoplePerHourPerRoomData': averageNumberOfPeoplePerHourPerRoomContext
+        
     }
 
     return render(request, 'museum/statistics.html', context)
@@ -465,7 +541,7 @@ def home(request):
             if request.POST['drop'] == 'Choose...':
                 messages.warning(request, f'Please choose a visitor')
             else:
-                return render(request, 'museum/statistics.html', context)
+                return statistics(request)
 
     return render(request, 'museum/home.html', {'visitors': Visitor.objects.all()})
 
