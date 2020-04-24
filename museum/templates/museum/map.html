@@ -4,27 +4,19 @@
 {% block content %}
 <div class="row" style="margin-top:10px;margin-bottom:10px;">
 
-    <div class="col-md-10" style="align:">
+    <div class="col-md-12" style="align:">
         <div class="content-section">
             <div id="timeline">
                 <ul style="min-height:50px;" id="dates">
-                    <!--<li><a href="#1900">1900</a></li>-->
                     {%for loc in timeline%}
                     <li><a href="{{loc.position}}">{{loc.start}}</a></li>
                     {%endfor%}
                 </ul>
                 <ul id="issues">
-                    <!--<li id="1900">
-                        <img src="#" width="256" height="256"/>
-                        <h1>1900</h1>
-                        <p>par</p>
-                    </li>-->
                     {%for loc in timeline%}
                     <li id="{{loc.position}}">
                         <h1>{{loc.position}}</h1>
                         <p>
-                            <!--Visitor number: {{loc.visitor}}<br>
-                            Group number: {{loc.group}}<br>-->
                             Time of arrival: {{loc.start}}<br>
                             Leaving time: {{loc.end}}<br>
                             Permanence duration: {{loc.duration}}<br>
@@ -34,22 +26,17 @@
                 </ul>
                 <div id="grad_left"></div>
                 <div id="grad_right"></div>
-                <a href="#" id="next" onclick="pallini()"></a>
-                <a href="#" id="prev" onclick="pallini()"></a>
+                <a href="#" id="next"></a>
+                <a href="#" id="prev"></a>
             </div>
         </div>
     </div>
-    <div class="col-md-2" style="padding-top:50px; padding-bottom:50px;border: 1px solid #dddddd;">
-        <p style="color:white;margin-top:100px;margin-left:10px;">If you want to see a summary of the visit please
-            <a style="margin-left:-15px;" class="nav-item nav-link" href="#summary">go here</a></p>
-    </div>
 </div>
-
 <div id="mappaDiv" class="row" style="margin-top:10px;">
     <div id="mappa" class="col-md-12"
-         style="background-image:url('{% static 'museum/image.png' %}');background-size: cover;background-repeat: no-repeat;min-height:860px; margin-top:50px;">
-        {%for point in mappa%}
-        <i id="point" class='fas fa-map-marker-alt'
+         style="background-image:url('{% static 'museum/image.png' %}');background-size: cover;background-repeat: no-repeat;height:860px;width:1658px; margin-top:25px;">
+        {%for point in timeline%}
+        <i id="{{point.id}}" class='fas fa-map-marker-alt'
            style="position:absolute;margin-top:{{point.y}}px;margin-left:{{point.x}}px;font-size:36px;color:red; list-style:none;"></i>
         {%endfor%}
     </div>
@@ -63,14 +50,7 @@
             <p style="margin-left:50px; margin-top:50px;">
                 Visitor: {{data.visitor}} <br>
                 Group: {{data.group}} <br>
-                Visit started at {{data.start}} and ended at {{data.end}} with a total duration of {{data.duration}}<br>
-                They probably{{data.liked}}the visit because they<br></p>
-            <ul style="margin-left:80px;">
-                <li>{{data.str_pres}}</li>
-                <li>{{data.str_avg}}</li>
-                <li>{{data.str_interr}}</li>
-            </ul>
-            <p style="margin-left:50px; margin-top:50px;">
+                Visit started at {{data.start}} and ended at {{data.end}} with a total duration of {{data.duration}}<br><br>
                 Number of presentations visited: {{data.num_pres}}<br>
                 Number of locations visited: {{data.num_locs}}<br>
                 Locations visited with the presentations watched:<br></p>
@@ -79,73 +59,16 @@
                 <li>{{pre}}</li>
                 {% endfor %}
             </ul>
+            <p style="margin-left:50px; margin-top:50px;">
+                They most likely{{data.liked}}the visit because they<br></p>
+            <ul style="margin-left:80px;">
+                <li>{{data.str_pres}}</li>
+                <li>{{data.str_avg}}</li>
+                <li>{{data.str_interr}}</li>
+            </ul>
 
             {% endfor %}
         </div>
     </div>
 </div>
 {% endblock content %}
-
-
-<!--
-        <article class="media content-section">
-          <div class="media-body">
-            <div class="article-metadata">
-              <a class="mr-2" href="#">{{ post.author }}</a>
-              <small class="text-muted">{{ post.date_posted }}</small>
-            </div>
-            <h2><a class="article-title" href="#">{{ post.title }}</a></h2>
-            <p class="article-content">{{ post.content }}</p>
-          </div>
-        </article>
--->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -1,6 +1,5 @@
 from os import listdir
 from django.shortcuts import render
-from django.http import HttpResponse
 from .models import PointOfInterest
 from .models import Visitor
 from .models import Event
@@ -9,16 +8,12 @@ from .models import Presentation
 from django.core.files.storage import FileSystemStorage
 import os
 import csv
-import json
-import subprocess
 from datetime import datetime, timedelta
 from django.contrib import messages
 from django.db.models import Count
 from django.db import connection, transaction
 from collections import Counter
 import json
-from django.db.models import Avg
-from django.db.models import F
 
 
 # Create your views here.
@@ -55,6 +50,11 @@ def prepareVisitor(path_visitors, presentations, interruptions, positions, group
 
 def updatePOIS():
     map_json = json.load(open('media/map.json', 'r'))
+    coords = open('media/coordinate.txt')
+    c = []
+
+    for line in coords:
+        c.append({'name': line.split(',')[0], 'x': line.split(',')[1], 'y': line.split(',')[2]})
 
     for line in map_json:
         route = line["Route"]
@@ -64,26 +64,32 @@ def updatePOIS():
                 pin = val["PointInRoute"]
                 for a in pin:
                     name = a["Point"]["_name"]
-                    x = a["Point"]["_x"]
-                    y = a["Point"]["_y"]
+                    # x = a["locationOnRoute"]["_x"]
+                    # y = a["locationOnRoute"]["_y"]
                     room = a["Point"]["_room"]
                     backName = a["Point"]["_backName"]
+                    x = 0
+                    y = 0
+                    for line in c:
+                        if line['name'] == name:
+                            x = line['x']
+                            y = line['y']
 
-                    xx = int(int(x) * 1.15)
-                    yy = int(int(y) * 1.1)
+                    xx = int((int(x) + 10) * 0.428)
+                    yy = int((int(y) + 10) * 0.418)
 
                     poi_obj = PointOfInterest(name=name, x=xx, y=yy, room=room, backName=backName)
                     poi_obj.save()
 
 
 def saveData(visitor_data, presentations, events, positions):
-
     vis_obj = None
     interrupt = 0
 
     for vis in visitor_data:
         interrupt = vis[6]
-        vis_obj = Visitor(number=vis[0], group=vis[1], date=vis[2], startTime=vis[3], endTime=vis[4], presentations=vis[5], interruptions=vis[6])
+        vis_obj = Visitor(number=vis[0], group=vis[1], date=vis[2], startTime=vis[3], endTime=vis[4],
+                          presentations=vis[5], interruptions=vis[6])
         vis_obj.save()
 
     for event in events:
@@ -91,14 +97,16 @@ def saveData(visitor_data, presentations, events, positions):
         eve_obj.save()
 
     for pres in presentations:
-        pres_obj = Presentation(startTime=pres.split(',')[0], endTime=pres.split(',')[1], name=pres.split(',')[2], visitor_id=vis_obj)
+        pres_obj = Presentation(startTime=pres.split(',')[0], endTime=pres.split(',')[1], name=pres.split(',')[2],
+                                visitor_id=vis_obj)
         pres_obj.save()
 
     if len(PointOfInterest.objects.all()) == 0:
         updatePOIS()
 
     for pos in positions:
-        pos_obj = Position(start=pos.split(',')[0], end=pos.split(',')[1], visitor_id=vis_obj, poi_id=PointOfInterest.objects.get(name=pos.split(',')[2]))
+        pos_obj = Position(start=pos.split(',')[0], end=pos.split(',')[1], visitor_id=vis_obj,
+                           poi_id=PointOfInterest.objects.get(name=pos.split(',')[2]))
         pos_obj.save()
 
 
@@ -106,11 +114,6 @@ def prepareData():
     path_logs = 'media/logs'
     path_visitors = 'media/visitors.csv'
     files = os.listdir(path_logs)
-
-    #try:
-    #    files = list(filter(lambda a: a != 'out.log', files))
-    #except:
-    #    print('out.log not found')
 
     for fileName in files:
         visitor_id = fileName.split('.')[0].split('_')[1]
@@ -181,9 +184,12 @@ def prepareData():
 def locationsData(number):
     timeline_data = []
     positions = Position.objects.filter(visitor_id_id=number)
+    i = 0
 
     for pos in positions:
         location = pos.poi_id.name
+        x = PointOfInterest.objects.get(name=location).x
+        y = PointOfInterest.objects.get(name=location).y
         start = datetime.strptime(str(pos.start), '%H:%M:%S')
         end = datetime.strptime(str(pos.end), '%H:%M:%S')
         duration_delta = end - start
@@ -205,7 +211,8 @@ def locationsData(number):
 
         timeline_data.append(
             {'start': str(start).split()[1], 'end': str(end).split()[1], 'position': location,
-             'duration': duration})
+             'duration': duration, 'x': x, 'y': y, 'id': i})
+        i += 1
 
     return timeline_data
 
@@ -234,7 +241,7 @@ def summaryData(number):
     ore = str(durata_delta).split(':')[0]
     min = str(durata_delta).split(':')[1]
     sec = str(durata_delta).split(':')[2]
-    #pre = ''
+    # pre = ''
 
     if min[0] == '0':
         min = min[1]
@@ -262,17 +269,18 @@ def summaryData(number):
     else:
         total = durata
 
-    somma = int(ore)*60 + int(min) + int(sec)/60
+    somma = int(ore) * 60 + int(min) + int(sec) / 60
 
     tot = datetime.strptime('00:00:00', '%H:%M:%S')
     for id in Visitor.objects.all():
         visitor_stay = Position.objects.filter(visitor_id=id)
-        diff = datetime.strptime(str(visitor_stay[len(visitor_stay) - 1].end), '%H:%M:%S') - datetime.strptime(str(visitor_stay[0].start), '%H:%M:%S')
+        diff = datetime.strptime(str(visitor_stay[len(visitor_stay) - 1].end), '%H:%M:%S') - datetime.strptime(
+            str(visitor_stay[0].start), '%H:%M:%S')
         tot = tot + diff
 
     tot = datetime.strptime(str(tot.time()), '%H:%M:%S')
-    tott = tot.hour*60 + tot.minute + tot.second/60
-    avg_stay = tott/len(Visitor.objects.all())
+    tott = tot.hour * 60 + tot.minute + tot.second / 60
+    avg_stay = tott / len(Visitor.objects.all())
 
     more_than_avg = 0
     str_avg = 'did not stay more than the average'
@@ -290,7 +298,7 @@ def summaryData(number):
     for person in Visitor.objects.all():
         conta = len(Presentation.objects.filter(visitor_id=person.number))
         tot_count += conta
-    avg_present = tot_count/len(Visitor.objects.all())
+    avg_present = tot_count / len(Visitor.objects.all())
 
     more_than_avg_p = 0
     str_pres = 'didn\'t watch more presentations than the average'
@@ -310,21 +318,7 @@ def summaryData(number):
     return summary_data
 
 
-def mapData(number):
-    map_data = []
-    positions = Position.objects.filter(visitor_id=number)
-
-    for pos in positions:
-        name = pos.poi_id.name
-        x = PointOfInterest.objects.get(name=name).x
-        y = PointOfInterest.objects.get(name=name).y
-
-        map_data.append({'name': name, 'x': x, 'y': y})
-
-    return map_data
-
 def averageNumberOfPeoplePerHourGraphStatisticsTemplate(request):
-    
     ### .values('startTime__hour', 'endTime__hour') this adds projection and grouping clauses.
     # Syntax like: values('columnNameOnWichYouWantToSelectAndGroupBy__theSubValueToExtractFromColumnValue')
     # It builds the query adding a projection on start time hour, and end time hour
@@ -336,9 +330,10 @@ def averageNumberOfPeoplePerHourGraphStatisticsTemplate(request):
     ### data struct output example
     # [{'startTime__hour': 11, 'endTime__hour': 12, 'visitors': 9}, {'startTime__hour': 11, 'endTime__hour': 13, 'visitors': 9}, ...]
 
-    visitorsPermanencyTimeWindowsQuerySet = Visitor.objects.values('startTime__hour', 'endTime__hour').exclude(date='').annotate(visitors=Count('number')).order_by('startTime__hour')
-    #print("==========VISITORS PERMANENCY TIME WINDOWS QUERY==========")
-    #print(visitorsPermanencyTimeWindowsQuerySet)
+    visitorsPermanencyTimeWindowsQuerySet = Visitor.objects.values('startTime__hour', 'endTime__hour').exclude(
+        date='').annotate(visitors=Count('number')).order_by('startTime__hour')
+    # print("==========VISITORS PERMANENCY TIME WINDOWS QUERY==========")
+    # print(visitorsPermanencyTimeWindowsQuerySet)
 
     ### .values('date') this adds projection and grouping clauses.
     # It builds the query adding a projection on date
@@ -352,44 +347,46 @@ def averageNumberOfPeoplePerHourGraphStatisticsTemplate(request):
     ### data struct output example
     # 45
 
-    countUniqueDatesInWichMuseumWasVisited = Visitor.objects.values('date').exclude(date='').annotate(visitors=Count('number')).count()
-    #print("==========COUNT UNIQUE DATES IN WICH MUSEUM WAS VISITED QUERY==========")
-    #print(countUniqueDatesInWichMuseumWasVisited)
+    countUniqueDatesInWichMuseumWasVisited = Visitor.objects.values('date').exclude(date='').annotate(
+        visitors=Count('number')).count()
+    # print("==========COUNT UNIQUE DATES IN WICH MUSEUM WAS VISITED QUERY==========")
+    # print(countUniqueDatesInWichMuseumWasVisited)
 
     # time windows coming from database aren't splitted well, example below:
     # [{'startTime__hour': 11, 'endTime__hour': 12, 'visitors': 9}, {'startTime__hour': 11, 'endTime__hour': 13, 'visitors': 9}, ...]
     # i want (below):
     # # [{'startTime__hour': 11, 'endTime__hour': 12, 'visitors': 18}, {'startTime__hour': 12, 'endTime__hour': 13, 'visitors': 9}, ...]
 
-
     # from QuerySet to List (to avoid any possibility to change database data, now i'm working on a Collection, not on a database API)
     visitorsPermanencyTimeWindows = list(visitorsPermanencyTimeWindowsQuerySet)
-    
+
     # this sounds like a Map task (MapReduce paradigm)
     visitorsPermanencyTimeWindowsMapped = list()
 
-    for timeWindow in visitorsPermanencyTimeWindows:                                        # for each visitors permanency time window
-        if timeWindow['startTime__hour'] == timeWindow['endTime__hour']:                    # particular log case in wich you have a visitor entering, and leaving in the same hour
+    for timeWindow in visitorsPermanencyTimeWindows:  # for each visitors permanency time window
+        if timeWindow['startTime__hour'] == timeWindow[
+            'endTime__hour']:  # particular log case in wich you have a visitor entering, and leaving in the same hour
             visitor = {
                 'startTime__hour': timeWindow['startTime__hour'],
-                'endTime__hour': timeWindow['startTime__hour'] + 1, 
+                'endTime__hour': timeWindow['startTime__hour'] + 1,
                 'visitors': timeWindow['visitors']
-                }
+            }
             visitorsPermanencyTimeWindowsMapped.append(visitor)
             continue
 
         j = 0
-        while (timeWindow['startTime__hour'] + j) <= (timeWindow['endTime__hour'] - 1):    # slide a time window 1 hour big inside the time window x hour big
+        while (timeWindow['startTime__hour'] + j) <= (
+                timeWindow['endTime__hour'] - 1):  # slide a time window 1 hour big inside the time window x hour big
             visitor = {
                 'startTime__hour': timeWindow['startTime__hour'] + j,
-                'endTime__hour': timeWindow['startTime__hour'] + j + 1, 
+                'endTime__hour': timeWindow['startTime__hour'] + j + 1,
                 'visitors': timeWindow['visitors']
-                }
+            }
             visitorsPermanencyTimeWindowsMapped.append(visitor)
-            j+=1
+            j += 1
 
-    #print("==========VISITORS PERMANENCY TIME WINDOWS MAP RESULT==========")
-    #print(visitorsPermanencyTimeWindowsMapped)
+    # print("==========VISITORS PERMANENCY TIME WINDOWS MAP RESULT==========")
+    # print(visitorsPermanencyTimeWindowsMapped)
 
     # this sounds like a Reduce task (MapReduce paradigm)
     counter = Counter()
@@ -398,14 +395,15 @@ def averageNumberOfPeoplePerHourGraphStatisticsTemplate(request):
 
     visitorsPermanencyTimeWindowsReduced = dict(counter)
 
-    #print("==========VISITORS PERMANENCY TIME WINDOWS REDUCE RESULT==========")
-    #print(visitorsPermanencyTimeWindowsReduced)
-    #print(visitorsPermanencyTimeWindowsReduced.get((11,12)))
-    #print(list(visitorsPermanencyTimeWindowsReduced.keys()))
+    # print("==========VISITORS PERMANENCY TIME WINDOWS REDUCE RESULT==========")
+    # print(visitorsPermanencyTimeWindowsReduced)
+    # print(visitorsPermanencyTimeWindowsReduced.get((11,12)))
+    # print(list(visitorsPermanencyTimeWindowsReduced.keys()))
 
     ## calculating average for each time window
     for key in visitorsPermanencyTimeWindowsReduced.keys():
-        visitorsPermanencyTimeWindowsReduced[key] = round(visitorsPermanencyTimeWindowsReduced[key]/countUniqueDatesInWichMuseumWasVisited,2)
+        visitorsPermanencyTimeWindowsReduced[key] = round(
+            visitorsPermanencyTimeWindowsReduced[key] / countUniqueDatesInWichMuseumWasVisited, 2)
 
     result = {
         'visitorsPermanencyTimeWindowsLabels': list(visitorsPermanencyTimeWindowsReduced.keys()),
@@ -414,8 +412,8 @@ def averageNumberOfPeoplePerHourGraphStatisticsTemplate(request):
 
     return result
 
-def averageNumberOfPeoplePerHourPerRoomGraphStatisticsTemplate(request):
 
+def averageNumberOfPeoplePerHourPerRoomGraphStatisticsTemplate(request):
     ### .values('date') this adds projection and grouping clauses.
     # It builds the query adding a projection on date
     # It also builds the grouping statement to group on date
@@ -428,10 +426,11 @@ def averageNumberOfPeoplePerHourPerRoomGraphStatisticsTemplate(request):
     ### data struct output example
     # 45
 
-    countUniqueDatesInWichMuseumWasVisited = Visitor.objects.values('date').exclude(date='').annotate(visitors=Count('number')).count()
+    countUniqueDatesInWichMuseumWasVisited = Visitor.objects.values('date').exclude(date='').annotate(
+        visitors=Count('number')).count()
 
     ## returns an aray of elements like below:
-    #((1, '11:00:00', 16), (1, '12:00:00', 25), (1, '13:00:00', 45), (1, '14:00:00', 36), ...)
+    # ((1, '11:00:00', 16), (1, '12:00:00', 25), (1, '13:00:00', 45), (1, '14:00:00', 36), ...)
 
     query = "\
     SELECT room, startHour, COUNT(*)\
@@ -451,7 +450,7 @@ def averageNumberOfPeoplePerHourPerRoomGraphStatisticsTemplate(request):
     cursor.execute(query)
     visitorsEntriesGroupedByRoomByNumberByStartHourAndByDate = cursor.fetchall()
 
-    #print(visitorsEntriesGroupedByRoomByNumberByStartHourAndByDate)
+    # print(visitorsEntriesGroupedByRoomByNumberByStartHourAndByDate)
 
     result = dict()
     labels = "labels"
@@ -460,11 +459,11 @@ def averageNumberOfPeoplePerHourPerRoomGraphStatisticsTemplate(request):
     for elem in visitorsEntriesGroupedByRoomByNumberByStartHourAndByDate:
         room = int(elem[0])
         hour = int(elem[1][:2])
-        entries = round(elem[2]/countUniqueDatesInWichMuseumWasVisited, 2)
+        entries = round(elem[2] / countUniqueDatesInWichMuseumWasVisited, 2)
 
         if not room in result:
-            result[room] = { labels: list(), values: list() }
-        
+            result[room] = {labels: list(), values: list()}
+
         result[room].get(labels).append(hour)
         result[room].get(values).append(entries)
 
@@ -472,15 +471,15 @@ def averageNumberOfPeoplePerHourPerRoomGraphStatisticsTemplate(request):
 
     return json.dumps(result)
 
+
 def pointOfInterestAttractivePower(request):
-    
     result = dict()
 
     ## example below:
     # [{'poi_id': 'SymbolsJewishMenorah', 'visits': 818}, {'poi_id': 'PersianCult', 'visits': 749}, ...]
-    
+
     query = Position.objects.values('poi_id').annotate(visits=Count('*')).order_by('-visits')
-    
+
     for queryRow in query:
         poiId = queryRow['poi_id']
         visits = queryRow['visits']
@@ -489,11 +488,12 @@ def pointOfInterestAttractivePower(request):
 
     return json.dumps(result)
 
+
 def pointOfInterestHoldingPower(request):
     result = dict()
 
     ## returns an aray of elements like below:
-    #((1, '11:00:00', 16), (1, '12:00:00', 25), (1, '13:00:00', 45), (1, '14:00:00', 36), ...)
+    # ((1, '11:00:00', 16), (1, '12:00:00', 25), (1, '13:00:00', 45), (1, '14:00:00', 36), ...)
 
     query = "\
         SELECT poi_id_id, AVG(end-start) AS averageHoldingTimeInSeconds\
@@ -513,8 +513,10 @@ def pointOfInterestHoldingPower(request):
 
     return json.dumps(result)
 
+
 def about(request):
     return render(request, 'museum/about.html')
+
 
 def statistics(request):
     averageNumberOfPeoplePerHourContext = averageNumberOfPeoplePerHourGraphStatisticsTemplate(request)
@@ -522,16 +524,18 @@ def statistics(request):
     pointOfInterestAttractivePowerContext = pointOfInterestAttractivePower(request)
     pointOfInterestHoldingPowerContext = pointOfInterestHoldingPower(request)
 
-    #print("")
-    #print(averageNumberOfPeoplePerHourPerRoomContext)
+    # print("")
+    # print(averageNumberOfPeoplePerHourPerRoomContext)
 
     context = {
-        'visitorsPermanencyTimeWindowsLabels': averageNumberOfPeoplePerHourContext['visitorsPermanencyTimeWindowsLabels'],
-        'visitorsPermanencyTimeWindowsValues': averageNumberOfPeoplePerHourContext['visitorsPermanencyTimeWindowsValues'],
+        'visitorsPermanencyTimeWindowsLabels': averageNumberOfPeoplePerHourContext[
+            'visitorsPermanencyTimeWindowsLabels'],
+        'visitorsPermanencyTimeWindowsValues': averageNumberOfPeoplePerHourContext[
+            'visitorsPermanencyTimeWindowsValues'],
         'averageNumberOfPeoplePerHourPerRoomData': averageNumberOfPeoplePerHourPerRoomContext,
         'pointOfInterestAttractivePowerData': pointOfInterestAttractivePowerContext,
         'pointOfInterestHoldingPowerData': pointOfInterestHoldingPowerContext,
-        
+
     }
 
     return render(request, 'museum/statistics.html', context)
@@ -576,18 +580,14 @@ def home(request):
                 messages.warning(request, f'Please choose a visitor')
             else:
                 data = {
-                    'mappa': mapData(request.POST['drop']),
                     'timeline': locationsData(request.POST['drop']),
                     'summary': summaryData(request.POST['drop'])
                 }
+                # updatePOIS()
                 map = locationsData(request.POST['drop'])
                 return render(request, 'museum/map.html', data)
 
         elif 'stat' in request.POST:
-                return statistics(request)
+            return statistics(request)
 
     return render(request, 'museum/home.html', {'visitors': Visitor.objects.all()})
-
-
-# return redirect('museum-home')
-

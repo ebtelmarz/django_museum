@@ -16,14 +16,7 @@
       })
     });
     </script>
-
-
     <script src="{% static 'js/jquery.timelinr-0.9.7.js' %}"></script>
-
-    <!--timeliny
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,600,700' rel='stylesheet' type='text/css'>-->
-    <script src="{% static 'js/timeline.js' %}"></script>
 
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -34,7 +27,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="{% static 'museum/main.css' %}">
-    <!--<link rel="stylesheet" type="text/css" href="{% static 'museum/timeline.css' %}" />-->
 
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <meta name='viewport' content='width=device-width, initial-scale=1'>
@@ -59,7 +51,6 @@
             <div class="collapse navbar-collapse" id="navbarToggle">
                 <div class="navbar-nav mr-auto">
                     <a class="nav-item nav-link" href="{% url 'museum-home' %}">Home</a>
-                    <!--<a class="nav-item nav-link" href="{% url 'museum-statistics' %}">Statistics</a>-->
                     <a class="nav-item nav-link" href="{% url 'museum-about' %}">About</a>
                 </div>
                 <!-- Navbar Right Side -->
@@ -85,13 +76,6 @@
     {% block content %}{% endblock %}
 </main>
 
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<!--<script src="{% static 'js/jquery-3.4.1.min.js' %}"></script>
-<script src="{% static 'js/jquery-ui-1.12.1/jquery-ui.js' %}"></script>
-<script src="{% static 'js/custom.js' %}"></script>-->
-
-<!--<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>

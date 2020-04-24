@@ -5,6 +5,7 @@
 !.gitignore
 !map.json
 !visitors.csv
+!coordinate.txt
 # etc...
 
 # ...even if they are in subdirectories

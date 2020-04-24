@@ -12,10 +12,10 @@ instructions: http://www.csslab.cl/2011/08/18/jquery-timelinr/
 jQuery.fn.timelinr = function(options){
   // default plugin settings
   settings = jQuery.extend({
-    //containerDiv1:            '#mappaDiv',
-    //mappaDiv:                 '#mappa',
-    //mappaSelectedClass:       'selected',
-    //mappaSpeed:               'normal',
+    containerDiv1:            '#mappaDiv',
+    mappaDiv:                 '#mappa',
+    mappaSelectedClass:       'selected',
+    mappaSpeed:               'normal',
     orientation:              'horizontal', // value: horizontal | vertical, default to horizontal
     containerDiv:             '#timeline',  // value: any HTML tag or #id, default to #timeline
     datesDiv:                 '#dates',     // value: any HTML tag or #id, default to #dates
@@ -37,20 +37,17 @@ jQuery.fn.timelinr = function(options){
 
   $(function(){
     // Checks if required elements exist on page before initializing timelinr | improvement since 0.9.55
-    if ($(settings.datesDiv).length > 0 && $(settings.issuesDiv).length > 0) {
+    if ($(settings.datesDiv).length > 0 && $(settings.issuesDiv).length > 0){ //&& $(settings.mappaDiv).length > 0) {
       // setting variables... many of them
-      //var howManyPoints = $(settings.mappaDiv+' i').length;
+      var howManyPoints = $(settings.mappaDiv+' i.fas.fa-map-marker-alt').length;
+      console.log(howManyPoints);
       var howManyDates = $(settings.datesDiv+' li').length;
       var howManyIssues = $(settings.issuesDiv+' li').length;
-      //var currentPoint = $(settings.mappaDiv).find('i.'+settings.mappaSelectedClass);
+      var currentPoint = $(settings.mappaDiv).find('i.'+settings.mappaSelectedClass);
       var currentDate = $(settings.datesDiv).find('a.'+settings.datesSelectedClass);
       var currentIssue = $(settings.issuesDiv).find('li.'+settings.issuesSelectedClass);
       var widthContainer = $(settings.containerDiv).width();
       var heightContainer = $(settings.containerDiv).height();
-      //var widthContainer1 = $(settings.containerDiv1).width();        servono?
-      //var heightContainer1 = $(settings.containerDiv1).height();      serve?
-      //var widthMappa = $(settings.mappaDiv).width();                  serve?
-      //var heightMappa = $(settings.mappaDiv).height();                serve?
       var widthIssues = $(settings.issuesDiv).width();
       var heightIssues = $(settings.issuesDiv).height();
       var widthIssue = $(settings.issuesDiv+' li').width();
@@ -70,11 +67,13 @@ jQuery.fn.timelinr = function(options){
         var defaultPositionDates = parseInt($(settings.datesDiv).css('marginTop').substring(0,$(settings.datesDiv).css('marginTop').indexOf('px')));
       }
 
+      var first_point = document.getElementById("0");
+      $(first_point).addClass(settings.mappaSelectedClass);
+
       $(settings.datesDiv+' a').click(function(event){
         event.preventDefault();
         // first vars
         var whichIssue = $(this).text();
-        //var whichPoint = $(this).text();
         var currentIndex = $(this).parent().prevAll().length;
         // moving the elements
         if(settings.orientation == 'horizontal') {
@@ -119,17 +118,18 @@ jQuery.fn.timelinr = function(options){
           $(settings.datesDiv).animate({'marginTop':defaultPositionDates-(heightDate*currentIndex)},{queue:false, duration:'settings.datesSpeed'});
         }
 
-        //moving points
-        //$(settings.mappaDiv+' i').removeClass(settings.mappaSelectedClass);
-        //$(this).addClass(settings.mappaSelectedClass);
-        //$(settings.mappaDiv).animate()                            serve??
-
       });
 
       $(settings.nextButton).bind('click', function(event){
         event.preventDefault();
         // bugixed from 0.9.54: now the dates gets centered when there's too much dates.
         var currentIndex = $(settings.issuesDiv).find('li.'+settings.issuesSelectedClass).index();
+
+        //moving point on map
+        $(settings.mappaDiv+' i.fas.fa-map-marker-alt').removeClass(settings.mappaSelectedClass);
+        var point = document.getElementById(currentIndex+1);
+        $(point).addClass(settings.issuesSelectedClass);
+
         if(settings.orientation == 'horizontal') {
           var currentPositionIssues = parseInt($(settings.issuesDiv).css('marginLeft').substring(0,$(settings.issuesDiv).css('marginLeft').indexOf('px')));
           var currentIssueIndex = currentPositionIssues/widthIssue;
@@ -189,6 +189,13 @@ jQuery.fn.timelinr = function(options){
         event.preventDefault();
         // bugixed from 0.9.54: now the dates gets centered when there's too much dates.
         var currentIndex = $(settings.issuesDiv).find('li.'+settings.issuesSelectedClass).index();
+
+        //moving points on map
+        $(settings.mappaDiv+' i.fas.fa-map-marker-alt').removeClass(settings.mappaSelectedClass);
+        var point = document.getElementById(currentIndex - 1);
+        $(point).addClass(settings.issuesSelectedClass);
+
+
         if(settings.orientation == 'horizontal') {
           var currentPositionIssues = parseInt($(settings.issuesDiv).css('marginLeft').substring(0,$(settings.issuesDiv).css('marginLeft').indexOf('px')));
           var currentIssueIndex = currentPositionIssues/widthIssue;
