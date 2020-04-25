@@ -52,10 +52,10 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
         node.ssh.forward_agent = true
 		
         # Port forwarding for HTTP
-        node.vm.network "forwarded_port", guest: 8080, host: 8080, id: 'http', auto_correct: true
+        node.vm.network "forwarded_port", guest: 2328, host: 8232, id: 'http', auto_correct: true
 		
 		# Port forwarding for MySQL
-		config.vm.network "forwarded_port", guest: 3306, host: 3306, id: 'mysql', auto_correct: true
+		config.vm.network "forwarded_port", guest: 2324, host: 4232, id: 'mysql', auto_correct: true
 		
 		### PROVISIONING
 		

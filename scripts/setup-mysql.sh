@@ -21,6 +21,10 @@ apt-get install -y mysql-server mysql-client
 # Allow External Connections on your MySQL Service
 sudo sed -i "s/.*bind-address.*/bind-address = 0.0.0.0/" /etc/mysql/mysql.conf.d/mysqld.cnf
 
+# Config port forwarding
+sudo sed -i "s/port\s*=\s3306/port = 2324/" /etc/mysql/mysql.conf.d/mysqld.cnf
+sudo sed -i "s/#+\s*port\s*=\s*3306/port = 2324/" /etc/mysql/mysql.conf.d/mysqld.cnf # change even commented lines
+
 echo "=============================================================================="
 echo "RESTARTING MYSQL"
 echo "=============================================================================="
