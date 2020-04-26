@@ -84,7 +84,7 @@ DATABASES = {
         'USER': 'atcs_museum',
         'PASSWORD': 'museum',
         'HOST': '127.0.0.1',
-        'PORT': '3306',
+        'PORT': '2324',
     }
 }
 """
@@ -142,3 +142,27 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media', 'logs')
 MEDIA_URL = '/media/logs/'
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
+"""
+LOGGING = {
+    'version': 1,
+    'filters': {
+        'require_debug_true': {
+            '()': 'django.utils.log.RequireDebugTrue',
+        }
+    },
+    'handlers': {
+        'console': {
+            'level': 'DEBUG',
+            'filters': ['require_debug_true'],
+            'class': 'logging.StreamHandler',
+        }
+    },
+    'loggers': {
+        'django.db.backends': {
+            'level': 'DEBUG',
+            'handlers': ['console'],
+        }
+    }
+}
+"""
