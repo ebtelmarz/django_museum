@@ -1,6 +1,8 @@
 
 
 
+
+
 # Museum project
 
 This project is an assignment for *Advanced Topics in Computer Science course* in **Roma Tre University**.
@@ -16,7 +18,7 @@ Datasets that was available for us was:
 
 ### How our team worked
 
-The team wich developed this app has a size of 2 people.
+The team which developed this app has a size of 2 people.
 First of all we discussed about the data we have, the functional requirements, and our competences on technologies.
 This discussion produced a todo-list from where each of us picked up a functionality, developed it, and pushed it on git repository as full stack developers.
 Marte Valerio dedicated on the statistics functionality, deployment environment (with provisioning), installation instructions, and user manual.
@@ -69,32 +71,30 @@ You can connect to database using a MySQL client (like [MySQL workbench](https:/
 
 This section explains technological details about the project.
 
-### Software used
-
-This project automatically install some software inside the virtual machine. 
-This software is required for project execution, and is listed as follow:
-- Python 3.6.9
-- Django framework 3.0.5
-- MySQL
-
 ### Overall architecture
 
 Architectural pattern used is **MVC** (Model View Controller), Django Framework is an implementation of it.
 
 Django View layer
-An SPA (Single Page Application) implementation: the application has a base HTML page in wich we dinamically load HTML templates.
+An SPA (Single Page Application) implementation: the application has a base HTML page in which we dinamically load HTML templates.
 You can find templates in museum/templates.
 
 Django Controller layer
 As the pattern says: each template has a controller who retrieves the data requested by template.
 You can find controller in views.py.
 
-Django Model layer:
+Django Model layer
 We used a code first functionality in Django that allowed us to write Models in python, and just execute a couple of commands to create the database schema (migration process).
 
 #### Deployment environment
 
 The deployment environment is a virtual machine built by a VAGRANTFILE script, using vagrant, and virtualbox.
+Vagrant provisioning functionality allows to self-install all the software required for the execution.
+
+This software is required for project execution, and is listed as follow:
+- Python 3.6.9
+- Django framework 3.0.5
+- MySQL
 
 ### Database
 
@@ -103,4 +103,49 @@ This schema is the result of a discussion for building the database:
 ![Schema](https://i.ibb.co/mGhjwBf/ATCS-Museumdrawio.jpg)
 ## User manual
 
+This section explains how to use this app functionalities.
 
+### Home page
+
+Home page is dedicated for choosing the functionality you want to use.
+
+#### Upload
+
+In the homepage you can upload visitors log csv files. These csv logs have to respect a format, for example the file name has to be visitor_x_y.csv where x is the visitor id, and y is the group id.
+
+Here is an example of how the data inside this csv has to be structured
+
+```c
+
+Positions 
+14:50:29,14:52:15,EntranceReubenHecht
+14:52:22,14:52:27,SymbolsJewishMenorah
+14:52:32,14:54:11,PersianCult
+
+presentations 
+14:50:29,14:52:15,EntranceReubenHecht,129,System,3,-3
+14:52:53,14:54:11,PersianCult,311,System,5,-3
+14:55:16,14:56:29,MaterialCultures,165,System,5,-3
+14:59:05,14:59:56,LeadCoffinMosaic,197,System,5,-3
+
+events 
+14:50:23,chosenExhibit,40
+14:52:45,chosenExhibit,92
+14:52:45,return from screen
+14:55:08,return from screen
+14:55:08,chosenExhibit,91
+14:58:55,chosenExhibit,63
+15:02:03,chosenExhibit,62
+
+```
+
+#### Refresh
+
+*The refresh button starts a database crowding process that can require a few minutes.*
+
+This process checks every csv file in the media/logs directory. The scope is to check if the visitor, and all the metadata inside visitor log, exists in the database. If not, the system will import all the data in the database.
+
+### Statistics
+
+The statistics functionality provides a view in which you can see some charts about data in the database. These data are dinamically calculated, so if you don't load data in the database, you'll not see statistics.
+On the top of each chart are shown data labels. By clicking on these labels, you can activate/deactivate the rendering for label related data. By hovering the mouse on a data region in the chart, you'll see label name, and quantity. 
