@@ -1,0 +1,12 @@
+ADD ./scripts/setup-django.sh setup-django.sh
+ADD ./scripts/setup-project-dependencies.sh setup-project-dependencies.sh
+ADD ./scripts/database-migration.sh database-migration.sh
+ADD ./start-museum-app.sh start-museum-app.sh
+
+RUN "sh setup-django.sh"
+RUN "sh setup-project-dependencies.sh"
+RUN "sh database-migration.sh"
+
+EXPOSE 2328
+
+ENTRYPOINT ["sh", "start-museum-app.sh"]
